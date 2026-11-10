@@ -1,0 +1,111 @@
+{
+  "nom": "dollar",
+  "billet": {
+    "largeur_m": 0.156,
+    "hauteur_m": 0.0663,
+    "source": "US Bureau of Engraving and Printing, billet de 6,14 x 2,61 pouces"
+  },
+  "references": {
+    "car": { "usd": 48000, "source": "Kelley Blue Book, prix moyen d'une voiture neuve aux Etats-Unis, 2024" },
+    "house": { "usd": 419000, "source": "US Census Bureau et HUD, prix median d'une maison vendue, 2024" },
+    "milliard": { "usd": 1000000000, "source": "Definition" },
+    "apollo": { "usd": 257000000000, "source": "The Planetary Society, cout du programme Apollo en dollars de 2020" },
+    "pib": { "usd": 29180000000000, "source": "US Bureau of Economic Analysis, PIB nominal 2024" },
+    "richesse": { "usd": 454400000000000, "source": "UBS Global Wealth Report 2023, richesse mondiale" },
+    "terre": { "m2": 510100000000000, "source": "NASA Earth Fact Sheet, surface de la Terre" },
+    "tous": { "personnes": 8160000000, "fortune_usd": 1000000000, "source": "ONU, World Population Prospects 2024" }
+  },
+  "terre_rayon_m": 6371000,
+  "terre_source": "NASA Earth Fact Sheet, rayon moyen",
+  "en": {
+    "titre": "What If Your Dollar Doubled Every Second?",
+    "description": "$1 doubling every second buys a new car at second {pli_car}, passes all the wealth on Earth at second {pli_richesse} and could make everyone a billionaire at second {pli_max}.\nSources: Kelley Blue Book, US Census, Planetary Society, BEA, UBS, NASA, UN.",
+    "regle": ["START WITH $1", "DOUBLE IT EVERY SECOND"],
+    "pli": "SECOND",
+    "suite": "NEXT: {cible}",
+    "restant": "{n} SECONDS TO GO",
+    "restant1": "1 SECOND TO GO",
+    "prix": ["PRICES DOUBLE TOO:", "A $1 CANDY COSTS ALL THIS"],
+    "bonbon": "1 CANDY",
+    "egal": ["ALL THAT MONEY", "BUYS WHAT $1 DID"],
+    "separateurs": { "milliers": ",", "decimale": "." },
+    "unites": [
+      { "max": 1000000, "diviseur": 1, "nom": "dollars", "nom1": "dollar" },
+      { "max": 1000000000, "diviseur": 1000000, "nom": "million" },
+      { "max": 1000000000000, "diviseur": 1000000000, "nom": "billion" },
+      { "max": 1000000000000000, "diviseur": 1000000000000, "nom": "trillion" },
+      { "max": 1000000000000000000, "diviseur": 1000000000000000, "nom": "quadrillion" },
+      { "max": 1e30, "diviseur": 1000000000000000000, "nom": "quintillion" }
+    ],
+    "paliers": {
+      "car": { "cible": "A NEW CAR", "legende": ["ENOUGH FOR", "A NEW CAR"] },
+      "house": { "cible": "A HOUSE", "legende": ["YOU CAN BUY", "A TYPICAL HOUSE"] },
+      "milliard": { "cible": "A BILLION", "legende": ["BILLIONAIRE", "IN {n} SECONDS"] },
+      "apollo": { "cible": "THE MOON LANDINGS", "legende": ["MORE THAN THE WHOLE", "APOLLO PROGRAM"] },
+      "pib": { "cible": "THE US ECONOMY", "legende": ["MORE THAN THE US", "MAKES IN A YEAR"] },
+      "richesse": { "cible": "ALL THE WEALTH", "legende": ["MORE THAN ALL THE", "WEALTH ON EARTH"] },
+      "terre": { "cible": "COVERING EARTH", "legende": ["$1 BILLS NOW COVER", "THE WHOLE PLANET"] },
+      "tous": { "cible": "EVERYONE A BILLIONAIRE", "legende": ["ENOUGH TO MAKE EVERYONE", "ON EARTH A BILLIONAIRE"] }
+    }
+  },
+  "es": {
+    "titre": "¿Y si tu dólar se duplicara cada segundo?",
+    "description": "Un dólar que se duplica cada segundo compra un auto nuevo en el segundo {pli_car}, supera toda la riqueza del mundo en el {pli_richesse} y podría hacer milmillonarios a todos en el {pli_max}.\nFuentes: Kelley Blue Book, US Census, Planetary Society, BEA, UBS, NASA, ONU.",
+    "regle": ["EMPIEZA CON $1", "DUPLÍCALO CADA SEGUNDO"],
+    "pli": "SEGUNDO",
+    "suite": "META: {cible}",
+    "restant": "FALTAN {n} SEGUNDOS",
+    "restant1": "FALTA 1 SEGUNDO",
+    "prix": ["LOS PRECIOS TAMBIÉN SUBEN:", "UN DULCE CUESTA TODO ESTO"],
+    "bonbon": "1 DULCE",
+    "egal": ["TODO ESE DINERO", "COMPRA LO MISMO QUE $1"],
+    "separateurs": { "milliers": ",", "decimale": "." },
+    "unites": [
+      { "max": 1000000, "diviseur": 1, "nom": "dólares", "nom1": "dólar" },
+      { "max": 1000000000000, "diviseur": 1000000, "nom": "millones" },
+      { "max": 1000000000000000000, "diviseur": 1000000000000, "nom": "billones" },
+      { "max": 1e30, "diviseur": 1000000000000000000, "nom": "trillones" }
+    ],
+    "paliers": {
+      "car": { "cible": "UN AUTO NUEVO", "legende": ["ALCANZA PARA", "UN AUTO NUEVO"] },
+      "house": { "cible": "UNA CASA", "legende": ["YA PUEDES COMPRAR", "UNA CASA TÍPICA"] },
+      "milliard": { "cible": "MIL MILLONES", "legende": ["MIL MILLONES", "EN {n} SEGUNDOS"] },
+      "apollo": { "cible": "LLEGAR A LA LUNA", "legende": ["MÁS QUE TODO", "EL PROGRAMA APOLO"] },
+      "pib": { "cible": "LA ECONOMÍA DE EE. UU.", "legende": ["MÁS QUE UN AÑO DE", "ECONOMÍA DE EE. UU."] },
+      "richesse": { "cible": "TODA LA RIQUEZA", "legende": ["MÁS QUE TODA LA", "RIQUEZA DEL MUNDO"] },
+      "terre": { "cible": "CUBRIR LA TIERRA", "legende": ["LOS BILLETES CUBREN", "TODO EL PLANETA"] },
+      "tous": { "cible": "TODOS MILMILLONARIOS", "legende": ["ALCANZA PARA HACER", "MILMILLONARIOS A TODOS"] }
+    }
+  },
+  "pt": {
+    "titre": "E se o seu dólar dobrasse a cada segundo?",
+    "description": "Um dólar que dobra a cada segundo compra um carro novo no segundo {pli_car}, passa toda a riqueza do mundo no {pli_richesse} e poderia deixar todos bilionários no {pli_max}.\nFontes: Kelley Blue Book, US Census, Planetary Society, BEA, UBS, NASA, ONU.",
+    "regle": ["COMECE COM $1", "DOBRE A CADA SEGUNDO"],
+    "pli": "SEGUNDO",
+    "suite": "ALVO: {cible}",
+    "restant": "FALTAM {n} SEGUNDOS",
+    "restant1": "FALTA 1 SEGUNDO",
+    "prix": ["OS PREÇOS DOBRAM JUNTO:", "UMA BALA CUSTA TUDO ISSO"],
+    "bonbon": "1 BALA",
+    "egal": ["TODO ESSE DINHEIRO", "COMPRA O QUE $1 COMPRAVA"],
+    "separateurs": { "milliers": ".", "decimale": "," },
+    "unites": [
+      { "max": 1000000, "diviseur": 1, "nom": "dólares", "nom1": "dólar" },
+      { "max": 1000000000, "diviseur": 1000000, "nom": "milhões", "nom1": "milhão" },
+      { "max": 1000000000000, "diviseur": 1000000000, "nom": "bilhões", "nom1": "bilhão" },
+      { "max": 1000000000000000, "diviseur": 1000000000000, "nom": "trilhões", "nom1": "trilhão" },
+      { "max": 1000000000000000000, "diviseur": 1000000000000000, "nom": "quatrilhões", "nom1": "quatrilhão" },
+      { "max": 1e30, "diviseur": 1000000000000000000, "nom": "quintilhões", "nom1": "quintilhão" }
+    ],
+    "paliers": {
+      "car": { "cible": "UM CARRO NOVO", "legende": ["DÁ PARA COMPRAR", "UM CARRO NOVO"] },
+      "house": { "cible": "UMA CASA", "legende": ["JÁ DÁ PARA COMPRAR", "UMA CASA TÍPICA"] },
+      "milliard": { "cible": "UM BILHÃO", "legende": ["BILIONÁRIO", "EM {n} SEGUNDOS"] },
+      "apollo": { "cible": "IR À LUA", "legende": ["MAIS QUE TODO O", "PROGRAMA APOLLO"] },
+      "pib": { "cible": "A ECONOMIA DOS EUA", "legende": ["MAIS QUE UM ANO DA", "ECONOMIA DOS EUA"] },
+      "richesse": { "cible": "TODA A RIQUEZA", "legende": ["MAIS QUE TODA A", "RIQUEZA DO MUNDO"] },
+      "terre": { "cible": "COBRIR A TERRA", "legende": ["AS NOTAS COBREM", "O PLANETA INTEIRO"] },
+      "tous": { "cible": "TODOS BILIONÁRIOS", "legende": ["DÁ PARA DEIXAR", "TODOS BILIONÁRIOS"] }
+    }
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "nom": "ball",
+  "ballon": {
+    "hauteur_depart_m": 3.05,
+    "gain": 1.1,
+    "source": "Panier de basket a 3,05 m (FIBA, NBA : 10 pieds). Regle : 10 % de plus a chaque rebond, 2 rebonds par seconde"
+  },
+  "references": {
+    "toit": { "m": 8, "source": "Salle de sport : FIBA demande au moins 7 m sous plafond, 8 m retenus" },
+    "immeuble": { "m": 30, "source": "Immeuble de 10 etages a 3 m par etage" },
+    "pyramide": { "m": 138.5, "source": "Grande pyramide de Gizeh, hauteur actuelle 138,5 m" },
+    "burj": { "m": 828, "source": "Burj Khalifa, 828 m, Conseil des grands immeubles (CTBUH)" },
+    "son": { "vitesse_ms": 343, "source": "Vitesse du son a 20 degres, 343 m/s : hauteur v^2 / 2g pour la vitesse de depart" },
+    "avion": { "m": 11000, "source": "Altitude de croisiere d'un avion de ligne, environ 11 km" },
+    "ballon": { "m": 30000, "source": "NOAA, ballons meteo, environ 30 km" },
+    "karman": { "m": 100000, "source": "Ligne de Karman, 100 km (FAI)" },
+    "iss": { "m": 420000, "source": "NASA, orbite de l'ISS, 400 a 420 km" }
+  },
+  "gravite": {
+    "g": 9.81,
+    "gm": 398600441800000,
+    "rayon_m": 6371000,
+    "source": "NASA Earth Fact Sheet, sans frottement de l'air"
+  },
+  "en": {
+    "titre": "What If a Basketball Bounced 10% Higher Every Time?",
+    "description": "Starting from a {depart_ft} ft hoop, bounce {n_son} needs the speed of sound and bounce {n_max} reaches the space station. Real time for all of it, ignoring air: {minutes} minutes, and the last fall hits Mach {mach}.\nSources: FIBA, CTBUH, NOAA, FAI, NASA.",
+    "regle": ["A BALL BOUNCES 10%", "HIGHER EVERY TIME"],
+    "pli": "BOUNCE",
+    "suite": "NEXT: {cible}",
+    "restant": "{n} BOUNCES TO GO",
+    "restant1": "1 BOUNCE TO GO",
+    "chute": ["NOW IT HAS TO", "COME BACK DOWN"],
+    "mach": ["FALLING AT", "MACH {mach}"],
+    "panier": ["ALL THAT", "FOR 2 POINTS"],
+    "points": "POINTS",
+    "separateurs": { "milliers": ",", "decimale": "." },
+    "unites": [
+      { "max": 1609.344, "metres": 0.3048, "nom": "feet" },
+      { "max": 1e30, "metres": 1609.344, "nom": "miles" }
+    ],
+    "paliers": {
+      "toit": { "cible": "THE ROOF", "legende": ["STRAIGHT THROUGH", "THE GYM ROOF"] },
+      "immeuble": { "cible": "A 10-STORY BUILDING", "legende": ["HIGHER THAN", "A 10-STORY BUILDING"] },
+      "pyramide": { "cible": "THE GREAT PYRAMID", "legende": ["HIGHER THAN", "THE GREAT PYRAMID"] },
+      "burj": { "cible": "THE TALLEST BUILDING", "legende": ["PAST THE WORLD'S", "TALLEST BUILDING"] },
+      "son": { "cible": "THE SPEED OF SOUND", "legende": ["IT LEAVES THE FLOOR", "FASTER THAN SOUND"] },
+      "avion": { "cible": "AIRLINERS", "legende": ["ABOVE THE", "AIRLINERS"] },
+      "ballon": { "cible": "WEATHER BALLOONS", "legende": ["ABOVE THE", "WEATHER BALLOONS"] },
+      "karman": { "cible": "OUTER SPACE", "legende": ["OFFICIALLY", "IN SPACE"] },
+      "iss": { "cible": "THE SPACE STATION", "legende": ["AS HIGH AS THE", "SPACE STATION"] }
+    }
+  },
+  "es": {
+    "titre": "¿Y si un balón rebotara 10 % más alto cada vez?",
+    "description": "Desde un aro de {depart_m} m, el rebote {n_son} necesita la velocidad del sonido y el {n_max} llega a la estación espacial. Tiempo real de todo, sin contar el aire: {minutes} minutos, y la última caída llega a Mach {mach}.\nFuentes: FIBA, CTBUH, NOAA, FAI, NASA.",
+    "regle": ["UN BALÓN REBOTA UN", "10 % MÁS ALTO CADA VEZ"],
+    "pli": "REBOTE",
+    "suite": "META: {cible}",
+    "restant": "FALTAN {n} REBOTES",
+    "restant1": "FALTA 1 REBOTE",
+    "chute": ["AHORA TIENE", "QUE BAJAR"],
+    "mach": ["CAE A", "MACH {mach}"],
+    "panier": ["TODO ESO", "POR 2 PUNTOS"],
+    "points": "PUNTOS",
+    "separateurs": { "milliers": ",", "decimale": "." },
+    "unites": [
+      { "max": 1000, "metres": 1, "nom": "m" },
+      { "max": 1e30, "metres": 1000, "nom": "km" }
+    ],
+    "paliers": {
+      "toit": { "cible": "EL TECHO", "legende": ["ATRAVIESA EL TECHO", "DEL GIMNASIO"] },
+      "immeuble": { "cible": "UN EDIFICIO DE 10 PISOS", "legende": ["MÁS ALTO QUE UN", "EDIFICIO DE 10 PISOS"] },
+      "pyramide": { "cible": "LA GRAN PIRÁMIDE", "legende": ["MÁS ALTO QUE", "LA GRAN PIRÁMIDE"] },
+      "burj": { "cible": "EL EDIFICIO MÁS ALTO", "legende": ["SUPERA EL EDIFICIO", "MÁS ALTO DEL MUNDO"] },
+      "son": { "cible": "LA VELOCIDAD DEL SONIDO", "legende": ["SALE DEL PISO MÁS", "RÁPIDO QUE EL SONIDO"] },
+      "avion": { "cible": "LOS AVIONES", "legende": ["POR ENCIMA DE", "LOS AVIONES"] },
+      "ballon": { "cible": "LOS GLOBOS METEOROLÓGICOS", "legende": ["SUPERA LOS GLOBOS", "METEOROLÓGICOS"] },
+      "karman": { "cible": "EL ESPACIO", "legende": ["OFICIALMENTE", "EN EL ESPACIO"] },
+      "iss": { "cible": "LA ESTACIÓN ESPACIAL", "legende": ["TAN ALTO COMO LA", "ESTACIÓN ESPACIAL"] }
+    }
+  },
+  "pt": {
+    "titre": "E se uma bola quicasse 10% mais alto a cada vez?",
+    "description": "Saindo de um aro de {depart_m_pt} m, o quique {n_son} exige a velocidade do som e o {n_max} chega à estação espacial. Tempo real de tudo, sem contar o ar: {minutes} minutos, e a última queda chega a Mach {mach}.\nFontes: FIBA, CTBUH, NOAA, FAI, NASA.",
+    "regle": ["UMA BOLA QUICA 10%", "MAIS ALTO A CADA VEZ"],
+    "pli": "QUIQUE",
+    "suite": "ALVO: {cible}",
+    "restant": "FALTAM {n} QUIQUES",
+    "restant1": "FALTA 1 QUIQUE",
+    "chute": ["AGORA ELA", "PRECISA DESCER"],
+    "mach": ["CAINDO A", "MACH {mach}"],
+    "panier": ["TUDO ISSO", "POR 2 PONTOS"],
+    "points": "PONTOS",
+    "separateurs": { "milliers": ".", "decimale": "," },
+    "unites": [
+      { "max": 1000, "metres": 1, "nom": "m" },
+      { "max": 1e30, "metres": 1000, "nom": "km" }
+    ],
+    "paliers": {
+      "toit": { "cible": "O TETO", "legende": ["ATRAVESSOU O TETO", "DO GINÁSIO"] },
+      "immeuble": { "cible": "UM PRÉDIO DE 10 ANDARES", "legende": ["MAIS ALTO QUE UM", "PRÉDIO DE 10 ANDARES"] },
+      "pyramide": { "cible": "A GRANDE PIRÂMIDE", "legende": ["MAIS ALTO QUE", "A GRANDE PIRÂMIDE"] },
+      "burj": { "cible": "O PRÉDIO MAIS ALTO", "legende": ["PASSOU DO PRÉDIO", "MAIS ALTO DO MUNDO"] },
+      "son": { "cible": "A VELOCIDADE DO SOM", "legende": ["SAI DO CHÃO MAIS", "RÁPIDO QUE O SOM"] },
+      "avion": { "cible": "OS AVIÕES", "legende": ["ACIMA DOS", "AVIÕES"] },
+      "ballon": { "cible": "OS BALÕES METEOROLÓGICOS", "legende": ["ACIMA DOS BALÕES", "METEOROLÓGICOS"] },
+      "karman": { "cible": "O ESPAÇO", "legende": ["OFICIALMENTE", "NO ESPAÇO"] },
+      "iss": { "cible": "A ESTAÇÃO ESPACIAL", "legende": ["TÃO ALTO QUANTO A", "ESTAÇÃO ESPACIAL"] }
+    }
+  }
+}

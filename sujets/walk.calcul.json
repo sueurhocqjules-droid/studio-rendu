@@ -1,0 +1,155 @@
+{
+  "depart_ms": 1.3888888888888888,
+  "gain": 1.4,
+  "lumiere_ms": 299792458,
+  "n_max": 58,
+  "distance_finale_m": 890987201.8611896,
+  "retour_s": 2.9720133982196097,
+  "paliers": [
+    {
+      "cle": "guepard",
+      "pas": 10,
+      "arrivee_s": 9.5,
+      "source": "Guepard, environ 105 km/h en pointe, Smithsonian National Zoo"
+    },
+    {
+      "cle": "train",
+      "pas": 13,
+      "arrivee_s": 12.5,
+      "source": "Train a grande vitesse, 320 km/h en service commercial, UIC"
+    },
+    {
+      "cle": "son",
+      "pas": 17,
+      "arrivee_s": 16.5,
+      "source": "Vitesse du son dans l'air a 20 degres, 343 m/s"
+    },
+    {
+      "cle": "liberation",
+      "pas": 27,
+      "arrivee_s": 26.5,
+      "source": "Vitesse de liberation de la Terre, 11,186 km/s, NASA Earth Fact Sheet"
+    },
+    {
+      "cle": "sonde",
+      "pas": 36,
+      "arrivee_s": 35.5,
+      "source": "Parker Solar Probe, 692 000 km/h en decembre 2024, NASA"
+    },
+    {
+      "cle": "ocean",
+      "pas": 46,
+      "arrivee_s": 45.5,
+      "source": "New York - Londres, 5 570 km par l'orthodromie : traversee en une seconde"
+    },
+    {
+      "cle": "monde",
+      "pas": 52,
+      "arrivee_s": 51.5,
+      "source": "Tour de la Terre a l'equateur, 40 075 km, NASA Earth Fact Sheet : un tour en une seconde"
+    },
+    {
+      "cle": "lune",
+      "pas": 55,
+      "arrivee_s": 54.5,
+      "source": "Distance moyenne de la Lune, 384 400 km, NASA"
+    },
+    {
+      "cle": "lumiere",
+      "pas": 58,
+      "arrivee_s": 57.5,
+      "source": "Vitesse de la lumière, 299 792 458 m/s, BIPM"
+    }
+  ],
+  "t_limite": 57.5,
+  "t_clefs": 60.1,
+  "t_retour": 62.7,
+  "t_fin": 65.67201339821962,
+  "duree_s": 66.47201339821962,
+  "descriptions": {
+    "en": "A 3 mph walk gaining 40% every second breaks the sound barrier at second 17, leaves Earth at second 27, passes the Moon at second 55 and hits light speed at second 58, 554,000 miles from home.\nSources: Smithsonian, UIC, NASA, BIPM.",
+    "es": "Una caminata a 5 km/h que gana 40 % cada segundo rompe la barrera del sonido en el segundo 17, sale de la Tierra en el 27, pasa la Luna en el 55 y alcanza la luz en el 58, a 891,000 km de casa.\nFuentes: Smithsonian, UIC, NASA, BIPM.",
+    "pt": "Uma caminhada a 5 km/h que ganha 40% a cada segundo quebra a barreira do som no segundo 17, sai da Terra no 27, passa da Lua no 55 e alcança a luz no 58, a 891.000 km de casa.\nFontes: Smithsonian, UIC, NASA, BIPM."
+  },
+  "son": {
+    "duree_s": 66.47201339821962,
+    "tics": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57
+    ],
+    "paliers": [
+      9.5,
+      12.5,
+      16.5,
+      26.5,
+      35.5,
+      45.5,
+      51.5,
+      54.5,
+      57.5
+    ],
+    "retournements": [
+      60.1,
+      62.7
+    ],
+    "fin": 65.67201339821962,
+    "base_hz": 73,
+    "tic_hz": 330
+  }
+}

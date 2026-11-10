@@ -1,0 +1,110 @@
+{
+  "nom": "walk",
+  "marche": {
+    "depart_kmh": 5,
+    "gain": 1.4,
+    "source": "Marche courante, environ 5 km/h. Le plan disait 2 fois plus vite chaque seconde, mais la lumiere tomberait a la seconde 28 : 40 % par seconde la met a la seconde 58, dans la duree du format"
+  },
+  "lumiere_ms": 299792458,
+  "references": {
+    "guepard": { "ms": 29, "source": "Guepard, environ 105 km/h en pointe, Smithsonian National Zoo" },
+    "train": { "ms": 88.9, "source": "Train a grande vitesse, 320 km/h en service commercial, UIC" },
+    "son": { "ms": 343, "source": "Vitesse du son dans l'air a 20 degres, 343 m/s" },
+    "liberation": { "ms": 11186, "source": "Vitesse de liberation de la Terre, 11,186 km/s, NASA Earth Fact Sheet" },
+    "sonde": { "ms": 192000, "source": "Parker Solar Probe, 692 000 km/h en decembre 2024, NASA" },
+    "ocean": { "ms": 5570000, "source": "New York - Londres, 5 570 km par l'orthodromie : traversee en une seconde" },
+    "monde": { "ms": 40075000, "source": "Tour de la Terre a l'equateur, 40 075 km, NASA Earth Fact Sheet : un tour en une seconde" }
+  },
+  "lune_m": 384400000,
+  "lune_source": "Distance moyenne de la Lune, 384 400 km, NASA",
+  "en": {
+    "titre": "What If You Walked 40% Faster Every Second?",
+    "description": "A {depart_mph} mph walk gaining 40% every second breaks the sound barrier at second {n_son}, leaves Earth at second {n_lib}, passes the Moon at second {n_lune} and hits light speed at second {n_max}, {d_mi} miles from home.\nSources: Smithsonian, UIC, NASA, BIPM.",
+    "regle": ["YOU WALK 40% FASTER", "EVERY SECOND"],
+    "pli": "SECOND",
+    "suite": "NEXT: {cible}",
+    "restant": "{n} SECONDS TO GO",
+    "restant1": "1 SECOND TO GO",
+    "clefs": ["YOU FORGOT", "YOUR KEYS"],
+    "retour": ["HOME IN", "{n} SECONDS"],
+    "loin": "MILES FROM HOME",
+    "par_metre": 0.000621371,
+    "par_ms": 2.23693629,
+    "separateurs": { "milliers": ",", "decimale": "." },
+    "unites": [
+      { "max": 1000000, "diviseur": 1, "nom": "MPH", "nom1": "MPH" },
+      { "max": 1e15, "diviseur": 1000000, "nom": "MILLION MPH", "nom1": "MILLION MPH" }
+    ],
+    "paliers": {
+      "guepard": { "cible": "A CHEETAH", "legende": ["YOU JUST PASSED", "A CHEETAH"] },
+      "train": { "cible": "A BULLET TRAIN", "legende": ["FASTER THAN", "A BULLET TRAIN"] },
+      "son": { "cible": "THE SPEED OF SOUND", "legende": ["YOU BREAK THE", "SOUND BARRIER"] },
+      "liberation": { "cible": "LEAVING EARTH", "legende": ["TOO FAST FOR GRAVITY", "YOU LEAVE EARTH"] },
+      "sonde": { "cible": "THE FASTEST PROBE", "legende": ["FASTER THAN THE", "FASTEST SPACE PROBE"] },
+      "ocean": { "cible": "THE ATLANTIC", "legende": ["ACROSS THE ATLANTIC", "IN ONE SECOND"] },
+      "monde": { "cible": "THE WHOLE WORLD", "legende": ["AROUND THE WORLD", "IN ONE SECOND"] },
+      "lune": { "cible": "THE MOON", "legende": ["YOU JUST WALKED", "PAST THE MOON"] },
+      "lumiere": { "cible": "LIGHT SPEED", "legende": ["LIGHT SPEED", "THE RULE STOPS HERE"] }
+    }
+  },
+  "es": {
+    "titre": "¿Y si caminaras 40 % más rápido cada segundo?",
+    "description": "Una caminata a {depart_kmh} km/h que gana 40 % cada segundo rompe la barrera del sonido en el segundo {n_son}, sale de la Tierra en el {n_lib}, pasa la Luna en el {n_lune} y alcanza la luz en el {n_max}, a {d_km} km de casa.\nFuentes: Smithsonian, UIC, NASA, BIPM.",
+    "regle": ["CAMINAS 40 % MÁS RÁPIDO", "CADA SEGUNDO"],
+    "pli": "SEGUNDO",
+    "suite": "META: {cible}",
+    "restant": "FALTAN {n} SEGUNDOS",
+    "restant1": "FALTA 1 SEGUNDO",
+    "clefs": ["OLVIDASTE", "LAS LLAVES"],
+    "retour": ["A CASA EN", "{n} SEGUNDOS"],
+    "loin": "KM DE CASA",
+    "par_metre": 0.001,
+    "par_ms": 3.6,
+    "separateurs": { "milliers": ",", "decimale": "." },
+    "unites": [
+      { "max": 1000000, "diviseur": 1, "nom": "KM/H", "nom1": "KM/H" },
+      { "max": 1e15, "diviseur": 1000000, "nom": "MILLONES DE KM/H", "nom1": "MILLÓN DE KM/H" }
+    ],
+    "paliers": {
+      "guepard": { "cible": "UN GUEPARDO", "legende": ["ACABAS DE PASAR", "A UN GUEPARDO"] },
+      "train": { "cible": "UN TREN BALA", "legende": ["MÁS RÁPIDO QUE", "UN TREN BALA"] },
+      "son": { "cible": "LA VELOCIDAD DEL SONIDO", "legende": ["ROMPES LA", "BARRERA DEL SONIDO"] },
+      "liberation": { "cible": "SALIR DE LA TIERRA", "legende": ["LA GRAVEDAD NO ALCANZA", "SALES DE LA TIERRA"] },
+      "sonde": { "cible": "LA SONDA MÁS RÁPIDA", "legende": ["MÁS RÁPIDO QUE LA", "SONDA MÁS VELOZ"] },
+      "ocean": { "cible": "EL ATLÁNTICO", "legende": ["CRUZAS EL ATLÁNTICO", "EN UN SEGUNDO"] },
+      "monde": { "cible": "TODO EL MUNDO", "legende": ["LA VUELTA AL MUNDO", "EN UN SEGUNDO"] },
+      "lune": { "cible": "LA LUNA", "legende": ["ACABAS DE", "PASAR LA LUNA"] },
+      "lumiere": { "cible": "LA LUZ", "legende": ["VELOCIDAD DE LA LUZ", "AQUÍ ACABA LA REGLA"] }
+    }
+  },
+  "pt": {
+    "titre": "E se você andasse 40% mais rápido a cada segundo?",
+    "description": "Uma caminhada a {depart_kmh} km/h que ganha 40% a cada segundo quebra a barreira do som no segundo {n_son}, sai da Terra no {n_lib}, passa da Lua no {n_lune} e alcança a luz no {n_max}, a {d_km_pt} km de casa.\nFontes: Smithsonian, UIC, NASA, BIPM.",
+    "regle": ["VOCÊ ANDA 40% MAIS RÁPIDO", "A CADA SEGUNDO"],
+    "pli": "SEGUNDO",
+    "suite": "ALVO: {cible}",
+    "restant": "FALTAM {n} SEGUNDOS",
+    "restant1": "FALTA 1 SEGUNDO",
+    "clefs": ["VOCÊ ESQUECEU", "AS CHAVES"],
+    "retour": ["EM CASA EM", "{n} SEGUNDOS"],
+    "loin": "KM DE CASA",
+    "par_metre": 0.001,
+    "par_ms": 3.6,
+    "separateurs": { "milliers": ".", "decimale": "," },
+    "unites": [
+      { "max": 1000000, "diviseur": 1, "nom": "KM/H", "nom1": "KM/H" },
+      { "max": 1e15, "diviseur": 1000000, "nom": "MILHÕES DE KM/H", "nom1": "MILHÃO DE KM/H" }
+    ],
+    "paliers": {
+      "guepard": { "cible": "UM GUEPARDO", "legende": ["VOCÊ ACABOU DE", "PASSAR UM GUEPARDO"] },
+      "train": { "cible": "UM TREM-BALA", "legende": ["MAIS RÁPIDO QUE", "UM TREM-BALA"] },
+      "son": { "cible": "A VELOCIDADE DO SOM", "legende": ["VOCÊ QUEBRA A", "BARREIRA DO SOM"] },
+      "liberation": { "cible": "SAIR DA TERRA", "legende": ["A GRAVIDADE NÃO SEGURA", "VOCÊ SAI DA TERRA"] },
+      "sonde": { "cible": "A SONDA MAIS RÁPIDA", "legende": ["MAIS RÁPIDO QUE A", "SONDA MAIS VELOZ"] },
+      "ocean": { "cible": "O ATLÂNTICO", "legende": ["ATRAVESSA O ATLÂNTICO", "EM UM SEGUNDO"] },
+      "monde": { "cible": "O MUNDO INTEIRO", "legende": ["A VOLTA AO MUNDO", "EM UM SEGUNDO"] },
+      "lune": { "cible": "A LUA", "legende": ["VOCÊ ACABOU DE", "PASSAR DA LUA"] },
+      "lumiere": { "cible": "A LUZ", "legende": ["VELOCIDADE DA LUZ", "A REGRA PARA AQUI"] }
+    }
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "depart_c": 0,
+  "perte_c": 4,
+  "zero_c": -273.15,
+  "n_max": 69,
+  "paliers": [
+    {
+      "cle": "congelateur",
+      "pas": 5,
+      "arrivee_s": 4.5,
+      "source": "Congélateur domestique, -18 degrés, FDA"
+    },
+    {
+      "cle": "mercure",
+      "pas": 10,
+      "arrivee_s": 9.5,
+      "source": "Fusion du mercure, -38,83 degrés, CRC Handbook"
+    },
+    {
+      "cle": "vostok",
+      "pas": 23,
+      "arrivee_s": 22.5,
+      "source": "Record de froid de l'air, station Vostok, 21 juillet 1983, -89,2 degrés, OMM"
+    },
+    {
+      "cle": "mars",
+      "pas": 39,
+      "arrivee_s": 38.5,
+      "source": "Hiver aux pôles de Mars, environ -153 degrés, NASA"
+    },
+    {
+      "cle": "oxygene",
+      "pas": 46,
+      "arrivee_s": 45.5,
+      "source": "Ébullition de l'oxygène, -182,96 degrés, CRC Handbook"
+    },
+    {
+      "cle": "azote",
+      "pas": 49,
+      "arrivee_s": 48.5,
+      "source": "Ébullition de l'azote, -195,8 degrés, CRC Handbook"
+    },
+    {
+      "cle": "pluton",
+      "pas": 58,
+      "arrivee_s": 57.5,
+      "source": "Surface de Pluton, environ -229 degrés, NASA"
+    },
+    {
+      "cle": "espace",
+      "pas": 68,
+      "arrivee_s": 67.5,
+      "source": "Fond diffus cosmologique, 2,725 K, mission COBE"
+    },
+    {
+      "cle": "zero",
+      "pas": 69,
+      "arrivee_s": 68.5,
+      "source": "Zéro absolu, -273,15 degrés, définition du kelvin"
+    }
+  ],
+  "t_limite": 68.5,
+  "t_tremble": 70.9,
+  "t_fonte": 72.4,
+  "t_fin": 73.2,
+  "duree_s": 73.8,
+  "descriptions": {
+    "en": "An ice cube at 32°F gets 7.2°F (4°C) colder every second: it freezes mercury at second 10, breaks Earth's cold record at second 23, makes the air rain down at second 46 and reaches absolute zero, -459.67°F, at second 69.\nSources: WMO, NASA, CRC Handbook, COBE.",
+    "es": "Un hielo a 0 °C pierde 4 °C cada segundo: congela el mercurio en el segundo 10, rompe el récord de frío de la Tierra en el 23, hace llover el aire en el 46 y llega al cero absoluto, -273.15 °C, en el 69.\nFuentes: OMM, NASA, CRC Handbook, COBE.",
+    "pt": "Um cubo de gelo a 0 °C perde 4 °C a cada segundo: congela o mercúrio no segundo 10, quebra o recorde de frio da Terra no 23, faz o ar chover no 46 e chega ao zero absoluto, -273,15 °C, no 69.\nFontes: OMM, NASA, CRC Handbook, COBE."
+  },
+  "son": {
+    "duree_s": 73.8,
+    "tics": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68
+    ],
+    "paliers": [
+      4.5,
+      9.5,
+      22.5,
+      38.5,
+      45.5,
+      48.5,
+      57.5,
+      67.5,
+      68.5
+    ],
+    "retournements": [
+      68.5,
+      72.4
+    ],
+    "fin": 73.2,
+    "base_hz": 92,
+    "tic_hz": 1250
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "nom": "gravity",
+  "pomme_kg": 0.1,
+  "hausse": 1.4,
+  "balance_max_kg": 5,
+  "terre": {
+    "rayon_m": 6371000,
+    "masse_kg": 5.972e+24,
+    "hauteur_echelle_m": 8500,
+    "source": "NASA Earth Fact Sheet : rayon 6 371 km, masse 5,972e24 kg, hauteur d'echelle de l'atmosphere environ 8,5 km"
+  },
+  "references": {
+    "pilote": { "g": 9, "source": "Pilotes de chasse : perte de connaissance vers 9 g" },
+    "soleil": { "g": 27.9, "source": "Gravite a la surface du Soleil, 274 m/s2, NASA Sun Fact Sheet" },
+    "balance": { "kg": 5, "source": "Balance de cuisine courante, portee 5 kg" },
+    "personne": { "kg": 70, "source": "Adulte de 70 kg" },
+    "ciel": { "hauteur_m": 1, "source": "La hauteur d'echelle de l'atmosphere varie comme 1/g : 8,5 km ramenes a 1 m" },
+    "naine": { "g": 380000, "source": "Sirius B, log g environ 8,57 en cgs, soit environ 380 000 g" },
+    "baleine": { "kg": 150000, "source": "Baleine bleue, environ 150 t, NOAA Fisheries" },
+    "eiffel": { "kg": 10100000, "source": "Tour Eiffel, environ 10 100 t, site officiel de la tour" }
+  },
+  "en": {
+    "titre": "What If Gravity Got 40% Stronger Every Second?",
+    "description": "A 100 g apple on a kitchen scale, with gravity up 40% every second: second {n_personne} it weighs as much as an adult, second {n_ciel} the atmosphere is 1 m high, and second {n_max} escape velocity passes the speed of light. Earth becomes a black hole with its radius unchanged.\nSources: NASA Fact Sheets, NOAA, Schwarzschild radius 2GM/c².",
+    "regle": ["GRAVITY GETS 40% STRONGER", "EVERY SECOND"],
+    "regle2": ["THIS IS WHAT", "ONE APPLE WEIGHS"],
+    "pli": "SEC",
+    "suite": "NEXT: {cible}",
+    "restant": "{n} SECONDS TO GO",
+    "restant1": "1 SECOND TO GO",
+    "unites": [
+      { "max": 453.6, "diviseur": 28.35, "nom": "OZ", "nom1": "OZ" },
+      { "max": 907185, "diviseur": 453.6, "nom": "LB", "nom1": "LB" },
+      { "max": 907185000, "diviseur": 907185, "nom": "TONS", "nom1": "TON" },
+      { "max": 1e+15, "diviseur": 907185000, "nom": "THOUSAND TONS", "nom1": "THOUSAND TONS" }
+    ],
+    "separateurs": { "milliers": ",", "decimale": "." },
+    "erreur": "ERR",
+    "tare": "TARE",
+    "allumee": ["BUT THE SCALE", "IS STILL ON"],
+    "pressee": ["SOMEONE", "PRESSED TARE"],
+    "paliers": {
+      "pilote": { "cible": "FIGHTER PILOT G-FORCE", "legende": ["9 G: FIGHTER PILOTS", "BLACK OUT"] },
+      "soleil": { "cible": "THE SUN'S GRAVITY", "legende": ["STRONGER THAN ON", "THE SURFACE OF THE SUN"] },
+      "balance": { "cible": "THE SCALE'S LIMIT", "legende": ["THE SCALE", "JUST GAVE UP"] },
+      "personne": { "cible": "YOUR WEIGHT", "legende": ["THE APPLE NOW WEIGHS", "AS MUCH AS YOU"] },
+      "ciel": { "cible": "THE TOP OF THE SKY", "legende": ["THE WHOLE SKY IS NOW", "WAIST HIGH"] },
+      "naine": { "cible": "A WHITE DWARF STAR", "legende": ["STRONGER THAN ON", "A WHITE DWARF STAR"] },
+      "baleine": { "cible": "A BLUE WHALE", "legende": ["THE APPLE WEIGHS MORE", "THAN A BLUE WHALE"] },
+      "eiffel": { "cible": "THE EIFFEL TOWER", "legende": ["HEAVIER THAN", "THE EIFFEL TOWER"] },
+      "trou": { "cible": "A BLACK HOLE", "legende": ["NOT EVEN LIGHT GETS OUT", "EARTH IS A BLACK HOLE"] }
+    }
+  },
+  "es": {
+    "titre": "¿Y si la gravedad aumentara 40 % cada segundo?",
+    "description": "Una manzana de 100 g en una báscula de cocina, con la gravedad subiendo 40 % cada segundo: en el segundo {n_personne} pesa como un adulto, en el {n_ciel} la atmósfera mide 1 m y en el {n_max} la velocidad de escape supera la de la luz. La Tierra se vuelve un agujero negro sin cambiar de radio.\nFuentes: NASA Fact Sheets, NOAA, radio de Schwarzschild 2GM/c².",
+    "regle": ["LA GRAVEDAD SUBE 40 %", "CADA SEGUNDO"],
+    "regle2": ["ESTO PESA", "UNA MANZANA"],
+    "pli": "SEG",
+    "suite": "META: {cible}",
+    "restant": "FALTAN {n} SEGUNDOS",
+    "restant1": "FALTA 1 SEGUNDO",
+    "unites": [
+      { "max": 1000, "diviseur": 1, "nom": "GRAMOS", "nom1": "GRAMO" },
+      { "max": 1000000, "diviseur": 1000, "nom": "KILOS", "nom1": "KILO" },
+      { "max": 1000000000, "diviseur": 1000000, "nom": "TONELADAS", "nom1": "TONELADA" },
+      { "max": 1e+15, "diviseur": 1000000000, "nom": "MIL TONELADAS", "nom1": "MIL TONELADAS" }
+    ],
+    "separateurs": { "milliers": ",", "decimale": "." },
+    "erreur": "ERR",
+    "tare": "TARA",
+    "allumee": ["PERO LA BÁSCULA", "SIGUE ENCENDIDA"],
+    "pressee": ["ALGUIEN", "PRESIONÓ TARA"],
+    "paliers": {
+      "pilote": { "cible": "LOS G DE UN PILOTO", "legende": ["9 G: LOS PILOTOS", "SE DESMAYAN"] },
+      "soleil": { "cible": "LA GRAVEDAD DEL SOL", "legende": ["MÁS FUERTE QUE EN", "LA SUPERFICIE DEL SOL"] },
+      "balance": { "cible": "EL LÍMITE DE LA BÁSCULA", "legende": ["LA BÁSCULA", "SE RINDIÓ"] },
+      "personne": { "cible": "TU PESO", "legende": ["LA MANZANA YA PESA", "LO MISMO QUE TÚ"] },
+      "ciel": { "cible": "EL TECHO DEL CIELO", "legende": ["TODO EL CIELO TE LLEGA", "A LA CINTURA"] },
+      "naine": { "cible": "UNA ENANA BLANCA", "legende": ["MÁS FUERTE QUE EN", "UNA ENANA BLANCA"] },
+      "baleine": { "cible": "UNA BALLENA AZUL", "legende": ["LA MANZANA PESA MÁS", "QUE UNA BALLENA AZUL"] },
+      "eiffel": { "cible": "LA TORRE EIFFEL", "legende": ["PESA MÁS QUE", "LA TORRE EIFFEL"] },
+      "trou": { "cible": "UN AGUJERO NEGRO", "legende": ["NI LA LUZ PUEDE SALIR", "LA TIERRA ES UN AGUJERO NEGRO"] }
+    }
+  },
+  "pt": {
+    "titre": "E se a gravidade aumentasse 40% a cada segundo?",
+    "description": "Uma maçã de 100 g numa balança de cozinha, com a gravidade subindo 40% a cada segundo: no segundo {n_personne} ela pesa como um adulto, no {n_ciel} a atmosfera tem 1 m e no {n_max} a velocidade de escape passa a da luz. A Terra vira um buraco negro sem mudar de raio.\nFontes: NASA Fact Sheets, NOAA, raio de Schwarzschild 2GM/c².",
+    "regle": ["A GRAVIDADE SOBE 40%", "A CADA SEGUNDO"],
+    "regle2": ["ISTO É O PESO", "DE UMA MAÇÃ"],
+    "pli": "SEG",
+    "suite": "ALVO: {cible}",
+    "restant": "FALTAM {n} SEGUNDOS",
+    "restant1": "FALTA 1 SEGUNDO",
+    "unites": [
+      { "max": 1000, "diviseur": 1, "nom": "GRAMAS", "nom1": "GRAMA" },
+      { "max": 1000000, "diviseur": 1000, "nom": "QUILOS", "nom1": "QUILO" },
+      { "max": 1000000000, "diviseur": 1000000, "nom": "TONELADAS", "nom1": "TONELADA" },
+      { "max": 1e+15, "diviseur": 1000000000, "nom": "MIL TONELADAS", "nom1": "MIL TONELADAS" }
+    ],
+    "separateurs": { "milliers": ".", "decimale": "," },
+    "erreur": "ERR",
+    "tare": "TARA",
+    "allumee": ["MAS A BALANÇA", "CONTINUA LIGADA"],
+    "pressee": ["ALGUÉM", "APERTOU TARA"],
+    "paliers": {
+      "pilote": { "cible": "OS G DE UM PILOTO", "legende": ["9 G: PILOTOS", "DESMAIAM"] },
+      "soleil": { "cible": "A GRAVIDADE DO SOL", "legende": ["MAIS FORTE QUE NA", "SUPERFÍCIE DO SOL"] },
+      "balance": { "cible": "O LIMITE DA BALANÇA", "legende": ["A BALANÇA", "DESISTIU"] },
+      "personne": { "cible": "O SEU PESO", "legende": ["A MAÇÃ JÁ PESA", "O MESMO QUE VOCÊ"] },
+      "ciel": { "cible": "O TETO DO CÉU", "legende": ["O CÉU INTEIRO AGORA", "BATE NA SUA CINTURA"] },
+      "naine": { "cible": "UMA ANÃ BRANCA", "legende": ["MAIS FORTE QUE EM", "UMA ANÃ BRANCA"] },
+      "baleine": { "cible": "UMA BALEIA-AZUL", "legende": ["A MAÇÃ PESA MAIS", "QUE UMA BALEIA-AZUL"] },
+      "eiffel": { "cible": "A TORRE EIFFEL", "legende": ["PESA MAIS QUE", "A TORRE EIFFEL"] },
+      "trou": { "cible": "UM BURACO NEGRO", "legende": ["NEM A LUZ CONSEGUE SAIR", "A TERRA É UM BURACO NEGRO"] }
+    }
+  }
+}

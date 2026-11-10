@@ -1,0 +1,89 @@
+{
+  "nom": "volume",
+  "depart_db": 20,
+  "references": {
+    "conversation": { "db": 60, "source": "CDC, What Noises Cause Hearing Loss : conversation normale, 60 dB" },
+    "risque": { "db": 85, "source": "NIDCD : une exposition longue ou répétée à 85 dB ou plus peut causer une perte auditive" },
+    "deux_min": { "db": 110, "source": "NIOSH, 85 dBA sur 8 h avec échange de 3 dB, repris par les tableaux d'exposition : environ 2 minutes à 110 dBA" },
+    "immediat": { "db": 120, "source": "CDC : au-dessus de 120 dB, le bruit peut causer un dommage immédiat aux oreilles" },
+    "petard": { "db": 150, "source": "CDC, tableau des niveaux : pétards 140 à 150 dB ; ASHA : 150 dB crête" },
+    "krakatoa": { "db": 172, "source": "Krakatoa, 27 août 1883 : environ 172 dB à 160 km, d'après le barographe de Batavia (Nautilus, The Sound So Loud That It Circled the Earth Four Times). Estimations variables" },
+    "tympan": { "pa": 35000, "source": "Seuil de rupture du tympan : environ 35 kPa (5 psi), convertis en dB par le script" },
+    "limite": { "pa": 101325, "source": "Limite d'un son non distordu dans l'air : amplitude égale à 1 atmosphère (101 325 Pa), convertie en dB par le script" }
+  },
+  "en": {
+    "titre": "What If Your Speaker Doubled Its Power Every Second?",
+    "description": "A speaker starts at 20 dB and doubles its power every second: at second {n_immediat} it can harm your ears at once, at {n_krakatoa} it matches Krakatoa, and at {n_limite} the air cannot carry a louder sound.\nSources: CDC, NIDCD, NIOSH, ASHA, Nautilus.",
+    "regle": ["THE SPEAKER DOUBLES", "ITS POWER EVERY SECOND"],
+    "regle2": ["AT 20 dB", "YOU CAN BARELY HEAR IT"],
+    "pli": "SEC",
+    "suite": "NEXT: {cible}",
+    "restant": "{n} SECONDS TO GO",
+    "restant1": "1 SECOND TO GO",
+    "vide": ["NOTHING IS LEFT", "EXCEPT ONE BROOM"],
+    "voisin": ["THE NEIGHBOR", "LEFT A NOTE"],
+    "note": ["PLEASE", "TURN IT DOWN"],
+    "separateurs": { "milliers": ",", "decimale": "." },
+    "unites": [{ "max": 1e30, "metres": 1, "nom": "dB" }],
+    "paliers": {
+      "conversation": { "cible": "A CONVERSATION", "legende": ["AS LOUD AS", "A CONVERSATION"] },
+      "risque": { "cible": "THE DANGER ZONE", "legende": ["HOURS OF THIS", "DAMAGE YOUR HEARING"] },
+      "deux_min": { "cible": "THE 2-MINUTE LIMIT", "legende": ["2 MINUTES OF THIS", "DAMAGE YOUR HEARING"] },
+      "immediat": { "cible": "IMMEDIATE HARM", "legende": ["IMMEDIATE HARM", "TO YOUR EARS"] },
+      "petard": { "cible": "A FIRECRACKER", "legende": ["A FIRECRACKER", "AT YOUR EAR, NONSTOP"] },
+      "krakatoa": { "cible": "KRAKATOA", "legende": ["KRAKATOA, 1883", "THE LOUDEST SOUND EVER"] },
+      "tympan": { "cible": "YOUR EARDRUMS", "legende": ["EARDRUMS BURST", "ALL OVER TOWN"] },
+      "limite": { "cible": "THE LIMIT OF AIR", "legende": ["THE AIR CAN'T", "SHAKE ANY HARDER"] }
+    }
+  },
+  "es": {
+    "titre": "¿Y si tu altavoz duplicara su potencia cada segundo?",
+    "description": "Un altavoz empieza en 20 dB y duplica su potencia cada segundo: en el segundo {n_immediat} ya daña el oído al instante, en el {n_krakatoa} iguala al Krakatoa y en el {n_limite} el aire no puede llevar un sonido más fuerte.\nFuentes: CDC, NIDCD, NIOSH, ASHA, Nautilus.",
+    "regle": ["EL ALTAVOZ DUPLICA", "SU POTENCIA CADA SEGUNDO"],
+    "regle2": ["A 20 dB", "APENAS SE OYE"],
+    "pli": "SEG",
+    "suite": "META: {cible}",
+    "restant": "FALTAN {n} SEGUNDOS",
+    "restant1": "FALTA 1 SEGUNDO",
+    "vide": ["NO QUEDA NADA", "SALVO UNA ESCOBA"],
+    "voisin": ["EL VECINO", "DEJÓ UNA NOTA"],
+    "note": ["POR FAVOR", "BAJA EL VOLUMEN"],
+    "separateurs": { "milliers": ",", "decimale": "." },
+    "unites": [{ "max": 1e30, "metres": 1, "nom": "dB" }],
+    "paliers": {
+      "conversation": { "cible": "UNA CONVERSACIÓN", "legende": ["TAN FUERTE COMO", "UNA CONVERSACIÓN"] },
+      "risque": { "cible": "LA ZONA DE RIESGO", "legende": ["UNAS HORAS ASÍ", "DAÑAN EL OÍDO"] },
+      "deux_min": { "cible": "EL LÍMITE DE 2 MINUTOS", "legende": ["2 MINUTOS ASÍ", "DAÑAN EL OÍDO"] },
+      "immediat": { "cible": "DAÑO INMEDIATO", "legende": ["DAÑO INMEDIATO", "AL OÍDO"] },
+      "petard": { "cible": "UN PETARDO", "legende": ["UN PETARDO", "EN EL OÍDO, SIN PARAR"] },
+      "krakatoa": { "cible": "KRAKATOA", "legende": ["KRAKATOA, 1883", "RÉCORD DE LA HISTORIA"] },
+      "tympan": { "cible": "TUS TÍMPANOS", "legende": ["LOS TÍMPANOS", "REVIENTAN"] },
+      "limite": { "cible": "EL LÍMITE DEL AIRE", "legende": ["EL AIRE NO PUEDE", "VIBRAR MÁS"] }
+    }
+  },
+  "pt": {
+    "titre": "E se sua caixa de som dobrasse de potência a cada segundo?",
+    "description": "Uma caixa de som começa em 20 dB e dobra de potência a cada segundo: no segundo {n_immediat} já fere o ouvido na hora, no {n_krakatoa} iguala o Krakatoa e no {n_limite} o ar não consegue carregar um som mais forte.\nFontes: CDC, NIDCD, NIOSH, ASHA, Nautilus.",
+    "regle": ["A CAIXA DE SOM DOBRA", "DE POTÊNCIA A CADA SEGUNDO"],
+    "regle2": ["A 20 dB", "MAL DÁ PARA OUVIR"],
+    "pli": "SEG",
+    "suite": "ALVO: {cible}",
+    "restant": "FALTAM {n} SEGUNDOS",
+    "restant1": "FALTA 1 SEGUNDO",
+    "vide": ["NÃO SOBROU NADA", "SÓ UMA VASSOURA"],
+    "voisin": ["O VIZINHO", "DEIXOU UM BILHETE"],
+    "note": ["POR FAVOR", "ABAIXE O VOLUME"],
+    "separateurs": { "milliers": ".", "decimale": "," },
+    "unites": [{ "max": 1e30, "metres": 1, "nom": "dB" }],
+    "paliers": {
+      "conversation": { "cible": "UMA CONVERSA", "legende": ["ALTO COMO", "UMA CONVERSA"] },
+      "risque": { "cible": "A ZONA DE RISCO", "legende": ["ALGUMAS HORAS ASSIM", "DANIFICAM A AUDIÇÃO"] },
+      "deux_min": { "cible": "O LIMITE DE 2 MINUTOS", "legende": ["2 MINUTOS ASSIM", "DANIFICAM A AUDIÇÃO"] },
+      "immediat": { "cible": "DANO IMEDIATO", "legende": ["DANO IMEDIATO", "AOS OUVIDOS"] },
+      "petard": { "cible": "UM ROJÃO", "legende": ["UM ROJÃO", "NO OUVIDO, SEM PARAR"] },
+      "krakatoa": { "cible": "KRAKATOA", "legende": ["KRAKATOA, 1883", "RECORDE DA HISTÓRIA"] },
+      "tympan": { "cible": "SEUS TÍMPANOS", "legende": ["OS TÍMPANOS", "ESTOURAM"] },
+      "limite": { "cible": "O LIMITE DO AR", "legende": ["O AR NÃO CONSEGUE", "VIBRAR MAIS"] }
+    }
+  }
+}

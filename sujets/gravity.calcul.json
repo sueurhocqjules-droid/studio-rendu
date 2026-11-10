@@ -1,0 +1,159 @@
+{
+  "pomme_g": 100.0,
+  "hausse": 1.4,
+  "balance_max_g": 5000,
+  "hauteur_echelle_m": 8500,
+  "facteur_trou": 718311821.6310349,
+  "rayon_schwarzschild_m": 0.00886940714066725,
+  "n_max": 61,
+  "paliers": [
+    {
+      "cle": "pilote",
+      "pas": 7,
+      "arrivee_s": 6.5,
+      "source": "Pilotes de chasse : perte de connaissance vers 9 g"
+    },
+    {
+      "cle": "soleil",
+      "pas": 10,
+      "arrivee_s": 9.5,
+      "source": "Gravite a la surface du Soleil, 274 m/s2, NASA Sun Fact Sheet"
+    },
+    {
+      "cle": "balance",
+      "pas": 12,
+      "arrivee_s": 11.5,
+      "source": "Balance de cuisine courante, portee 5 kg"
+    },
+    {
+      "cle": "personne",
+      "pas": 20,
+      "arrivee_s": 19.5,
+      "source": "Adulte de 70 kg"
+    },
+    {
+      "cle": "ciel",
+      "pas": 27,
+      "arrivee_s": 26.5,
+      "source": "La hauteur d'echelle de l'atmosphere varie comme 1/g : 8,5 km ramenes a 1 m"
+    },
+    {
+      "cle": "naine",
+      "pas": 39,
+      "arrivee_s": 38.5,
+      "source": "Sirius B, log g environ 8,57 en cgs, soit environ 380 000 g"
+    },
+    {
+      "cle": "baleine",
+      "pas": 43,
+      "arrivee_s": 42.5,
+      "source": "Baleine bleue, environ 150 t, NOAA Fisheries"
+    },
+    {
+      "cle": "eiffel",
+      "pas": 55,
+      "arrivee_s": 54.5,
+      "source": "Tour Eiffel, environ 10 100 t, site officiel de la tour"
+    },
+    {
+      "cle": "trou",
+      "pas": 61,
+      "arrivee_s": 60.5,
+      "source": "Rayon de Schwarzschild 2GM/c2, 8,87 mm pour la Terre"
+    }
+  ],
+  "t_limite": 60.5,
+  "t_allumee": 63.3,
+  "t_tare": 65.1,
+  "t_fin": 66.1,
+  "duree_s": 66.69999999999999,
+  "descriptions": {
+    "en": "A 100 g apple on a kitchen scale, with gravity up 40% every second: second 20 it weighs as much as an adult, second 27 the atmosphere is 1 m high, and second 61 escape velocity passes the speed of light. Earth becomes a black hole with its radius unchanged.\nSources: NASA Fact Sheets, NOAA, Schwarzschild radius 2GM/c².",
+    "es": "Una manzana de 100 g en una báscula de cocina, con la gravedad subiendo 40 % cada segundo: en el segundo 20 pesa como un adulto, en el 27 la atmósfera mide 1 m y en el 61 la velocidad de escape supera la de la luz. La Tierra se vuelve un agujero negro sin cambiar de radio.\nFuentes: NASA Fact Sheets, NOAA, radio de Schwarzschild 2GM/c².",
+    "pt": "Uma maçã de 100 g numa balança de cozinha, com a gravidade subindo 40% a cada segundo: no segundo 20 ela pesa como um adulto, no 27 a atmosfera tem 1 m e no 61 a velocidade de escape passa a da luz. A Terra vira um buraco negro sem mudar de raio.\nFontes: NASA Fact Sheets, NOAA, raio de Schwarzschild 2GM/c²."
+  },
+  "son": {
+    "duree_s": 66.69999999999999,
+    "tics": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60
+    ],
+    "paliers": [
+      6.5,
+      9.5,
+      11.5,
+      19.5,
+      26.5,
+      38.5,
+      42.5,
+      54.5,
+      60.5
+    ],
+    "retournements": [
+      60.5,
+      65.1
+    ],
+    "fin": 66.1,
+    "base_hz": 48,
+    "tic_hz": 480
+  }
+}

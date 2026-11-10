@@ -1,0 +1,129 @@
+{
+  "nom": "mosquito",
+  "moustique": {
+    "longueur_m": 0.005,
+    "repas_l": 0.000005,
+    "aile_part": 0.6,
+    "battements_hz": 500,
+    "amplitude_rad": 0.7,
+    "source": "Moustique commun, environ 5 mm, repas de sang environ 5 microlitres, ailes d'environ 3 mm, 500 battements par seconde, amplitude d'environ 40 degrés, ordres de grandeur CDC et publications d'entomologie"
+  },
+  "sang_corps_l": 5,
+  "lumiere_m_s": 299792458,
+  "references": {
+    "plafond": { "m": 2.5, "source": "Hauteur sous plafond courante, 2,5 m" },
+    "avion": { "m": 70.7, "source": "Long-courrier jumbo, 70,7 m de long, fiche constructeur" },
+    "everest": { "m": 8849, "source": "Everest, 8 849 m, relevé Népal et Chine 2020" },
+    "terre": { "m": 12742000, "source": "Diamètre de la Terre, 12 742 km, NASA" },
+    "soleil": { "m": 1392700000, "source": "Diamètre du Soleil, 1 392 700 km, NASA" },
+    "ua": { "m": 149597870700, "source": "Unité astronomique, 149 597 870,7 km, UAI" },
+    "voyager": { "m": 25000000000000, "source": "Voyager 1, environ 25 milliards de km en 2026, NASA" },
+    "proxima": { "m": 40175000000000000, "source": "Proxima du Centaure, 4,2465 années-lumière, ESA" }
+  },
+  "en": {
+    "titre": "What If a Mosquito Doubled in Size Every Second?",
+    "description": "A 5 mm mosquito doubling in size every second: at second {n_sang} one bite takes all your blood, at {n_plafond} it hits the ceiling, at {n_terre} it's bigger than Earth, and at {n_max} it touches the nearest star.\nSources: CDC, NASA, IAU, ESA.",
+    "regle": ["A MOSQUITO DOUBLES", "IN SIZE EVERY SECOND"],
+    "regle2": ["HOW BIG", "CAN IT GET?"],
+    "pli": "SEC",
+    "suite": "NEXT: {cible}",
+    "restant": "{n} SECONDS TO GO",
+    "restant1": "1 SECOND TO GO",
+    "faim": ["AND IT'S STILL", "HUNGRY"],
+    "retour": ["SO IT COMES BACK", "FOR YOUR ARM"],
+    "claque": ["SLAP!", "GOT IT"],
+    "autre": ["THERE'S ALWAYS", "ANOTHER ONE"],
+    "separateurs": { "milliers": ",", "decimale": "." },
+    "unites": [
+      { "max": 0.3048, "metres": 0.0254, "nom": "INCHES" },
+      { "max": 1609.344, "metres": 0.3048, "nom": "FEET" },
+      { "max": 1609344000, "metres": 1609.344, "nom": "MILES" },
+      { "max": 1609344000000, "metres": 1609344000, "nom": "MILLION MILES" },
+      { "max": 1609344000000000, "metres": 1609344000000, "nom": "BILLION MILES" },
+      { "max": 1e30, "metres": 1609344000000000, "nom": "TRILLION MILES" }
+    ],
+    "paliers": {
+      "sang": { "cible": "A DEADLY BITE", "legende": ["ONE BITE TAKES", "ALL YOUR BLOOD"] },
+      "plafond": { "cible": "YOUR CEILING", "legende": ["IT HITS", "THE CEILING"] },
+      "avion": { "cible": "A JUMBO JET", "legende": ["LONGER THAN", "A JUMBO JET"] },
+      "everest": { "cible": "MOUNT EVEREST", "legende": ["BIGGER THAN", "MOUNT EVEREST"] },
+      "lumiere": { "cible": "LIGHT SPEED", "legende": ["ITS WINGTIPS BEAT", "FASTER THAN LIGHT"] },
+      "terre": { "cible": "PLANET EARTH", "legende": ["EARTH IS NOW", "SMALLER THAN IT"] },
+      "soleil": { "cible": "THE SUN", "legende": ["BIGGER THAN", "THE SUN"] },
+      "ua": { "cible": "EARTH TO THE SUN", "legende": ["IT SPANS EARTH", "TO THE SUN"] },
+      "voyager": { "cible": "VOYAGER 1", "legende": ["PAST VOYAGER 1", "OUR FARTHEST PROBE"] },
+      "proxima": { "cible": "THE NEAREST STAR", "legende": ["IT TOUCHES", "THE NEAREST STAR"] }
+    }
+  },
+  "es": {
+    "titre": "¿Y si un mosquito duplicara su tamaño cada segundo?",
+    "description": "Un mosquito de 5 mm que duplica su tamaño cada segundo: en el segundo {n_sang} una picadura se lleva toda tu sangre, en el {n_plafond} choca contra el techo, en el {n_terre} ya es más grande que la Tierra y en el {n_max} toca la estrella más cercana.\nFuentes: CDC, NASA, UAI, ESA.",
+    "regle": ["UN MOSQUITO DUPLICA", "SU TAMAÑO CADA SEGUNDO"],
+    "regle2": ["¿QUÉ TAN GRANDE", "PUEDE LLEGAR A SER?"],
+    "pli": "SEG",
+    "suite": "META: {cible}",
+    "restant": "FALTAN {n} SEGUNDOS",
+    "restant1": "FALTA 1 SEGUNDO",
+    "faim": ["Y SIGUE CON", "HAMBRE"],
+    "retour": ["ASÍ QUE VUELVE", "POR TU BRAZO"],
+    "claque": ["¡ZAS!", "LO AGARRASTE"],
+    "autre": ["SIEMPRE HAY", "OTRO MÁS"],
+    "separateurs": { "milliers": ",", "decimale": "." },
+    "unites": [
+      { "max": 0.01, "metres": 0.001, "nom": "MM" },
+      { "max": 1, "metres": 0.01, "nom": "CM" },
+      { "max": 1000, "metres": 1, "nom": "M" },
+      { "max": 1000000000, "metres": 1000, "nom": "KM" },
+      { "max": 1000000000000000, "metres": 1000000000, "nom": "MILLONES DE KM" },
+      { "max": 1e30, "metres": 1000000000000000, "nom": "BILLONES DE KM" }
+    ],
+    "paliers": {
+      "sang": { "cible": "UNA PICADURA MORTAL", "legende": ["UNA PICADURA SE LLEVA", "TODA TU SANGRE"] },
+      "plafond": { "cible": "TU TECHO", "legende": ["CHOCA CONTRA", "EL TECHO"] },
+      "avion": { "cible": "UN AVIÓN JUMBO", "legende": ["MÁS LARGO QUE", "UN AVIÓN JUMBO"] },
+      "everest": { "cible": "EL EVEREST", "legende": ["MÁS GRANDE QUE", "EL EVEREST"] },
+      "lumiere": { "cible": "LA VELOCIDAD DE LA LUZ", "legende": ["SUS ALAS BATEN", "MÁS RÁPIDO QUE LA LUZ"] },
+      "terre": { "cible": "LA TIERRA", "legende": ["LA TIERRA YA ES", "MÁS CHICA QUE ÉL"] },
+      "soleil": { "cible": "EL SOL", "legende": ["MÁS GRANDE", "QUE EL SOL"] },
+      "ua": { "cible": "DE LA TIERRA AL SOL", "legende": ["MIDE MÁS QUE DE", "LA TIERRA AL SOL"] },
+      "voyager": { "cible": "LA VOYAGER 1", "legende": ["SUPERA A LA VOYAGER 1", "NUESTRA SONDA MÁS LEJANA"] },
+      "proxima": { "cible": "LA ESTRELLA MÁS CERCANA", "legende": ["TOCA LA ESTRELLA", "MÁS CERCANA"] }
+    }
+  },
+  "pt": {
+    "titre": "E se um mosquito dobrasse de tamanho a cada segundo?",
+    "description": "Um mosquito de 5 mm que dobra de tamanho a cada segundo: no segundo {n_sang} uma picada leva todo o seu sangue, no {n_plafond} ele bate no teto, no {n_terre} já é maior que a Terra e no {n_max} toca a estrela mais próxima.\nFontes: CDC, NASA, UAI, ESA.",
+    "regle": ["UM MOSQUITO DOBRA DE", "TAMANHO A CADA SEGUNDO"],
+    "regle2": ["ATÉ ONDE", "ELE PODE CRESCER?"],
+    "pli": "SEG",
+    "suite": "ALVO: {cible}",
+    "restant": "FALTAM {n} SEGUNDOS",
+    "restant1": "FALTA 1 SEGUNDO",
+    "faim": ["E AINDA ESTÁ", "COM FOME"],
+    "retour": ["ENTÃO ELE VOLTA", "PARA O SEU BRAÇO"],
+    "claque": ["PLAFT!", "PEGOU"],
+    "autre": ["SEMPRE TEM", "MAIS UM"],
+    "separateurs": { "milliers": ".", "decimale": "," },
+    "unites": [
+      { "max": 0.01, "metres": 0.001, "nom": "MM" },
+      { "max": 1, "metres": 0.01, "nom": "CM" },
+      { "max": 1000, "metres": 1, "nom": "M" },
+      { "max": 1000000000, "metres": 1000, "nom": "KM" },
+      { "max": 1000000000000, "metres": 1000000000, "nom": "MILHÕES DE KM" },
+      { "max": 1000000000000000, "metres": 1000000000000, "nom": "BILHÕES DE KM" },
+      { "max": 1e30, "metres": 1000000000000000, "nom": "TRILHÕES DE KM" }
+    ],
+    "paliers": {
+      "sang": { "cible": "UMA PICADA MORTAL", "legende": ["UMA PICADA LEVA", "TODO O SEU SANGUE"] },
+      "plafond": { "cible": "O SEU TETO", "legende": ["ELE BATE", "NO TETO"] },
+      "avion": { "cible": "UM AVIÃO JUMBO", "legende": ["MAIOR QUE", "UM AVIÃO JUMBO"] },
+      "everest": { "cible": "O EVEREST", "legende": ["MAIOR QUE", "O EVEREST"] },
+      "lumiere": { "cible": "A VELOCIDADE DA LUZ", "legende": ["SUAS ASAS BATEM", "MAIS RÁPIDO QUE A LUZ"] },
+      "terre": { "cible": "A TERRA", "legende": ["A TERRA JÁ É", "MENOR QUE ELE"] },
+      "soleil": { "cible": "O SOL", "legende": ["MAIOR", "QUE O SOL"] },
+      "ua": { "cible": "DA TERRA AO SOL", "legende": ["MAIOR QUE A DISTÂNCIA", "DA TERRA AO SOL"] },
+      "voyager": { "cible": "A VOYAGER 1", "legende": ["PASSA DA VOYAGER 1", "NOSSA SONDA MAIS DISTANTE"] },
+      "proxima": { "cible": "A ESTRELA MAIS PRÓXIMA", "legende": ["ELE TOCA A ESTRELA", "MAIS PRÓXIMA"] }
+    }
+  }
+}

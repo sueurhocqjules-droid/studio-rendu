@@ -1,0 +1,122 @@
+{
+  "references": {
+    "ascenseur": { "copies": 13, "source": "Ascenseur de 1 000 kg : 13 passagers, norme EN 81-20:2020, tableau 6" },
+    "a380": { "copies": 853, "source": "Airbus A380 : capacité maximale certifiée de 853 passagers, Airbus, A380 Facts and Figures, janvier 2022" },
+    "stade": { "copies": 132000, "source": "Stade Narendra Modi, Ahmedabad : environ 132 000 places, ICC" },
+    "tokyo": { "copies": 33400000, "source": "Agglomération de Tokyo : 33,4 millions d'habitants, ONU, World Urbanization Prospects 2025" },
+    "monde": { "copies": 8200000000, "source": "Population mondiale : 8,2 milliards en 2024, ONU, World Population Prospects 2024" },
+    "arbres": { "copies": 3040000000000, "source": "3,04 billions d'arbres sur Terre, Crowther et al., Nature 525, 2015" },
+    "terres": { "surface_m2": 148900000000000, "densite_par_m2": 4, "source": "Terres émergées : 148,9 millions de km2 ; foule dense : 4 personnes par m2 (seuil de Fruin, repris par G. K. Still)" },
+    "air": { "masse_kg": 5.148e+18, "corps_kg": 62, "source": "Masse de l'atmosphère : 5,148e18 kg, Trenberth et Smith, Journal of Climate, 2005 ; masse moyenne d'un adulte : 62 kg, Walpole et al., BMC Public Health, 2012" },
+    "oxygene": {
+      "masse_air_sec_kg": 5.1352e+18,
+      "fraction_volume_o2": 0.2095,
+      "masse_molaire_o2": 31.998,
+      "masse_molaire_air": 28.965,
+      "o2_par_jour_kg": 0.84,
+      "source": "Air sec : 5,1352e18 kg, Trenberth et Smith, 2005 ; O2 : 20,95 % du volume de l'air sec ; 0,84 kg d'oxygène par personne et par jour, NASA, dimensionnement du support de vie"
+    }
+  },
+  "en": {
+    "titre": "What If You Photocopied Yourself Every Second?",
+    "description": "You, photocopied every second, and every copy too: {n_stade} seconds to fill the world's biggest stadium, {n_monde} to outnumber humanity, and at second {n_oxygene} your copies burn all of Earth's oxygen in a single day.\nSources: Airbus, UN, Crowther et al. (Nature, 2015), Trenberth & Smith (2005), Walpole et al. (2012), NASA.",
+    "regle": ["YOU AND EVERY COPY", "DUPLICATE EVERY SECOND"],
+    "regle2": ["THE COPIER", "HAS NO OFF BUTTON"],
+    "pli": "SEC",
+    "suite": "NEXT: {cible}",
+    "restant": "{n} SECONDS TO GO",
+    "restant1": "1 SECOND TO GO",
+    "copie1": "COPY",
+    "copies": "COPIES",
+    "vide": ["THEN THE COPIER", "RAN OUT OF PAPER"],
+    "qui": ["BUT WHICH ONE", "IS THE ORIGINAL?"],
+    "chat": ["NONE. THE ORIGINAL", "WENT OUT FOR LUNCH"],
+    "separateurs": { "milliers": ",", "decimale": "." },
+    "unites": [
+      { "max": 1000000000, "diviseur": 1000000, "nom": "MILLION COPIES", "nom1": "MILLION COPIES" },
+      { "max": 1000000000000, "diviseur": 1000000000, "nom": "BILLION COPIES", "nom1": "BILLION COPIES" },
+      { "max": 1000000000000000, "diviseur": 1000000000000, "nom": "TRILLION COPIES", "nom1": "TRILLION COPIES" },
+      { "max": 1000000000000000000, "diviseur": 1000000000000000, "nom": "QUADRILLION COPIES", "nom1": "QUADRILLION COPIES" },
+      { "max": 1e+21, "diviseur": 1000000000000000000, "nom": "QUINTILLION COPIES", "nom1": "QUINTILLION COPIES" }
+    ],
+    "paliers": {
+      "ascenseur": { "cible": "A FULL ELEVATOR", "legende": ["NO ROOM LEFT:", "THE ELEVATOR IS FULL"] },
+      "a380": { "cible": "A FULL JUMBO JET", "legende": ["THE WORLD'S BIGGEST", "AIRLINER IS FULL"] },
+      "stade": { "cible": "THE BIGGEST STADIUM", "legende": ["THE WORLD'S BIGGEST", "STADIUM IS FULL"] },
+      "tokyo": { "cible": "ALL OF TOKYO", "legende": ["MORE COPIES OF YOU", "THAN PEOPLE IN TOKYO"] },
+      "monde": { "cible": "ALL OF HUMANITY", "legende": ["MORE COPIES OF YOU", "THAN HUMANS ON EARTH"] },
+      "arbres": { "cible": "EVERY TREE ON EARTH", "legende": ["ONE COPY OF YOU", "FOR EVERY TREE ON EARTH"] },
+      "terres": { "cible": "ALL THE LAND", "legende": ["ALL THE LAND ON EARTH:", "STANDING ROOM ONLY"] },
+      "air": { "cible": "THE ATMOSPHERE", "legende": ["YOU NOW OUTWEIGH", "THE ENTIRE ATMOSPHERE"] },
+      "oxygene": { "cible": "THE LAST BREATH", "legende": ["ALL THE OXYGEN ON EARTH", "GONE IN ONE DAY"] }
+    }
+  },
+  "es": {
+    "titre": "¿Y si te fotocopiaras cada segundo?",
+    "description": "Tú, fotocopiado cada segundo, y cada copia también: {n_stade} segundos para llenar el estadio más grande del mundo, {n_monde} para superar a la humanidad y, en el segundo {n_oxygene}, tus copias gastan todo el oxígeno de la Tierra en un solo día.\nFuentes: Airbus, ONU, Crowther et al. (Nature, 2015), Trenberth y Smith (2005), Walpole et al. (2012), NASA.",
+    "regle": ["TÚ Y CADA COPIA", "SE DUPLICAN CADA SEGUNDO"],
+    "regle2": ["LA FOTOCOPIADORA", "NO TIENE BOTÓN DE APAGADO"],
+    "pli": "SEG",
+    "suite": "SIGUE: {cible}",
+    "restant": "FALTAN {n} SEGUNDOS",
+    "restant1": "FALTA 1 SEGUNDO",
+    "copie1": "COPIA",
+    "copies": "COPIAS",
+    "vide": ["ENTONCES LA FOTOCOPIADORA", "SE QUEDÓ SIN PAPEL"],
+    "qui": ["PERO, ¿CUÁL", "ES EL ORIGINAL?"],
+    "chat": ["NINGUNO. EL ORIGINAL", "SE FUE A COMER"],
+    "separateurs": { "milliers": ",", "decimale": "." },
+    "unites": [
+      { "max": 1000000000, "diviseur": 1000000, "nom": "MILLONES DE COPIAS", "nom1": "MILLONES DE COPIAS" },
+      { "max": 1000000000000, "diviseur": 1000000000, "nom": "MIL MILLONES", "nom1": "MIL MILLONES" },
+      { "max": 1000000000000000, "diviseur": 1000000000000, "nom": "BILLONES DE COPIAS", "nom1": "BILLONES DE COPIAS" },
+      { "max": 1000000000000000000, "diviseur": 1000000000000000, "nom": "MIL BILLONES", "nom1": "MIL BILLONES" },
+      { "max": 1e+21, "diviseur": 1000000000000000000, "nom": "TRILLONES DE COPIAS", "nom1": "TRILLONES DE COPIAS" }
+    ],
+    "paliers": {
+      "ascenseur": { "cible": "UN ASCENSOR LLENO", "legende": ["NO CABE NADIE MÁS:", "EL ASCENSOR ESTÁ LLENO"] },
+      "a380": { "cible": "UN AVIÓN GIGANTE", "legende": ["EL AVIÓN DE PASAJEROS", "MÁS GRANDE ESTÁ LLENO"] },
+      "stade": { "cible": "EL ESTADIO MÁS GRANDE", "legende": ["EL ESTADIO MÁS GRANDE", "DEL MUNDO ESTÁ LLENO"] },
+      "tokyo": { "cible": "TODO TOKIO", "legende": ["MÁS COPIAS DE TI", "QUE GENTE EN TOKIO"] },
+      "monde": { "cible": "TODA LA HUMANIDAD", "legende": ["MÁS COPIAS DE TI", "QUE HUMANOS EN LA TIERRA"] },
+      "arbres": { "cible": "CADA ÁRBOL DE LA TIERRA", "legende": ["UNA COPIA DE TI", "POR CADA ÁRBOL DE LA TIERRA"] },
+      "terres": { "cible": "TODA LA TIERRA FIRME", "legende": ["TODA LA TIERRA FIRME:", "SOLO QUEDA SITIO DE PIE"] },
+      "air": { "cible": "LA ATMÓSFERA", "legende": ["YA PESAS MÁS QUE", "TODA LA ATMÓSFERA"] },
+      "oxygene": { "cible": "EL ÚLTIMO ALIENTO", "legende": ["TODO EL OXÍGENO DE LA TIERRA", "GASTADO EN UN DÍA"] }
+    }
+  },
+  "pt": {
+    "titre": "E se você se fotocopiasse a cada segundo?",
+    "description": "Você, fotocopiado a cada segundo, e cada cópia também: {n_stade} segundos para lotar o maior estádio do mundo, {n_monde} para superar a humanidade e, no segundo {n_oxygene}, suas cópias gastam todo o oxigênio da Terra em um único dia.\nFontes: Airbus, ONU, Crowther et al. (Nature, 2015), Trenberth e Smith (2005), Walpole et al. (2012), NASA.",
+    "regle": ["VOCÊ E CADA CÓPIA", "SE DUPLICAM A CADA SEGUNDO"],
+    "regle2": ["A COPIADORA", "NÃO TEM BOTÃO DE DESLIGAR"],
+    "pli": "SEG",
+    "suite": "PRÓXIMO: {cible}",
+    "restant": "FALTAM {n} SEGUNDOS",
+    "restant1": "FALTA 1 SEGUNDO",
+    "copie1": "CÓPIA",
+    "copies": "CÓPIAS",
+    "vide": ["AÍ A COPIADORA", "FICOU SEM PAPEL"],
+    "qui": ["MAS QUAL DELES", "É O ORIGINAL?"],
+    "chat": ["NENHUM. O ORIGINAL", "SAIU PARA ALMOÇAR"],
+    "separateurs": { "milliers": ".", "decimale": "," },
+    "unites": [
+      { "max": 1000000000, "diviseur": 1000000, "nom": "MILHÕES DE CÓPIAS", "nom1": "MILHÃO DE CÓPIAS" },
+      { "max": 1000000000000, "diviseur": 1000000000, "nom": "BILHÕES DE CÓPIAS", "nom1": "BILHÃO DE CÓPIAS" },
+      { "max": 1000000000000000, "diviseur": 1000000000000, "nom": "TRILHÕES DE CÓPIAS", "nom1": "TRILHÃO DE CÓPIAS" },
+      { "max": 1000000000000000000, "diviseur": 1000000000000000, "nom": "QUATRILHÕES DE CÓPIAS", "nom1": "QUATRILHÃO DE CÓPIAS" },
+      { "max": 1e+21, "diviseur": 1000000000000000000, "nom": "QUINTILHÕES DE CÓPIAS", "nom1": "QUINTILHÃO DE CÓPIAS" }
+    ],
+    "paliers": {
+      "ascenseur": { "cible": "UM ELEVADOR LOTADO", "legende": ["NÃO CABE MAIS NINGUÉM:", "O ELEVADOR LOTOU"] },
+      "a380": { "cible": "UM AVIÃO GIGANTE", "legende": ["O MAIOR AVIÃO DE", "PASSAGEIROS LOTOU"] },
+      "stade": { "cible": "O MAIOR ESTÁDIO", "legende": ["O MAIOR ESTÁDIO", "DO MUNDO LOTOU"] },
+      "tokyo": { "cible": "TODA TÓQUIO", "legende": ["MAIS CÓPIAS DE VOCÊ", "DO QUE GENTE EM TÓQUIO"] },
+      "monde": { "cible": "TODA A HUMANIDADE", "legende": ["MAIS CÓPIAS DE VOCÊ", "DO QUE HUMANOS NA TERRA"] },
+      "arbres": { "cible": "CADA ÁRVORE DA TERRA", "legende": ["UMA CÓPIA DE VOCÊ", "PARA CADA ÁRVORE DA TERRA"] },
+      "terres": { "cible": "TODA A TERRA FIRME", "legende": ["TODA A TERRA FIRME:", "SÓ RESTA LUGAR EM PÉ"] },
+      "air": { "cible": "A ATMOSFERA", "legende": ["VOCÊ JÁ PESA MAIS QUE", "A ATMOSFERA INTEIRA"] },
+      "oxygene": { "cible": "O ÚLTIMO SUSPIRO", "legende": ["TODO O OXIGÊNIO DA TERRA", "GASTO EM UM DIA"] }
+    }
+  }
+}

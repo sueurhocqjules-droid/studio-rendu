@@ -1,0 +1,207 @@
+{
+  "depart_db": 20,
+  "db_par_s": 3.010299956639812,
+  "n_max": 58,
+  "paliers": [
+    {
+      "cle": "conversation",
+      "db": 60,
+      "pas": 14,
+      "source": "CDC, What Noises Cause Hearing Loss : conversation normale, 60 dB",
+      "arrivee_s": 13.5
+    },
+    {
+      "cle": "risque",
+      "db": 85,
+      "pas": 22,
+      "source": "NIDCD : une exposition longue ou répétée à 85 dB ou plus peut causer une perte auditive",
+      "arrivee_s": 21.5
+    },
+    {
+      "cle": "deux_min",
+      "db": 110,
+      "pas": 30,
+      "source": "NIOSH, 85 dBA sur 8 h avec échange de 3 dB, repris par les tableaux d'exposition : environ 2 minutes à 110 dBA",
+      "arrivee_s": 29.5
+    },
+    {
+      "cle": "immediat",
+      "db": 120,
+      "pas": 34,
+      "source": "CDC : au-dessus de 120 dB, le bruit peut causer un dommage immédiat aux oreilles",
+      "arrivee_s": 33.5
+    },
+    {
+      "cle": "petard",
+      "db": 150,
+      "pas": 44,
+      "source": "CDC, tableau des niveaux : pétards 140 à 150 dB ; ASHA : 150 dB crête",
+      "arrivee_s": 43.5
+    },
+    {
+      "cle": "krakatoa",
+      "db": 172,
+      "pas": 51,
+      "source": "Krakatoa, 27 août 1883 : environ 172 dB à 160 km, d'après le barographe de Batavia (Nautilus, The Sound So Loud That It Circled the Earth Four Times). Estimations variables",
+      "arrivee_s": 50.5
+    },
+    {
+      "cle": "tympan",
+      "db": 184.8607609737259,
+      "pas": 55,
+      "source": "Seuil de rupture du tympan : environ 35 kPa (5 psi), convertis en dB par le script",
+      "arrivee_s": 54.5
+    },
+    {
+      "cle": "limite",
+      "db": 194.09373233499497,
+      "pas": 58,
+      "source": "Limite d'un son non distordu dans l'air : amplitude égale à 1 atmosphère (101 325 Pa), convertie en dB par le script",
+      "arrivee_s": 57.5
+    }
+  ],
+  "t_limite": 57.5,
+  "t_coupe": 60.4,
+  "t_mot": 63.3,
+  "t_retour": 65.3,
+  "t_fin": 67.89999999999999,
+  "duree_s": 68.39999999999999,
+  "descriptions": {
+    "en": "A speaker starts at 20 dB and doubles its power every second: at second 34 it can harm your ears at once, at 51 it matches Krakatoa, and at 58 the air cannot carry a louder sound.\nSources: CDC, NIDCD, NIOSH, ASHA, Nautilus.",
+    "es": "Un altavoz empieza en 20 dB y duplica su potencia cada segundo: en el segundo 34 ya daña el oído al instante, en el 51 iguala al Krakatoa y en el 58 el aire no puede llevar un sonido más fuerte.\nFuentes: CDC, NIDCD, NIOSH, ASHA, Nautilus.",
+    "pt": "Uma caixa de som começa em 20 dB e dobra de potência a cada segundo: no segundo 34 já fere o ouvido na hora, no 51 iguala o Krakatoa e no 58 o ar não consegue carregar um som mais forte.\nFontes: CDC, NIDCD, NIOSH, ASHA, Nautilus."
+  },
+  "son": {
+    "duree_s": 68.39999999999999,
+    "tics": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57
+    ],
+    "paliers": [
+      13.5,
+      21.5,
+      29.5,
+      33.5,
+      43.5,
+      50.5,
+      54.5,
+      57.5
+    ],
+    "retournements": [
+      57.5,
+      60.4,
+      63.3
+    ],
+    "fin": 67.89999999999999,
+    "base_hz": 130,
+    "tic_hz": 760,
+    "bourdon": [
+      [
+        0,
+        90,
+        0.01
+      ],
+      [
+        14,
+        120,
+        0.05
+      ],
+      [
+        34,
+        200,
+        0.2
+      ],
+      [
+        57.5,
+        360,
+        0.5
+      ],
+      [
+        60.39,
+        360,
+        0.5
+      ],
+      [
+        60.4,
+        360,
+        0
+      ],
+      [
+        65.3,
+        90,
+        0
+      ],
+      [
+        65.6,
+        240,
+        0.2
+      ],
+      [
+        67.89999999999999,
+        90,
+        0.02
+      ],
+      [
+        68.39999999999999,
+        90,
+        0
+      ]
+    ]
+  }
+}

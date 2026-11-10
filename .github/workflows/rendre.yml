@@ -1,0 +1,60 @@
+# Rend des Shorts sur les machines de GitHub, une machine par vidéo, sans toucher au PC.
+# Lancement : gh workflow run rendre.yml -f videos="Dentinhos:dentinhos Sapinho:sapinho"
+# Récupération : gh run download <id> -D out  (un sous-dossier par vidéo, mp4 gardés 3 jours)
+# Mesuré le 31/10 : ~7 min de machine par Short de 40 s, identique au rendu du PC
+name: Rendre
+
+on:
+  workflow_dispatch:
+    inputs:
+      videos:
+        description: "Composition:nom séparés par des espaces (comme scripts/rendre.py)"
+        required: true
+
+permissions:
+  contents: read
+
+jobs:
+  liste:
+    runs-on: ubuntu-latest
+    outputs:
+      videos: ${{ steps.liste.outputs.videos }}
+    steps:
+      - id: liste
+        env:
+          VIDEOS: ${{ inputs.videos }}
+        # L'entrée passe par une variable d'environnement, jamais directement dans le script (injection)
+        run: echo "videos=$(echo "$VIDEOS" | jq -Rc 'split(" ") | map(select(test("^[A-Za-z0-9-]+:[a-z0-9-]+$")))')" >> "$GITHUB_OUTPUT"
+
+  rendu:
+    needs: liste
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    strategy:
+      fail-fast: false
+      matrix:
+        video: ${{ fromJson(needs.liste.outputs.videos) }}
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - name: Emojis du karaoké et ffmpeg
+        run: sudo apt-get update -q && sudo apt-get install -yq fonts-noto-color-emoji ffmpeg
+      - run: npm ci
+      - name: Rendu et compression
+        env:
+          VIDEO: ${{ matrix.video }}
+          PYTHONUTF8: "1"
+        run: python3 scripts/rendre.py "$VIDEO"
+      - id: nom
+        env:
+          VIDEO: ${{ matrix.video }}
+        run: echo "nom=${VIDEO#*:}" >> "$GITHUB_OUTPUT"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ${{ steps.nom.outputs.nom }}
+          path: out/${{ steps.nom.outputs.nom }}*.mp4
+          retention-days: 3
+          if-no-files-found: error

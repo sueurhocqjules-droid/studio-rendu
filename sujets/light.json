@@ -1,0 +1,94 @@
+{
+  "regle_physique": {
+    "c_m_s": 299792458,
+    "perte_par_seconde": 0.35,
+    "ecran_yeux_m": 0.3,
+    "source_c": "Vitesse de la lumière dans le vide : 299 792 458 m/s, exacte par définition du mètre (BIPM, SI)"
+  },
+  "references": {
+    "appel": { "distance_m": 20037000, "retard_s": 1, "source": "Demi-tour de la Terre : 20 037 km ; retard d'une seconde à l'autre bout du monde" },
+    "soleil": { "distance_m": 149597870700, "retard_s": 86400, "source": "Distance Terre-Soleil : 149 597 870 700 m (unité astronomique, UAI 2012) ; retard d'un jour" },
+    "sonde": { "vitesse_m_s": 192220, "source": "Parker Solar Probe : 192,22 km/s le 24 décembre 2024, Guinness World Records" },
+    "station": { "vitesse_m_s": 7660, "source": "Station spatiale internationale : 7,66 km/s en orbite (données orbitales usuelles)" },
+    "son": { "vitesse_m_s": 343, "source": "Vitesse du son dans l'air à 20 °C : 343 m/s" },
+    "voiture": { "vitesse_kmh": 130, "source": "Voiture sur autoroute : 130 km/h, limite française" },
+    "marcheur": { "vitesse_m_s": 1.42, "source": "Marche humaine : environ 1,42 m/s en moyenne" },
+    "paresseux": { "m_par_min": 2.4, "source": "Paresseux à trois doigts au sol : 1,8 à 2,4 m par minute, Guinness World Records (borne haute retenue)" },
+    "escargot": { "vitesse_m_s": 0.001, "source": "Escargot : environ 1 mm/s (Helix lucorum ; les mesures vont de 0,3 mm/s à plus de 1 mm/s)" }
+  },
+  "en": {
+    "titre": "What If Light Lost 35% of Its Speed Every Second?",
+    "description": "Light loses 35% of its speed every second: video calls lag after {n_appel} seconds, a space probe overtakes it at second {n_sonde}, you can walk faster than light at second {n_marcheur}, and by second {n_escargot} even a snail wins.\nSources: BIPM, IAU, Guinness World Records.",
+    "regle": ["LIGHT LOSES {pct}% OF ITS SPEED", "EVERY SECOND"],
+    "regle2": ["LET'S SEE WHAT", "OVERTAKES IT"],
+    "pli": "SEC",
+    "suite": "NEXT: {cible}",
+    "restant": "{n} SECONDS TO GO",
+    "restant1": "1 SECOND TO GO",
+    "vide": ["NOW LOOK AT", "YOUR SCREEN"],
+    "qui": ["ITS LIGHT NEEDS {minutes} MINUTES", "TO REACH YOUR EYES"],
+    "chat": ["THIS VIDEO ENDED", "{minutes} MINUTES AGO"],
+    "separateurs": { "milliers": ",", "decimale": "." },
+    "paliers": {
+      "appel": { "cible": "A VIDEO CALL", "legende": ["VIDEO CALLS ACROSS THE WORLD", "NOW LAG OVER A SECOND"] },
+      "soleil": { "cible": "SUNLIGHT", "legende": ["SUNLIGHT NOW TAKES", "A WHOLE DAY TO ARRIVE"] },
+      "sonde": { "cible": "A SPACE PROBE", "legende": ["THE FASTEST SPACE PROBE", "IS NOW FASTER THAN LIGHT"] },
+      "station": { "cible": "THE SPACE STATION", "legende": ["THE SPACE STATION", "OUTRUNS LIGHT"] },
+      "son": { "cible": "SOUND", "legende": ["NOW YOU HEAR THINGS", "BEFORE YOU SEE THEM"] },
+      "voiture": { "cible": "A CAR", "legende": ["A CAR ON THE HIGHWAY", "OUTRUNS ITS OWN HEADLIGHTS"] },
+      "marcheur": { "cible": "WALKING", "legende": ["YOU CAN NOW WALK", "FASTER THAN LIGHT"] },
+      "paresseux": { "cible": "A SLOTH", "legende": ["A SLOTH ON THE GROUND", "BEATS LIGHT"] },
+      "escargot": { "cible": "A SNAIL", "legende": ["A SNAIL IS NOW", "FASTER THAN LIGHT"] }
+    }
+  },
+  "es": {
+    "titre": "¿Y si la luz perdiera un 35 % de velocidad cada segundo?",
+    "description": "La luz pierde un 35 % de su velocidad cada segundo: las videollamadas se retrasan tras {n_appel} segundos, una sonda espacial la adelanta en el segundo {n_sonde}, caminas más rápido que la luz en el segundo {n_marcheur} y, en el segundo {n_escargot}, hasta un caracol gana.\nFuentes: BIPM, UAI, Guinness World Records.",
+    "regle": ["LA LUZ PIERDE UN {pct} %", "DE VELOCIDAD CADA SEGUNDO"],
+    "regle2": ["VAMOS A VER QUÉ", "LA ADELANTA"],
+    "pli": "SEG",
+    "suite": "SIGUE: {cible}",
+    "restant": "FALTAN {n} SEGUNDOS",
+    "restant1": "FALTA 1 SEGUNDO",
+    "vide": ["AHORA MIRA", "TU PANTALLA"],
+    "qui": ["SU LUZ TARDA {minutes} MINUTOS", "EN LLEGAR A TUS OJOS"],
+    "chat": ["ESTE VIDEO TERMINÓ", "HACE {minutes} MINUTOS"],
+    "separateurs": { "milliers": ",", "decimale": "." },
+    "paliers": {
+      "appel": { "cible": "UNA VIDEOLLAMADA", "legende": ["LAS VIDEOLLAMADAS LEJANAS", "VAN MÁS DE UN SEGUNDO TARDE"] },
+      "soleil": { "cible": "LA LUZ DEL SOL", "legende": ["LA LUZ DEL SOL", "TARDA YA UN DÍA ENTERO"] },
+      "sonde": { "cible": "UNA SONDA ESPACIAL", "legende": ["LA SONDA MÁS RÁPIDA", "YA VA MÁS RÁPIDO QUE LA LUZ"] },
+      "station": { "cible": "LA ESTACIÓN ESPACIAL", "legende": ["LA ESTACIÓN ESPACIAL", "ADELANTA A LA LUZ"] },
+      "son": { "cible": "EL SONIDO", "legende": ["AHORA OYES LAS COSAS", "ANTES DE VERLAS"] },
+      "voiture": { "cible": "UN COCHE", "legende": ["UN COCHE EN AUTOPISTA", "ADELANTA A SUS PROPIOS FAROS"] },
+      "marcheur": { "cible": "CAMINAR", "legende": ["YA PUEDES CAMINAR", "MÁS RÁPIDO QUE LA LUZ"] },
+      "paresseux": { "cible": "UN PEREZOSO", "legende": ["UN PEREZOSO EN EL SUELO", "GANA A LA LUZ"] },
+      "escargot": { "cible": "UN CARACOL", "legende": ["UN CARACOL YA VA", "MÁS RÁPIDO QUE LA LUZ"] }
+    }
+  },
+  "pt": {
+    "titre": "E se a luz perdesse 35% da velocidade a cada segundo?",
+    "description": "A luz perde 35% da velocidade a cada segundo: as videochamadas atrasam depois de {n_appel} segundos, uma sonda espacial a ultrapassa no segundo {n_sonde}, você anda mais rápido que a luz no segundo {n_marcheur} e, no segundo {n_escargot}, até um caracol ganha.\nFontes: BIPM, UAI, Guinness World Records.",
+    "regle": ["A LUZ PERDE {pct}% DA", "VELOCIDADE A CADA SEGUNDO"],
+    "regle2": ["VAMOS VER O QUE", "A ULTRAPASSA"],
+    "pli": "SEG",
+    "suite": "PRÓXIMO: {cible}",
+    "restant": "FALTAM {n} SEGUNDOS",
+    "restant1": "FALTA 1 SEGUNDO",
+    "vide": ["AGORA OLHE", "PARA SUA TELA"],
+    "qui": ["A LUZ DELA LEVA {minutes} MINUTOS", "PARA CHEGAR AOS SEUS OLHOS"],
+    "chat": ["ESTE VÍDEO ACABOU", "HÁ {minutes} MINUTOS"],
+    "separateurs": { "milliers": ".", "decimale": "," },
+    "paliers": {
+      "appel": { "cible": "UMA VIDEOCHAMADA", "legende": ["VIDEOCHAMADAS DISTANTES", "ATRASAM MAIS DE UM SEGUNDO"] },
+      "soleil": { "cible": "A LUZ DO SOL", "legende": ["A LUZ DO SOL", "JÁ LEVA UM DIA INTEIRO"] },
+      "sonde": { "cible": "UMA SONDA ESPACIAL", "legende": ["A SONDA MAIS RÁPIDA", "JÁ É MAIS RÁPIDA QUE A LUZ"] },
+      "station": { "cible": "A ESTAÇÃO ESPACIAL", "legende": ["A ESTAÇÃO ESPACIAL", "ULTRAPASSA A LUZ"] },
+      "son": { "cible": "O SOM", "legende": ["AGORA VOCÊ OUVE AS COISAS", "ANTES DE VÊ-LAS"] },
+      "voiture": { "cible": "UM CARRO", "legende": ["UM CARRO NA ESTRADA", "VENCE OS PRÓPRIOS FARÓIS"] },
+      "marcheur": { "cible": "ANDAR", "legende": ["VOCÊ JÁ PODE ANDAR", "MAIS RÁPIDO QUE A LUZ"] },
+      "paresseux": { "cible": "UMA PREGUIÇA", "legende": ["UMA PREGUIÇA NO CHÃO", "GANHA DA LUZ"] },
+      "escargot": { "cible": "UM CARACOL", "legende": ["UM CARACOL JÁ É", "MAIS RÁPIDO QUE A LUZ"] }
+    }
+  }
+}

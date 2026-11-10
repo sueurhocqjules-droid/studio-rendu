@@ -1,0 +1,112 @@
+{
+  "references": {
+    "cadenas": { "chances": 1000, "source": "Cadenas à trois molettes de dix chiffres : 10^3 combinaisons" },
+    "foudre": { "chances": 18864, "source": "Être frappé par la foudre au cours d'une vie : 1 sur 18 864, NOAA JetStream, d'après le National Weather Service (moyennes 2013-2022)" },
+    "quinte": { "chances": 649740, "source": "Quinte flush royale en cinq cartes : C(52,5) / 4 = 649 740" },
+    "loto": { "chances": 292201338, "source": "Gros lot de la loterie américaine Powerball : 1 sur 292 201 338, grille officielle des prix" },
+    "humain": { "chances": 8200000000, "source": "Population mondiale : 8,2 milliards en 2024, ONU, World Population Prospects 2024" },
+    "arbre": { "chances": 3040000000000, "source": "3,04 billions d'arbres sur Terre, Crowther et al., Nature 525, 2015" },
+    "mdp": { "alphabet": 62, "longueur": 8, "source": "Mot de passe de 8 caractères parmi 62 (lettres minuscules, majuscules, chiffres) : 62^8 combinaisons" },
+    "fourmi": { "chances": 20000000000000000, "source": "20 millions de milliards de fourmis sur Terre, Schultheiss et al., PNAS 119 (40), 2022" },
+    "bigbang": { "age_annees": 13787000000, "secondes_par_an": 31557600, "source": "Âge de l'Univers : 13,787 milliards d'années, Planck 2018 ; année julienne de 31 557 600 s" }
+  },
+  "en": {
+    "titre": "What If Your Coin Landed Heads Every Second?",
+    "description": "A coin, flipped every second, and it always lands on heads: after {n_loto} seconds it's less likely than winning the biggest US lottery, after {n_humain} it's harder than finding one person in the world, and by second {n_bigbang} it's harder than picking a single second since the Big Bang.\nSources: NOAA, Powerball prize chart, UN, Crowther et al. (Nature, 2015), Schultheiss et al. (PNAS, 2022), Planck 2018.",
+    "regle": ["FLIP A COIN EVERY SECOND", "IT ALWAYS LANDS ON HEADS"],
+    "regle2": ["EACH FLIP CUTS", "YOUR CHANCES IN HALF"],
+    "pli": "SEC",
+    "suite": "NEXT: {cible}",
+    "restant": "{n} SECONDS TO GO",
+    "restant1": "1 SECOND TO GO",
+    "chance": "CHANCE",
+    "vide": ["THEN SOMEONE", "TURNED THE COIN OVER"],
+    "qui": ["AND ON THE", "OTHER SIDE..."],
+    "chat": ["ALSO HEADS.", "IT NEVER HAD A TAILS SIDE"],
+    "separateurs": { "milliers": ",", "decimale": "." },
+    "unites": [
+      { "max": 1000000000, "diviseur": 1000000, "nom": "MILLION", "nom1": "MILLION" },
+      { "max": 1000000000000, "diviseur": 1000000000, "nom": "BILLION", "nom1": "BILLION" },
+      { "max": 1000000000000000, "diviseur": 1000000000000, "nom": "TRILLION", "nom1": "TRILLION" },
+      { "max": 1000000000000000000, "diviseur": 1000000000000000, "nom": "QUADRILLION", "nom1": "QUADRILLION" },
+      { "max": 1e+21, "diviseur": 1000000000000000000, "nom": "QUINTILLION", "nom1": "QUINTILLION" }
+    ],
+    "paliers": {
+      "cadenas": { "cible": "A BIKE LOCK", "legende": ["LESS LIKELY THAN OPENING", "A BIKE LOCK FIRST TRY"] },
+      "foudre": { "cible": "A LIGHTNING STRIKE", "legende": ["LESS LIKELY THAN BEING HIT", "BY LIGHTNING IN YOUR LIFE"] },
+      "quinte": { "cible": "A ROYAL FLUSH", "legende": ["LESS LIKELY THAN BEING", "DEALT A ROYAL FLUSH"] },
+      "loto": { "cible": "THE LOTTERY JACKPOT", "legende": ["LESS LIKELY THAN WINNING", "THE BIGGEST US LOTTERY"] },
+      "humain": { "cible": "ONE PERSON ON EARTH", "legende": ["HARDER THAN FINDING", "ONE PERSON IN THE WORLD"] },
+      "arbre": { "cible": "ONE TREE ON EARTH", "legende": ["HARDER THAN FINDING", "ONE TREE ON EARTH"] },
+      "mdp": { "cible": "A PASSWORD", "legende": ["HARDER THAN GUESSING", "A STRONG PASSWORD FIRST TRY"] },
+      "fourmi": { "cible": "ONE ANT ON EARTH", "legende": ["HARDER THAN FINDING", "ONE ANT ON EARTH"] },
+      "bigbang": { "cible": "THE BIG BANG", "legende": ["HARDER THAN PICKING ONE", "SECOND SINCE THE BIG BANG"] }
+    }
+  },
+  "es": {
+    "titre": "¿Y si tu moneda saliera cara cada segundo?",
+    "description": "Una moneda lanzada cada segundo, y siempre sale cara: a los {n_loto} segundos es menos probable que ganar la mayor lotería de EE. UU., a los {n_humain} es más difícil que encontrar a una persona en el mundo y, en el segundo {n_bigbang}, es más difícil que elegir un solo segundo desde el Big Bang.\nFuentes: NOAA, tabla oficial de premios de Powerball, ONU, Crowther et al. (Nature, 2015), Schultheiss et al. (PNAS, 2022), Planck 2018.",
+    "regle": ["UNA MONEDA CADA SEGUNDO", "SIEMPRE SALE CARA"],
+    "regle2": ["CADA TIRADA PARTE", "TU SUERTE POR LA MITAD"],
+    "pli": "SEG",
+    "suite": "SIGUE: {cible}",
+    "restant": "FALTAN {n} SEGUNDOS",
+    "restant1": "FALTA 1 SEGUNDO",
+    "chance": "PROBABILIDAD",
+    "vide": ["ENTONCES ALGUIEN", "GIRÓ LA MONEDA"],
+    "qui": ["Y EN EL", "OTRO LADO..."],
+    "chat": ["TAMBIÉN CARA.", "NUNCA TUVO CRUZ"],
+    "separateurs": { "milliers": ",", "decimale": "." },
+    "unites": [
+      { "max": 1000000000, "diviseur": 1000000, "nom": "MILLONES", "nom1": "MILLÓN" },
+      { "max": 1000000000000, "diviseur": 1000000000, "nom": "MIL MILLONES", "nom1": "MIL MILLONES" },
+      { "max": 1000000000000000, "diviseur": 1000000000000, "nom": "BILLONES", "nom1": "BILLÓN" },
+      { "max": 1000000000000000000, "diviseur": 1000000000000000, "nom": "MIL BILLONES", "nom1": "MIL BILLONES" },
+      { "max": 1e+21, "diviseur": 1000000000000000000, "nom": "TRILLONES", "nom1": "TRILLÓN" }
+    ],
+    "paliers": {
+      "cadenas": { "cible": "UN CANDADO", "legende": ["MENOS PROBABLE QUE ABRIR", "UN CANDADO A LA PRIMERA"] },
+      "foudre": { "cible": "UN RAYO", "legende": ["MENOS PROBABLE QUE EN TU", "VIDA TE CAIGA UN RAYO"] },
+      "quinte": { "cible": "UNA ESCALERA REAL", "legende": ["MENOS PROBABLE QUE RECIBIR", "UNA ESCALERA REAL"] },
+      "loto": { "cible": "LA LOTERÍA", "legende": ["MENOS PROBABLE QUE GANAR", "LA MAYOR LOTERÍA DE EE. UU."] },
+      "humain": { "cible": "UNA PERSONA EN EL MUNDO", "legende": ["MÁS DIFÍCIL QUE ENCONTRAR", "A UNA PERSONA EN EL MUNDO"] },
+      "arbre": { "cible": "UN ÁRBOL EN LA TIERRA", "legende": ["MÁS DIFÍCIL QUE ENCONTRAR", "UN ÁRBOL EN LA TIERRA"] },
+      "mdp": { "cible": "UNA CLAVE", "legende": ["MÁS DIFÍCIL QUE ADIVINAR", "UNA CLAVE A LA PRIMERA"] },
+      "fourmi": { "cible": "UNA HORMIGA", "legende": ["MÁS DIFÍCIL QUE ENCONTRAR", "UNA HORMIGA EN LA TIERRA"] },
+      "bigbang": { "cible": "EL BIG BANG", "legende": ["MÁS DIFÍCIL QUE ELEGIR UN", "SEGUNDO DESDE EL BIG BANG"] }
+    }
+  },
+  "pt": {
+    "titre": "E se sua moeda desse cara a cada segundo?",
+    "description": "Uma moeda jogada a cada segundo, e sempre dá cara: depois de {n_loto} segundos é menos provável que ganhar a maior loteria dos EUA, depois de {n_humain} é mais difícil que achar uma pessoa no mundo e, no segundo {n_bigbang}, é mais difícil que escolher um único segundo desde o Big Bang.\nFontes: NOAA, tabela oficial de prêmios da Powerball, ONU, Crowther et al. (Nature, 2015), Schultheiss et al. (PNAS, 2022), Planck 2018.",
+    "regle": ["UMA MOEDA A CADA SEGUNDO", "SEMPRE DÁ CARA"],
+    "regle2": ["CADA JOGADA CORTA", "SUA CHANCE PELA METADE"],
+    "pli": "SEG",
+    "suite": "PRÓXIMO: {cible}",
+    "restant": "FALTAM {n} SEGUNDOS",
+    "restant1": "FALTA 1 SEGUNDO",
+    "chance": "CHANCE",
+    "vide": ["AÍ ALGUÉM", "VIROU A MOEDA"],
+    "qui": ["E DO", "OUTRO LADO..."],
+    "chat": ["CARA TAMBÉM.", "ELA NUNCA TEVE COROA"],
+    "separateurs": { "milliers": ".", "decimale": "," },
+    "unites": [
+      { "max": 1000000000, "diviseur": 1000000, "nom": "MILHÕES", "nom1": "MILHÃO" },
+      { "max": 1000000000000, "diviseur": 1000000000, "nom": "BILHÕES", "nom1": "BILHÃO" },
+      { "max": 1000000000000000, "diviseur": 1000000000000, "nom": "TRILHÕES", "nom1": "TRILHÃO" },
+      { "max": 1000000000000000000, "diviseur": 1000000000000000, "nom": "QUATRILHÕES", "nom1": "QUATRILHÃO" },
+      { "max": 1e+21, "diviseur": 1000000000000000000, "nom": "QUINTILHÕES", "nom1": "QUINTILHÃO" }
+    ],
+    "paliers": {
+      "cadenas": { "cible": "UM CADEADO", "legende": ["MENOS PROVÁVEL QUE ABRIR", "UM CADEADO DE PRIMEIRA"] },
+      "foudre": { "cible": "UM RAIO", "legende": ["MENOS PROVÁVEL QUE LEVAR", "UM RAIO NA VIDA"] },
+      "quinte": { "cible": "UM ROYAL FLUSH", "legende": ["MENOS PROVÁVEL QUE", "RECEBER UM ROYAL FLUSH"] },
+      "loto": { "cible": "A MAIOR LOTERIA", "legende": ["MENOS PROVÁVEL QUE GANHAR", "A MAIOR LOTERIA DOS EUA"] },
+      "humain": { "cible": "UMA PESSOA NO MUNDO", "legende": ["MAIS DIFÍCIL QUE ACHAR", "UMA PESSOA NO MUNDO"] },
+      "arbre": { "cible": "UMA ÁRVORE NA TERRA", "legende": ["MAIS DIFÍCIL QUE ACHAR", "UMA ÁRVORE NA TERRA"] },
+      "mdp": { "cible": "UMA SENHA", "legende": ["MAIS DIFÍCIL QUE ADIVINHAR", "UMA SENHA DE PRIMEIRA"] },
+      "fourmi": { "cible": "UMA FORMIGA", "legende": ["MAIS DIFÍCIL QUE ACHAR", "UMA FORMIGA NA TERRA"] },
+      "bigbang": { "cible": "O BIG BANG", "legende": ["MAIS DIFÍCIL QUE ESCOLHER", "UM SEGUNDO DESDE O BIG BANG"] }
+    }
+  }
+}

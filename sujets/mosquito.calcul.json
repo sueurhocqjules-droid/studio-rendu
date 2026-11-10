@@ -1,0 +1,218 @@
+{
+  "depart_m": 0.005,
+  "n_max": 63,
+  "paliers": [
+    {
+      "cle": "sang",
+      "pas": 7,
+      "arrivee_s": 6.5,
+      "source": "Sang du corps humain, environ 5 litres, NIH"
+    },
+    {
+      "cle": "plafond",
+      "pas": 9,
+      "arrivee_s": 8.5,
+      "source": "Hauteur sous plafond courante, 2,5 m"
+    },
+    {
+      "cle": "avion",
+      "pas": 14,
+      "arrivee_s": 13.5,
+      "source": "Long-courrier jumbo, 70,7 m de long, fiche constructeur"
+    },
+    {
+      "cle": "everest",
+      "pas": 21,
+      "arrivee_s": 20.5,
+      "source": "Everest, 8 849 m, relevé Népal et Chine 2020"
+    },
+    {
+      "cle": "lumiere",
+      "pas": 28,
+      "arrivee_s": 27.5,
+      "source": "Vitesse de la lumière, 299 792 458 m/s, définition du mètre"
+    },
+    {
+      "cle": "terre",
+      "pas": 32,
+      "arrivee_s": 31.5,
+      "source": "Diamètre de la Terre, 12 742 km, NASA"
+    },
+    {
+      "cle": "soleil",
+      "pas": 39,
+      "arrivee_s": 38.5,
+      "source": "Diamètre du Soleil, 1 392 700 km, NASA"
+    },
+    {
+      "cle": "ua",
+      "pas": 45,
+      "arrivee_s": 44.5,
+      "source": "Unité astronomique, 149 597 870,7 km, UAI"
+    },
+    {
+      "cle": "voyager",
+      "pas": 53,
+      "arrivee_s": 52.5,
+      "source": "Voyager 1, environ 25 milliards de km en 2026, NASA"
+    },
+    {
+      "cle": "proxima",
+      "pas": 63,
+      "arrivee_s": 62.5,
+      "source": "Proxima du Centaure, 4,2465 années-lumière, ESA"
+    }
+  ],
+  "t_limite": 62.5,
+  "t_faim": 65.1,
+  "t_retour": 66.5,
+  "t_bras": 69.1,
+  "t_claque": 69.5,
+  "t_autre": 70.9,
+  "t_fin": 72.60000000000001,
+  "duree_s": 73.10000000000001,
+  "descriptions": {
+    "en": "A 5 mm mosquito doubling in size every second: at second 7 one bite takes all your blood, at 9 it hits the ceiling, at 32 it's bigger than Earth, and at 63 it touches the nearest star.\nSources: CDC, NASA, IAU, ESA.",
+    "es": "Un mosquito de 5 mm que duplica su tamaño cada segundo: en el segundo 7 una picadura se lleva toda tu sangre, en el 9 choca contra el techo, en el 32 ya es más grande que la Tierra y en el 63 toca la estrella más cercana.\nFuentes: CDC, NASA, UAI, ESA.",
+    "pt": "Um mosquito de 5 mm que dobra de tamanho a cada segundo: no segundo 7 uma picada leva todo o seu sangue, no 9 ele bate no teto, no 32 já é maior que a Terra e no 63 toca a estrela mais próxima.\nFontes: CDC, NASA, UAI, ESA."
+  },
+  "son": {
+    "duree_s": 73.10000000000001,
+    "tics": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62
+    ],
+    "paliers": [
+      6.5,
+      8.5,
+      13.5,
+      20.5,
+      27.5,
+      31.5,
+      38.5,
+      44.5,
+      52.5,
+      62.5
+    ],
+    "retournements": [
+      66.5,
+      69.5
+    ],
+    "fin": 72.60000000000001,
+    "base_hz": 70,
+    "tic_hz": 1000,
+    "bourdon": [
+      [
+        0,
+        640,
+        0.26
+      ],
+      [
+        6,
+        500,
+        0.14
+      ],
+      [
+        62.5,
+        58,
+        0.3
+      ],
+      [
+        66.5,
+        58,
+        0.3
+      ],
+      [
+        69.1,
+        640,
+        0.3
+      ],
+      [
+        69.5,
+        640,
+        0.3
+      ],
+      [
+        69.51,
+        640,
+        0
+      ],
+      [
+        70.9,
+        640,
+        0
+      ],
+      [
+        71.2,
+        640,
+        0.24
+      ],
+      [
+        73.10000000000001,
+        640,
+        0.26
+      ]
+    ]
+  }
+}

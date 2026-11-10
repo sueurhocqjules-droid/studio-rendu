@@ -1,0 +1,91 @@
+{
+  "nom": "wind",
+  "depart_kmh": 10,
+  "taux_par_seconde": 0.15,
+  "references": {
+    "parapluie": { "kmh": 38, "source": "Royal Meteorological Society, échelle de Beaufort, force 6 (38 à 49 km/h) : parapluies difficiles à utiliser" },
+    "arbre": { "kmh": 89, "source": "Royal Meteorological Society, échelle de Beaufort, force 10 (89 à 102 km/h) : arbres déracinés" },
+    "ouragan": { "kmh": 252, "source": "NOAA National Hurricane Center, échelle de Saffir-Simpson : catégorie 5 à partir de 252 km/h (157 mph)" },
+    "record": { "kmh": 407.52, "source": "WMO, rafale de 3 secondes la plus forte mesurée à la surface : 113,2 m/s, île Barrow, Australie, 10 avril 1996" },
+    "son": { "kmh": 1234.8, "source": "Vitesse du son dans l'air à 20 °C : 343 m/s" },
+    "neptune": { "kmh": 2400, "source": "Guinness World Records, vents les plus rapides du système solaire : environ 2 400 km/h sur Neptune, mesurés par Voyager 2 en 1989" },
+    "avion": { "kmh": 7274, "source": "Guinness World Records, X-15A-2, 3 octobre 1967 : 7 274 km/h, Mach 6,7" },
+    "iss": { "kmh": 27600, "source": "Station spatiale internationale, ordre de grandeur courant de 27 600 km/h en orbite" },
+    "liberation": { "kmh": 40269.6, "source": "NASA NSSDC Earth Fact Sheet : vitesse de libération 11,186 km/s" }
+  },
+  "en": {
+    "titre": "What If the Wind Blew 15% Harder Every Second?",
+    "description": "The wind starts at 6 mph and blows 15% harder every second: at second {n_son} it breaks the sound barrier, at {n_neptune} it beats Neptune's winds, and at {n_liberation} the air reaches escape velocity and leaves Earth.\nSources: RMetS, NOAA NHC, WMO, Guinness World Records, NASA.",
+    "regle": ["THE WIND BLOWS", "15% HARDER EVERY SECOND"],
+    "regle2": ["IT STARTS AS", "A 6 MPH BREEZE"],
+    "pli": "SEC",
+    "suite": "NEXT: {cible}",
+    "restant": "{n} SECONDS TO GO",
+    "restant1": "1 SECOND TO GO",
+    "vide": ["NO AIR LEFT", "SO NO MORE WIND"],
+    "pince": ["BUT THE PEG", "HELD ON"],
+    "separateurs": { "milliers": ",", "decimale": "." },
+    "unites": [{ "max": 1e30, "metres": 1.609344, "nom": "MPH" }],
+    "paliers": {
+      "parapluie": { "cible": "YOUR UMBRELLA", "legende": ["UMBRELLAS", "GIVE UP"] },
+      "arbre": { "cible": "THE TREES", "legende": ["TREES COME", "OUT BY THE ROOTS"] },
+      "ouragan": { "cible": "A CATEGORY 5", "legende": ["CATEGORY 5", "THE HOUSE LEAVES"] },
+      "record": { "cible": "THE WORLD RECORD", "legende": ["THE WORLD RECORD", "GUST IS BEATEN"] },
+      "son": { "cible": "THE SOUND BARRIER", "legende": ["THE WIND", "BREAKS THE SOUND BARRIER"] },
+      "neptune": { "cible": "NEPTUNE'S WINDS", "legende": ["FASTER THAN", "NEPTUNE'S WINDS"] },
+      "avion": { "cible": "THE FASTEST PLANE", "legende": ["FASTER THAN", "THE FASTEST PLANE EVER"] },
+      "iss": { "cible": "THE SPACE STATION", "legende": ["AS FAST AS", "THE SPACE STATION"] },
+      "liberation": { "cible": "ESCAPE VELOCITY", "legende": ["THE AIR ESCAPES", "EARTH FOREVER"] }
+    }
+  },
+  "es": {
+    "titre": "¿Y si el viento soplara 15 % más fuerte cada segundo?",
+    "description": "El viento empieza en 10 km/h y sopla 15 % más fuerte cada segundo: en el segundo {n_son} rompe la barrera del sonido, en el {n_neptune} supera los vientos de Neptuno y en el {n_liberation} el aire alcanza la velocidad de escape y abandona la Tierra.\nFuentes: RMetS, NOAA NHC, OMM, Guinness World Records, NASA.",
+    "regle": ["EL VIENTO SOPLA", "15 % MÁS FUERTE CADA SEGUNDO"],
+    "regle2": ["EMPIEZA COMO", "UNA BRISA DE 10 KM/H"],
+    "pli": "SEG",
+    "suite": "META: {cible}",
+    "restant": "FALTAN {n} SEGUNDOS",
+    "restant1": "FALTA 1 SEGUNDO",
+    "vide": ["SIN AIRE", "NO HAY VIENTO"],
+    "pince": ["PERO LA PINZA", "AGUANTÓ"],
+    "separateurs": { "milliers": ",", "decimale": "." },
+    "unites": [{ "max": 1e30, "metres": 1, "nom": "KM/H" }],
+    "paliers": {
+      "parapluie": { "cible": "TU PARAGUAS", "legende": ["LOS PARAGUAS", "SE RINDEN"] },
+      "arbre": { "cible": "LOS ÁRBOLES", "legende": ["LOS ÁRBOLES", "SALEN DE RAÍZ"] },
+      "ouragan": { "cible": "UN CATEGORÍA 5", "legende": ["CATEGORÍA 5", "LA CASA SE VA"] },
+      "record": { "cible": "EL RÉCORD MUNDIAL", "legende": ["CAE EL RÉCORD", "MUNDIAL DE RÁFAGA"] },
+      "son": { "cible": "LA BARRERA DEL SONIDO", "legende": ["EL VIENTO ROMPE", "LA BARRERA DEL SONIDO"] },
+      "neptune": { "cible": "NEPTUNO", "legende": ["MÁS RÁPIDO QUE", "LOS VIENTOS DE NEPTUNO"] },
+      "avion": { "cible": "EL AVIÓN MÁS RÁPIDO", "legende": ["MÁS RÁPIDO QUE", "EL AVIÓN MÁS RÁPIDO"] },
+      "iss": { "cible": "LA ESTACIÓN ESPACIAL", "legende": ["TAN RÁPIDO COMO", "LA ESTACIÓN ESPACIAL"] },
+      "liberation": { "cible": "VELOCIDAD DE ESCAPE", "legende": ["EL AIRE SE ESCAPA", "DE LA TIERRA"] }
+    }
+  },
+  "pt": {
+    "titre": "E se o vento soprasse 15% mais forte a cada segundo?",
+    "description": "O vento começa em 10 km/h e sopra 15% mais forte a cada segundo: no segundo {n_son} quebra a barreira do som, no {n_neptune} supera os ventos de Netuno e no {n_liberation} o ar atinge a velocidade de escape e deixa a Terra.\nFontes: RMetS, NOAA NHC, OMM, Guinness World Records, NASA.",
+    "regle": ["O VENTO SOPRA 15%", "MAIS FORTE A CADA SEGUNDO"],
+    "regle2": ["COMEÇA COMO", "UMA BRISA DE 10 KM/H"],
+    "pli": "SEG",
+    "suite": "ALVO: {cible}",
+    "restant": "FALTAM {n} SEGUNDOS",
+    "restant1": "FALTA 1 SEGUNDO",
+    "vide": ["SEM AR", "NÃO HÁ VENTO"],
+    "pince": ["MAS O PREGADOR", "AGUENTOU"],
+    "separateurs": { "milliers": ".", "decimale": "," },
+    "unites": [{ "max": 1e30, "metres": 1, "nom": "KM/H" }],
+    "paliers": {
+      "parapluie": { "cible": "SEU GUARDA-CHUVA", "legende": ["OS GUARDA-CHUVAS", "DESISTEM"] },
+      "arbre": { "cible": "AS ÁRVORES", "legende": ["AS ÁRVORES", "SAEM PELA RAIZ"] },
+      "ouragan": { "cible": "UM CATEGORIA 5", "legende": ["CATEGORIA 5", "A CASA VAI EMBORA"] },
+      "record": { "cible": "O RECORDE MUNDIAL", "legende": ["CAI O RECORDE", "MUNDIAL DE RAJADA"] },
+      "son": { "cible": "A BARREIRA DO SOM", "legende": ["O VENTO QUEBRA", "A BARREIRA DO SOM"] },
+      "neptune": { "cible": "NETUNO", "legende": ["MAIS RÁPIDO QUE", "OS VENTOS DE NETUNO"] },
+      "avion": { "cible": "O AVIÃO MAIS RÁPIDO", "legende": ["MAIS RÁPIDO QUE", "O AVIÃO MAIS RÁPIDO"] },
+      "iss": { "cible": "A ESTAÇÃO ESPACIAL", "legende": ["TÃO RÁPIDO QUANTO", "A ESTAÇÃO ESPACIAL"] },
+      "liberation": { "cible": "VELOCIDADE DE ESCAPE", "legende": ["O AR ESCAPA", "DA TERRA"] }
+    }
+  }
+}

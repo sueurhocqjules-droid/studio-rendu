@@ -1,0 +1,223 @@
+{
+  "n_max": 62,
+  "c_m_s": 299792458,
+  "facteur": 0.65,
+  "perte_pct": 35,
+  "minutes_ecran": 7,
+  "v_fin_m_s": 0.0007541345095885305,
+  "paliers": [
+    {
+      "cle": "appel",
+      "vitesse_m_s": 20037000.0,
+      "pas": 7,
+      "arrivee_s": 6.5,
+      "source": "Demi-tour de la Terre : 20 037 km ; retard d'une seconde à l'autre bout du monde"
+    },
+    {
+      "cle": "soleil",
+      "vitesse_m_s": 1731456.8368055555,
+      "pas": 12,
+      "arrivee_s": 11.5,
+      "source": "Distance Terre-Soleil : 149 597 870 700 m (unité astronomique, UAI 2012) ; retard d'un jour"
+    },
+    {
+      "cle": "sonde",
+      "vitesse_m_s": 192220,
+      "pas": 18,
+      "arrivee_s": 17.5,
+      "source": "Parker Solar Probe : 192,22 km/s le 24 décembre 2024, Guinness World Records"
+    },
+    {
+      "cle": "station",
+      "vitesse_m_s": 7660,
+      "pas": 25,
+      "arrivee_s": 24.5,
+      "source": "Station spatiale internationale : 7,66 km/s en orbite (données orbitales usuelles)"
+    },
+    {
+      "cle": "son",
+      "vitesse_m_s": 343,
+      "pas": 32,
+      "arrivee_s": 31.5,
+      "source": "Vitesse du son dans l'air à 20 °C : 343 m/s"
+    },
+    {
+      "cle": "voiture",
+      "vitesse_m_s": 36.11111111111111,
+      "pas": 37,
+      "arrivee_s": 36.5,
+      "source": "Voiture sur autoroute : 130 km/h, limite française"
+    },
+    {
+      "cle": "marcheur",
+      "vitesse_m_s": 1.42,
+      "pas": 45,
+      "arrivee_s": 44.5,
+      "source": "Marche humaine : environ 1,42 m/s en moyenne"
+    },
+    {
+      "cle": "paresseux",
+      "vitesse_m_s": 0.04,
+      "pas": 53,
+      "arrivee_s": 52.5,
+      "source": "Paresseux à trois doigts au sol : 1,8 à 2,4 m par minute, Guinness World Records (borne haute retenue)"
+    },
+    {
+      "cle": "escargot",
+      "vitesse_m_s": 0.001,
+      "pas": 62,
+      "arrivee_s": 61.5,
+      "source": "Escargot : environ 1 mm/s (Helix lucorum ; les mesures vont de 0,3 mm/s à plus de 1 mm/s)"
+    }
+  ],
+  "t_limite": 61.5,
+  "t_coupe": 64.4,
+  "t_qui": 66.60000000000001,
+  "t_patte": 68.4,
+  "t_retour": 70.0,
+  "t_fin": 72.80000000000001,
+  "duree_s": 73.30000000000001,
+  "descriptions": {
+    "en": "Light loses 35% of its speed every second: video calls lag after 7 seconds, a space probe overtakes it at second 18, you can walk faster than light at second 45, and by second 62 even a snail wins.\nSources: BIPM, IAU, Guinness World Records.",
+    "es": "La luz pierde un 35 % de su velocidad cada segundo: las videollamadas se retrasan tras 7 segundos, una sonda espacial la adelanta en el segundo 18, caminas más rápido que la luz en el segundo 45 y, en el segundo 62, hasta un caracol gana.\nFuentes: BIPM, UAI, Guinness World Records.",
+    "pt": "A luz perde 35% da velocidade a cada segundo: as videochamadas atrasam depois de 7 segundos, uma sonda espacial a ultrapassa no segundo 18, você anda mais rápido que a luz no segundo 45 e, no segundo 62, até um caracol ganha.\nFontes: BIPM, UAI, Guinness World Records."
+  },
+  "son": {
+    "duree_s": 73.30000000000001,
+    "tics": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61
+    ],
+    "paliers": [
+      6.5,
+      11.5,
+      17.5,
+      24.5,
+      31.5,
+      36.5,
+      44.5,
+      52.5,
+      61.5
+    ],
+    "retournements": [
+      61.5,
+      64.4,
+      68.4
+    ],
+    "fin": 72.80000000000001,
+    "base_hz": 196,
+    "tic_hz": 1568,
+    "bourdon": [
+      [
+        0,
+        520,
+        0.05
+      ],
+      [
+        18,
+        330,
+        0.12
+      ],
+      [
+        37,
+        180,
+        0.24
+      ],
+      [
+        61.5,
+        70,
+        0.45
+      ],
+      [
+        64.39,
+        70,
+        0.45
+      ],
+      [
+        64.4,
+        70,
+        0
+      ],
+      [
+        68.4,
+        90,
+        0
+      ],
+      [
+        70.0,
+        90,
+        0.05
+      ],
+      [
+        72.80000000000001,
+        520,
+        0.05
+      ],
+      [
+        73.30000000000001,
+        520,
+        0
+      ]
+    ]
+  }
+}

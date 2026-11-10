@@ -1,0 +1,115 @@
+{
+  "nom": "flood",
+  "depart_m": 0.01,
+  "taux_par_seconde": 0.4,
+  "eau": {
+    "volume_km3": 1386000000,
+    "densite_kg_m3": 1000,
+    "source": "USGS Water Science School : toute l'eau de la Terre, 1 386 millions de km3. Eau non compressée"
+  },
+  "terre": {
+    "rayon_km": 6371,
+    "masse_kg": 5.9722e24,
+    "source": "NASA NSSDC Earth Fact Sheet : masse 5,9722e24 kg, rayon moyen 6 371 km"
+  },
+  "references": {
+    "cheville": { "m": 0.1, "source": "Hauteur de cheville, ordre de grandeur de 10 cm" },
+    "voiture": { "m": 0.6, "source": "National Weather Service : 18 à 24 pouces d'eau en mouvement emportent la plupart des véhicules, 24 pouces retenus" },
+    "maison": { "m": 7, "source": "Maison de deux niveaux, ordre de grandeur de 7 m" },
+    "liberte": { "m": 92.99, "source": "National Park Service, du sol à la torche : 92,99 m" },
+    "tour": { "m": 828, "source": "Plus haute tour du monde, 828 m, CTBUH" },
+    "everest": { "m": 8848.86, "source": "Chine et Népal, mesure commune de décembre 2020 : 8 848,86 m" },
+    "espace": { "m": 100000, "source": "Ligne de Karman, 100 km (FAI)" },
+    "iss": { "m": 420000, "source": "NASA, orbite de l'ISS, 400 à 420 km" }
+  },
+  "en": {
+    "titre": "What If the Sea Rose 40% Higher Every Second?",
+    "description": "The sea starts 0.4 inches high and rises 40% more every second: at second {n_eau} it needs more water than Earth has, at {n_everest} it covers Everest, at {n_iss} it wets the space station, and at {n_max} the ocean outweighs the planet.\nSources: USGS, NPS, CTBUH, NASA, FAI, NWS.",
+    "regle": ["THE SEA RISES", "40% MORE EVERY SECOND"],
+    "regle2": ["IT STARTS AT", "0.4 INCHES"],
+    "pli": "SEC",
+    "suite": "NEXT: {cible}",
+    "restant": "{n} SECONDS TO GO",
+    "restant1": "1 SECOND TO GO",
+    "noyau": ["EARTH IS JUST THE CORE", "OF ONE GIANT DROP"],
+    "bouchon": ["THEN SOMEONE", "PULLS THE PLUG"],
+    "separateurs": { "milliers": ",", "decimale": "." },
+    "unites": [
+      { "max": 0.3048, "metres": 0.0254, "nom": "INCHES" },
+      { "max": 1609.344, "metres": 0.3048, "nom": "FEET" },
+      { "max": 1e30, "metres": 1609.344, "nom": "MILES" }
+    ],
+    "paliers": {
+      "cheville": { "cible": "YOUR ANKLES", "legende": ["YOUR ANKLES", "ARE WET"] },
+      "voiture": { "cible": "THE CARS", "legende": ["CARS GET", "SWEPT AWAY"] },
+      "maison": { "cible": "A 2-STORY HOUSE", "legende": ["THE HOUSE", "IS GONE"] },
+      "liberte": { "cible": "THE STATUE", "legende": ["THE STATUE OF LIBERTY", "GOES UNDER"] },
+      "tour": { "cible": "THE TALLEST TOWER", "legende": ["THE TALLEST TOWER", "IS UNDER THE SEA"] },
+      "eau": { "cible": "ALL EARTH'S WATER", "legende": ["THAT'S MORE WATER", "THAN EARTH HAS"] },
+      "everest": { "cible": "MOUNT EVEREST", "legende": ["EVEREST", "IS NOW THE SEABED"] },
+      "espace": { "cible": "OUTER SPACE", "legende": ["THE SEA", "REACHES SPACE"] },
+      "iss": { "cible": "THE SPACE STATION", "legende": ["THE SPACE STATION", "JUST GOT WET"] },
+      "lourd": { "cible": "EARTH'S WEIGHT", "legende": ["THE WATER NOW", "OUTWEIGHS EARTH"] }
+    }
+  },
+  "es": {
+    "titre": "¿Y si el mar subiera 40 % más cada segundo?",
+    "description": "El mar empieza en 1 cm y sube 40 % más cada segundo: en el segundo {n_eau} necesita más agua de la que tiene la Tierra, en el {n_everest} cubre el Everest, en el {n_iss} moja la estación espacial y en el {n_max} el océano pesa más que el planeta.\nFuentes: USGS, NPS, CTBUH, NASA, FAI, NWS.",
+    "regle": ["EL MAR SUBE", "40 % MÁS CADA SEGUNDO"],
+    "regle2": ["EMPIEZA", "EN 1 CM"],
+    "pli": "SEG",
+    "suite": "META: {cible}",
+    "restant": "FALTAN {n} SEGUNDOS",
+    "restant1": "FALTA 1 SEGUNDO",
+    "noyau": ["LA TIERRA ES SOLO", "EL NÚCLEO DE UNA GOTA"],
+    "bouchon": ["Y ALGUIEN", "QUITA EL TAPÓN"],
+    "separateurs": { "milliers": ",", "decimale": "." },
+    "unites": [
+      { "max": 1, "metres": 0.01, "nom": "CM" },
+      { "max": 1000, "metres": 1, "nom": "M" },
+      { "max": 1e30, "metres": 1000, "nom": "KM" }
+    ],
+    "paliers": {
+      "cheville": { "cible": "TUS TOBILLOS", "legende": ["SE MOJAN", "TUS TOBILLOS"] },
+      "voiture": { "cible": "LOS AUTOS", "legende": ["EL AGUA", "ARRASTRA LOS AUTOS"] },
+      "maison": { "cible": "UNA CASA DE 2 PISOS", "legende": ["LA CASA", "DESAPARECE"] },
+      "liberte": { "cible": "LA ESTATUA", "legende": ["LA ESTATUA DE LA LIBERTAD", "SE HUNDE"] },
+      "tour": { "cible": "LA TORRE MÁS ALTA", "legende": ["LA TORRE MÁS ALTA", "QUEDA BAJO EL MAR"] },
+      "eau": { "cible": "TODA EL AGUA", "legende": ["ES MÁS AGUA", "DE LA QUE HAY EN LA TIERRA"] },
+      "everest": { "cible": "EL EVEREST", "legende": ["EL EVEREST", "YA ES FONDO MARINO"] },
+      "espace": { "cible": "EL ESPACIO", "legende": ["EL MAR", "LLEGA AL ESPACIO"] },
+      "iss": { "cible": "LA ESTACIÓN ESPACIAL", "legende": ["SE MOJA LA", "ESTACIÓN ESPACIAL"] },
+      "lourd": { "cible": "EL PESO DE LA TIERRA", "legende": ["EL AGUA YA PESA", "MÁS QUE LA TIERRA"] }
+    }
+  },
+  "pt": {
+    "titre": "E se o mar subisse 40% a mais a cada segundo?",
+    "description": "O mar começa em 1 cm e sobe 40% a mais a cada segundo: no segundo {n_eau} precisa de mais água do que a Terra tem, no {n_everest} cobre o Everest, no {n_iss} molha a estação espacial e no {n_max} o oceano pesa mais que o planeta.\nFontes: USGS, NPS, CTBUH, NASA, FAI, NWS.",
+    "regle": ["O MAR SOBE 40% A MAIS", "A CADA SEGUNDO"],
+    "regle2": ["COMEÇA", "EM 1 CM"],
+    "pli": "SEG",
+    "suite": "ALVO: {cible}",
+    "restant": "FALTAM {n} SEGUNDOS",
+    "restant1": "FALTA 1 SEGUNDO",
+    "noyau": ["A TERRA É SÓ", "O NÚCLEO DE UMA GOTA"],
+    "bouchon": ["AÍ ALGUÉM", "PUXA A TAMPA"],
+    "separateurs": { "milliers": ".", "decimale": "," },
+    "unites": [
+      { "max": 1, "metres": 0.01, "nom": "CM" },
+      { "max": 1000, "metres": 1, "nom": "M" },
+      { "max": 1e30, "metres": 1000, "nom": "KM" }
+    ],
+    "paliers": {
+      "cheville": { "cible": "SEUS TORNOZELOS", "legende": ["SEUS TORNOZELOS", "ESTÃO MOLHADOS"] },
+      "voiture": { "cible": "OS CARROS", "legende": ["A ÁGUA", "LEVA OS CARROS"] },
+      "maison": { "cible": "UMA CASA DE 2 ANDARES", "legende": ["A CASA", "SUMIU"] },
+      "liberte": { "cible": "A ESTÁTUA", "legende": ["A ESTÁTUA DA LIBERDADE", "AFUNDA"] },
+      "tour": { "cible": "A TORRE MAIS ALTA", "legende": ["A TORRE MAIS ALTA", "FICA SOB O MAR"] },
+      "eau": { "cible": "TODA A ÁGUA", "legende": ["É MAIS ÁGUA", "DO QUE A TERRA TEM"] },
+      "everest": { "cible": "O EVEREST", "legende": ["O EVEREST", "VIROU FUNDO DO MAR"] },
+      "espace": { "cible": "O ESPAÇO", "legende": ["O MAR", "CHEGA AO ESPAÇO"] },
+      "iss": { "cible": "A ESTAÇÃO ESPACIAL", "legende": ["A ESTAÇÃO ESPACIAL", "SE MOLHOU"] },
+      "lourd": { "cible": "O PESO DA TERRA", "legende": ["A ÁGUA JÁ PESA", "MAIS QUE A TERRA"] }
+    }
+  }
+}

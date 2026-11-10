@@ -1,0 +1,221 @@
+{
+  "depart_m": 0.01,
+  "facteur": 1.4,
+  "rayon_terre_m": 6371000,
+  "rayon_globe_m": 12228093.280570945,
+  "n_max": 60,
+  "paliers": [
+    {
+      "cle": "cheville",
+      "hauteur_m": 0.1,
+      "pas": 7,
+      "source": "Hauteur de cheville, ordre de grandeur de 10 cm",
+      "arrivee_s": 6.5
+    },
+    {
+      "cle": "voiture",
+      "hauteur_m": 0.6,
+      "pas": 13,
+      "source": "National Weather Service : 18 à 24 pouces d'eau en mouvement emportent la plupart des véhicules, 24 pouces retenus",
+      "arrivee_s": 12.5
+    },
+    {
+      "cle": "maison",
+      "hauteur_m": 7,
+      "pas": 20,
+      "source": "Maison de deux niveaux, ordre de grandeur de 7 m",
+      "arrivee_s": 19.5
+    },
+    {
+      "cle": "liberte",
+      "hauteur_m": 92.99,
+      "pas": 28,
+      "source": "National Park Service, du sol à la torche : 92,99 m",
+      "arrivee_s": 27.5
+    },
+    {
+      "cle": "tour",
+      "hauteur_m": 828,
+      "pas": 34,
+      "source": "Plus haute tour du monde, 828 m, CTBUH",
+      "arrivee_s": 33.5
+    },
+    {
+      "cle": "eau",
+      "hauteur_m": 2716.1454119598493,
+      "pas": 38,
+      "source": "USGS Water Science School : toute l'eau de la Terre, 1 386 millions de km3. Eau non compressée",
+      "arrivee_s": 37.5
+    },
+    {
+      "cle": "everest",
+      "hauteur_m": 8848.86,
+      "pas": 41,
+      "source": "Chine et Népal, mesure commune de décembre 2020 : 8 848,86 m",
+      "arrivee_s": 40.5
+    },
+    {
+      "cle": "espace",
+      "hauteur_m": 100000,
+      "pas": 48,
+      "source": "Ligne de Karman, 100 km (FAI)",
+      "arrivee_s": 47.5
+    },
+    {
+      "cle": "iss",
+      "hauteur_m": 420000,
+      "pas": 53,
+      "source": "NASA, orbite de l'ISS, 400 à 420 km",
+      "arrivee_s": 52.5
+    },
+    {
+      "cle": "lourd",
+      "hauteur_m": 5527105.598473012,
+      "pas": 60,
+      "source": "NASA NSSDC Earth Fact Sheet : masse 5,9722e24 kg, rayon moyen 6 371 km",
+      "arrivee_s": 59.5
+    }
+  ],
+  "t_limite": 59.5,
+  "t_coupe": 62.4,
+  "t_bouchon": 65.3,
+  "t_retour": 65.8,
+  "t_fin": 68.89999999999999,
+  "duree_s": 69.39999999999999,
+  "descriptions": {
+    "en": "The sea starts 0.4 inches high and rises 40% more every second: at second 38 it needs more water than Earth has, at 41 it covers Everest, at 53 it wets the space station, and at 60 the ocean outweighs the planet.\nSources: USGS, NPS, CTBUH, NASA, FAI, NWS.",
+    "es": "El mar empieza en 1 cm y sube 40 % más cada segundo: en el segundo 38 necesita más agua de la que tiene la Tierra, en el 41 cubre el Everest, en el 53 moja la estación espacial y en el 60 el océano pesa más que el planeta.\nFuentes: USGS, NPS, CTBUH, NASA, FAI, NWS.",
+    "pt": "O mar começa em 1 cm e sobe 40% a mais a cada segundo: no segundo 38 precisa de mais água do que a Terra tem, no 41 cobre o Everest, no 53 molha a estação espacial e no 60 o oceano pesa mais que o planeta.\nFontes: USGS, NPS, CTBUH, NASA, FAI, NWS."
+  },
+  "son": {
+    "duree_s": 69.39999999999999,
+    "tics": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59
+    ],
+    "paliers": [
+      6.5,
+      12.5,
+      19.5,
+      27.5,
+      33.5,
+      37.5,
+      40.5,
+      47.5,
+      52.5,
+      59.5
+    ],
+    "retournements": [
+      59.5,
+      65.3
+    ],
+    "fin": 68.89999999999999,
+    "base_hz": 52,
+    "tic_hz": 620,
+    "bourdon": [
+      [
+        0,
+        48,
+        0.02
+      ],
+      [
+        25,
+        54,
+        0.1
+      ],
+      [
+        50,
+        72,
+        0.24
+      ],
+      [
+        59.5,
+        110,
+        0.4
+      ],
+      [
+        59.51,
+        110,
+        0
+      ],
+      [
+        65.3,
+        240,
+        0
+      ],
+      [
+        65.5,
+        240,
+        0.22
+      ],
+      [
+        68.89999999999999,
+        60,
+        0.04
+      ],
+      [
+        69.39999999999999,
+        60,
+        0
+      ]
+    ]
+  }
+}

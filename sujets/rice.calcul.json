@@ -1,0 +1,170 @@
+{
+  "masse_grain_kg": 2.5e-05,
+  "volume_grain_m3": 3.125e-08,
+  "pente": 0.5773502691896257,
+  "longueur_grain_m": 0.006,
+  "n_max": 66,
+  "annees": 443,
+  "hauteur_finale_m": 9020.417128038129,
+  "rayon_final_m": 15623.820771226576,
+  "hauteur_avant_m": 7159.509819119845,
+  "everest_m": 8849,
+  "paliers": [
+    {
+      "cle": "tasse",
+      "pas": 13,
+      "arrivee_s": 12.5,
+      "source": "Une tasse de riz cru, environ 185 g, USDA FoodData Central"
+    },
+    {
+      "cle": "sac",
+      "pas": 20,
+      "arrivee_s": 19.5,
+      "source": "Sac de riz de 25 kg, format courant de vente en gros"
+    },
+    {
+      "cle": "elephant",
+      "pas": 28,
+      "arrivee_s": 27.5,
+      "source": "Grand elephant d'Afrique, environ 6 t, Smithsonian National Zoo"
+    },
+    {
+      "cle": "baleine",
+      "pas": 33,
+      "arrivee_s": 32.5,
+      "source": "Baleine bleue, environ 150 t, NOAA Fisheries"
+    },
+    {
+      "cle": "navire",
+      "pas": 43,
+      "arrivee_s": 42.5,
+      "source": "Grand porte-conteneurs, environ 200 000 t de port en lourd, 400 m de long"
+    },
+    {
+      "cle": "pyramide",
+      "pas": 47,
+      "arrivee_s": 46.5,
+      "source": "Grande pyramide de Gizeh, environ 2,6 millions de m3, 230 m de cote"
+    },
+    {
+      "cle": "recolte",
+      "pas": 55,
+      "arrivee_s": 54.5,
+      "source": "Recolte mondiale de riz usine, environ 520 millions de tonnes par an, FAO"
+    },
+    {
+      "cle": "echiquier",
+      "pas": 63,
+      "arrivee_s": 62.5,
+      "source": "Légende de l'échiquier : case k, 2^(k-1) grains"
+    },
+    {
+      "cle": "everest",
+      "pas": 66,
+      "arrivee_s": 65.5,
+      "source": "Everest, 8 848,86 m, mesure Chine-Nepal de 2020"
+    }
+  ],
+  "t_limite": 65.5,
+  "t_planete": 67.9,
+  "t_boule": 70.30000000000001,
+  "t_faim": 71.9,
+  "t_chute": 72.9,
+  "t_fin": 73.80000000000001,
+  "duree_s": 74.4,
+  "descriptions": {
+    "en": "One 25 mg grain, doubled every second: 28 seconds for an elephant, 43 for a giant cargo ship, 443 years of world harvests on the 64th chessboard square, and at second 66 a pile taller than Everest, or one layer of grains over the whole Earth.\nSources: USDA, FAO, NOAA, NASA.",
+    "es": "Un grano de 25 mg que se duplica cada segundo: 28 segundos para un elefante, 43 para un buque gigante, 443 años de cosechas mundiales en la casilla 64 del tablero y, en el segundo 66, una montaña más alta que el Everest o una capa de granos sobre toda la Tierra.\nFuentes: USDA, FAO, NOAA, NASA.",
+    "pt": "Um grão de 25 mg que dobra a cada segundo: 28 segundos para um elefante, 43 para um navio gigante, 443 anos de safras mundiais na casa 64 do tabuleiro e, no segundo 66, uma montanha mais alta que o Everest ou uma camada de grãos sobre a Terra inteira.\nFontes: USDA, FAO, NOAA, NASA."
+  },
+  "son": {
+    "duree_s": 74.4,
+    "tics": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65
+    ],
+    "paliers": [
+      12.5,
+      19.5,
+      27.5,
+      32.5,
+      42.5,
+      46.5,
+      54.5,
+      62.5,
+      65.5,
+      67.9
+    ],
+    "retournements": [
+      70.30000000000001,
+      72.9
+    ],
+    "fin": 73.80000000000001,
+    "base_hz": 62,
+    "tic_hz": 620
+  }
+}

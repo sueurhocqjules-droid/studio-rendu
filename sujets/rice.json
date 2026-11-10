@@ -1,0 +1,130 @@
+{
+  "nom": "rice",
+  "grain": {
+    "masse_kg": 0.000025,
+    "densite_vrac_kg_m3": 800,
+    "longueur_m": 0.006,
+    "largeur_m": 0.002,
+    "talus_deg": 30,
+    "source": "Grain de riz long : environ 25 mg (poids de mille grains 20 a 30 g), 6 x 2 mm, densite en vrac 0,8, talus environ 30 degres. Valeurs courantes, ecrites de memoire"
+  },
+  "references": {
+    "tasse": { "kg": 0.185, "source": "Une tasse de riz cru, environ 185 g, USDA FoodData Central" },
+    "sac": { "kg": 25, "source": "Sac de riz de 25 kg, format courant de vente en gros" },
+    "elephant": { "kg": 6000, "source": "Grand elephant d'Afrique, environ 6 t, Smithsonian National Zoo" },
+    "baleine": { "kg": 150000, "source": "Baleine bleue, environ 150 t, NOAA Fisheries" },
+    "navire": { "kg": 200000000, "source": "Grand porte-conteneurs, environ 200 000 t de port en lourd, 400 m de long" },
+    "pyramide": { "m3": 2600000, "source": "Grande pyramide de Gizeh, environ 2,6 millions de m3, 230 m de cote" },
+    "recolte": { "kg": 520000000000, "source": "Recolte mondiale de riz usine, environ 520 millions de tonnes par an, FAO" }
+  },
+  "echiquier_cases": 64,
+  "everest_m": 8849,
+  "everest_source": "Everest, 8 848,86 m, mesure Chine-Nepal de 2020",
+  "terre_m2": 510000000000000,
+  "terre_source": "Surface de la Terre, 510 millions de km2, NASA Earth Fact Sheet",
+  "en": {
+    "titre": "What If One Grain of Rice Doubled Every Second?",
+    "description": "One 25 mg grain, doubled every second: {n_elephant} seconds for an elephant, {n_navire} for a giant cargo ship, {annees} years of world harvests on the 64th chessboard square, and at second {n_max} a pile taller than Everest, or one layer of grains over the whole Earth.\nSources: USDA, FAO, NOAA, NASA.",
+    "regle": ["ONE GRAIN OF RICE", "DOUBLES EVERY SECOND"],
+    "regle2": ["ONE SQUARE PER SECOND", "64 SQUARES TO FILL"],
+    "pli": "SEC",
+    "suite": "NEXT: {cible}",
+    "restant": "{n} SECONDS TO GO",
+    "restant1": "1 SECOND TO GO",
+    "grain1": "GRAIN",
+    "grains": "GRAINS",
+    "unites": [
+      { "max": 1000000000, "diviseur": 1000000, "nom": "MILLION GRAINS", "nom1": "MILLION GRAINS" },
+      { "max": 1000000000000, "diviseur": 1000000000, "nom": "BILLION GRAINS", "nom1": "BILLION GRAINS" },
+      { "max": 1000000000000000, "diviseur": 1000000000000, "nom": "TRILLION GRAINS", "nom1": "TRILLION GRAINS" },
+      { "max": 1000000000000000000, "diviseur": 1000000000000000, "nom": "QUADRILLION GRAINS", "nom1": "QUADRILLION GRAINS" },
+      { "max": 1e+21, "diviseur": 1000000000000000000, "nom": "QUINTILLION GRAINS", "nom1": "QUINTILLION GRAINS" }
+    ],
+    "separateurs": { "milliers": ",", "decimale": "." },
+    "planete": ["SPREAD OUT, IT COVERS", "THE WHOLE PLANET"],
+    "boule": ["NOW IT LOOKS LIKE", "A RICE BALL"],
+    "faim": ["SOMEONE", "WAS HUNGRY"],
+    "chute": ["ONE GRAIN", "FELL OFF"],
+    "paliers": {
+      "tasse": { "cible": "A CUP OF RICE", "legende": ["THAT'S ALREADY", "A FULL CUP"] },
+      "sac": { "cible": "A 55 LB SACK", "legende": ["HEAVIER THAN", "A 55 LB SACK"] },
+      "elephant": { "cible": "AN ELEPHANT", "legende": ["HEAVIER THAN", "AN ELEPHANT"] },
+      "baleine": { "cible": "A BLUE WHALE", "legende": ["HEAVIER THAN", "A BLUE WHALE"] },
+      "navire": { "cible": "A CARGO SHIP", "legende": ["IT WOULD FILL", "A GIANT CARGO SHIP"] },
+      "pyramide": { "cible": "THE GREAT PYRAMID", "legende": ["BIGGER THAN THE", "GREAT PYRAMID"] },
+      "recolte": { "cible": "THE WORLD'S HARVEST", "legende": ["A FULL YEAR OF THE", "WORLD'S RICE HARVEST"] },
+      "echiquier": { "cible": "THE LAST SQUARE", "legende": ["THE 64TH SQUARE:", "{annees} YEARS OF HARVESTS"] },
+      "everest": { "cible": "EVEREST", "legende": ["THE PILE IS NOW", "TALLER THAN EVEREST"] }
+    }
+  },
+  "es": {
+    "titre": "¿Y si un grano de arroz se duplicara cada segundo?",
+    "description": "Un grano de 25 mg que se duplica cada segundo: {n_elephant} segundos para un elefante, {n_navire} para un buque gigante, {annees} años de cosechas mundiales en la casilla 64 del tablero y, en el segundo {n_max}, una montaña más alta que el Everest o una capa de granos sobre toda la Tierra.\nFuentes: USDA, FAO, NOAA, NASA.",
+    "regle": ["UN GRANO DE ARROZ", "SE DUPLICA CADA SEGUNDO"],
+    "regle2": ["UNA CASILLA POR SEGUNDO", "64 CASILLAS POR LLENAR"],
+    "pli": "SEG",
+    "suite": "META: {cible}",
+    "restant": "FALTAN {n} SEGUNDOS",
+    "restant1": "FALTA 1 SEGUNDO",
+    "grain1": "GRANO",
+    "grains": "GRANOS",
+    "unites": [
+      { "max": 1000000000, "diviseur": 1000000, "nom": "MILLONES DE GRANOS", "nom1": "MILLONES DE GRANOS" },
+      { "max": 1000000000000, "diviseur": 1000000000, "nom": "MIL MILLONES", "nom1": "MIL MILLONES" },
+      { "max": 1000000000000000, "diviseur": 1000000000000, "nom": "BILLONES DE GRANOS", "nom1": "BILLONES DE GRANOS" },
+      { "max": 1000000000000000000, "diviseur": 1000000000000000, "nom": "MIL BILLONES", "nom1": "MIL BILLONES" },
+      { "max": 1e+21, "diviseur": 1000000000000000000, "nom": "TRILLONES DE GRANOS", "nom1": "TRILLONES DE GRANOS" }
+    ],
+    "separateurs": { "milliers": ",", "decimale": "." },
+    "planete": ["SI LO EXTIENDES, CUBRE", "TODO EL PLANETA"],
+    "boule": ["AHORA PARECE", "UNA BOLA DE ARROZ"],
+    "faim": ["ALGUIEN", "TENÍA HAMBRE"],
+    "chute": ["SE CAYÓ", "UN GRANO"],
+    "paliers": {
+      "tasse": { "cible": "UNA TAZA DE ARROZ", "legende": ["YA LLENA", "UNA TAZA"] },
+      "sac": { "cible": "UN COSTAL DE 25 KG", "legende": ["PESA MÁS QUE", "UN COSTAL DE 25 KG"] },
+      "elephant": { "cible": "UN ELEFANTE", "legende": ["PESA MÁS QUE", "UN ELEFANTE"] },
+      "baleine": { "cible": "UNA BALLENA AZUL", "legende": ["PESA MÁS QUE", "UNA BALLENA AZUL"] },
+      "navire": { "cible": "UN BUQUE DE CARGA", "legende": ["YA LLENARÍA UN", "BUQUE GIGANTE"] },
+      "pyramide": { "cible": "LA GRAN PIRÁMIDE", "legende": ["MÁS GRANDE QUE", "LA GRAN PIRÁMIDE"] },
+      "recolte": { "cible": "LA COSECHA MUNDIAL", "legende": ["UN AÑO ENTERO DE", "COSECHA MUNDIAL"] },
+      "echiquier": { "cible": "LA ÚLTIMA CASILLA", "legende": ["LA CASILLA 64:", "{annees} AÑOS DE COSECHAS"] },
+      "everest": { "cible": "EL EVEREST", "legende": ["LA MONTAÑA YA SUPERA", "AL EVEREST"] }
+    }
+  },
+  "pt": {
+    "titre": "E se um grão de arroz dobrasse a cada segundo?",
+    "description": "Um grão de 25 mg que dobra a cada segundo: {n_elephant} segundos para um elefante, {n_navire} para um navio gigante, {annees} anos de safras mundiais na casa 64 do tabuleiro e, no segundo {n_max}, uma montanha mais alta que o Everest ou uma camada de grãos sobre a Terra inteira.\nFontes: USDA, FAO, NOAA, NASA.",
+    "regle": ["UM GRÃO DE ARROZ", "DOBRA A CADA SEGUNDO"],
+    "regle2": ["UMA CASA POR SEGUNDO", "64 CASAS PARA ENCHER"],
+    "pli": "SEG",
+    "suite": "ALVO: {cible}",
+    "restant": "FALTAM {n} SEGUNDOS",
+    "restant1": "FALTA 1 SEGUNDO",
+    "grain1": "GRÃO",
+    "grains": "GRÃOS",
+    "unites": [
+      { "max": 1000000000, "diviseur": 1000000, "nom": "MILHÕES DE GRÃOS", "nom1": "MILHÃO DE GRÃOS" },
+      { "max": 1000000000000, "diviseur": 1000000000, "nom": "BILHÕES DE GRÃOS", "nom1": "BILHÃO DE GRÃOS" },
+      { "max": 1000000000000000, "diviseur": 1000000000000, "nom": "TRILHÕES DE GRÃOS", "nom1": "TRILHÃO DE GRÃOS" },
+      { "max": 1000000000000000000, "diviseur": 1000000000000000, "nom": "QUATRILHÕES DE GRÃOS", "nom1": "QUATRILHÃO DE GRÃOS" },
+      { "max": 1e+21, "diviseur": 1000000000000000000, "nom": "QUINTILHÕES DE GRÃOS", "nom1": "QUINTILHÃO DE GRÃOS" }
+    ],
+    "separateurs": { "milliers": ".", "decimale": "," },
+    "planete": ["ESPALHADO, COBRE", "O PLANETA INTEIRO"],
+    "boule": ["AGORA PARECE", "UM BOLINHO DE ARROZ"],
+    "faim": ["ALGUÉM", "ESTAVA COM FOME"],
+    "chute": ["CAIU", "UM GRÃO"],
+    "paliers": {
+      "tasse": { "cible": "UMA XÍCARA DE ARROZ", "legende": ["JÁ ENCHE", "UMA XÍCARA"] },
+      "sac": { "cible": "UM SACO DE 25 KG", "legende": ["PESA MAIS QUE", "UM SACO DE 25 KG"] },
+      "elephant": { "cible": "UM ELEFANTE", "legende": ["PESA MAIS QUE", "UM ELEFANTE"] },
+      "baleine": { "cible": "UMA BALEIA-AZUL", "legende": ["PESA MAIS QUE", "UMA BALEIA-AZUL"] },
+      "navire": { "cible": "UM NAVIO DE CARGA", "legende": ["JÁ ENCHERIA UM", "NAVIO GIGANTE"] },
+      "pyramide": { "cible": "A GRANDE PIRÂMIDE", "legende": ["MAIOR QUE", "A GRANDE PIRÂMIDE"] },
+      "recolte": { "cible": "A SAFRA MUNDIAL", "legende": ["UM ANO INTEIRO", "DE SAFRA MUNDIAL"] },
+      "echiquier": { "cible": "A ÚLTIMA CASA", "legende": ["A CASA 64:", "{annees} ANOS DE SAFRAS"] },
+      "everest": { "cible": "O EVEREST", "legende": ["A PILHA JÁ PASSOU", "DO EVEREST"] }
+    }
+  }
+}

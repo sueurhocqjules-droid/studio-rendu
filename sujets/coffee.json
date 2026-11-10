@@ -1,0 +1,97 @@
+{
+  "nom": "coffee",
+  "cafe": {
+    "depart_c": 60,
+    "gain": 1.1,
+    "volume_m3": 0.00025,
+    "source": "Tasse de 25 cl a 60 degres, temperature d'un cafe qu'on peut boire. Regle : 10 % de plus chaque seconde sur l'echelle Celsius"
+  },
+  "references": {
+    "ebullition": { "c": 100, "source": "Ebullition de l'eau, 100 degres au niveau de la mer" },
+    "papier": { "c": 233, "source": "Inflammation du papier, environ 233 degres (451 F), valeur courante" },
+    "plomb": { "c": 327.5, "source": "Fusion du plomb, 327,5 degres, CRC Handbook" },
+    "alu": { "c": 660, "source": "Fusion de l'aluminium, 660 degres, CRC Handbook" },
+    "lave": { "c": 1170, "source": "Lave basaltique, 1 100 a 1 200 degres, USGS" },
+    "tungstene": { "c": 3422, "source": "Fusion du tungstene, 3 422 degres, CRC Handbook" },
+    "soleil": { "c": 5499, "source": "Surface du Soleil, 5 772 K, NASA Sun Fact Sheet" },
+    "rigel": { "c": 11827, "source": "Surface de Rigel, supergeante bleue, environ 12 100 K" },
+    "foudre": { "c": 27760, "source": "Canal d'un eclair, environ 50 000 F, National Weather Service" }
+  },
+  "rayonnement": {
+    "sigma": 5.670374e-8,
+    "reacteur_w": 1000000000,
+    "source": "Stefan-Boltzmann, CODATA. Reacteur nucleaire : environ 1 GW, US Department of Energy"
+  },
+  "en": {
+    "titre": "What If Your Coffee Got 10% Hotter Every Second?",
+    "description": "From {depart_f}°F, 10% more every second on the Celsius scale: it melts lead at second {n_plomb}, beats the Sun at second {n_soleil} and lightning at second {n_foudre}, when one cup radiates {gw} GW, about a nuclear reactor.\nSources: CRC Handbook, USGS, NASA, NWS, US DOE.",
+    "regle": ["A COFFEE GETS 10%", "HOTTER EVERY SECOND"],
+    "pli": "SECOND",
+    "unite": "°F",
+    "suite": "NEXT: {cible}",
+    "restant": "{n} SECONDS TO GO",
+    "restant1": "1 SECOND TO GO",
+    "reacteur": ["IT SHINES LIKE", "A NUCLEAR REACTOR"],
+    "souffle": ["TOO HOT?", "BLOW ON IT"],
+    "separateurs": { "milliers": ",", "decimale": "." },
+    "paliers": {
+      "ebullition": { "cible": "BOILING", "legende": ["NOW IT'S", "BOILING"] },
+      "papier": { "cible": "BURNING PAPER", "legende": ["HOT ENOUGH", "TO LIGHT PAPER"] },
+      "plomb": { "cible": "MELTING LEAD", "legende": ["HOT ENOUGH", "TO MELT LEAD"] },
+      "alu": { "cible": "MELTING THE SPOON", "legende": ["THE ALUMINUM", "SPOON MELTS"] },
+      "lave": { "cible": "LAVA", "legende": ["HOTTER THAN", "LAVA"] },
+      "tungstene": { "cible": "THE BULB FILAMENT", "legende": ["EVEN THE BULB", "FILAMENT MELTS"] },
+      "soleil": { "cible": "THE SUN", "legende": ["HOTTER THAN THE", "SURFACE OF THE SUN"] },
+      "rigel": { "cible": "A BLUE SUPERGIANT", "legende": ["HOTTER THAN", "A BLUE SUPERGIANT"] },
+      "foudre": { "cible": "LIGHTNING", "legende": ["HOTTER THAN", "A LIGHTNING BOLT"] }
+    }
+  },
+  "es": {
+    "titre": "¿Y si tu café se calentara 10 % más cada segundo?",
+    "description": "Desde {depart_c} °C, 10 % más cada segundo: funde plomo en el segundo {n_plomb}, supera al Sol en el {n_soleil} y a un rayo en el {n_foudre}, cuando una sola taza irradia {gw} GW, casi un reactor nuclear.\nFuentes: CRC Handbook, USGS, NASA, NWS, US DOE.",
+    "regle": ["UN CAFÉ SE CALIENTA UN", "10 % MÁS CADA SEGUNDO"],
+    "pli": "SEGUNDO",
+    "unite": "°C",
+    "suite": "META: {cible}",
+    "restant": "FALTAN {n} SEGUNDOS",
+    "restant1": "FALTA 1 SEGUNDO",
+    "reacteur": ["BRILLA COMO UN", "REACTOR NUCLEAR"],
+    "souffle": ["¿MUY CALIENTE?", "SÓPALE"],
+    "separateurs": { "milliers": ",", "decimale": "." },
+    "paliers": {
+      "ebullition": { "cible": "HERVIR", "legende": ["YA ESTÁ", "HIRVIENDO"] },
+      "papier": { "cible": "QUEMAR PAPEL", "legende": ["YA PUEDE", "QUEMAR PAPEL"] },
+      "plomb": { "cible": "FUNDIR PLOMO", "legende": ["YA PUEDE", "FUNDIR PLOMO"] },
+      "alu": { "cible": "FUNDIR LA CUCHARA", "legende": ["SE FUNDE LA", "CUCHARA DE ALUMINIO"] },
+      "lave": { "cible": "LA LAVA", "legende": ["MÁS CALIENTE", "QUE LA LAVA"] },
+      "tungstene": { "cible": "EL FILAMENTO", "legende": ["SE FUNDE EL", "FILAMENTO DEL FOCO"] },
+      "soleil": { "cible": "EL SOL", "legende": ["MÁS CALIENTE QUE", "LA SUPERFICIE DEL SOL"] },
+      "rigel": { "cible": "UNA SUPERGIGANTE AZUL", "legende": ["MÁS CALIENTE QUE UNA", "SUPERGIGANTE AZUL"] },
+      "foudre": { "cible": "UN RAYO", "legende": ["MÁS CALIENTE", "QUE UN RAYO"] }
+    }
+  },
+  "pt": {
+    "titre": "E se o seu café esquentasse 10% a cada segundo?",
+    "description": "De {depart_c} °C, 10% a mais a cada segundo: derrete chumbo no segundo {n_plomb}, passa do Sol no {n_soleil} e de um raio no {n_foudre}, quando uma só xícara irradia {gw_pt} GW, quase um reator nuclear.\nFontes: CRC Handbook, USGS, NASA, NWS, US DOE.",
+    "regle": ["UM CAFÉ ESQUENTA 10%", "A CADA SEGUNDO"],
+    "pli": "SEGUNDO",
+    "unite": "°C",
+    "suite": "ALVO: {cible}",
+    "restant": "FALTAM {n} SEGUNDOS",
+    "restant1": "FALTA 1 SEGUNDO",
+    "reacteur": ["BRILHA COMO UM", "REATOR NUCLEAR"],
+    "souffle": ["MUITO QUENTE?", "ASSOPRA"],
+    "separateurs": { "milliers": ".", "decimale": "," },
+    "paliers": {
+      "ebullition": { "cible": "FERVER", "legende": ["JÁ ESTÁ", "FERVENDO"] },
+      "papier": { "cible": "QUEIMAR PAPEL", "legende": ["JÁ DÁ PARA", "QUEIMAR PAPEL"] },
+      "plomb": { "cible": "DERRETER CHUMBO", "legende": ["JÁ DÁ PARA", "DERRETER CHUMBO"] },
+      "alu": { "cible": "DERRETER A COLHER", "legende": ["DERRETE A COLHER", "DE ALUMÍNIO"] },
+      "lave": { "cible": "A LAVA", "legende": ["MAIS QUENTE", "QUE LAVA"] },
+      "tungstene": { "cible": "O FILAMENTO", "legende": ["DERRETE O FILAMENTO", "DA LÂMPADA"] },
+      "soleil": { "cible": "O SOL", "legende": ["MAIS QUENTE QUE A", "SUPERFÍCIE DO SOL"] },
+      "rigel": { "cible": "UMA SUPERGIGANTE AZUL", "legende": ["MAIS QUENTE QUE UMA", "SUPERGIGANTE AZUL"] },
+      "foudre": { "cible": "UM RAIO", "legende": ["MAIS QUENTE", "QUE UM RAIO"] }
+    }
+  }
+}

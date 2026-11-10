@@ -1,0 +1,211 @@
+{
+  "v0_kmh": 1674.3639180132157,
+  "jour_h": 23.934472222222222,
+  "taux": 1.05,
+  "facteur_apesanteur": 16.997091422168968,
+  "n_max": 59,
+  "paliers": [
+    {
+      "cle": "concorde",
+      "facteur": 1.3019869674370237,
+      "pas": 6,
+      "source": "Concorde : croisière à Mach 2,04, 2 180 km/h",
+      "arrivee_s": 5.5
+    },
+    {
+      "cle": "douze_h",
+      "facteur": 1.994539351851852,
+      "pas": 15,
+      "source": "Une journée de 12 heures, calculée à partir du jour sidéral",
+      "arrivee_s": 14.5
+    },
+    {
+      "cle": "jupiter",
+      "facteur": 2.4176234567901234,
+      "pas": 19,
+      "source": "NASA, Jupiter Facts : le jour le plus court du système solaire, environ 9,9 heures",
+      "arrivee_s": 18.5
+    },
+    {
+      "cle": "x15",
+      "facteur": 4.3443363307967475,
+      "pas": 31,
+      "source": "X-15A-2, 3 octobre 1967 : Mach 6,72, 7 274 km/h, record des avions pilotés à moteur",
+      "arrivee_s": 30.5
+    },
+    {
+      "cle": "x43",
+      "facteur": 6.728171742596691,
+      "pas": 40,
+      "source": "NASA, X-43A, 16 novembre 2004 : Mach 9,6, environ 7 000 mph, record Guinness des véhicules à air aspiré",
+      "arrivee_s": 39.5
+    },
+    {
+      "cle": "quart",
+      "facteur": 8.498545711084484,
+      "pas": 44,
+      "source": "Poids apparent à l'équateur, calculé par le script : gravité moins accélération centrifuge",
+      "arrivee_s": 43.5
+    },
+    {
+      "cle": "moitie",
+      "facteur": 12.018758605063377,
+      "pas": 51,
+      "source": "Poids apparent à l'équateur, calculé par le script",
+      "arrivee_s": 50.5
+    },
+    {
+      "cle": "apesanteur",
+      "facteur": 16.997091422168968,
+      "pas": 59,
+      "source": "Poids apparent nul à l'équateur : environ 17 fois la vitesse actuelle, jour de 84 min (Science Focus ; Odenwald, Popular Science)",
+      "arrivee_s": 58.5
+    }
+  ],
+  "t_limite": 58.5,
+  "t_coupe": 61.4,
+  "t_qui": 63.6,
+  "t_patte": 65.4,
+  "t_retour": 67.0,
+  "t_fin": 69.80000000000001,
+  "duree_s": 70.30000000000001,
+  "descriptions": {
+    "en": "Earth spins 5% faster every second: at second 31 the equator outruns the X-15 rocket plane, at second 51 you weigh half as much there, and at second 59 the equator weighs nothing at all.\nSources: NASA Earth Fact Sheet, WGS 84, NASA Jupiter Facts, NASA X-43A, Popular Science.",
+    "es": "La Tierra gira 5 % más rápido cada segundo: en el segundo 31 el ecuador supera al avión cohete X-15, en el 51 allí pesas la mitad y en el 59 el ecuador ya no pesa nada.\nFuentes: NASA Earth Fact Sheet, WGS 84, NASA Jupiter Facts, NASA X-43A, Popular Science.",
+    "pt": "A Terra gira 5% mais rápido a cada segundo: no segundo 31 o equador supera o avião-foguete X-15, no 51 você pesa metade por lá e no 59 o equador não pesa mais nada.\nFontes: NASA Earth Fact Sheet, WGS 84, NASA Jupiter Facts, NASA X-43A, Popular Science."
+  },
+  "son": {
+    "duree_s": 70.30000000000001,
+    "tics": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58
+    ],
+    "paliers": [
+      5.5,
+      14.5,
+      18.5,
+      30.5,
+      39.5,
+      43.5,
+      50.5,
+      58.5
+    ],
+    "retournements": [
+      58.5,
+      61.4,
+      65.4
+    ],
+    "fin": 69.80000000000001,
+    "base_hz": 110,
+    "tic_hz": 820,
+    "bourdon": [
+      [
+        0,
+        70,
+        0.02
+      ],
+      [
+        18,
+        110,
+        0.08
+      ],
+      [
+        44,
+        240,
+        0.25
+      ],
+      [
+        58.5,
+        520,
+        0.5
+      ],
+      [
+        61.39,
+        520,
+        0.5
+      ],
+      [
+        61.4,
+        520,
+        0
+      ],
+      [
+        67.0,
+        80,
+        0
+      ],
+      [
+        67.3,
+        200,
+        0.15
+      ],
+      [
+        69.80000000000001,
+        70,
+        0.02
+      ],
+      [
+        70.30000000000001,
+        70,
+        0
+      ]
+    ]
+  }
+}

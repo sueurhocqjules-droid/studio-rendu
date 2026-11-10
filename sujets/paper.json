@@ -1,0 +1,122 @@
+{
+  "nom": "paper",
+  "feuille": {
+    "epaisseur_m": 0.0001,
+    "largeur_m": 0.297,
+    "profondeur_m": 0.21,
+    "source": "Feuille A4 (ISO 216), 80 g/m2, environ 0,1 mm d'epaisseur"
+  },
+  "references": {
+    "record": { "plis": 12, "source": "Britney Gallivan, 2002, 12 plis, Historical Society of Pomona Valley" },
+    "eiffel": { "m": 330, "source": "toureiffel.paris, hauteur 330 m" },
+    "everest": { "m": 8848.86, "source": "Nepal et Chine, mesure commune 2020" },
+    "iss": { "m": 420000, "source": "NASA, orbite de l'ISS, 400 a 420 km" },
+    "moon": { "m": 384400000, "source": "NASA, distance moyenne Terre-Lune" },
+    "sun": { "m": 149597870700, "source": "UAI 2012, unite astronomique" },
+    "neptune": { "m": 4498000000000, "source": "NASA, demi-grand axe de Neptune, 30,07 UA" },
+    "lumiere": { "m": 788900000000000, "source": "c = 299 792 458 m/s (BIPM) sur 30,44 jours" },
+    "proxima": { "m": 40140000000000000, "source": "ESA Gaia, Proxima du Centaure a 4,24 annees-lumiere" }
+  },
+  "atome_m": 1.06e-10,
+  "atome_source": "Diametre de l'atome d'hydrogene, 2 rayons de Bohr (CODATA)",
+  "en": {
+    "titre": "What If You Folded Paper Once More Every Second?",
+    "description": "Every fold doubles a {epaisseur_mm} mm sheet: fold {pli_moon} passes the Moon, fold {pli_max} reaches the nearest star, about {ratio}x thinner than an atom.\nSources: ISO 216, NASA, IAU, ESA Gaia, CODATA. Real record: {pli_record} folds (Britney Gallivan, 2002).",
+    "regle": ["FOLD PAPER ONCE", "MORE EVERY SECOND"],
+    "pli": "FOLD",
+    "suite": "NEXT: {cible}",
+    "restant": "{n} FOLDS TO GO",
+    "restant1": "1 FOLD TO GO",
+    "large": "WIDE",
+    "atome": "1 ATOM",
+    "papier": "PAPER",
+    "retournement": ["{ratio} TIMES THINNER", "THAN ONE ATOM"],
+    "separateurs": { "milliers": ",", "decimale": "." },
+    "unites": [
+      { "max": 0.3048, "metres": 0.0254, "nom": "inches" },
+      { "max": 1609.344, "metres": 0.3048, "nom": "feet" },
+      { "max": 1609344000, "metres": 1609.344, "nom": "miles" },
+      { "max": 1609344000000, "metres": 1609344000, "nom": "million miles" },
+      { "max": 1609344000000000, "metres": 1609344000000, "nom": "billion miles" },
+      { "max": 1e30, "metres": 1609344000000000, "nom": "trillion miles" }
+    ],
+    "paliers": {
+      "record": { "cible": "THE WORLD RECORD", "legende": ["REAL RECORD: {n} FOLDS", "THE REST IS PURE MATH"] },
+      "eiffel": { "cible": "THE EIFFEL TOWER", "legende": ["TALLER THAN", "THE EIFFEL TOWER"] },
+      "everest": { "cible": "MOUNT EVEREST", "legende": ["HIGHER THAN", "MOUNT EVEREST"] },
+      "iss": { "cible": "THE SPACE STATION", "legende": ["PAST THE", "SPACE STATION"] },
+      "moon": { "cible": "THE MOON", "legende": ["IT REACHES", "THE MOON"] },
+      "sun": { "cible": "THE SUN", "legende": ["FARTHER THAN", "THE SUN"] },
+      "neptune": { "cible": "NEPTUNE", "legende": ["PAST NEPTUNE,", "THE LAST PLANET"] },
+      "lumiere": { "cible": "ONE LIGHT-MONTH", "legende": ["LIGHT NEEDS A MONTH", "TO CLIMB IT"] },
+      "proxima": { "cible": "THE NEAREST STAR", "legende": ["IT REACHES", "THE NEAREST STAR"] }
+    }
+  },
+  "es": {
+    "titre": "¿Y si doblaras un papel una vez más cada segundo?",
+    "description": "Cada doblez duplica una hoja de {epaisseur_mm} mm: el doblez {pli_moon} pasa la Luna y el {pli_max} llega a la estrella más cercana, unas {ratio} veces más delgado que un átomo.\nFuentes: ISO 216, NASA, UAI, ESA Gaia, CODATA. Récord real: {pli_record} dobleces (Britney Gallivan, 2002).",
+    "regle": ["DOBLA UN PAPEL UNA", "VEZ MÁS CADA SEGUNDO"],
+    "pli": "DOBLEZ",
+    "suite": "META: {cible}",
+    "restant": "FALTAN {n} DOBLECES",
+    "restant1": "FALTA 1 DOBLEZ",
+    "large": "DE ANCHO",
+    "atome": "1 ÁTOMO",
+    "papier": "PAPEL",
+    "retournement": ["{ratio} VECES MÁS DELGADO", "QUE UN ÁTOMO"],
+    "separateurs": { "milliers": ",", "decimale": "." },
+    "unites": [
+      { "max": 0.01, "metres": 0.001, "nom": "mm" },
+      { "max": 1, "metres": 0.01, "nom": "cm" },
+      { "max": 1000, "metres": 1, "nom": "m" },
+      { "max": 1000000000, "metres": 1000, "nom": "km" },
+      { "max": 1000000000000000, "metres": 1000000000, "nom": "millones de km" },
+      { "max": 1e30, "metres": 1000000000000000, "nom": "billones de km" }
+    ],
+    "paliers": {
+      "record": { "cible": "EL RÉCORD MUNDIAL", "legende": ["RÉCORD REAL: {n} DOBLECES", "LO DEMÁS ES PURA MATEMÁTICA"] },
+      "eiffel": { "cible": "LA TORRE EIFFEL", "legende": ["MÁS ALTO QUE", "LA TORRE EIFFEL"] },
+      "everest": { "cible": "EL EVEREST", "legende": ["MÁS ALTO QUE", "EL EVEREST"] },
+      "iss": { "cible": "LA ESTACIÓN ESPACIAL", "legende": ["SUPERA LA", "ESTACIÓN ESPACIAL"] },
+      "moon": { "cible": "LA LUNA", "legende": ["LLEGA A", "LA LUNA"] },
+      "sun": { "cible": "EL SOL", "legende": ["MÁS LEJOS QUE", "EL SOL"] },
+      "neptune": { "cible": "NEPTUNO", "legende": ["SUPERA NEPTUNO,", "EL ÚLTIMO PLANETA"] },
+      "lumiere": { "cible": "UN MES LUZ", "legende": ["LA LUZ TARDA UN MES", "EN SUBIRLO"] },
+      "proxima": { "cible": "ESTRELLA MÁS CERCANA", "legende": ["LLEGA A LA", "ESTRELLA MÁS CERCANA"] }
+    }
+  },
+  "pt": {
+    "titre": "E se você dobrasse um papel mais uma vez a cada segundo?",
+    "description": "Cada dobra duplica uma folha de {epaisseur_mm_pt} mm: a dobra {pli_moon} passa da Lua e a {pli_max} chega à estrela mais próxima, cerca de {ratio} vezes mais fina que um átomo.\nFontes: ISO 216, NASA, UAI, ESA Gaia, CODATA. Recorde real: {pli_record} dobras (Britney Gallivan, 2002).",
+    "regle": ["DOBRE UM PAPEL MAIS", "UMA VEZ A CADA SEGUNDO"],
+    "pli": "DOBRA",
+    "suite": "ALVO: {cible}",
+    "restant": "FALTAM {n} DOBRAS",
+    "restant1": "FALTA 1 DOBRA",
+    "large": "DE LARGURA",
+    "atome": "1 ÁTOMO",
+    "papier": "PAPEL",
+    "retournement": ["{ratio} VEZES MAIS FINA", "QUE UM ÁTOMO"],
+    "separateurs": { "milliers": ".", "decimale": "," },
+    "unites": [
+      { "max": 0.01, "metres": 0.001, "nom": "mm" },
+      { "max": 1, "metres": 0.01, "nom": "cm" },
+      { "max": 1000, "metres": 1, "nom": "m" },
+      { "max": 1000000000, "metres": 1000, "nom": "km" },
+      { "max": 1000000000000, "metres": 1000000000, "nom": "milhões de km" },
+      { "max": 1000000000000000, "metres": 1000000000000, "nom": "bilhões de km" },
+      { "max": 1e30, "metres": 1000000000000000, "nom": "trilhões de km" }
+    ],
+    "paliers": {
+      "record": { "cible": "O RECORDE MUNDIAL", "legende": ["RECORDE REAL: {n} DOBRAS", "O RESTO É PURA MATEMÁTICA"] },
+      "eiffel": { "cible": "A TORRE EIFFEL", "legende": ["MAIS ALTO QUE", "A TORRE EIFFEL"] },
+      "everest": { "cible": "O EVEREST", "legende": ["MAIS ALTO QUE", "O EVEREST"] },
+      "iss": { "cible": "A ESTAÇÃO ESPACIAL", "legende": ["PASSOU DA", "ESTAÇÃO ESPACIAL"] },
+      "moon": { "cible": "A LUA", "legende": ["CHEGOU", "À LUA"] },
+      "sun": { "cible": "O SOL", "legende": ["MAIS LONGE", "QUE O SOL"] },
+      "neptune": { "cible": "NETUNO", "legende": ["PASSOU DE NETUNO,", "O ÚLTIMO PLANETA"] },
+      "lumiere": { "cible": "UM MÊS-LUZ", "legende": ["A LUZ LEVA UM MÊS", "PARA SUBIR"] },
+      "proxima": { "cible": "ESTRELA MAIS PRÓXIMA", "legende": ["CHEGOU À", "ESTRELA MAIS PRÓXIMA"] }
+    }
+  }
+}

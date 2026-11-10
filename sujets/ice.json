@@ -1,0 +1,94 @@
+{
+  "nom": "ice",
+  "glacon": {
+    "depart_c": 0,
+    "perte_c": 4,
+    "source": "Glaçon à 0 degré, 4 degrés Celsius de moins chaque seconde, soit 7,2 degrés Fahrenheit, arrondi à 7 dans la règle anglaise"
+  },
+  "zero_absolu_c": -273.15,
+  "references": {
+    "congelateur": { "c": -18, "source": "Congélateur domestique, -18 degrés, FDA" },
+    "mercure": { "c": -38.83, "source": "Fusion du mercure, -38,83 degrés, CRC Handbook" },
+    "vostok": { "c": -89.2, "source": "Record de froid de l'air, station Vostok, 21 juillet 1983, -89,2 degrés, OMM" },
+    "mars": { "c": -153, "source": "Hiver aux pôles de Mars, environ -153 degrés, NASA" },
+    "oxygene": { "c": -182.96, "source": "Ébullition de l'oxygène, -182,96 degrés, CRC Handbook" },
+    "azote": { "c": -195.8, "source": "Ébullition de l'azote, -195,8 degrés, CRC Handbook" },
+    "pluton": { "c": -229, "source": "Surface de Pluton, environ -229 degrés, NASA" },
+    "espace": { "c": -270.42, "source": "Fond diffus cosmologique, 2,725 K, mission COBE" }
+  },
+  "en": {
+    "titre": "What If an Ice Cube Lost 7°F Every Second?",
+    "description": "An ice cube at 32°F gets 7.2°F (4°C) colder every second: it freezes mercury at second {n_mercure}, breaks Earth's cold record at second {n_vostok}, makes the air rain down at second {n_oxygene} and reaches absolute zero, -459.67°F, at second {n_max}.\nSources: WMO, NASA, CRC Handbook, COBE.",
+    "regle": ["AN ICE CUBE GETS 7°F", "COLDER EVERY SECOND"],
+    "regle2": ["HOW COLD CAN", "IT POSSIBLY GET?"],
+    "pli": "SECOND",
+    "unite": "°F",
+    "suite": "NEXT: {cible}",
+    "restant": "{n} SECONDS TO GO",
+    "restant1": "1 SECOND TO GO",
+    "tremble": ["BUT QUANTUM PHYSICS SAYS", "THEY NEVER FULLY STOP"],
+    "fonte": ["AND JUST LIKE THAT", "IT'S SUMMER AGAIN"],
+    "separateurs": { "milliers": ",", "decimale": "." },
+    "paliers": {
+      "congelateur": { "cible": "YOUR FREEZER", "legende": ["COLDER THAN", "YOUR FREEZER"] },
+      "mercure": { "cible": "FROZEN MERCURY", "legende": ["THE THERMOMETER'S", "MERCURY FREEZES"] },
+      "vostok": { "cible": "EARTH'S COLD RECORD", "legende": ["EARTH'S COLD RECORD", "IS BROKEN"] },
+      "mars": { "cible": "A MARTIAN WINTER", "legende": ["COLDER THAN", "A MARTIAN WINTER"] },
+      "oxygene": { "cible": "RAIN MADE OF AIR", "legende": ["THE OXYGEN IN THE AIR", "TURNS INTO RAIN"] },
+      "azote": { "cible": "THE LAST OF THE AIR", "legende": ["THE WHOLE SKY", "IS RAINING DOWN"] },
+      "pluton": { "cible": "PLUTO", "legende": ["COLDER THAN", "PLUTO"] },
+      "espace": { "cible": "DEEP SPACE", "legende": ["COLDER THAN", "DEEP SPACE"] },
+      "zero": { "cible": "ABSOLUTE ZERO", "legende": ["ABSOLUTE ZERO", "ATOMS STOP MOVING"] }
+    }
+  },
+  "es": {
+    "titre": "¿Y si un hielo perdiera 4 °C cada segundo?",
+    "description": "Un hielo a 0 °C pierde 4 °C cada segundo: congela el mercurio en el segundo {n_mercure}, rompe el récord de frío de la Tierra en el {n_vostok}, hace llover el aire en el {n_oxygene} y llega al cero absoluto, -273.15 °C, en el {n_max}.\nFuentes: OMM, NASA, CRC Handbook, COBE.",
+    "regle": ["UN HIELO PIERDE 4 °C", "CADA SEGUNDO"],
+    "regle2": ["¿QUÉ TAN FRÍO", "PUEDE LLEGAR?"],
+    "pli": "SEGUNDO",
+    "unite": "°C",
+    "suite": "META: {cible}",
+    "restant": "FALTAN {n} SEGUNDOS",
+    "restant1": "FALTA 1 SEGUNDO",
+    "tremble": ["PERO LA FÍSICA CUÁNTICA DICE", "QUE NUNCA SE DETIENEN"],
+    "fonte": ["Y DE PRONTO", "VUELVE EL VERANO"],
+    "separateurs": { "milliers": ",", "decimale": "." },
+    "paliers": {
+      "congelateur": { "cible": "TU CONGELADOR", "legende": ["MÁS FRÍO QUE", "TU CONGELADOR"] },
+      "mercure": { "cible": "CONGELAR EL MERCURIO", "legende": ["SE CONGELA EL MERCURIO", "DEL TERMÓMETRO"] },
+      "vostok": { "cible": "EL RÉCORD DE LA TIERRA", "legende": ["RÉCORD DE FRÍO", "DE LA TIERRA ROTO"] },
+      "mars": { "cible": "UN INVIERNO EN MARTE", "legende": ["MÁS FRÍO QUE UN", "INVIERNO EN MARTE"] },
+      "oxygene": { "cible": "LLUVIA DE AIRE", "legende": ["EL OXÍGENO DEL AIRE", "SE VUELVE LLUVIA"] },
+      "azote": { "cible": "EL RESTO DEL AIRE", "legende": ["TODO EL CIELO", "CAE COMO LLUVIA"] },
+      "pluton": { "cible": "PLUTÓN", "legende": ["MÁS FRÍO", "QUE PLUTÓN"] },
+      "espace": { "cible": "EL ESPACIO", "legende": ["MÁS FRÍO QUE", "EL ESPACIO PROFUNDO"] },
+      "zero": { "cible": "EL CERO ABSOLUTO", "legende": ["CERO ABSOLUTO", "LOS ÁTOMOS SE DETIENEN"] }
+    }
+  },
+  "pt": {
+    "titre": "E se um cubo de gelo perdesse 4 °C a cada segundo?",
+    "description": "Um cubo de gelo a 0 °C perde 4 °C a cada segundo: congela o mercúrio no segundo {n_mercure}, quebra o recorde de frio da Terra no {n_vostok}, faz o ar chover no {n_oxygene} e chega ao zero absoluto, -273,15 °C, no {n_max}.\nFontes: OMM, NASA, CRC Handbook, COBE.",
+    "regle": ["UM GELO PERDE 4 °C", "A CADA SEGUNDO"],
+    "regle2": ["ATÉ ONDE O FRIO", "PODE CHEGAR?"],
+    "pli": "SEGUNDO",
+    "unite": "°C",
+    "suite": "ALVO: {cible}",
+    "restant": "FALTAM {n} SEGUNDOS",
+    "restant1": "FALTA 1 SEGUNDO",
+    "tremble": ["MAS A FÍSICA QUÂNTICA DIZ", "QUE ELES NUNCA PARAM"],
+    "fonte": ["E DE REPENTE", "O VERÃO VOLTA"],
+    "separateurs": { "milliers": ".", "decimale": "," },
+    "paliers": {
+      "congelateur": { "cible": "O SEU CONGELADOR", "legende": ["MAIS FRIO QUE", "O SEU CONGELADOR"] },
+      "mercure": { "cible": "CONGELAR O MERCÚRIO", "legende": ["O MERCÚRIO DO", "TERMÔMETRO CONGELA"] },
+      "vostok": { "cible": "O RECORDE DA TERRA", "legende": ["RECORDE DE FRIO", "DA TERRA QUEBRADO"] },
+      "mars": { "cible": "UM INVERNO EM MARTE", "legende": ["MAIS FRIO QUE UM", "INVERNO EM MARTE"] },
+      "oxygene": { "cible": "CHUVA DE AR", "legende": ["O OXIGÊNIO DO AR", "VIRA CHUVA"] },
+      "azote": { "cible": "O RESTO DO AR", "legende": ["O CÉU INTEIRO", "CAI COMO CHUVA"] },
+      "pluton": { "cible": "PLUTÃO", "legende": ["MAIS FRIO", "QUE PLUTÃO"] },
+      "espace": { "cible": "O ESPAÇO", "legende": ["MAIS FRIO QUE", "O ESPAÇO PROFUNDO"] },
+      "zero": { "cible": "O ZERO ABSOLUTO", "legende": ["ZERO ABSOLUTO", "OS ÁTOMOS PARAM"] }
+    }
+  }
+}
