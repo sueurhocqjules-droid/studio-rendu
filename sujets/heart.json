@@ -1,0 +1,101 @@
+{
+  "regle_physique": {
+    "depart_bpm": 60,
+    "hausse_par_seconde": 0.12,
+    "seuil_audible_hz": 20,
+    "source_regle": "Départ à 60 battements par minute (1 Hz), cœur au repos ; +12 % par seconde (au lieu de 10 %) pour atteindre 440 Hz en moins de 54 s et tenir dans 62 à 75 s",
+    "source_audible": "Audition humaine : de 20 Hz à 20 kHz environ ; en dessous de 20 Hz, infrasons (Indiana University, Music Technology « An Acoustics Primer » ; Miracle-Ear, « Human hearing range »)"
+  },
+  "references": {
+    "course": { "bpm": 200, "age": 20, "formule_max": 220, "source": "Fréquence cardiaque maximale estimée : 220 moins l'âge, soit 200 bpm à 20 ans (Harvard Health Publishing, « All about your heart rate » ; formule reprise par l'American Heart Association et les CDC)" },
+    "souris": { "bpm": 607, "source": "Souris de laboratoire C57BL/6J éveillée : 607 ± 12 bpm en moyenne sur 23 h par télémétrie (étude de torpeur, PMC3774276) ; 500 à 750 bpm selon le sexe et la souche" },
+    "audible": { "hz": 20, "source": "Seuil bas de l'audition humaine : 20 Hz (= 1 200 bpm)" },
+    "musaraigne": { "bpm": 1511, "source": "Musaraigne étrusque (Suncus etruscus), plus petit mammifère connu en masse (1,8 g) : jusqu'à 1 511 battements/min, record mesuré chez un mammifère (Jürgens et al., Journal of Experimental Biology 199, 1996 ; Wikipedia « Etruscan shrew »)" },
+    "colibri": { "hz": 53, "source": "Colibri à gorge rubis : ses ailes battent environ 53 fois par seconde (Chesapeake Bay Program, Field Guide « Ruby-throated hummingbird »)" },
+    "bourdon": { "hz": 190, "source": "Bourdon (Bombus) en vol : ailes à environ 190 Hz (Arnold Arboretum, Harvard University, « Getting buzzed at the Arnold Arboretum »)" },
+    "do": { "hz": 261.626, "source": "Do central (C4) : 261,626 Hz en tempérament égal avec La4 = 440 Hz (Wikipedia « C (musical note) »)" }
+  },
+  "retournement": {
+    "la_hz": 440,
+    "touche_la": 49,
+    "source": "ISO 16:1975, « Acoustique — Fréquence d'accord normale » : La4 = 440 Hz, confirmée en 2022 (iso.org/standard/3601) ; l'orchestre s'accorde sur ce La (Wikipedia « A440 (pitch standard) »). Piano : 88 touches, La0 = touche 1 = 27,5 Hz, La4 = touche 49"
+  },
+  "en": {
+    "titre": "What If Your Heart Beat 12% Faster Every Second?",
+    "description": "Your heart beats 12% faster every second, starting at a calm 60 bpm: past a 20-year-old's maximum heart rate at second {n_course}, faster than a mouse at second {n_souris}, and at second {n_audible} it beats so fast you can hear it as a hum. Then it outruns a shrew, a hummingbird's wings and a bumblebee, until it plays the exact note an orchestra tunes to.\nSources: Harvard Health Publishing, Journal of Experimental Biology (Etruscan shrew), Chesapeake Bay Program, Arnold Arboretum of Harvard University, ISO 16.",
+    "regle": ["YOUR HEART BEATS {pct}%", "FASTER EVERY SECOND"],
+    "regle2": ["TURN THE SOUND ON", "AND LISTEN"],
+    "bpm": "BPM",
+    "hz": "HZ",
+    "pli": "SEC",
+    "note": "A4",
+    "suite": "NEXT: {cible}",
+    "restant": "{n} SECONDS TO GO",
+    "restant1": "1 SECOND TO GO",
+    "joue": ["YOUR HEART IS NOW", "PLAYING AN A"],
+    "orchestre": ["THE EXACT NOTE", "ORCHESTRAS TUNE TO"],
+    "souffle": ["NOW TAKE A", "DEEP BREATH"],
+    "separateurs": { "milliers": ",", "decimale": "." },
+    "paliers": {
+      "course": { "cible": "MAX HEART RATE", "legende": ["ABOVE THE MAX HEART", "RATE OF A {age}-YEAR-OLD"] },
+      "souris": { "cible": "A MOUSE", "legende": ["YOUR HEART NOW", "OUTRUNS A MOUSE'S"] },
+      "audible": { "cible": "HEARING IT", "legende": ["YOU CAN NOW", "HEAR YOUR HEART"] },
+      "musaraigne": { "cible": "A SHREW", "legende": ["FASTER THAN A SHREW,", "THE MAMMAL RECORD"] },
+      "colibri": { "cible": "A HUMMINGBIRD", "legende": ["FASTER THAN A", "HUMMINGBIRD'S WINGS"] },
+      "bourdon": { "cible": "A BUMBLEBEE", "legende": ["IT NOW HUMS", "LIKE A BUMBLEBEE"] },
+      "do": { "cible": "MIDDLE C", "legende": ["HIGHER THAN", "MIDDLE C ON A PIANO"] }
+    }
+  },
+  "es": {
+    "titre": "¿Y si tu corazón latiera un 12 % más rápido cada segundo?",
+    "description": "Tu corazón late un 12 % más rápido cada segundo, partiendo de unas tranquilas 60 lpm: supera el pulso máximo de alguien de 20 años en el segundo {n_course}, a un ratón en el segundo {n_souris} y, en el segundo {n_audible}, late tan rápido que ya puedes oírlo zumbar. Luego deja atrás a una musaraña, las alas de un colibrí y un abejorro, hasta tocar la nota exacta con la que afina una orquesta.\nFuentes: Harvard Health Publishing, Journal of Experimental Biology (musaraña etrusca), Chesapeake Bay Program, Arnold Arboretum de la Universidad de Harvard, ISO 16.",
+    "regle": ["TU CORAZÓN LATE UN {pct} %", "MÁS RÁPIDO CADA SEGUNDO"],
+    "regle2": ["SUBE EL VOLUMEN", "Y ESCUCHA"],
+    "bpm": "LPM",
+    "hz": "HZ",
+    "pli": "SEG",
+    "note": "LA4",
+    "suite": "SIGUE: {cible}",
+    "restant": "FALTAN {n} SEGUNDOS",
+    "restant1": "FALTA 1 SEGUNDO",
+    "joue": ["TU CORAZÓN AHORA", "ESTÁ TOCANDO UN LA"],
+    "orchestre": ["LA NOTA CON LA QUE", "AFINA LA ORQUESTA"],
+    "souffle": ["AHORA RESPIRA", "HONDO"],
+    "separateurs": { "milliers": ",", "decimale": "." },
+    "paliers": {
+      "course": { "cible": "EL PULSO MÁXIMO", "legende": ["MÁS QUE EL PULSO MÁXIMO", "DE ALGUIEN DE {age} AÑOS"] },
+      "souris": { "cible": "UN RATÓN", "legende": ["TU CORAZÓN YA LE GANA", "AL DE UN RATÓN"] },
+      "audible": { "cible": "OÍRLO", "legende": ["YA PUEDES", "OÍR TU CORAZÓN"] },
+      "musaraigne": { "cible": "UNA MUSARAÑA", "legende": ["LE GANA A LA MUSARAÑA,", "RÉCORD DE LOS MAMÍFEROS"] },
+      "colibri": { "cible": "UN COLIBRÍ", "legende": ["MÁS RÁPIDO QUE LAS", "ALAS DE UN COLIBRÍ"] },
+      "bourdon": { "cible": "UN ABEJORRO", "legende": ["AHORA ZUMBA", "COMO UN ABEJORRO"] },
+      "do": { "cible": "EL DO CENTRAL", "legende": ["MÁS AGUDO QUE EL", "DO CENTRAL DEL PIANO"] }
+    }
+  },
+  "pt": {
+    "titre": "E se o seu coração batesse 12% mais rápido a cada segundo?",
+    "description": "Seu coração bate 12% mais rápido a cada segundo, partindo de calmos 60 bpm: passa do pulso máximo de quem tem 20 anos no segundo {n_course}, de um rato no segundo {n_souris} e, no segundo {n_audible}, bate tão rápido que você já consegue ouvi-lo zumbir. Depois deixa para trás um musaranho, as asas de um beija-flor e uma mamangava, até tocar a nota exata que afina uma orquestra.\nFontes: Harvard Health Publishing, Journal of Experimental Biology (musaranho-etrusco), Chesapeake Bay Program, Arnold Arboretum da Universidade Harvard, ISO 16.",
+    "regle": ["SEU CORAÇÃO BATE {pct}%", "MAIS RÁPIDO A CADA SEGUNDO"],
+    "regle2": ["LIGUE O SOM", "E ESCUTE"],
+    "bpm": "BPM",
+    "hz": "HZ",
+    "pli": "SEG",
+    "note": "LÁ4",
+    "suite": "PRÓXIMO: {cible}",
+    "restant": "FALTAM {n} SEGUNDOS",
+    "restant1": "FALTA 1 SEGUNDO",
+    "joue": ["SEU CORAÇÃO AGORA", "ESTÁ TOCANDO UM LÁ"],
+    "orchestre": ["A NOTA QUE AFINA", "TODA ORQUESTRA"],
+    "souffle": ["AGORA RESPIRE", "FUNDO"],
+    "separateurs": { "milliers": ".", "decimale": "," },
+    "paliers": {
+      "course": { "cible": "O PULSO MÁXIMO", "legende": ["ACIMA DO PULSO MÁXIMO", "DE QUEM TEM {age} ANOS"] },
+      "souris": { "cible": "UM RATO", "legende": ["SEU CORAÇÃO JÁ VENCE", "O DE UM RATO"] },
+      "audible": { "cible": "OUVI-LO", "legende": ["AGORA VOCÊ CONSEGUE", "OUVIR SEU CORAÇÃO"] },
+      "musaraigne": { "cible": "UM MUSARANHO", "legende": ["VENCE O MUSARANHO,", "RECORDE DOS MAMÍFEROS"] },
+      "colibri": { "cible": "UM BEIJA-FLOR", "legende": ["MAIS RÁPIDO QUE AS", "ASAS DE UM BEIJA-FLOR"] },
+      "bourdon": { "cible": "UMA MAMANGAVA", "legende": ["AGORA ELE ZUNE", "COMO UMA MAMANGAVA"] },
+      "do": { "cible": "O DÓ CENTRAL", "legende": ["MAIS AGUDO QUE O", "DÓ CENTRAL DO PIANO"] }
+    }
+  }
+}

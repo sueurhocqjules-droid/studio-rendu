@@ -1,0 +1,102 @@
+{
+  "nom": "dive",
+  "regle_physique": {
+    "depart_m": 1,
+    "gain_par_seconde": 0.17,
+    "m_par_atmosphere": 10.06,
+    "source_pression": "La pression monte d'une atmosphère tous les 33 pieds (10,06 m) d'eau de mer, plus une atmosphère d'air en surface : NOAA Ocean Service (oceanservice.noaa.gov/facts/pressure.html) et NOAA Diving Manual (14,7 psi par atmosphère)",
+    "psi_par_atmosphere": 14.696,
+    "kg_par_cm2_par_atmosphere": 1.0332,
+    "livres_par_tonne_us": 2000,
+    "pied_m": 0.3048
+  },
+  "references": {
+    "double": { "m": 10.06, "source": "Pression doublée (2 atmosphères) à 33 pieds, soit 10,06 m : NOAA Ocean Service, « How does pressure change with ocean depth? »" },
+    "loisir": { "m": 40, "source": "Limite de la plongée loisir : 40 m (130 pieds), cours Deep Diver, PADI (blog.padi.com, « How deep can Open Water vs Advanced divers go »)" },
+    "lumiere": { "m": 200, "source": "Il y a rarement de la lumière significative au-delà de 200 m : NOAA Ocean Service, « How far does light travel in the ocean? »" },
+    "gabr": { "m": 332.35, "source": "Plongée la plus profonde en scaphandre autonome : Ahmed Gabr, 332,35 m, Dahab (Égypte), 18 septembre 2014, Guinness World Records" },
+    "minuit": { "m": 1000, "source": "La lumière du soleil ne pénètre pas sous 1 000 m : zone de minuit (bathypélagique) de 1 000 à 4 000 m, NOAA Ocean Explorer et NOAA Ocean Service" },
+    "baleine": { "m": 2992, "source": "Baleine à bec de Cuvier, plongée à 2 992 m, record des mammifères : Schorr et al., PLOS ONE 9(3) e92633, 2014" },
+    "titanic": { "m": 3800, "source": "Épave du Titanic par environ 3 800 m (12 500 pieds) : NOAA Ocean Exploration, WHOI" },
+    "limace": { "m": 8336, "source": "Poisson le plus profond jamais filmé : poisson-limace (Pseudoliparis) à 8 336 m, fosse d'Izu-Ogasawara, 2022, annoncé en avril 2023 par l'University of Western Australia (NPR, Smithsonian), certifié par Guinness World Records" },
+    "fond": { "m": 10935, "source": "Point le plus profond de l'océan : Challenger Deep, fosse des Mariannes, environ 10 935 m (35 876 pieds), NOAA Ocean Service, « How deep is the ocean? »" }
+  },
+  "en": {
+    "titre": "What If a Submarine Dove 17% Deeper Every Second?",
+    "description": "A tiny sub dives 17% deeper every second, starting 3 feet down: it passes the recreational scuba limit at second {n_loisir}, beats the scuba world record at second {n_gabr}, outdives every whale at second {n_baleine} and passes the Titanic at second {n_titanic}. Then the rule asks for {regle_ft} feet, but the ocean ends at {fond_ft} feet, where every square inch carries {tonnes_us} tons of water.\nSources: NOAA, PADI, Guinness World Records, PLOS ONE (Schorr et al. 2014), University of Western Australia.",
+    "regle": ["A SUB DIVES {pct}% DEEPER", "EVERY SECOND"],
+    "regle2": ["HOW DEEP", "CAN IT GO?"],
+    "pli": "SEC",
+    "unite": "FT",
+    "atm": "ATM",
+    "suite": "NEXT: {cible}",
+    "restant": "{n} SECONDS TO GO",
+    "restant1": "1 SECOND TO GO",
+    "non": ["THE RULE SAYS {regle} FT.", "THE OCEAN SAYS NO."],
+    "poids": ["EVERY SQUARE INCH", "NOW CARRIES {poids} TONS"],
+    "remonte": ["DROP THE BALLAST", "BACK TO THE SURFACE"],
+    "separateurs": { "milliers": ",", "decimale": "." },
+    "paliers": {
+      "double": { "cible": "DOUBLE PRESSURE", "legende": ["THE PRESSURE", "HAS ALREADY DOUBLED"] },
+      "loisir": { "cible": "THE SCUBA LIMIT", "legende": ["PAST THE LIMIT", "FOR RECREATIONAL DIVERS"] },
+      "lumiere": { "cible": "THE LAST SUNLIGHT", "legende": ["SUNLIGHT IS", "ALMOST GONE"] },
+      "gabr": { "cible": "THE SCUBA RECORD", "legende": ["DEEPER THAN ANY", "SCUBA DIVER HAS GONE"] },
+      "minuit": { "cible": "THE MIDNIGHT ZONE", "legende": ["NO SUNLIGHT", "EVER REACHES HERE"] },
+      "baleine": { "cible": "THE DEEPEST WHALE", "legende": ["NO MAMMAL HAS", "EVER DIVED THIS DEEP"] },
+      "titanic": { "cible": "THE TITANIC", "legende": ["DEEPER THAN", "THE TITANIC"] },
+      "limace": { "cible": "THE DEEPEST FISH", "legende": ["THE DEEPEST FISH", "EVER FILMED"] }
+    }
+  },
+  "es": {
+    "titre": "¿Y si un submarino bajara un 17 % más hondo cada segundo?",
+    "description": "Un pequeño submarino baja un 17 % más hondo cada segundo, desde 1 metro: pasa el límite del buceo recreativo en el segundo {n_loisir}, supera el récord mundial de buceo en el {n_gabr}, baja más que cualquier ballena en el {n_baleine} y pasa el Titanic en el {n_titanic}. Luego la regla pide {regle_m} metros, pero el océano termina a {fond_m} metros, donde cada centímetro cuadrado soporta {tonnes_cm2} toneladas.\nFuentes: NOAA, PADI, Guinness World Records, PLOS ONE (Schorr et al. 2014), Universidad de Australia Occidental.",
+    "regle": ["UN SUBMARINO BAJA UN {pct} %", "MÁS HONDO CADA SEGUNDO"],
+    "regle2": ["¿HASTA DÓNDE", "PUEDE BAJAR?"],
+    "pli": "SEG",
+    "unite": "M",
+    "atm": "ATM",
+    "suite": "SIGUE: {cible}",
+    "restant": "FALTAN {n} SEGUNDOS",
+    "restant1": "FALTA 1 SEGUNDO",
+    "non": ["LA REGLA PIDE {regle} M.", "EL OCÉANO DICE QUE NO."],
+    "poids": ["CADA CM² SOPORTA", "{poids} TONELADAS"],
+    "remonte": ["A SOLTAR LASTRE", "DE VUELTA A LA SUPERFICIE"],
+    "separateurs": { "milliers": ",", "decimale": "." },
+    "paliers": {
+      "double": { "cible": "EL DOBLE DE PRESIÓN", "legende": ["LA PRESIÓN", "YA SE DUPLICÓ"] },
+      "loisir": { "cible": "EL LÍMITE DEL BUCEO", "legende": ["MÁS ALLÁ DEL LÍMITE", "DEL BUCEO RECREATIVO"] },
+      "lumiere": { "cible": "LA ÚLTIMA LUZ", "legende": ["LA LUZ DEL SOL", "CASI DESAPARECE"] },
+      "gabr": { "cible": "EL RÉCORD DE BUCEO", "legende": ["MÁS HONDO QUE CUALQUIER", "BUZO CON TANQUE"] },
+      "minuit": { "cible": "LA ZONA DE MEDIANOCHE", "legende": ["AQUÍ NUNCA LLEGA", "LA LUZ DEL SOL"] },
+      "baleine": { "cible": "LA BALLENA MÁS HONDA", "legende": ["NINGÚN MAMÍFERO", "HA BAJADO TANTO"] },
+      "titanic": { "cible": "EL TITANIC", "legende": ["MÁS HONDO", "QUE EL TITANIC"] },
+      "limace": { "cible": "EL PEZ MÁS PROFUNDO", "legende": ["EL PEZ MÁS PROFUNDO", "JAMÁS FILMADO"] }
+    }
+  },
+  "pt": {
+    "titre": "E se um submarino descesse 17% mais fundo a cada segundo?",
+    "description": "Um pequeno submarino desce 17% mais fundo a cada segundo, a partir de 1 metro: passa o limite do mergulho recreativo no segundo {n_loisir}, bate o recorde mundial de mergulho no {n_gabr}, desce mais que qualquer baleia no {n_baleine} e passa o Titanic no {n_titanic}. Aí a regra pede {regle_m} metros, mas o oceano acaba a {fond_m} metros, onde cada centímetro quadrado aguenta {tonnes_cm2} tonelada.\nFontes: NOAA, PADI, Guinness World Records, PLOS ONE (Schorr et al. 2014), Universidade da Austrália Ocidental.",
+    "regle": ["UM SUBMARINO DESCE {pct}%", "MAIS FUNDO A CADA SEGUNDO"],
+    "regle2": ["ATÉ ONDE", "ELE CONSEGUE IR?"],
+    "pli": "SEG",
+    "unite": "M",
+    "atm": "ATM",
+    "suite": "PRÓXIMO: {cible}",
+    "restant": "FALTAM {n} SEGUNDOS",
+    "restant1": "FALTA 1 SEGUNDO",
+    "non": ["A REGRA PEDE {regle} M.", "O OCEANO DIZ QUE NÃO."],
+    "poids": ["CADA CM² AGUENTA", "{poids} TONELADA"],
+    "remonte": ["SOLTAR O LASTRO", "DE VOLTA À SUPERFÍCIE"],
+    "separateurs": { "milliers": ".", "decimale": "," },
+    "paliers": {
+      "double": { "cible": "O DOBRO DA PRESSÃO", "legende": ["A PRESSÃO", "JÁ DOBROU"] },
+      "loisir": { "cible": "O LIMITE DO MERGULHO", "legende": ["ALÉM DO LIMITE DO", "MERGULHO RECREATIVO"] },
+      "lumiere": { "cible": "A ÚLTIMA LUZ", "legende": ["A LUZ DO SOL", "QUASE SUMIU"] },
+      "gabr": { "cible": "O RECORDE DE MERGULHO", "legende": ["MAIS FUNDO QUE QUALQUER", "MERGULHADOR COM CILINDRO"] },
+      "minuit": { "cible": "A ZONA DA MEIA-NOITE", "legende": ["AQUI A LUZ DO SOL", "NUNCA CHEGA"] },
+      "baleine": { "cible": "A BALEIA MAIS FUNDA", "legende": ["NENHUM MAMÍFERO", "JÁ MERGULHOU TANTO"] },
+      "titanic": { "cible": "O TITANIC", "legende": ["MAIS FUNDO", "QUE O TITANIC"] },
+      "limace": { "cible": "O PEIXE MAIS FUNDO", "legende": ["O PEIXE MAIS FUNDO", "JÁ FILMADO"] }
+    }
+  }
+}

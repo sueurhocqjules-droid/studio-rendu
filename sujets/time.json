@@ -1,0 +1,101 @@
+{
+  "regle_physique": {
+    "facteur_par_seconde": 2,
+    "seconde_s": 1,
+    "minute_s": 60,
+    "heure_s": 3600,
+    "jour_s": 86400,
+    "jours_par_an": 365.25,
+    "annee_courante": 2026,
+    "heure_depart": 10,
+    "jour_depart": 244,
+    "source_unites": "Minute, heure et jour : 60 s, 3 600 s et 86 400 s (unités hors SI acceptées, brochure SI du BIPM) ; année julienne de 365,25 jours, soit 31 557 600 s (unité astronomique usuelle de l'UAI)",
+    "note_depart": "Départ choisi un 1er septembre à 10 h : la fenêtre montre une matinée de fin d'été"
+  },
+  "references": {
+    "heure": { "duree_s": 3600, "source": "Une heure : 3 600 s (BIPM, unités hors SI acceptées avec le SI)" },
+    "jour": { "duree_s": 86400, "source": "Un jour : 86 400 s (BIPM, unités hors SI acceptées avec le SI)" },
+    "an": { "duree_ans": 1, "source": "Une année julienne : 365,25 jours = 31 557 600 s" },
+    "vie": { "duree_ans": 73.3, "source": "Espérance de vie mondiale à la naissance : 73,3 ans en 2024, ONU, World Population Prospects 2024 (communiqué du 11 juillet 2024)" },
+    "pyramide": { "construite_en": -2560, "source": "Grande Pyramide de Gizeh (Khéops) achevée vers 2560 av. J.-C. (datation usuelle, New World Encyclopedia, Egyptian Museum) ; âge calculé pour 2026" },
+    "sapiens": { "duree_ans": 300000, "source": "Homo sapiens : environ 300 000 ans, fossiles de Jebel Irhoud au Maroc (Science, 2017 ; Smithsonian Magazine)" },
+    "dinos": { "duree_ans": 66000000, "source": "Extinction des dinosaures non aviens : impact de Chicxulub il y a 66 millions d'années (NSF, Live Science)" },
+    "terre": { "duree_ans": 4540000000, "source": "Âge de la Terre : 4,54 milliards d'années, à moins de 1 % près (USGS, Age of the Earth)" }
+  },
+  "univers": { "duree_ans": 13787000000, "source": "Âge de l'Univers : 13,787 ± 0,020 milliards d'années (Planck 2018, résultats finaux ; NASA LAMBDA)" },
+  "en": {
+    "titre": "What If Time Went Twice as Fast Every Second?",
+    "description": "Time runs twice as fast every second: one second lasts an hour at second {n_heure}, a whole year at second {n_an}, longer than a human life at second {n_vie}, and the dinosaurs died less than a second ago at second {n_dinos}. At second {n_univers}, a single second lasts longer than the universe has existed.\nSources: BIPM, UN World Population Prospects 2024, Smithsonian, NSF, USGS, Planck 2018.",
+    "regle": ["TIME GETS TWICE AS FAST", "EVERY SECOND"],
+    "regle2": ["UP TOP: HOW LONG", "ONE SECOND LASTS"],
+    "pli": "SEC",
+    "unites": { "s": "SECONDS", "min": "MINUTES", "h": "HOURS", "jours": "DAYS", "ans": "YEARS", "ma": "MILLION YEARS", "ga": "BILLION YEARS" },
+    "suite": "NEXT: {cible}",
+    "restant": "{n} SECONDS TO GO",
+    "restant1": "1 SECOND TO GO",
+    "univers": ["ONE SECOND NOW LASTS", "LONGER THAN THE", "UNIVERSE HAS EXISTED"],
+    "part": ["ALL {age} BILLION YEARS", "OF THE UNIVERSE: JUST", "{pct}% OF ONE SECOND"],
+    "retour": ["NOW PLAY IT", "ALL BACKWARD"],
+    "separateurs": { "milliers": ",", "decimale": "." },
+    "paliers": {
+      "heure": { "cible": "AN HOUR", "legende": ["ONE SECOND NOW", "LASTS OVER AN HOUR"] },
+      "jour": { "cible": "A DAY", "legende": ["EVERY SECOND,", "A WHOLE DAY GOES BY"] },
+      "an": { "cible": "A YEAR", "legende": ["EVERY SECOND,", "A WHOLE YEAR GOES BY"] },
+      "vie": { "cible": "A LIFETIME", "legende": ["ONE SECOND OUTLASTS", "A HUMAN LIFE"] },
+      "pyramide": { "cible": "THE PYRAMIDS", "legende": ["ONE SECOND OUTLASTS", "THE GREAT PYRAMID"] },
+      "sapiens": { "cible": "OUR SPECIES", "legende": ["ONE SECOND OUTLASTS", "OUR WHOLE SPECIES"] },
+      "dinos": { "cible": "THE DINOSAURS", "legende": ["THE DINOSAURS DIED", "UNDER A SECOND AGO"] },
+      "terre": { "cible": "THE EARTH", "legende": ["ONE SECOND IS NOW", "OLDER THAN EARTH"] }
+    }
+  },
+  "es": {
+    "titre": "¿Y si el tiempo fuera el doble de rápido cada segundo?",
+    "description": "El tiempo va el doble de rápido cada segundo: un segundo dura una hora en el segundo {n_heure}, un año entero en el segundo {n_an}, más que una vida humana en el segundo {n_vie}, y en el segundo {n_dinos} los dinosaurios murieron hace menos de un segundo. En el segundo {n_univers}, un solo segundo dura más que la edad del universo.\nFuentes: BIPM, ONU World Population Prospects 2024, Smithsonian, NSF, USGS, Planck 2018.",
+    "regle": ["EL TIEMPO VA EL DOBLE", "DE RÁPIDO CADA SEGUNDO"],
+    "regle2": ["ARRIBA: CUÁNTO", "DURA UN SEGUNDO"],
+    "pli": "SEG",
+    "unites": { "s": "SEGUNDOS", "min": "MINUTOS", "h": "HORAS", "jours": "DÍAS", "ans": "AÑOS", "ma": "MILLONES DE AÑOS" },
+    "suite": "SIGUE: {cible}",
+    "restant": "FALTAN {n} SEGUNDOS",
+    "restant1": "FALTA 1 SEGUNDO",
+    "univers": ["UN SEGUNDO YA DURA", "MÁS QUE TODA LA", "EDAD DEL UNIVERSO"],
+    "part": ["SUS {age_ma} MILLONES", "DE AÑOS SON APENAS", "EL {pct} % DE UN SEGUNDO"],
+    "retour": ["AHORA, TODO", "AL REVÉS"],
+    "separateurs": { "milliers": ",", "decimale": "." },
+    "paliers": {
+      "heure": { "cible": "UNA HORA", "legende": ["UN SEGUNDO YA DURA", "MÁS DE UNA HORA"] },
+      "jour": { "cible": "UN DÍA", "legende": ["CADA SEGUNDO PASA", "UN DÍA ENTERO"] },
+      "an": { "cible": "UN AÑO", "legende": ["CADA SEGUNDO PASA", "UN AÑO ENTERO"] },
+      "vie": { "cible": "UNA VIDA", "legende": ["UN SEGUNDO DURA MÁS", "QUE UNA VIDA HUMANA"] },
+      "pyramide": { "cible": "LAS PIRÁMIDES", "legende": ["UN SEGUNDO DURA MÁS", "QUE LA GRAN PIRÁMIDE"] },
+      "sapiens": { "cible": "NUESTRA ESPECIE", "legende": ["UN SEGUNDO DURA MÁS", "QUE NUESTRA ESPECIE"] },
+      "dinos": { "cible": "LOS DINOSAURIOS", "legende": ["LOS DINOSAURIOS MURIERON", "HACE MENOS DE UN SEGUNDO"] },
+      "terre": { "cible": "LA TIERRA", "legende": ["UN SEGUNDO DURA MÁS", "QUE LA EDAD DE LA TIERRA"] }
+    }
+  },
+  "pt": {
+    "titre": "E se o tempo ficasse duas vezes mais rápido a cada segundo?",
+    "description": "O tempo fica duas vezes mais rápido a cada segundo: um segundo dura uma hora no segundo {n_heure}, um ano inteiro no segundo {n_an}, mais que uma vida humana no segundo {n_vie}, e no segundo {n_dinos} os dinossauros morreram há menos de um segundo. No segundo {n_univers}, um único segundo dura mais que a idade do universo.\nFontes: BIPM, ONU World Population Prospects 2024, Smithsonian, NSF, USGS, Planck 2018.",
+    "regle": ["O TEMPO FICA", "DUAS VEZES MAIS RÁPIDO", "A CADA SEGUNDO"],
+    "regle2": ["NO ALTO: QUANTO", "DURA UM SEGUNDO"],
+    "pli": "SEG",
+    "unites": { "s": "SEGUNDOS", "min": "MINUTOS", "h": "HORAS", "jours": "DIAS", "ans": "ANOS", "ma": "MILHÕES DE ANOS", "ga": "BILHÕES DE ANOS" },
+    "suite": "PRÓXIMO: {cible}",
+    "restant": "FALTAM {n} SEGUNDOS",
+    "restant1": "FALTA 1 SEGUNDO",
+    "univers": ["UM SEGUNDO JÁ DURA", "MAIS QUE TODA A", "IDADE DO UNIVERSO"],
+    "part": ["SEUS {age} BILHÕES", "DE ANOS SÃO SÓ {pct}%", "DE UM SEGUNDO"],
+    "retour": ["AGORA, TUDO", "DE TRÁS PRA FRENTE"],
+    "separateurs": { "milliers": ".", "decimale": "," },
+    "paliers": {
+      "heure": { "cible": "UMA HORA", "legende": ["UM SEGUNDO JÁ DURA", "MAIS DE UMA HORA"] },
+      "jour": { "cible": "UM DIA", "legende": ["A CADA SEGUNDO", "PASSA UM DIA INTEIRO"] },
+      "an": { "cible": "UM ANO", "legende": ["A CADA SEGUNDO", "PASSA UM ANO INTEIRO"] },
+      "vie": { "cible": "UMA VIDA", "legende": ["UM SEGUNDO DURA MAIS", "QUE UMA VIDA HUMANA"] },
+      "pyramide": { "cible": "AS PIRÂMIDES", "legende": ["UM SEGUNDO DURA MAIS", "QUE A GRANDE PIRÂMIDE"] },
+      "sapiens": { "cible": "NOSSA ESPÉCIE", "legende": ["UM SEGUNDO DURA MAIS", "QUE NOSSA ESPÉCIE"] },
+      "dinos": { "cible": "OS DINOSSAUROS", "legende": ["OS DINOSSAUROS MORRERAM", "HÁ MENOS DE UM SEGUNDO"] },
+      "terre": { "cible": "A TERRA", "legende": ["UM SEGUNDO DURA MAIS", "QUE A IDADE DA TERRA"] }
+    }
+  }
+}

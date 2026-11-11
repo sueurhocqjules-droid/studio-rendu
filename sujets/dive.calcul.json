@@ -1,0 +1,211 @@
+{
+  "depart_m": 1,
+  "facteur": 1.17,
+  "gain_pct": 17,
+  "pied_m": 0.3048,
+  "m_par_atmosphere": 10.06,
+  "paliers": [
+    {
+      "cle": "double",
+      "m": 10.06,
+      "pas": 15,
+      "arrivee_s": 14.5,
+      "source": "Pression doublée (2 atmosphères) à 33 pieds, soit 10,06 m : NOAA Ocean Service, « How does pressure change with ocean depth? »"
+    },
+    {
+      "cle": "loisir",
+      "m": 40,
+      "pas": 24,
+      "arrivee_s": 23.5,
+      "source": "Limite de la plongée loisir : 40 m (130 pieds), cours Deep Diver, PADI (blog.padi.com, « How deep can Open Water vs Advanced divers go »)"
+    },
+    {
+      "cle": "lumiere",
+      "m": 200,
+      "pas": 34,
+      "arrivee_s": 33.5,
+      "source": "Il y a rarement de la lumière significative au-delà de 200 m : NOAA Ocean Service, « How far does light travel in the ocean? »"
+    },
+    {
+      "cle": "gabr",
+      "m": 332.35,
+      "pas": 37,
+      "arrivee_s": 36.5,
+      "source": "Plongée la plus profonde en scaphandre autonome : Ahmed Gabr, 332,35 m, Dahab (Égypte), 18 septembre 2014, Guinness World Records"
+    },
+    {
+      "cle": "minuit",
+      "m": 1000,
+      "pas": 44,
+      "arrivee_s": 43.5,
+      "source": "La lumière du soleil ne pénètre pas sous 1 000 m : zone de minuit (bathypélagique) de 1 000 à 4 000 m, NOAA Ocean Explorer et NOAA Ocean Service"
+    },
+    {
+      "cle": "baleine",
+      "m": 2992,
+      "pas": 51,
+      "arrivee_s": 50.5,
+      "source": "Baleine à bec de Cuvier, plongée à 2 992 m, record des mammifères : Schorr et al., PLOS ONE 9(3) e92633, 2014"
+    },
+    {
+      "cle": "titanic",
+      "m": 3800,
+      "pas": 53,
+      "arrivee_s": 52.5,
+      "source": "Épave du Titanic par environ 3 800 m (12 500 pieds) : NOAA Ocean Exploration, WHOI"
+    },
+    {
+      "cle": "limace",
+      "m": 8336,
+      "pas": 58,
+      "arrivee_s": 57.5,
+      "source": "Poisson le plus profond jamais filmé : poisson-limace (Pseudoliparis) à 8 336 m, fosse d'Izu-Ogasawara, 2022, annoncé en avril 2023 par l'University of Western Australia (NPR, Smithsonian), certifié par Guinness World Records"
+    }
+  ],
+  "fond_m": 10935,
+  "pas_fond": 59.23249606214756,
+  "n_regle": 60,
+  "regle_m": 12335.356481919665,
+  "atm_fond": 1087.9781312127236,
+  "tonnes_us_pouce2": 8,
+  "tonnes_cm2": 1.1,
+  "t_fond": 59.04221290917833,
+  "t_poids": 62.04221290917833,
+  "t_remonte": 64.84221290917833,
+  "t_fin": 69.44221290917832,
+  "duree_s": 69.94221290917832,
+  "descriptions": {
+    "en": "A tiny sub dives 17% deeper every second, starting 3 feet down: it passes the recreational scuba limit at second 24, beats the scuba world record at second 37, outdives every whale at second 51 and passes the Titanic at second 53. Then the rule asks for 40,470 feet, but the ocean ends at 35,876 feet, where every square inch carries 8 tons of water.\nSources: NOAA, PADI, Guinness World Records, PLOS ONE (Schorr et al. 2014), University of Western Australia.",
+    "es": "Un pequeño submarino baja un 17 % más hondo cada segundo, desde 1 metro: pasa el límite del buceo recreativo en el segundo 24, supera el récord mundial de buceo en el 37, baja más que cualquier ballena en el 51 y pasa el Titanic en el 53. Luego la regla pide 12,335 metros, pero el océano termina a 10,935 metros, donde cada centímetro cuadrado soporta 1.1 toneladas.\nFuentes: NOAA, PADI, Guinness World Records, PLOS ONE (Schorr et al. 2014), Universidad de Australia Occidental.",
+    "pt": "Um pequeno submarino desce 17% mais fundo a cada segundo, a partir de 1 metro: passa o limite do mergulho recreativo no segundo 24, bate o recorde mundial de mergulho no 37, desce mais que qualquer baleia no 51 e passa o Titanic no 53. Aí a regra pede 12.335 metros, mas o oceano acaba a 10.935 metros, onde cada centímetro quadrado aguenta 1,1 tonelada.\nFontes: NOAA, PADI, Guinness World Records, PLOS ONE (Schorr et al. 2014), Universidade da Austrália Ocidental."
+  },
+  "son": {
+    "duree_s": 69.94221290917832,
+    "tics": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58
+    ],
+    "paliers": [
+      14.5,
+      23.5,
+      33.5,
+      36.5,
+      43.5,
+      50.5,
+      52.5,
+      57.5
+    ],
+    "retournements": [
+      59.04221290917833,
+      62.04221290917833,
+      64.84221290917833
+    ],
+    "fin": 69.44221290917832,
+    "base_hz": 110,
+    "tic_hz": 1320,
+    "bourdon": [
+      [
+        0,
+        330,
+        0.04
+      ],
+      [
+        20,
+        220,
+        0.08
+      ],
+      [
+        40,
+        130,
+        0.14
+      ],
+      [
+        59.04221290917833,
+        62,
+        0.3
+      ],
+      [
+        62.04221290917833,
+        62,
+        0.22
+      ],
+      [
+        64.84221290917833,
+        62,
+        0.0
+      ],
+      [
+        65.64221290917833,
+        90,
+        0.05
+      ],
+      [
+        69.44221290917832,
+        330,
+        0.04
+      ],
+      [
+        69.94221290917832,
+        330,
+        0
+      ]
+    ]
+  }
+}

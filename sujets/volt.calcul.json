@@ -1,0 +1,225 @@
+{
+  "v0": 1.5,
+  "facteur": 1.37,
+  "hausse_pct": 37,
+  "n_max": 61,
+  "v_max": 328129937.3471636,
+  "charge_c": 10080.0,
+  "energie_depart_wh": 4.2,
+  "energie_kwh": 918763.8245720582,
+  "foyer_kwh_an": 10332,
+  "annees": 89,
+  "paliers": [
+    {
+      "cle": "voiture",
+      "ref_v": 12.6,
+      "pas": 7,
+      "arrivee_s": 6.5,
+      "pile_v": 13.587364595001501,
+      "source": "Batterie de voiture au plomb : six éléments de 2,1 V, 12,6 V chargée au repos (Repco, Wikipedia « Automotive battery »)"
+    },
+    {
+      "cle": "prise",
+      "ref_v": 120,
+      "pas": 14,
+      "arrivee_s": 13.5,
+      "pile_v": 123.0776510916669,
+      "source": "Courant domestique aux États-Unis : 120 V et 15 A, National Weather Service (weather.gov/safety/lightning-power)"
+    },
+    {
+      "cle": "anguille",
+      "ref_v": 860,
+      "pas": 21,
+      "arrivee_s": 20.5,
+      "pile_v": 1114.8672792525751,
+      "source": "Electrophorus voltai : décharge de 860 V mesurée sur le terrain, de Santana et al., Nature Communications 10, 4000 (2019), via Phys.org"
+    },
+    {
+      "cle": "cloture",
+      "ref_v": 10000,
+      "pas": 28,
+      "arrivee_s": 27.5,
+      "pile_v": 10098.738798828062,
+      "source": "Clôture électrique : électrificateurs de 10 000 V en crête à vide (Lowe's Fi-Shock 10 500 V, guides d'élevage, Wikipedia « Electric fence »)"
+    },
+    {
+      "cle": "statique",
+      "ref_v": 25000,
+      "pas": 31,
+      "arrivee_s": 30.5,
+      "pile_v": 25967.422306582936,
+      "source": "Décharge d'électricité statique après avoir marché sur un sol isolant : 20 000 à 25 000 V, Todd Hubing (Univ. du Missouri-Rolla) cité par Live Science"
+    },
+    {
+      "cle": "ligne",
+      "ref_v": 765000,
+      "pas": 42,
+      "arrivee_s": 41.5,
+      "pile_v": 828619.366898693,
+      "source": "Lignes de transport à 765 kV, les plus hautes tensions du réseau des États-Unis, AEP (plus de 2 200 miles de lignes)"
+    },
+    {
+      "cle": "machine",
+      "ref_v": 32000000,
+      "pas": 54,
+      "arrivee_s": 53.5,
+      "pile_v": 36224457.11082289,
+      "source": "Accélérateur tandem électrostatique de 25 MV d'Oak Ridge (ORNL) : 32 millions de volts lors d'un essai en 1979, « peut-être la plus haute tension jamais produite par une machine », Phys.org 2016"
+    },
+    {
+      "cle": "eclair",
+      "ref_v": 300000000,
+      "pas": 61,
+      "arrivee_s": 60.5,
+      "pile_v": 328129937.3471636,
+      "source": "Éclair typique : environ 300 millions de volts et 30 000 A, National Weather Service (weather.gov/safety/lightning-power)"
+    }
+  ],
+  "t_limite": 60.5,
+  "t_haut": 63.1,
+  "t_maison": 65.9,
+  "t_retour": 68.7,
+  "t_fin": 72.3,
+  "duree_s": 72.8,
+  "descriptions": {
+    "en": "A tiny 1.5 V battery gains 37% voltage every second: it beats a car battery at second 7, the most electric eel on Earth at second 21, the biggest US power lines at second 42, and at second 61 it holds the voltage of a lightning bolt. By then, that one AA could power an average US home for 89 years.\nSources: NWS/NOAA, Nature Communications (2019), Live Science, AEP, Oak Ridge National Laboratory, EIA, battery datasheets.",
+    "es": "Una pilita de 1.5 V gana un 37 % de voltaje cada segundo: supera a la batería de un auto en el segundo 7, a la anguila más eléctrica del mundo en el segundo 21, a las mayores líneas eléctricas de EE. UU. en el segundo 42 y, en el segundo 61, tiene el voltaje de un rayo. Para entonces, esa sola pila AA podría dar luz a un hogar promedio de EE. UU. durante 89 años.\nFuentes: NWS/NOAA, Nature Communications (2019), Live Science, AEP, Laboratorio Nacional de Oak Ridge, EIA, fichas técnicas de pilas.",
+    "pt": "Uma pilhinha de 1,5 V ganha 37% de voltagem a cada segundo: passa a bateria de um carro no segundo 7, o poraquê mais elétrico do mundo no segundo 21, as maiores linhas de transmissão dos EUA no segundo 42 e, no segundo 61, tem a voltagem de um raio. A essa altura, essa única pilha AA abasteceria uma casa média dos EUA por 89 anos.\nFontes: NWS/NOAA, Nature Communications (2019), Live Science, AEP, Laboratório Nacional de Oak Ridge, EIA, fichas técnicas de pilhas."
+  },
+  "son": {
+    "duree_s": 72.8,
+    "tics": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60
+    ],
+    "paliers": [
+      6.5,
+      13.5,
+      20.5,
+      27.5,
+      30.5,
+      41.5,
+      53.5,
+      60.5
+    ],
+    "retournements": [
+      60.5,
+      63.1,
+      65.9
+    ],
+    "fin": 72.3,
+    "base_hz": 60,
+    "tic_hz": 1200,
+    "bourdon": [
+      [
+        0,
+        60,
+        0.03
+      ],
+      [
+        20.5,
+        90,
+        0.08
+      ],
+      [
+        41.5,
+        150,
+        0.18
+      ],
+      [
+        60.5,
+        240,
+        0.32
+      ],
+      [
+        63.09,
+        240,
+        0.32
+      ],
+      [
+        63.1,
+        240,
+        0
+      ],
+      [
+        68.7,
+        120,
+        0
+      ],
+      [
+        69.3,
+        120,
+        0.06
+      ],
+      [
+        72.3,
+        60,
+        0.03
+      ],
+      [
+        72.8,
+        60,
+        0
+      ]
+    ]
+  }
+}

@@ -1,0 +1,226 @@
+{
+  "n_max": 52,
+  "depart_shu": 500,
+  "facteur": 1.4,
+  "hausse_pct": 40,
+  "shu_fin": 19843937914.96902,
+  "fois": {
+    "dix": 10,
+    "cent": 100
+  },
+  "annees": {
+    "fantome": 2007,
+    "pepperx": 2023
+  },
+  "rtx_sur_capsaicine": 1000,
+  "paliers": [
+    {
+      "cle": "jalapeno",
+      "shu": 10000,
+      "pas": 9,
+      "arrivee_s": 8.5,
+      "source": "Jalapeño : 2 500 à 10 000 SHU (Wikipedia, Scoville scale), borne haute retenue"
+    },
+    {
+      "cle": "cayenne",
+      "shu": 50000,
+      "pas": 14,
+      "arrivee_s": 13.5,
+      "source": "Piment de Cayenne : 25 000 à 50 000 SHU (Wikipedia, Scoville scale), borne haute retenue"
+    },
+    {
+      "cle": "habanero",
+      "shu": 350000,
+      "pas": 20,
+      "arrivee_s": 19.5,
+      "source": "Habanero : 100 000 à 350 000 SHU (Wikipedia, Scoville scale), borne haute retenue"
+    },
+    {
+      "cle": "fantome",
+      "shu": 1001304,
+      "pas": 23,
+      "arrivee_s": 22.5,
+      "source": "Bhut jolokia (piment fantôme) : 1 001 304 SHU mesurés par HPLC au Chile Pepper Institute (NMSU) ; Guinness World Records, piment le plus fort du monde en février 2007 (PopSci, NBC News)"
+    },
+    {
+      "cle": "pepperx",
+      "shu": 2693000,
+      "pas": 26,
+      "arrivee_s": 25.5,
+      "source": "Pepper X (Ed Currie) : 2 693 000 SHU en moyenne, tests de Winthrop University ; Guinness World Records, octobre 2023 (CBS News, CNN, Wikipedia). Aucun record plus récent trouvé au 11/11/2026"
+    },
+    {
+      "cle": "capsaicine",
+      "shu": 16000000,
+      "pas": 31,
+      "arrivee_s": 30.5,
+      "source": "Capsaïcine pure : 16 000 000 SHU (Wikipedia, Scoville scale)"
+    },
+    {
+      "cle": "dix",
+      "shu": 160000000,
+      "pas": 38,
+      "arrivee_s": 37.5,
+      "source": "Multiple calculé de la capsaïcine pure (16 000 000 SHU)"
+    },
+    {
+      "cle": "cent",
+      "shu": 1600000000,
+      "pas": 45,
+      "arrivee_s": 44.5,
+      "source": "Multiple calculé de la capsaïcine pure (16 000 000 SHU)"
+    },
+    {
+      "cle": "rtx",
+      "shu": 16000000000,
+      "pas": 52,
+      "arrivee_s": 51.5,
+      "source": "Résinifératoxine : environ 16 milliards de SHU (estimation), dans le latex d'Euphorbia resinifera, plante grasse au port de cactus endémique du Maroc, pentes de l'Atlas (Wikipedia, Resiniferatoxin et Euphorbia resinifera ; Discover Magazine)"
+    }
+  ],
+  "t_limite": 51.5,
+  "t_coupe": 54.4,
+  "t_seve": 56.8,
+  "t_lait": 59.0,
+  "t_retour": 60.2,
+  "t_fin": 63.2,
+  "duree_s": 63.7,
+  "descriptions": {
+    "en": "A pepperoncini at 500 SHU gets 40% hotter every second: it beats any jalapeño at second 9, the ghost pepper at second 23, the Pepper X world record at second 26, pure capsaicin at second 31, and at second 52 it reaches the hottest substance known, which doesn't even come from a pepper.\nSources: Guinness World Records, Chile Pepper Institute (NMSU), Winthrop University, Wikipedia (Scoville scale, Resiniferatoxin, Euphorbia resinifera), Discover Magazine.",
+    "es": "Un pepperoncini de 500 SHU pica un 40 % más cada segundo: supera a cualquier jalapeño en el segundo 9, al chile fantasma en el 23, al récord mundial Pepper X en el 26, a la capsaicina pura en el 31 y, en el segundo 52, alcanza la sustancia más picante conocida, que ni siquiera sale de un chile.\nFuentes: Guinness World Records, Chile Pepper Institute (NMSU), Winthrop University, Wikipedia (escala Scoville, resiniferatoxina, Euphorbia resinifera), Discover Magazine.",
+    "pt": "Um pepperoncini de 500 SHU fica 40% mais ardido a cada segundo: passa qualquer jalapeño no segundo 9, a pimenta-fantasma no 23, o recorde mundial Pepper X no 26, a capsaicina pura no 31 e, no segundo 52, chega à substância mais ardida que se conhece, que nem vem de uma pimenta.\nFontes: Guinness World Records, Chile Pepper Institute (NMSU), Winthrop University, Wikipedia (escala de Scoville, resiniferatoxina, Euphorbia resinifera), Discover Magazine."
+  },
+  "son": {
+    "duree_s": 63.7,
+    "tics": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51
+    ],
+    "paliers": [
+      8.5,
+      13.5,
+      19.5,
+      22.5,
+      25.5,
+      30.5,
+      37.5,
+      44.5,
+      51.5
+    ],
+    "retournements": [
+      51.5,
+      54.4,
+      59.0
+    ],
+    "fin": 63.2,
+    "base_hz": 82,
+    "tic_hz": 1175,
+    "bourdon": [
+      [
+        0,
+        110,
+        0.0
+      ],
+      [
+        5,
+        120,
+        0.04
+      ],
+      [
+        22.5,
+        180,
+        0.1
+      ],
+      [
+        30.5,
+        260,
+        0.18
+      ],
+      [
+        51.5,
+        420,
+        0.32
+      ],
+      [
+        54.39,
+        440,
+        0.32
+      ],
+      [
+        54.4,
+        98,
+        0
+      ],
+      [
+        59.0,
+        98,
+        0
+      ],
+      [
+        60.2,
+        98,
+        0.06
+      ],
+      [
+        63.2,
+        110,
+        0.0
+      ],
+      [
+        63.7,
+        110,
+        0
+      ]
+    ]
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "regle_physique": {
+    "depart_v": 1.5,
+    "hausse_par_seconde": 0.37,
+    "capacite_aa_mah": 2800,
+    "source_aa": "Pile alcaline AA : 1,5 V nominal, 2 800 mAh à 10 mA jusqu'à 0,8 V (fiches techniques de piles AA alcalines génériques, Rapid Online 01-2326 et AceOn)",
+    "foyer_kwh_mois": 861,
+    "source_foyer": "Consommation moyenne d'un client résidentiel aux États-Unis : 861 kWh par mois en 2023, EIA (Today in Energy, id 61903)"
+  },
+  "references": {
+    "voiture": { "volts": 12.6, "source": "Batterie de voiture au plomb : six éléments de 2,1 V, 12,6 V chargée au repos (Repco, Wikipedia « Automotive battery »)" },
+    "prise": { "volts": 120, "source": "Courant domestique aux États-Unis : 120 V et 15 A, National Weather Service (weather.gov/safety/lightning-power)" },
+    "anguille": { "volts": 860, "source": "Electrophorus voltai : décharge de 860 V mesurée sur le terrain, de Santana et al., Nature Communications 10, 4000 (2019), via Phys.org" },
+    "cloture": { "volts": 10000, "source": "Clôture électrique : électrificateurs de 10 000 V en crête à vide (Lowe's Fi-Shock 10 500 V, guides d'élevage, Wikipedia « Electric fence »)" },
+    "statique": { "volts": 25000, "source": "Décharge d'électricité statique après avoir marché sur un sol isolant : 20 000 à 25 000 V, Todd Hubing (Univ. du Missouri-Rolla) cité par Live Science" },
+    "ligne": { "volts": 765000, "source": "Lignes de transport à 765 kV, les plus hautes tensions du réseau des États-Unis, AEP (plus de 2 200 miles de lignes)" },
+    "machine": { "volts": 32000000, "source": "Accélérateur tandem électrostatique de 25 MV d'Oak Ridge (ORNL) : 32 millions de volts lors d'un essai en 1979, « peut-être la plus haute tension jamais produite par une machine », Phys.org 2016" },
+    "eclair": { "volts": 300000000, "source": "Éclair typique : environ 300 millions de volts et 30 000 A, National Weather Service (weather.gov/safety/lightning-power)" }
+  },
+  "en": {
+    "titre": "What If a AA Battery Gained 37% More Voltage Every Second?",
+    "description": "A tiny {v0} V battery gains {pct}% voltage every second: it beats a car battery at second {n_voiture}, the most electric eel on Earth at second {n_anguille}, the biggest US power lines at second {n_ligne}, and at second {n_eclair} it holds the voltage of a lightning bolt. By then, that one AA could power an average US home for {annees} years.\nSources: NWS/NOAA, Nature Communications (2019), Live Science, AEP, Oak Ridge National Laboratory, EIA, battery datasheets.",
+    "regle": ["A {v0} V BATTERY GAINS", "{pct}% VOLTAGE", "EVERY SECOND"],
+    "regle2": ["LET'S SEE WHAT", "IT CAN POWER"],
+    "pli": "SEC",
+    "suite": "NEXT: {cible}",
+    "restant": "{n} SECONDS TO GO",
+    "restant1": "1 SECOND TO GO",
+    "haut": ["AND THIS LIGHTNING", "STRIKES THE SKY"],
+    "maison": ["THIS ONE AA COULD NOW", "POWER A HOME FOR {annees} YEARS"],
+    "retour": ["ALL FROM ONE", "LITTLE AA BATTERY"],
+    "separateurs": { "milliers": ",", "decimale": "." },
+    "paliers": {
+      "voiture": { "cible": "A CAR BATTERY", "legende": ["MORE VOLTS THAN", "A CAR BATTERY"] },
+      "prise": { "cible": "A WALL OUTLET", "legende": ["MORE VOLTS THAN", "A US WALL OUTLET"] },
+      "anguille": { "cible": "AN ELECTRIC EEL", "legende": ["IT BEATS THE MOST", "ELECTRIC EEL ON EARTH"] },
+      "cloture": { "cible": "AN ELECTRIC FENCE", "legende": ["MORE VOLTS THAN", "AN ELECTRIC FENCE"] },
+      "statique": { "cible": "A STATIC SHOCK", "legende": ["MORE THAN THE ZAP", "FROM A DOORKNOB"] },
+      "ligne": { "cible": "A POWER LINE", "legende": ["MORE THAN THE BIGGEST", "US POWER LINES"] },
+      "machine": { "cible": "THE MACHINE RECORD", "legende": ["IT BEATS THE HIGHEST", "VOLTAGE A MACHINE MADE"] },
+      "eclair": { "cible": "LIGHTNING", "legende": ["YOUR LITTLE AA IS NOW", "A LIGHTNING BOLT"] }
+    }
+  },
+  "es": {
+    "titre": "¿Y si una pila AA ganara un 37 % más de voltaje cada segundo?",
+    "description": "Una pilita de {v0} V gana un {pct} % de voltaje cada segundo: supera a la batería de un auto en el segundo {n_voiture}, a la anguila más eléctrica del mundo en el segundo {n_anguille}, a las mayores líneas eléctricas de EE. UU. en el segundo {n_ligne} y, en el segundo {n_eclair}, tiene el voltaje de un rayo. Para entonces, esa sola pila AA podría dar luz a un hogar promedio de EE. UU. durante {annees} años.\nFuentes: NWS/NOAA, Nature Communications (2019), Live Science, AEP, Laboratorio Nacional de Oak Ridge, EIA, fichas técnicas de pilas.",
+    "regle": ["UNA PILA DE {v0} V", "GANA UN {pct} % DE VOLTAJE", "CADA SEGUNDO"],
+    "regle2": ["VAMOS A VER", "QUÉ PUEDE ENCENDER"],
+    "pli": "SEG",
+    "suite": "SIGUE: {cible}",
+    "restant": "FALTAN {n} SEGUNDOS",
+    "restant1": "FALTA 1 SEGUNDO",
+    "haut": ["Y ESTE RAYO", "GOLPEA EL CIELO"],
+    "maison": ["ESTA PILA PODRÍA DAR LUZ", "A UNA CASA {annees} AÑOS"],
+    "retour": ["TODO CON UNA", "PEQUEÑA PILA AA"],
+    "separateurs": { "milliers": ",", "decimale": "." },
+    "paliers": {
+      "voiture": { "cible": "UNA BATERÍA DE AUTO", "legende": ["MÁS VOLTIOS QUE LA", "BATERÍA DE UN AUTO"] },
+      "prise": { "cible": "UN ENCHUFE", "legende": ["MÁS VOLTIOS QUE UN", "ENCHUFE DE EE. UU."] },
+      "anguille": { "cible": "UNA ANGUILA", "legende": ["SUPERA A LA ANGUILA", "MÁS ELÉCTRICA DEL MUNDO"] },
+      "cloture": { "cible": "UNA CERCA ELÉCTRICA", "legende": ["MÁS VOLTIOS QUE UNA", "CERCA ELÉCTRICA"] },
+      "statique": { "cible": "LA ESTÁTICA", "legende": ["MÁS QUE EL TOQUE", "DE UNA MANIJA"] },
+      "ligne": { "cible": "UNA LÍNEA ELÉCTRICA", "legende": ["MÁS QUE LAS MAYORES", "LÍNEAS DE EE. UU."] },
+      "machine": { "cible": "UNA MÁQUINA RÉCORD", "legende": ["SUPERA EL MAYOR VOLTAJE", "HECHO POR UNA MÁQUINA"] },
+      "eclair": { "cible": "UN RAYO", "legende": ["TU PILITA AA", "YA ES UN RAYO"] }
+    }
+  },
+  "pt": {
+    "titre": "E se uma pilha AA ganhasse 37% mais voltagem a cada segundo?",
+    "description": "Uma pilhinha de {v0} V ganha {pct}% de voltagem a cada segundo: passa a bateria de um carro no segundo {n_voiture}, o poraquê mais elétrico do mundo no segundo {n_anguille}, as maiores linhas de transmissão dos EUA no segundo {n_ligne} e, no segundo {n_eclair}, tem a voltagem de um raio. A essa altura, essa única pilha AA abasteceria uma casa média dos EUA por {annees} anos.\nFontes: NWS/NOAA, Nature Communications (2019), Live Science, AEP, Laboratório Nacional de Oak Ridge, EIA, fichas técnicas de pilhas.",
+    "regle": ["UMA PILHA DE {v0} V GANHA", "{pct}% DE VOLTAGEM", "A CADA SEGUNDO"],
+    "regle2": ["VAMOS VER O QUE", "ELA CONSEGUE LIGAR"],
+    "pli": "SEG",
+    "suite": "PRÓXIMO: {cible}",
+    "restant": "FALTAM {n} SEGUNDOS",
+    "restant1": "FALTA 1 SEGUNDO",
+    "haut": ["E ESSE RAIO", "ATINGE O CÉU"],
+    "maison": ["ESTA PILHA ABASTECERIA", "UMA CASA POR {annees} ANOS"],
+    "retour": ["TUDO COM UMA", "PILHINHA AA"],
+    "separateurs": { "milliers": ".", "decimale": "," },
+    "paliers": {
+      "voiture": { "cible": "UM CARRO", "legende": ["MAIS VOLTS QUE A", "BATERIA DE UM CARRO"] },
+      "prise": { "cible": "UMA TOMADA", "legende": ["MAIS VOLTS QUE UMA", "TOMADA DOS EUA"] },
+      "anguille": { "cible": "UM PORAQUÊ", "legende": ["PASSA O PORAQUÊ", "MAIS ELÉTRICO DO MUNDO"] },
+      "cloture": { "cible": "UMA CERCA ELÉTRICA", "legende": ["MAIS VOLTS QUE UMA", "CERCA ELÉTRICA"] },
+      "statique": { "cible": "UM CHOQUE", "legende": ["MAIS QUE O CHOQUE", "DE UMA MAÇANETA"] },
+      "ligne": { "cible": "ALTA TENSÃO", "legende": ["MAIS QUE AS MAIORES", "LINHAS DOS EUA"] },
+      "machine": { "cible": "UM RECORDE", "legende": ["PASSA A MAIOR VOLTAGEM", "JÁ FEITA POR UMA MÁQUINA"] },
+      "eclair": { "cible": "UM RAIO", "legende": ["SUA PILHINHA AA", "JÁ É UM RAIO"] }
+    }
+  }
+}

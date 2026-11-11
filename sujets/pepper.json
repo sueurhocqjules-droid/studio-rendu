@@ -1,0 +1,100 @@
+{
+  "regle_physique": {
+    "depart_shu": 500,
+    "hausse_par_seconde": 0.4,
+    "source_depart": "Pepperoncini : 100 à 500 SHU (Chili Pepper Madness, PepperScale, DeLallo), borne haute retenue pour le départ",
+    "source_echelle": "Échelle de Scoville : SHU = facteur de dilution au-delà duquel le piquant n'est plus perçu (Wikipedia, Scoville scale)"
+  },
+  "references": {
+    "jalapeno": { "shu": 10000, "source": "Jalapeño : 2 500 à 10 000 SHU (Wikipedia, Scoville scale), borne haute retenue" },
+    "cayenne": { "shu": 50000, "source": "Piment de Cayenne : 25 000 à 50 000 SHU (Wikipedia, Scoville scale), borne haute retenue" },
+    "habanero": { "shu": 350000, "source": "Habanero : 100 000 à 350 000 SHU (Wikipedia, Scoville scale), borne haute retenue" },
+    "fantome": { "shu": 1001304, "annee": 2007, "source": "Bhut jolokia (piment fantôme) : 1 001 304 SHU mesurés par HPLC au Chile Pepper Institute (NMSU) ; Guinness World Records, piment le plus fort du monde en février 2007 (PopSci, NBC News)" },
+    "pepperx": { "shu": 2693000, "annee": 2023, "source": "Pepper X (Ed Currie) : 2 693 000 SHU en moyenne, tests de Winthrop University ; Guinness World Records, octobre 2023 (CBS News, CNN, Wikipedia). Aucun record plus récent trouvé au 11/11/2026" },
+    "capsaicine": { "shu": 16000000, "source": "Capsaïcine pure : 16 000 000 SHU (Wikipedia, Scoville scale)" },
+    "dix": { "fois_capsaicine": 10, "source": "Multiple calculé de la capsaïcine pure (16 000 000 SHU)" },
+    "cent": { "fois_capsaicine": 100, "source": "Multiple calculé de la capsaïcine pure (16 000 000 SHU)" },
+    "rtx": { "shu": 16000000000, "source": "Résinifératoxine : environ 16 milliards de SHU (estimation), dans le latex d'Euphorbia resinifera, plante grasse au port de cactus endémique du Maroc, pentes de l'Atlas (Wikipedia, Resiniferatoxin et Euphorbia resinifera ; Discover Magazine)" }
+  },
+  "en": {
+    "titre": "What If a Pepper Got 40% Hotter Every Second?",
+    "description": "A pepperoncini at {depart} SHU gets {pct}% hotter every second: it beats any jalapeño at second {n_jalapeno}, the ghost pepper at second {n_fantome}, the Pepper X world record at second {n_pepperx}, pure capsaicin at second {n_capsaicine}, and at second {n_max} it reaches the hottest substance known, which doesn't even come from a pepper.\nSources: Guinness World Records, Chile Pepper Institute (NMSU), Winthrop University, Wikipedia (Scoville scale, Resiniferatoxin, Euphorbia resinifera), Discover Magazine.",
+    "regle": ["THIS PEPPER GETS {pct}%", "HOTTER EVERY SECOND"],
+    "regle2": ["IT STARTS AS A MILD", "PEPPERONCINI"],
+    "unite": "SHU",
+    "echelles": [[1000000, "MILLION SHU"], [1000000000, "BILLION SHU"]],
+    "pli": "SEC",
+    "suite": "NEXT: {cible}",
+    "restant": "{n} SECONDS TO GO",
+    "restant1": "1 SECOND TO GO",
+    "pas": ["IT'S NOT", "EVEN A PEPPER"],
+    "seve": ["IT'S THE SAP OF A", "MOROCCAN SUCCULENT"],
+    "lait": ["QUICK, A GLASS", "OF MILK"],
+    "separateurs": { "milliers": ",", "decimale": "." },
+    "paliers": {
+      "jalapeno": { "cible": "A JALAPEÑO", "legende": ["HOTTER THAN", "ANY JALAPEÑO"] },
+      "cayenne": { "cible": "CAYENNE", "legende": ["HOTTER THAN", "CAYENNE PEPPER"] },
+      "habanero": { "cible": "A HABANERO", "legende": ["HOTTER THAN THE", "HOTTEST HABANERO"] },
+      "fantome": { "cible": "THE GHOST PEPPER", "legende": ["THE GHOST PEPPER:", "WORLD RECORD IN {annee}"] },
+      "pepperx": { "cible": "PEPPER X", "legende": ["HOTTER THAN PEPPER X,", "THE {annee} WORLD RECORD"] },
+      "capsaicine": { "cible": "PURE CAPSAICIN", "legende": ["NO PEPPER GETS HERE:", "THIS IS PURE CAPSAICIN"] },
+      "dix": { "cible": "{x}× CAPSAICIN", "legende": ["{x} TIMES HOTTER", "THAN PURE CAPSAICIN"] },
+      "cent": { "cible": "{x}× CAPSAICIN", "legende": ["{x} TIMES CAPSAICIN.", "IS ANYTHING THIS HOT?"] },
+      "rtx": { "cible": "THE HOTTEST THING KNOWN", "legende": ["YES: RESINIFERATOXIN,", "THE HOTTEST THING KNOWN"] }
+    }
+  },
+  "es": {
+    "titre": "¿Y si un chile picara un 40 % más cada segundo?",
+    "description": "Un pepperoncini de {depart} SHU pica un {pct} % más cada segundo: supera a cualquier jalapeño en el segundo {n_jalapeno}, al chile fantasma en el {n_fantome}, al récord mundial Pepper X en el {n_pepperx}, a la capsaicina pura en el {n_capsaicine} y, en el segundo {n_max}, alcanza la sustancia más picante conocida, que ni siquiera sale de un chile.\nFuentes: Guinness World Records, Chile Pepper Institute (NMSU), Winthrop University, Wikipedia (escala Scoville, resiniferatoxina, Euphorbia resinifera), Discover Magazine.",
+    "regle": ["ESTE CHILE PICA UN {pct} %", "MÁS CADA SEGUNDO"],
+    "regle2": ["EMPIEZA COMO UN", "PEPPERONCINI SUAVE"],
+    "unite": "SHU",
+    "echelles": [[1000000, "MILLONES DE SHU"]],
+    "pli": "SEG",
+    "suite": "SIGUE: {cible}",
+    "restant": "FALTAN {n} SEGUNDOS",
+    "restant1": "FALTA 1 SEGUNDO",
+    "pas": ["Y NI SIQUIERA", "ES UN CHILE"],
+    "seve": ["ES LA SAVIA DE UNA", "SUCULENTA DE MARRUECOS"],
+    "lait": ["¡RÁPIDO, UN VASO", "DE LECHE!"],
+    "separateurs": { "milliers": ",", "decimale": "." },
+    "paliers": {
+      "jalapeno": { "cible": "UN JALAPEÑO", "legende": ["PICA MÁS QUE", "CUALQUIER JALAPEÑO"] },
+      "cayenne": { "cible": "EL CAYENA", "legende": ["PICA MÁS QUE", "EL CHILE DE CAYENA"] },
+      "habanero": { "cible": "UN HABANERO", "legende": ["PICA MÁS QUE EL", "HABANERO MÁS BRAVO"] },
+      "fantome": { "cible": "EL CHILE FANTASMA", "legende": ["EL CHILE FANTASMA:", "RÉCORD MUNDIAL EN {annee}"] },
+      "pepperx": { "cible": "PEPPER X", "legende": ["PICA MÁS QUE PEPPER X,", "RÉCORD MUNDIAL DE {annee}"] },
+      "capsaicine": { "cible": "CAPSAICINA PURA", "legende": ["NINGÚN CHILE LLEGA AQUÍ:", "ES CAPSAICINA PURA"] },
+      "dix": { "cible": "{x}× CAPSAICINA", "legende": ["{x} VECES MÁS QUE LA", "CAPSAICINA PURA"] },
+      "cent": { "cible": "{x}× CAPSAICINA", "legende": ["{x} VECES LA CAPSAICINA.", "¿EXISTE ALGO ASÍ?"] },
+      "rtx": { "cible": "LO MÁS PICANTE CONOCIDO", "legende": ["SÍ: LA RESINIFERATOXINA,", "LO MÁS PICANTE CONOCIDO"] }
+    }
+  },
+  "pt": {
+    "titre": "E se uma pimenta ficasse 40% mais ardida a cada segundo?",
+    "description": "Um pepperoncini de {depart} SHU fica {pct}% mais ardido a cada segundo: passa qualquer jalapeño no segundo {n_jalapeno}, a pimenta-fantasma no {n_fantome}, o recorde mundial Pepper X no {n_pepperx}, a capsaicina pura no {n_capsaicine} e, no segundo {n_max}, chega à substância mais ardida que se conhece, que nem vem de uma pimenta.\nFontes: Guinness World Records, Chile Pepper Institute (NMSU), Winthrop University, Wikipedia (escala de Scoville, resiniferatoxina, Euphorbia resinifera), Discover Magazine.",
+    "regle": ["ESTA PIMENTA FICA {pct}%", "MAIS ARDIDA A CADA SEGUNDO"],
+    "regle2": ["ELA COMEÇA COMO UM", "PEPPERONCINI SUAVE"],
+    "unite": "SHU",
+    "echelles": [[1000000, "MILHÕES DE SHU"], [1000000000, "BILHÕES DE SHU"]],
+    "pli": "SEG",
+    "suite": "PRÓXIMO: {cible}",
+    "restant": "FALTAM {n} SEGUNDOS",
+    "restant1": "FALTA 1 SEGUNDO",
+    "pas": ["E NEM É", "UMA PIMENTA"],
+    "seve": ["É A SEIVA DE UMA", "SUCULENTA DO MARROCOS"],
+    "lait": ["RÁPIDO, UM COPO", "DE LEITE!"],
+    "separateurs": { "milliers": ".", "decimale": "," },
+    "paliers": {
+      "jalapeno": { "cible": "UM JALAPEÑO", "legende": ["ARDE MAIS QUE", "QUALQUER JALAPEÑO"] },
+      "cayenne": { "cible": "A CAIENA", "legende": ["ARDE MAIS QUE", "A PIMENTA-CAIENA"] },
+      "habanero": { "cible": "UM HABANERO", "legende": ["ARDE MAIS QUE O", "HABANERO MAIS FORTE"] },
+      "fantome": { "cible": "A PIMENTA-FANTASMA", "legende": ["A PIMENTA-FANTASMA:", "RECORDE MUNDIAL EM {annee}"] },
+      "pepperx": { "cible": "A PEPPER X", "legende": ["ARDE MAIS QUE A PEPPER X,", "RECORDE MUNDIAL DE {annee}"] },
+      "capsaicine": { "cible": "CAPSAICINA PURA", "legende": ["PIMENTA NENHUMA CHEGA", "AQUI: É CAPSAICINA PURA"] },
+      "dix": { "cible": "{x}× CAPSAICINA", "legende": ["{x} VEZES MAIS QUE", "A CAPSAICINA PURA"] },
+      "cent": { "cible": "{x}× CAPSAICINA", "legende": ["{x} VEZES A CAPSAICINA.", "EXISTE ALGO ASSIM?"] },
+      "rtx": { "cible": "O MAIS ARDIDO QUE EXISTE", "legende": ["SIM: RESINIFERATOXINA,", "O MAIS ARDIDO QUE EXISTE"] }
+    }
+  }
+}
