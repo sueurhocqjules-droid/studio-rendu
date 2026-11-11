@@ -1,3 +1,6 @@
-Light-En:light-en
-Light-Es:light-es
-Light-Pt:light-pt
+Pepper-En:pepper-en
+Pepper-Es:pepper-es
+Pepper-Pt:pepper-pt
+Time-En:time-en
+Time-Es:time-es
+Time-Pt:time-pt
