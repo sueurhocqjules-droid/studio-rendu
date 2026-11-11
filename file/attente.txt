@@ -1,6 +1,6 @@
-Pepper-En:pepper-en
-Pepper-Es:pepper-es
-Pepper-Pt:pepper-pt
-Time-En:time-en
-Time-Es:time-es
-Time-Pt:time-pt
+Heart-En:heart-en
+Heart-Es:heart-es
+Heart-Pt:heart-pt
+Dive-En:dive-en
+Dive-Es:dive-es
+Dive-Pt:dive-pt
