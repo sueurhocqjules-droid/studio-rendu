@@ -1,6 +1,6 @@
-Heart-En:heart-en
-Heart-Es:heart-es
-Heart-Pt:heart-pt
-Dive-En:dive-en
-Dive-Es:dive-es
-Dive-Pt:dive-pt
+Volt-En:volt-en
+Volt-Es:volt-es
+Volt-Pt:volt-pt
+Snowball-En:snowball-en
+Snowball-Es:snowball-es
+Snowball-Pt:snowball-pt
