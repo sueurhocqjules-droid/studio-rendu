@@ -15,6 +15,7 @@ import { mosquito } from "./scenes/mosquito";
 import { paper } from "./scenes/paper";
 import { pepper } from "./scenes/pepper";
 import { rice } from "./scenes/rice";
+import { snowball } from "./scenes/snowball";
 import { spin } from "./scenes/spin";
 import { time } from "./scenes/time";
 import { volt } from "./scenes/volt";
@@ -23,7 +24,7 @@ import { walk } from "./scenes/walk";
 import { wind } from "./scenes/wind";
 
 // Les props d'une composition sont sérialisées : on passe le nom, et le sujet se retrouve ici
-export const SUJETS: Sujet[] = [paper, dollar, ball, coffee, walk, rice, gravity, ice, mosquito, moon, flood, wind, volume, spin, clone, coin, light, pepper, time, heart, dive, volt];
+export const SUJETS: Sujet[] = [paper, dollar, ball, coffee, walk, rice, gravity, ice, mosquito, moon, flood, wind, volume, spin, clone, coin, light, pepper, time, heart, dive, volt, snowball];
 
 export const sujetNomme = (nom: string) => {
   const sujet = SUJETS.find((s) => s.nom === nom);

@@ -1,0 +1,233 @@
+{
+  "n_max": 52,
+  "m0_kg": 0.20943951023931962,
+  "d0_m": 0.1,
+  "facteur": 1.6,
+  "gain_pct": 60,
+  "livre_kg": 0.45359237,
+  "tonne_courte_kg": 907.18474,
+  "m_fin_kg": 8615841714.54807,
+  "d_fin_m": 345.20708405631893,
+  "terrains": {
+    "en": "5,300",
+    "es": "4,800",
+    "pt": "4.800"
+  },
+  "surface_km2": {
+    "en": 37.68959630069392,
+    "es_pt": 34.46336685735452
+  },
+  "paliers": [
+    {
+      "cle": "boule",
+      "masse_kg": 7.257,
+      "pas": 8,
+      "arrivee_s": 7.5,
+      "diametre_boule_m": 0.35020307387938765,
+      "source": "Boule de bowling : 16 livres au plus (7,26 kg), règlement de l'United States Bowling Congress (USBC)"
+    },
+    {
+      "cle": "humain",
+      "masse_kg": 62,
+      "pas": 13,
+      "arrivee_s": 12.5,
+      "diametre_boule_m": 0.7665137059660738,
+      "source": "Masse moyenne d'un adulte dans le monde : 62 kg, Walpole et al., « The weight of nations », BMC Public Health 2012"
+    },
+    {
+      "cle": "elephant",
+      "masse_kg": 5987.4192840000005,
+      "pas": 22,
+      "arrivee_s": 21.5,
+      "diametre_boule_m": 3.139640139637039,
+      "source": "Éléphant de savane d'Afrique : jusqu'à 13 200 livres (environ 6 000 kg), fiche du Smithsonian's National Zoo (archive 2009)"
+    },
+    {
+      "cle": "baleine",
+      "masse_kg": 149685.4821,
+      "pas": 29,
+      "arrivee_s": 28.5,
+      "diametre_boule_m": 9.400692182941514,
+      "source": "Baleine bleue : jusqu'à 330 000 livres (environ 150 t), NOAA Fisheries"
+    },
+    {
+      "cle": "fusee",
+      "masse_kg": 2812272.694,
+      "pas": 35,
+      "arrivee_s": 34.5,
+      "diametre_boule_m": 24.065771988330273,
+      "source": "Saturn V pleine au décollage : 6,2 millions de livres (2,8 millions de kg), NASA"
+    },
+    {
+      "cle": "eiffel",
+      "masse_kg": 10100000,
+      "pas": 38,
+      "arrivee_s": 37.5,
+      "diametre_boule_m": 38.505235181328445,
+      "source": "Tour Eiffel : 10 100 tonnes au total, chiffres clés du site officiel toureiffel.paris"
+    },
+    {
+      "cle": "titanic",
+      "masse_kg": 53149413.799328,
+      "pas": 42,
+      "arrivee_s": 41.5,
+      "diametre_boule_m": 72.05759403792798,
+      "source": "Titanic : déplacement de 52 310 tonnes longues (environ 53 150 t), archives Harland & Wolff citées par Mark Chirnside et Wikipedia"
+    },
+    {
+      "cle": "navire",
+      "masse_kg": 657019000,
+      "pas": 47,
+      "arrivee_s": 46.5,
+      "diametre_boule_m": 157.7174433027213,
+      "source": "Seawise Giant (Mont), plus long navire jamais construit (458,45 m, Guinness World Records) : 657 019 tonnes de déplacement à pleine charge (Wikipedia)"
+    },
+    {
+      "cle": "pyramide",
+      "masse_kg": 6000000000,
+      "pas": 52,
+      "arrivee_s": 51.5,
+      "diametre_boule_m": 345.20708405631893,
+      "source": "Grande Pyramide de Gizeh : environ 6 millions de tonnes (Wikipedia ; estimations de 5,3 à 6,75 millions de tonnes selon la densité retenue, IEEE Spectrum)"
+    }
+  ],
+  "t_limite": 51.5,
+  "t_coupe": 54.3,
+  "t_qui": 56.9,
+  "t_retour": 60.1,
+  "t_fin": 64.3,
+  "duree_s": 64.8,
+  "descriptions": {
+    "en": "A snowball gets 60% heavier every second as it rolls downhill: it outweighs you after 13 seconds, a blue whale at second 29, the Eiffel Tower at second 38 and the Great Pyramid at second 52. But a snowball can only grow by eating snow: by the end it has swallowed 3 feet of snow from 5,300 soccer fields.\nMath: snowball packed at 400 kg/m³ (wind-packed snow), snow on the ground at 250 kg/m³.\nSources: Paterson, The Physics of Glaciers; USBC; Walpole et al., BMC Public Health 2012; Smithsonian's National Zoo; NOAA Fisheries; NASA; toureiffel.paris; Harland & Wolff records; Guinness World Records; IEEE Spectrum; FIFA.",
+    "es": "Una bola de nieve pesa un 60 % más cada segundo mientras rueda cuesta abajo: pesa más que tú a los 13 segundos, que una ballena azul en el segundo 29, que la Torre Eiffel en el segundo 38 y que la Gran Pirámide en el segundo 52. Pero una bola de nieve solo crece comiendo nieve: al final se ha tragado 1 metro de nieve de 4,800 canchas de fútbol.\nCálculo: bola compactada a 400 kg/m³ (nieve compactada por el viento), nieve en el suelo a 250 kg/m³.\nFuentes: Paterson, The Physics of Glaciers; USBC; Walpole et al., BMC Public Health 2012; Smithsonian's National Zoo; NOAA Fisheries; NASA; toureiffel.paris; archivos de Harland & Wolff; Guinness World Records; IEEE Spectrum; FIFA.",
+    "pt": "Uma bola de neve fica 60% mais pesada a cada segundo enquanto desce a montanha: pesa mais que você aos 13 segundos, que uma baleia-azul no segundo 29, que a Torre Eiffel no segundo 38 e que a Grande Pirâmide no segundo 52. Mas uma bola de neve só cresce comendo neve: no fim, ela engoliu 1 metro de neve de 4.800 campos de futebol.\nCálculo: bola compactada a 400 kg/m³ (neve compactada pelo vento), neve no chão a 250 kg/m³.\nFontes: Paterson, The Physics of Glaciers; USBC; Walpole et al., BMC Public Health 2012; Smithsonian's National Zoo; NOAA Fisheries; NASA; toureiffel.paris; arquivos da Harland & Wolff; Guinness World Records; IEEE Spectrum; FIFA."
+  },
+  "son": {
+    "duree_s": 64.8,
+    "tics": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51
+    ],
+    "paliers": [
+      7.5,
+      12.5,
+      21.5,
+      28.5,
+      34.5,
+      37.5,
+      41.5,
+      46.5,
+      51.5
+    ],
+    "retournements": [
+      51.5,
+      54.3,
+      60.1
+    ],
+    "fin": 64.3,
+    "base_hz": 110,
+    "tic_hz": 1320,
+    "bourdon": [
+      [
+        0,
+        330,
+        0.04
+      ],
+      [
+        15,
+        220,
+        0.1
+      ],
+      [
+        35,
+        98,
+        0.22
+      ],
+      [
+        51.5,
+        55,
+        0.4
+      ],
+      [
+        54.29,
+        55,
+        0.4
+      ],
+      [
+        54.3,
+        55,
+        0
+      ],
+      [
+        60.1,
+        55,
+        0
+      ],
+      [
+        60.7,
+        70,
+        0.08
+      ],
+      [
+        64.3,
+        330,
+        0.04
+      ],
+      [
+        64.8,
+        330,
+        0
+      ]
+    ]
+  }
+}
