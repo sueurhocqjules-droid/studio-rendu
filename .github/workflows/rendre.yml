@@ -48,8 +48,20 @@ jobs:
         with:
           node-version: 22
           cache: npm
+      # Outils figés dans la release « outils » de studio-rendu, empreinte vérifiée : plus d'apt-get,
+      # les serveurs d'Ubuntu sont tombés le 11/11/2026. La police emoji est déjà dans l'image, on vérifie qu'elle y reste.
       - name: Emojis du karaoké et ffmpeg
-        run: sudo apt-get update -q && sudo apt-get install -yq fonts-noto-color-emoji ffmpeg
+        timeout-minutes: 5
+        env:
+          OUTILS: https://github.com/sueurhocqjules-droid/studio-rendu/releases/download/outils
+          FFMPEG: ffmpeg-n8.1-latest-linux64-lgpl-8.1.tar.xz
+          FFMPEG_SHA256: e44961bca8e8429645843addd3e0b06397bea909f5526091a51fcfa300bf2915
+        run: |
+          curl -fsSL --retry 3 -o "$RUNNER_TEMP/$FFMPEG" "$OUTILS/$FFMPEG"
+          echo "$FFMPEG_SHA256  $RUNNER_TEMP/$FFMPEG" | sha256sum -c -
+          sudo tar -xJf "$RUNNER_TEMP/$FFMPEG" -C /usr/local/bin --strip-components=2 --wildcards "*/bin/ffmpeg" "*/bin/ffprobe"
+          ffmpeg -version | head -1
+          fc-list | grep -q "Noto Color Emoji" || { echo "::error::Police Noto Color Emoji absente de l'image"; exit 1; }
       - run: npm ci
       - name: Rendu et compression
         env:
