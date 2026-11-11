@@ -1,5 +1,6 @@
 # Rend des Shorts sur les machines de GitHub, une machine par vidéo, sans toucher au PC.
-# Lancement : gh workflow run rendre.yml -f videos="Dentinhos:dentinhos Sapinho:sapinho"
+# Lancement à la main : gh workflow run rendre.yml -f videos="Moon-En:moon-en Moon-Es:moon-es"
+# Lancement par l'agence (agents/flux.py) : elle pousse file/attente.txt, une composition:nom par ligne
 # Récupération : gh run download <id> -D out  (un sous-dossier par vidéo, mp4 gardés 3 jours)
 # Mesuré le 31/10 : ~7 min de machine par Short de 40 s, identique au rendu du PC
 name: Rendre
@@ -10,6 +11,9 @@ on:
       videos:
         description: "Composition:nom séparés par des espaces (comme scripts/rendre.py)"
         required: true
+  push:
+    branches: [main]
+    paths: [file/attente.txt]
 
 permissions:
   contents: read
@@ -20,14 +24,18 @@ jobs:
     outputs:
       videos: ${{ steps.liste.outputs.videos }}
     steps:
+      - uses: actions/checkout@v5
       - id: liste
         env:
           VIDEOS: ${{ inputs.videos }}
         # L'entrée passe par une variable d'environnement, jamais directement dans le script (injection)
-        run: echo "videos=$(echo "$VIDEOS" | jq -Rc 'split(" ") | map(select(test("^[A-Za-z0-9-]+:[a-z0-9-]+$")))')" >> "$GITHUB_OUTPUT"
+        run: |
+          [ -n "$VIDEOS" ] || VIDEOS=$(tr '\n' ' ' < file/attente.txt)
+          echo "videos=$(echo "$VIDEOS" | jq -Rc 'split(" ") | map(select(test("^[A-Za-z0-9-]+:[a-z0-9-]+$")))')" >> "$GITHUB_OUTPUT"
 
   rendu:
     needs: liste
+    if: needs.liste.outputs.videos != '[]'
     runs-on: ubuntu-latest
     timeout-minutes: 30
     strategy:
