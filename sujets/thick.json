@@ -1,0 +1,96 @@
+{
+  "regle_physique": {
+    "eau_pa_s": 0.0010016,
+    "facteur_par_seconde": 3,
+    "source_eau": "Eau à 20 °C : 1,0016 mPa·s, CRC Handbook of Chemistry and Physics, 99e éd., via Wikipedia « List of viscosities » (vérifié le 2026-11-12)"
+  },
+  "references": {
+    "huile": { "pa_s": 0.0562, "source": "Huile d'olive : 56,2 mPa·s, Fellows 2009 (Food Processing Technology) via Wikipedia « List of viscosities » ; l'Université de Rhode Island donne 10 poises, même ordre (vérifié le 2026-11-12)" },
+    "miel": { "pa_s": 10, "source": "Miel : 2 000 à 10 000 mPa·s à 20 °C, Yanniotis et al. 2006 (Journal of Food Engineering) via Wikipedia « List of viscosities » ; borne haute retenue (vérifié le 2026-11-12)" },
+    "lave": { "pa_s": 10000, "source": "Magma basaltique et andésitique : 10^3 à 10^5 poises (100 à 10 000 Pa·s), Université de Rhode Island, volcano.uri.edu « Viscosity » ; borne haute retenue (vérifié le 2026-11-12)" },
+    "brai": { "pa_s": 2.3e8, "source": "Brai de l'expérience de la goutte de l'Université du Queensland : 2,3 x 10^8 Pa·s, environ 230 milliards de fois l'eau, Edgeworth et al. 1984 (European Journal of Physics) ; neuf gouttes de 1930 à 2014, environ une par décennie (Wikipedia « Pitch drop experiment », vérifié le 2026-11-12)" },
+    "verre": { "pa_s": 1e12, "source": "Transition vitreuse définie à 10^12 Pa·s (10^13 poises), IUPAC Gold Book via Wikipedia « Glass transition » (vérifié le 2026-11-12)" },
+    "glace": { "pa_s": 6e14, "source": "Glace de l'inlandsis antarctique à Roosevelt Island : viscosité effective de 6 x 10^14 à 2 x 10^15 Pa·s, Shibley, Lai et Culberg 2023 (arXiv:2310.02404) ; borne basse retenue (vérifié le 2026-11-12)" },
+    "sel": { "pa_s": 1e18, "source": "Sel du dôme de sel d'Ormuz (golfe Persique) : 10^18 à 10^21 Pa·s, Mukherjee, Talbot et Koyi 2010 (Geological Magazine 147(4)) ; borne basse retenue (vérifié le 2026-11-12)" },
+    "granit": { "pa_s": 6e19, "source": "Granite à 25 °C : 3 x 10^19 à 6 x 10^19 Pa·s, Kumagai et al. 1978 via Wikipedia « List of viscosities » ; borne haute retenue (vérifié le 2026-11-12)" },
+    "manteau": { "pa_s": 1e21, "source": "Manteau supérieur : 7 x 10^20 à 1 x 10^21 Pa·s, Fjeldskaar 1994 (Earth and Planetary Science Letters) via Wikipedia « List of viscosities » ; borne haute retenue (vérifié le 2026-11-12)" }
+  },
+  "plaques": {
+    "source": "USGS FAQ « How fast do tectonic plates move? » : les plaques avancent à peu près à la vitesse de pousse des ongles (vérifié le 2026-11-12)"
+  },
+  "en": {
+    "titre": "What If Water Got 3 Times Thicker Every Second?",
+    "description": "Water gets 3 times thicker every second: olive oil at second {n_huile}, honey at second {n_miel}, pitch (one drop per decade) at second {n_brai}, thicker than granite at second {n_granit}, and by second {n_manteau} it is as thick as Earth's mantle, which still flows under your feet about as fast as your fingernails grow.\nSources: CRC Handbook of Chemistry and Physics; University of Rhode Island; Edgeworth et al. 1984 (University of Queensland pitch drop); IUPAC; Shibley, Lai & Culberg 2023; Mukherjee, Talbot & Koyi 2010; Kumagai et al. 1978; Fjeldskaar 1994; USGS.",
+    "regle": ["WATER GETS 3X THICKER", "EVERY SECOND"],
+    "eau": "WATER",
+    "pli": "SEC",
+    "echelles": [[6, "MILLION"], [9, "BILLION"], [12, "TRILLION"], [15, "QUADRILLION"], [18, "QUINTILLION"], [21, "SEXTILLION"], [24, "SEPTILLION"]],
+    "suite": "NEXT: {cible}",
+    "restant": "{n} SECONDS TO GO",
+    "restant1": "1 SECOND TO GO",
+    "sous": ["AND YOU'RE", "STANDING ON IT"],
+    "flux": ["IT STILL FLOWS, AS FAST", "AS YOUR FINGERNAILS GROW"],
+    "separateurs": { "milliers": ",", "decimale": "." },
+    "paliers": {
+      "huile": { "cible": "OLIVE OIL", "legende": ["YOUR WATER IS NOW", "AS THICK AS OLIVE OIL"] },
+      "miel": { "cible": "HONEY", "legende": ["NOW IT POURS", "LIKE HONEY"] },
+      "lave": { "cible": "LAVA", "legende": ["THICKER THAN", "FLOWING LAVA"] },
+      "brai": { "cible": "PITCH", "legende": ["AS THICK AS PITCH:", "ONE DROP PER DECADE"] },
+      "verre": { "cible": "GLASS", "legende": ["THICKER THAN GLASS", "AT THE MOMENT IT SETS"] },
+      "glace": { "cible": "ANTARCTIC ICE", "legende": ["THICKER THAN", "ANTARCTIC ICE"] },
+      "sel": { "cible": "A SALT MOUNTAIN", "legende": ["AS THICK AS A SALT", "MOUNTAIN THAT FLOWS"] },
+      "granit": { "cible": "GRANITE", "legende": ["NOW IT'S THICKER", "THAN GRANITE"] },
+      "manteau": { "cible": "EARTH'S MANTLE", "legende": ["AS THICK AS", "EARTH'S MANTLE"] }
+    }
+  },
+  "es": {
+    "titre": "¿Y si el agua se volviera 3 veces más espesa cada segundo?",
+    "description": "El agua se vuelve 3 veces más espesa cada segundo: aceite de oliva en el segundo {n_huile}, miel en el segundo {n_miel}, brea (una gota por década) en el segundo {n_brai}, más espesa que el granito en el segundo {n_granit} y, en el segundo {n_manteau}, tan espesa como el manto de la Tierra, que sigue fluyendo bajo tus pies a la velocidad con la que crecen tus uñas.\nFuentes: CRC Handbook of Chemistry and Physics; Universidad de Rhode Island; Edgeworth et al. 1984 (experimento de la gota de brea, Universidad de Queensland); IUPAC; Shibley, Lai y Culberg 2023; Mukherjee, Talbot y Koyi 2010; Kumagai et al. 1978; Fjeldskaar 1994; USGS.",
+    "regle": ["EL AGUA SE VUELVE 3 VECES", "MÁS ESPESA CADA SEGUNDO"],
+    "eau": "AGUA",
+    "pli": "SEG",
+    "echelles": [[6, "MILLONES"], [12, "BILLONES"], [18, "TRILLONES"], [24, "CUATRILLONES"]],
+    "suite": "SIGUE: {cible}",
+    "restant": "FALTAN {n} SEGUNDOS",
+    "restant1": "FALTA 1 SEGUNDO",
+    "sous": ["Y ESTÁS PARADO", "ENCIMA DE ÉL"],
+    "flux": ["Y AÚN FLUYE, TAN RÁPIDO", "COMO CRECEN TUS UÑAS"],
+    "separateurs": { "milliers": ",", "decimale": "." },
+    "paliers": {
+      "huile": { "cible": "ACEITE DE OLIVA", "legende": ["TU AGUA YA ES TAN", "ESPESA COMO EL ACEITE"] },
+      "miel": { "cible": "LA MIEL", "legende": ["AHORA SE VIERTE", "COMO MIEL"] },
+      "lave": { "cible": "LA LAVA", "legende": ["MÁS ESPESA QUE", "LA LAVA ARDIENTE"] },
+      "brai": { "cible": "LA BREA", "legende": ["COMO BREA:", "UNA GOTA POR DÉCADA"] },
+      "verre": { "cible": "EL VIDRIO", "legende": ["MÁS ESPESA QUE EL VIDRIO", "CUANDO SE ENDURECE"] },
+      "glace": { "cible": "EL HIELO ANTÁRTICO", "legende": ["MÁS ESPESA QUE EL", "HIELO DE LA ANTÁRTIDA"] },
+      "sel": { "cible": "UNA MONTAÑA DE SAL", "legende": ["COMO UNA MONTAÑA", "DE SAL QUE FLUYE"] },
+      "granit": { "cible": "EL GRANITO", "legende": ["AHORA ES MÁS ESPESA", "QUE EL GRANITO"] },
+      "manteau": { "cible": "EL MANTO TERRESTRE", "legende": ["TAN ESPESA COMO", "EL MANTO DE LA TIERRA"] }
+    }
+  },
+  "pt": {
+    "titre": "E se a água ficasse 3 vezes mais espessa a cada segundo?",
+    "description": "A água fica 3 vezes mais espessa a cada segundo: azeite no segundo {n_huile}, mel no segundo {n_miel}, piche (uma gota por década) no segundo {n_brai}, mais espessa que granito no segundo {n_granit} e, no segundo {n_manteau}, tão espessa quanto o manto da Terra, que ainda flui sob os seus pés na velocidade em que as suas unhas crescem.\nFontes: CRC Handbook of Chemistry and Physics; Universidade de Rhode Island; Edgeworth et al. 1984 (experimento da gota de piche, Universidade de Queensland); IUPAC; Shibley, Lai e Culberg 2023; Mukherjee, Talbot e Koyi 2010; Kumagai et al. 1978; Fjeldskaar 1994; USGS.",
+    "regle": ["A ÁGUA FICA 3 VEZES MAIS", "ESPESSA A CADA SEGUNDO"],
+    "eau": "ÁGUA",
+    "pli": "SEG",
+    "echelles": [[6, "MILHÕES"], [9, "BILHÕES"], [12, "TRILHÕES"], [15, "QUATRILHÕES"], [18, "QUINTILHÕES"], [21, "SEXTILHÕES"], [24, "SEPTILHÕES"]],
+    "suite": "PRÓXIMO: {cible}",
+    "restant": "FALTAM {n} SEGUNDOS",
+    "restant1": "FALTA 1 SEGUNDO",
+    "sous": ["E VOCÊ ESTÁ", "EM CIMA DELE"],
+    "flux": ["E ELE AINDA FLUI, NA", "VELOCIDADE DAS SUAS UNHAS"],
+    "separateurs": { "milliers": ".", "decimale": "," },
+    "paliers": {
+      "huile": { "cible": "AZEITE", "legende": ["SUA ÁGUA JÁ É TÃO", "ESPESSA QUANTO AZEITE"] },
+      "miel": { "cible": "O MEL", "legende": ["AGORA ELA ESCORRE", "COMO MEL"] },
+      "lave": { "cible": "A LAVA", "legende": ["MAIS ESPESSA QUE", "LAVA ESCORRENDO"] },
+      "brai": { "cible": "O PICHE", "legende": ["COMO PICHE:", "UMA GOTA POR DÉCADA"] },
+      "verre": { "cible": "O VIDRO", "legende": ["MAIS ESPESSA QUE O VIDRO", "QUANDO ENDURECE"] },
+      "glace": { "cible": "O GELO DA ANTÁRTIDA", "legende": ["MAIS ESPESSA QUE O", "GELO DA ANTÁRTIDA"] },
+      "sel": { "cible": "UMA MONTANHA DE SAL", "legende": ["COMO UMA MONTANHA", "DE SAL QUE ESCORRE"] },
+      "granit": { "cible": "O GRANITO", "legende": ["AGORA ELA É MAIS", "ESPESSA QUE GRANITO"] },
+      "manteau": { "cible": "O MANTO DA TERRA", "legende": ["TÃO ESPESSA QUANTO", "O MANTO DA TERRA"] }
+    }
+  }
+}

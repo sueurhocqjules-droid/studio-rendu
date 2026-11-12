@@ -1,0 +1,213 @@
+{
+  "n_max": 51,
+  "facteur": 3,
+  "eau_pa_s": 0.0010016,
+  "fois_eau_fin": 2153693963075557766310747,
+  "paliers": [
+    {
+      "cle": "huile",
+      "pa_s": 0.0562,
+      "fois_eau": 56.11022364217252,
+      "pas": 4,
+      "arrivee_s": 3.5,
+      "source": "Huile d'olive : 56,2 mPa·s, Fellows 2009 (Food Processing Technology) via Wikipedia « List of viscosities » ; l'Université de Rhode Island donne 10 poises, même ordre (vérifié le 2026-11-12)"
+    },
+    {
+      "cle": "miel",
+      "pa_s": 10,
+      "fois_eau": 9984.02555910543,
+      "pas": 9,
+      "arrivee_s": 8.5,
+      "source": "Miel : 2 000 à 10 000 mPa·s à 20 °C, Yanniotis et al. 2006 (Journal of Food Engineering) via Wikipedia « List of viscosities » ; borne haute retenue (vérifié le 2026-11-12)"
+    },
+    {
+      "cle": "lave",
+      "pa_s": 10000,
+      "fois_eau": 9984025.55910543,
+      "pas": 15,
+      "arrivee_s": 14.5,
+      "source": "Magma basaltique et andésitique : 10^3 à 10^5 poises (100 à 10 000 Pa·s), Université de Rhode Island, volcano.uri.edu « Viscosity » ; borne haute retenue (vérifié le 2026-11-12)"
+    },
+    {
+      "cle": "brai",
+      "pa_s": 230000000.0,
+      "fois_eau": 229632587859.4249,
+      "pas": 24,
+      "arrivee_s": 23.5,
+      "source": "Brai de l'expérience de la goutte de l'Université du Queensland : 2,3 x 10^8 Pa·s, environ 230 milliards de fois l'eau, Edgeworth et al. 1984 (European Journal of Physics) ; neuf gouttes de 1930 à 2014, environ une par décennie (Wikipedia « Pitch drop experiment », vérifié le 2026-11-12)"
+    },
+    {
+      "cle": "verre",
+      "pa_s": 1000000000000.0,
+      "fois_eau": 998402555910543.1,
+      "pas": 32,
+      "arrivee_s": 31.5,
+      "source": "Transition vitreuse définie à 10^12 Pa·s (10^13 poises), IUPAC Gold Book via Wikipedia « Glass transition » (vérifié le 2026-11-12)"
+    },
+    {
+      "cle": "glace",
+      "pa_s": 600000000000000.0,
+      "fois_eau": 5.990415335463259e+17,
+      "pas": 38,
+      "arrivee_s": 37.5,
+      "source": "Glace de l'inlandsis antarctique à Roosevelt Island : viscosité effective de 6 x 10^14 à 2 x 10^15 Pa·s, Shibley, Lai et Culberg 2023 (arXiv:2310.02404) ; borne basse retenue (vérifié le 2026-11-12)"
+    },
+    {
+      "cle": "sel",
+      "pa_s": 1e+18,
+      "fois_eau": 9.984025559105431e+20,
+      "pas": 45,
+      "arrivee_s": 44.5,
+      "source": "Sel du dôme de sel d'Ormuz (golfe Persique) : 10^18 à 10^21 Pa·s, Mukherjee, Talbot et Koyi 2010 (Geological Magazine 147(4)) ; borne basse retenue (vérifié le 2026-11-12)"
+    },
+    {
+      "cle": "granit",
+      "pa_s": 6e+19,
+      "fois_eau": 5.990415335463259e+22,
+      "pas": 48,
+      "arrivee_s": 47.5,
+      "source": "Granite à 25 °C : 3 x 10^19 à 6 x 10^19 Pa·s, Kumagai et al. 1978 via Wikipedia « List of viscosities » ; borne haute retenue (vérifié le 2026-11-12)"
+    },
+    {
+      "cle": "manteau",
+      "pa_s": 1e+21,
+      "fois_eau": 9.984025559105431e+23,
+      "pas": 51,
+      "arrivee_s": 50.5,
+      "source": "Manteau supérieur : 7 x 10^20 à 1 x 10^21 Pa·s, Fjeldskaar 1994 (Earth and Planetary Science Letters) via Wikipedia « List of viscosities » ; borne haute retenue (vérifié le 2026-11-12)"
+    }
+  ],
+  "t_limite": 50.5,
+  "t_coupe": 53.3,
+  "t_flux": 56.699999999999996,
+  "t_retour": 60.49999999999999,
+  "t_fin": 63.89999999999999,
+  "duree_s": 64.5,
+  "descriptions": {
+    "en": "Water gets 3 times thicker every second: olive oil at second 4, honey at second 9, pitch (one drop per decade) at second 24, thicker than granite at second 48, and by second 51 it is as thick as Earth's mantle, which still flows under your feet about as fast as your fingernails grow.\nSources: CRC Handbook of Chemistry and Physics; University of Rhode Island; Edgeworth et al. 1984 (University of Queensland pitch drop); IUPAC; Shibley, Lai & Culberg 2023; Mukherjee, Talbot & Koyi 2010; Kumagai et al. 1978; Fjeldskaar 1994; USGS.",
+    "es": "El agua se vuelve 3 veces más espesa cada segundo: aceite de oliva en el segundo 4, miel en el segundo 9, brea (una gota por década) en el segundo 24, más espesa que el granito en el segundo 48 y, en el segundo 51, tan espesa como el manto de la Tierra, que sigue fluyendo bajo tus pies a la velocidad con la que crecen tus uñas.\nFuentes: CRC Handbook of Chemistry and Physics; Universidad de Rhode Island; Edgeworth et al. 1984 (experimento de la gota de brea, Universidad de Queensland); IUPAC; Shibley, Lai y Culberg 2023; Mukherjee, Talbot y Koyi 2010; Kumagai et al. 1978; Fjeldskaar 1994; USGS.",
+    "pt": "A água fica 3 vezes mais espessa a cada segundo: azeite no segundo 4, mel no segundo 9, piche (uma gota por década) no segundo 24, mais espessa que granito no segundo 48 e, no segundo 51, tão espessa quanto o manto da Terra, que ainda flui sob os seus pés na velocidade em que as suas unhas crescem.\nFontes: CRC Handbook of Chemistry and Physics; Universidade de Rhode Island; Edgeworth et al. 1984 (experimento da gota de piche, Universidade de Queensland); IUPAC; Shibley, Lai e Culberg 2023; Mukherjee, Talbot e Koyi 2010; Kumagai et al. 1978; Fjeldskaar 1994; USGS."
+  },
+  "son": {
+    "duree_s": 64.5,
+    "tics": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50
+    ],
+    "paliers": [
+      3.5,
+      8.5,
+      14.5,
+      23.5,
+      31.5,
+      37.5,
+      44.5,
+      47.5,
+      50.5
+    ],
+    "retournements": [
+      50.5,
+      53.3,
+      56.699999999999996
+    ],
+    "fin": 63.89999999999999,
+    "base_hz": 110,
+    "tic_hz": 1175,
+    "bourdon": [
+      [
+        0,
+        330,
+        0.05
+      ],
+      [
+        15,
+        220,
+        0.09
+      ],
+      [
+        24,
+        140,
+        0.15
+      ],
+      [
+        50.5,
+        55,
+        0.28
+      ],
+      [
+        53.29,
+        55,
+        0.28
+      ],
+      [
+        53.3,
+        41,
+        0.34
+      ],
+      [
+        60.49999999999999,
+        41,
+        0.3
+      ],
+      [
+        63.89999999999999,
+        330,
+        0.05
+      ],
+      [
+        64.5,
+        330,
+        0
+      ]
+    ]
+  }
+}
