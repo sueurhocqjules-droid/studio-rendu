@@ -3,6 +3,9 @@
 Usage : python scripts/son.py paper
 Entrée : section "son" de sujets/<nom>.calcul.json
 Sortie : public/sons/<nom>.wav (mono, 44,1 kHz), volume moyen réglé à -18 dB
+
+Tic, montée et impacts sont de vrais enregistrements CC0 (sons/banque, sources dans sons/banque/CREDITS.md).
+La nappe et le bourdon restent calculés : ils suivent la hauteur propre à chaque sujet.
 """
 import json
 import sys
@@ -20,37 +23,36 @@ son = json.loads((RACINE / "sujets" / f"{nom}.calcul.json").read_text(encoding="
 duree = son["duree_s"]
 n = int(duree * FREQUENCE)
 temps = np.arange(n) / FREQUENCE
-alea = np.random.default_rng(sum(nom.encode()))
+
+
+BANQUE = RACINE / "sons" / "banque"
+
+
+def echantillon(nom_fichier):
+    with wave.open(str(BANQUE / f"{nom_fichier}.wav")) as fichier:
+        assert fichier.getframerate() == FREQUENCE and fichier.getnchannels() == 1
+        return np.frombuffer(fichier.readframes(fichier.getnframes()), dtype="<i2") / 32768
+
+
+TICS = [echantillon("tic_1"), echantillon("tic_2")]
+IMPACT = echantillon("impact")
+MONTEE = echantillon("montee_impact")
+FRAPPE_S = json.loads((BANQUE / "banque.json").read_text(encoding="utf-8"))["montee_impact"]["frappe_s"]
 
 
 def ajouter(piste, debut_s, morceau):
-    debut = int(debut_s * FREQUENCE)
+    debut = int(round(debut_s * FREQUENCE))
+    if debut < 0:  # un palier trop tôt : la montée commence avant la vidéo, on n'en garde que la fin
+        morceau, debut = morceau[-debut:], 0
     if debut >= len(piste):
         return
     fin = min(len(piste), debut + len(morceau))
     piste[debut:fin] += morceau[: fin - debut]
 
 
-def tic(hauteur_hz):
-    t = np.arange(int(0.06 * FREQUENCE)) / FREQUENCE
-    return np.sin(2 * np.pi * hauteur_hz * t) * np.exp(-t * 90)
-
-
-def impact():
-    t = np.arange(int(1.2 * FREQUENCE)) / FREQUENCE
-    grave = np.sin(2 * np.pi * (46 + 60 * np.exp(-t * 18)) * t) * np.exp(-t * 4.5)
-    claque = alea.standard_normal(len(t)) * np.exp(-t * 55) * 0.35
-    return grave + claque
-
-
-def montee(longueur_s):
-    t = np.arange(int(longueur_s * FREQUENCE)) / FREQUENCE
-    progression = t / longueur_s
-    bruit = np.cumsum(alea.standard_normal(len(t)))
-    bruit -= np.convolve(bruit, np.ones(400) / 400, mode="same")
-    bruit /= np.abs(bruit).max()
-    balayage = np.sin(2 * np.pi * np.cumsum(180 + 900 * progression ** 2) / FREQUENCE)
-    return (bruit * 0.6 + balayage * 0.25) * progression ** 2.5
+def transposer(morceau, rapport):
+    """Plus aigu (et plus court) d'un rapport donné, par rééchantillonnage."""
+    return np.interp(np.arange(0, len(morceau) - 1, rapport), np.arange(len(morceau)), morceau)
 
 
 # Nappe : trois sinus qui montent doucement avec la vidéo, puis se taisent au retournement
@@ -63,13 +65,13 @@ nappe *= 1 + 0.25 * np.sin(2 * np.pi * temps)  # souffle d'une seconde, le rythm
 nappe *= np.where(temps < son["retournements"][0], 1, 0.15)
 
 effets = np.zeros(n)
+# Le tic monte d'une octave au fil du compteur, comme avant ; les deux coups de l'horloge alternent
 for index, debut in enumerate(son["tics"]):
-    ajouter(effets, debut, tic(son.get("tic_hz", 900) * 2 ** (index / max(len(son["tics"]), 1))) * 0.34)
+    ajouter(effets, debut, transposer(TICS[index % 2], 2 ** (index / max(len(son["tics"]), 1))) * 0.34)
 for debut in son["paliers"]:
-    ajouter(effets, max(debut - 1.4, 0), montee(1.4) * 0.32)
-    ajouter(effets, debut, impact() * 0.85)
+    ajouter(effets, debut - FRAPPE_S, MONTEE * 0.6)
 for debut in son["retournements"]:
-    ajouter(effets, debut, impact() * 1.0)
+    ajouter(effets, debut, IMPACT * 1.0)
 
 # Bourdon facultatif : liste de [temps, hauteur, force], pour un sujet qui a sa propre voix
 bourdon = np.zeros(n)

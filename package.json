@@ -9,15 +9,15 @@
   },
   "private": true,
   "dependencies": {
-    "@remotion/cli": "4.0.539",
-    "@remotion/google-fonts": "4.0.539",
-    "@remotion/media": "4.0.539",
+    "@remotion/cli": "4.0.542",
+    "@remotion/google-fonts": "4.0.542",
+    "@remotion/media": "4.0.542",
     "react": "19.2.3",
     "react-dom": "19.2.3",
-    "remotion": "4.0.539"
+    "remotion": "4.0.542"
   },
   "devDependencies": {
-    "@remotion/eslint-config-flat": "4.0.539",
+    "@remotion/eslint-config-flat": "4.0.542",
     "@types/react": "19.2.7",
     "@types/web": "0.0.166",
     "eslint": "10.12.0",
