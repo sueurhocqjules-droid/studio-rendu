@@ -54,8 +54,8 @@ jobs:
         timeout-minutes: 5
         env:
           OUTILS: https://github.com/sueurhocqjules-droid/studio-rendu/releases/download/outils
-          FFMPEG: ffmpeg-n8.1-latest-linux64-lgpl-8.1.tar.xz
-          FFMPEG_SHA256: e44961bca8e8429645843addd3e0b06397bea909f5526091a51fcfa300bf2915
+          FFMPEG: ffmpeg-n8.1-latest-linux64-gpl-8.1.tar.xz
+          FFMPEG_SHA256: e940c45bf07cdf0c95e279a81c5f559ff5dfe88f0f395613bfbbd68566771a45
         run: |
           curl -fsSL --retry 3 -o "$RUNNER_TEMP/$FFMPEG" "$OUTILS/$FFMPEG"
           echo "$FFMPEG_SHA256  $RUNNER_TEMP/$FFMPEG" | sha256sum -c -

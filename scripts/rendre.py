@@ -3,6 +3,7 @@
 Usage : python scripts/rendre.py Dentinhos:dentinhos Sapinho:sapinho ...
 Sortie : out/<nom>.mp4 et out/<nom>-yt.mp4 (scripts/compresser.py)
 Une vidéo dont le -yt.mp4 existe déjà est sautée : relancer la même commande reprend où on s'est arrêté.
+Un rendu ou une compression ratée fait sortir en erreur à la fin, pour que le run GitHub passe au rouge.
 """
 import subprocess
 import sys
@@ -10,6 +11,7 @@ import time
 from pathlib import Path
 
 RACINE = Path(__file__).resolve().parent.parent
+echecs = []
 
 for argument in sys.argv[1:]:
     composition, nom = argument.split(":")
@@ -23,9 +25,15 @@ for argument in sys.argv[1:]:
     )
     if rendu.returncode != 0:
         print(composition, "ÉCHEC", rendu.stderr[-1500:], flush=True)
+        echecs.append(nom)
         continue
     compression = subprocess.run(
         [sys.executable, str(RACINE / "scripts" / "compresser.py"), nom],
         capture_output=True, text=True, encoding="utf-8", errors="replace",
     )
     print(composition, f"rendu en {time.time() - debut:.0f} s,", compression.stdout.strip(), compression.stderr.strip(), flush=True)
+    if compression.returncode != 0:
+        echecs.append(nom)
+
+if echecs:
+    sys.exit(f"Échec pour : {' '.join(echecs)}")
