@@ -1,4 +1,7 @@
-Thick-En:thick-en
-Thick-Es:thick-es
-Thick-Pt:thick-pt
-#demande-20261112T135509
+Paper-En:paper-en
+Dollar-En:dollar-en
+Paper-Es:paper-es
+Dollar-Es:dollar-es
+Paper-Pt:paper-pt
+Dollar-Pt:dollar-pt
+#demande-20261113T113637
