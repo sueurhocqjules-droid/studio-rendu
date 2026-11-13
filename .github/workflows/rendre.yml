@@ -76,5 +76,5 @@ jobs:
         with:
           name: ${{ steps.nom.outputs.nom }}
           path: out/${{ steps.nom.outputs.nom }}*.mp4
-          retention-days: 3
+          retention-days: 30   # dépôt public, stockage gratuit : la diffusion Instagram et Facebook reprend le fichier après la sortie YouTube
           if-no-files-found: error
