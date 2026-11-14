@@ -1,7 +1,7 @@
-Paper-En:paper-en
-Dollar-En:dollar-en
-Paper-Es:paper-es
-Dollar-Es:dollar-es
-Paper-Pt:paper-pt
-Dollar-Pt:dollar-pt
-#demande-20261113T113637
+Ball-En:ball-en
+Coffee-En:coffee-en
+Ball-Es:ball-es
+Coffee-Es:coffee-es
+Ball-Pt:ball-pt
+Coffee-Pt:coffee-pt
+#demande-20261114T031130
