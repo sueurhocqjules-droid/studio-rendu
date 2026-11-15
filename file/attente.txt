@@ -1,7 +1,7 @@
-Ball-En:ball-en
-Coffee-En:coffee-en
-Ball-Es:ball-es
-Coffee-Es:coffee-es
-Ball-Pt:ball-pt
-Coffee-Pt:coffee-pt
-#demande-20261114T031130
+Walk-En:walk-en
+Rice-En:rice-en
+Walk-Es:walk-es
+Rice-Es:rice-es
+Walk-Pt:walk-pt
+Rice-Pt:rice-pt
+#demande-20261115T024126
