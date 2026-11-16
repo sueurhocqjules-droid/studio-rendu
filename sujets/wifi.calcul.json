@@ -1,0 +1,210 @@
+{
+  "n_max": 54,
+  "d0": 1,
+  "facteur": 2,
+  "n_plein": 39,
+  "part_pct": 0.0028421709430404007,
+  "pct_texte": "0.003",
+  "paliers": [
+    {
+      "cle": "sms",
+      "bits": 1120,
+      "pas": 11,
+      "arrivee_s": 10.5,
+      "source": "Un SMS : 140 octets, 160 caractères codés sur 7 bits (GSM 03.38 ; documentation Twilio et Plivo)"
+    },
+    {
+      "cle": "apollo",
+      "bits": 622592,
+      "pas": 20,
+      "arrivee_s": 19.5,
+      "source": "Mémoire complète de l'ordinateur de guidage d'Apollo : 36 864 mots fixes + 2 048 mots effaçables de 16 bits (NASA, Computers in Spaceflight ; American Scientist 2019)"
+    },
+    {
+      "cle": "chanson",
+      "bits": 26112000,
+      "pas": 25,
+      "arrivee_s": 24.5,
+      "source": "Une chanson de 3 min 24 s (durée moyenne des tubes du Billboard Hot 100 en 2025) en MP3 à 128 kbit/s"
+    },
+    {
+      "cle": "genome",
+      "bits": 6200000000.0,
+      "pas": 33,
+      "arrivee_s": 32.5,
+      "source": "Génome humain : environ 3,1 milliards de paires de bases (référence GRCh38 ; NHGRI : environ 3 milliards), 2 bits par base"
+    },
+    {
+      "cle": "film",
+      "bits": 48000000000.0,
+      "pas": 36,
+      "arrivee_s": 35.5,
+      "source": "Un film de 2 h en HD : environ 3 Go par heure en 1080p (chiffres d'aide au streaming, Cord Cutters et autres)"
+    },
+    {
+      "cle": "wikipedia",
+      "bits": 192400000000.0,
+      "pas": 38,
+      "arrivee_s": 37.5,
+      "source": "Texte de toute la Wikipédia anglaise, compressé, sans médias : environ 24,05 Go au 16 octobre 2024 (Wikipedia: Size of Wikipedia)"
+    },
+    {
+      "cle": "fibre",
+      "bits": 402000000000000.0,
+      "pas": 49,
+      "arrivee_s": 48.5,
+      "source": "Record de débit sur une fibre optique standard : 402 Tbit/s (NICT, Aston University et Nokia Bell Labs, OFC 2024 ; Live Science, ScienceDaily)"
+    },
+    {
+      "cle": "internet",
+      "bits": 3056000000000000.0,
+      "pas": 52,
+      "arrivee_s": 51.5,
+      "source": "Trafic mondial d'Internet : 33 exaoctets par jour (Sandvine, Global Internet Phenomena Report 2024), soit 3,06 x 10^15 bits par seconde"
+    },
+    {
+      "cle": "vie",
+      "bits": 1.544e+16,
+      "pas": 54,
+      "arrivee_s": 53.5,
+      "source": "Une vie entière filmée en HD : 73,3 ans d'espérance de vie (ONU, World Population Prospects 2024) x 3 Go par heure"
+    }
+  ],
+  "t_limite": 53.5,
+  "t_coupe": 56.3,
+  "t_qui": 59.9,
+  "t_patte": 63.699999999999996,
+  "t_retour": 67.3,
+  "t_fin": 70.3,
+  "duree_s": 70.89999999999999,
+  "descriptions": {
+    "en": "Your internet starts at 1 bit per second and doubles every second. A text message at second 11, the Apollo 11 computer's entire memory at second 20, an HD movie at second 36, all of Wikipedia at second 38, and the whole internet's traffic at second 52. The catch: a 128 GB phone was full at second 39, so it kept only 0.003% of everything.\nSources: GSM 03.38; NASA; Billboard; NHGRI; Wikipedia; NICT / Aston University (OFC 2024); Sandvine (2024); UN World Population Prospects 2024.",
+    "es": "Tu internet empieza a 1 bit por segundo y duplica su velocidad cada segundo. Un SMS en el segundo 11, toda la memoria de la computadora del Apolo 11 en el 20, una película en HD en el 36, toda Wikipedia en el 38 y todo el tráfico de internet en el 52. El problema: un celular de 128 GB se llenó en el segundo 39, así que guardó solo el 0,003 % de todo.\nFuentes: GSM 03.38; NASA; Billboard; NHGRI; Wikipedia; NICT / Aston University (OFC 2024); Sandvine (2024); ONU, World Population Prospects 2024.",
+    "pt": "Sua internet começa a 1 bit por segundo e dobra de velocidade a cada segundo. Um SMS no segundo 11, toda a memória do computador da Apollo 11 no 20, um filme em HD no 36, a Wikipédia inteira no 38 e todo o tráfego da internet no 52. O problema: um celular de 128 GB lotou no segundo 39, então guardou só 0,003% de tudo.\nFontes: GSM 03.38; NASA; Billboard; NHGRI; Wikipédia; NICT / Aston University (OFC 2024); Sandvine (2024); ONU, World Population Prospects 2024."
+  },
+  "son": {
+    "duree_s": 70.89999999999999,
+    "tics": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53
+    ],
+    "paliers": [
+      10.5,
+      19.5,
+      24.5,
+      32.5,
+      35.5,
+      37.5,
+      48.5,
+      51.5,
+      53.5
+    ],
+    "retournements": [
+      56.3,
+      59.9,
+      63.699999999999996
+    ],
+    "fin": 70.3,
+    "base_hz": 130,
+    "tic_hz": 2400,
+    "bourdon": [
+      [
+        0,
+        300,
+        0.0
+      ],
+      [
+        5,
+        330,
+        0.03
+      ],
+      [
+        30,
+        660,
+        0.06
+      ],
+      [
+        53.5,
+        1320,
+        0.09
+      ],
+      [
+        56.25,
+        1320,
+        0.09
+      ],
+      [
+        56.3,
+        1320,
+        0.0
+      ],
+      [
+        67.3,
+        300,
+        0.0
+      ],
+      [
+        70.3,
+        300,
+        0.02
+      ],
+      [
+        70.89999999999999,
+        300,
+        0.0
+      ]
+    ]
+  }
+}

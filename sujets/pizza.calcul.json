@@ -1,0 +1,209 @@
+{
+  "n_max": 43,
+  "masse_kg": 0.727,
+  "k": 4,
+  "masse_atome_da": 6.40563040273674,
+  "atomes_pizza": 6.834762636574347e+25,
+  "morceaux": 77371252455336267181195264,
+  "septillions": 77,
+  "paliers": [
+    {
+      "cle": "raisin",
+      "kg": 0.005,
+      "pas": 4,
+      "arrivee_s": 3.5,
+      "morceau_kg": 0.00283984375,
+      "source": "Un grain de raisin de table : environ 5 g (4 à 7 g selon les variétés)"
+    },
+    {
+      "cle": "riz",
+      "kg": 1.7e-05,
+      "pas": 8,
+      "arrivee_s": 7.5,
+      "morceau_kg": 1.10931396484375e-05,
+      "source": "Grain de riz blanchi : 16,5 à 17,75 g les 1 000 grains pour cinq variétés NSIC (étude philippine, IJSTE), environ 17 mg"
+    },
+    {
+      "cle": "sel",
+      "kg": 5.8e-08,
+      "pas": 12,
+      "arrivee_s": 11.5,
+      "morceau_kg": 4.333257675170898e-08,
+      "source": "Grain de sel de table : cube d'environ 0,3 mm, environ 58 µg (densité 2,16 g/cm3)"
+    },
+    {
+      "cle": "cellule",
+      "kg": 2.25e-12,
+      "pas": 20,
+      "arrivee_s": 19.5,
+      "morceau_kg": 6.612026481889188e-13,
+      "source": "Cellule humaine : volume caractéristique de 2 250 µm3 (BioNumbers BNID 100434, de 500 à 4 000 µm3) à environ 1 g/mL, soit 2,25 ng"
+    },
+    {
+      "cle": "bacterie",
+      "kg": 1e-15,
+      "pas": 25,
+      "arrivee_s": 24.5,
+      "morceau_kg": 6.45705711121991e-16,
+      "source": "Escherichia coli : environ 1 pg de masse humide (BioNumbers ; 1,126 pg en phase exponentielle, Kubitschek 1986)"
+    },
+    {
+      "cle": "pelagibacter",
+      "kg": 3.7e-17,
+      "pas": 28,
+      "arrivee_s": 27.5,
+      "morceau_kg": 1.008915173628111e-17,
+      "source": "Pelagibacter ubique (SAR11), parmi les plus petites cellules libres connues : 0,037 µm3 en cryotomographie (PMC5322313), soit environ 37 fg à 1 g/mL"
+    },
+    {
+      "cle": "virus",
+      "kg": 5.2e-19,
+      "pas": 31,
+      "arrivee_s": 30.5,
+      "morceau_kg": 1.5764299587939234e-19,
+      "source": "Virion de la grippe : 5,2 x 10^-16 g mesuré par résonance optique (Vollmer et al., PNAS 2008)"
+    },
+    {
+      "cle": "hemoglobine",
+      "kg": 1.0711e-22,
+      "pas": 37,
+      "arrivee_s": 36.5,
+      "morceau_kg": 3.848705954086727e-23,
+      "source": "Hémoglobine : environ 64 500 Da (Merck Index, fiche Sigma-Aldrich ; 64 400 à 64 650 Da selon les fiches)"
+    },
+    {
+      "cle": "atome",
+      "kg": 1.063679952994505e-26,
+      "pas": 43,
+      "arrivee_s": 42.5,
+      "morceau_kg": 9.396254770719548e-27,
+      "source": "Masse moyenne d'un atome de la pizza, calculée à partir de la composition USDA"
+    }
+  ],
+  "t_limite": 42.5,
+  "t_coupe": 45.3,
+  "t_qui": 49.5,
+  "t_patte": 54.1,
+  "t_retour": 57.5,
+  "t_fin": 61.7,
+  "duree_s": 62.300000000000004,
+  "descriptions": {
+    "en": "Cut a pizza into 4 every second and keep only one piece. At cut 8 it weighs less than a grain of rice, at cut 25 less than a bacterium, and at cut 43 your piece is a single atom. That's when the knife has to stop: in Greek, \"atom\" literally means \"uncuttable\".\nSources: USDA FoodData Central; BioNumbers (Harvard); Vollmer et al., PNAS (2008); Sigma-Aldrich; CODATA 2018.",
+    "es": "Corta una pizza en 4 cada segundo y quédate con un solo trozo. En el corte 8 pesa menos que un grano de arroz, en el 25 menos que una bacteria y en el 43 tu trozo es un solo átomo. Ahí el cuchillo se detiene: en griego, «átomo» significa literalmente «que no se puede cortar».\nFuentes: USDA FoodData Central; BioNumbers (Harvard); Vollmer et al., PNAS (2008); Sigma-Aldrich; CODATA 2018.",
+    "pt": "Corte uma pizza em 4 a cada segundo e fique com um só pedaço. No corte 8 ele pesa menos que um grão de arroz, no 25 menos que uma bactéria e no 43 seu pedaço é um único átomo. Aí a faca para: em grego, \"átomo\" quer dizer literalmente \"que não pode ser cortado\".\nFontes: USDA FoodData Central; BioNumbers (Harvard); Vollmer et al., PNAS (2008); Sigma-Aldrich; CODATA 2018."
+  },
+  "son": {
+    "duree_s": 62.300000000000004,
+    "tics": [
+      0.05,
+      1.05,
+      2.05,
+      3.05,
+      4.05,
+      5.05,
+      6.05,
+      7.05,
+      8.05,
+      9.05,
+      10.05,
+      11.05,
+      12.05,
+      13.05,
+      14.05,
+      15.05,
+      16.05,
+      17.05,
+      18.05,
+      19.05,
+      20.05,
+      21.05,
+      22.05,
+      23.05,
+      24.05,
+      25.05,
+      26.05,
+      27.05,
+      28.05,
+      29.05,
+      30.05,
+      31.05,
+      32.05,
+      33.05,
+      34.05,
+      35.05,
+      36.05,
+      37.05,
+      38.05,
+      39.05,
+      40.05,
+      41.05,
+      42.05
+    ],
+    "paliers": [
+      3.5,
+      7.5,
+      11.5,
+      19.5,
+      24.5,
+      27.5,
+      30.5,
+      36.5,
+      42.5
+    ],
+    "retournements": [
+      44.9,
+      49.5,
+      54.1
+    ],
+    "fin": 61.7,
+    "base_hz": 110,
+    "tic_hz": 2000,
+    "bourdon": [
+      [
+        0,
+        220,
+        0.0
+      ],
+      [
+        8,
+        260,
+        0.03
+      ],
+      [
+        25,
+        520,
+        0.07
+      ],
+      [
+        42.5,
+        1100,
+        0.12
+      ],
+      [
+        44.9,
+        1100,
+        0.14
+      ],
+      [
+        44.919999999999995,
+        1100,
+        0.0
+      ],
+      [
+        57.5,
+        400,
+        0.0
+      ],
+      [
+        61.7,
+        220,
+        0.04
+      ],
+      [
+        62.300000000000004,
+        220,
+        0.0
+      ]
+    ]
+  }
+}

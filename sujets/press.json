@@ -1,0 +1,97 @@
+{
+  "regle_physique": {
+    "pression_0_pa": 101325,
+    "source_pression_0": "Une atmosphère normale : 101 325 Pa (définition BIPM/NIST) ; la presse se pose sur le bloc avec cette pression",
+    "gain_par_seconde": 0.4,
+    "culet_m": 2e-5,
+    "source_culet": "Enclume de diamant : pointe (culet) d'environ 20 µm pour atteindre environ 400 GPa (O'Bannon et al., revue « Culet diameter and achievable pressure », OSTI 1488814 ; Lawrence Livermore : 20 à 30 µm au-delà de 300 GPa)",
+    "g_m_s2": 9.81
+  },
+  "references": {
+    "espresso": { "pa": 9e5, "source": "Extraction d'un espresso : 9 bar (recommandation de 9 ± 1 bar attribuée à la Specialty Coffee Association)" },
+    "plongee": { "pa": 2.0684e7, "source": "Bouteille de plongée aluminium 80 : 3 000 psi (207 bar) de pression de service (fiches des fabricants)" },
+    "acier": { "pa": 2.5e8, "source": "Acier de construction ASTM A36 : limite d'élasticité minimale de 36 ksi (250 MPa)" },
+    "diamant": { "pa": 5e9, "source": "Diamant synthétique HPHT : 5 à 6 GPa et 1 300 à 1 600 °C à partir de graphite, avec un métal catalyseur (GIA, Gems & Gemology 2014 et 2017)" },
+    "manteau": { "pa": 2.34e10, "source": "Discontinuité des 660 km dans le manteau : 23,4 GPa (Scientific Reports, PMC5910398)" },
+    "noyau": { "pa": 1.36e11, "source": "Limite noyau-manteau : 136 GPa (modèle PREM, via Wikipedia « Upper mantle » et « Lower mantle »)" },
+    "centre": { "pa": 3.6e11, "source": "Centre de la Terre : environ 360 GPa (Nature 2008, « pressures in Earth's interior range up to 360 GPa »)" }
+  },
+  "en": {
+    "titre": "What If a Hydraulic Press Pushed 40% Harder Every Second?",
+    "description": "A hydraulic press pushes 40% harder every second on a block of graphite, the stuff in pencils. Espresso pressure at second {n_espresso}, steel starts to flow at second {n_acier}, diamond-making pressure at second {n_diamant}, and at second {n_centre} it matches the center of the Earth. The twist: labs reach that pressure every day with two tiny diamonds and the force of a {force_lb} lb weight.\nSources: NIST; Specialty Coffee Association; ASTM A36; GIA Gems & Gemology; Scientific Reports (2018); PREM; Nature (2008); O'Bannon et al. (2018).",
+    "regle": ["THE PRESS PUSHES 40%", "HARDER EVERY SECOND"],
+    "regle2": ["ON A BLOCK OF", "PENCIL GRAPHITE"],
+    "pli": "SEC",
+    "suite": "NEXT: {cible}",
+    "restant": "{n} SECONDS TO GO",
+    "restant1": "1 SECOND TO GO",
+    "labo": ["LABS DO THIS", "EVERY DAY"],
+    "pointes": ["BETWEEN TWO DIAMOND", "TIPS 20 µM WIDE"],
+    "force": ["WITH THE FORCE", "OF A {force} LB WEIGHT"],
+    "force_unite": "LB",
+    "force_kg": 0.45359237,
+    "unites": [{ "max": 10000, "pa": 6894.757, "nom": "PSI" }, { "max": 1000, "pa": 6894757, "nom": "THOUSAND PSI" }, { "max": 1e20, "pa": 6894757000, "nom": "MILLION PSI" }],
+    "separateurs": { "milliers": ",", "decimale": "." },
+    "paliers": {
+      "espresso": { "cible": "AN ESPRESSO", "legende": ["ESPRESSO", "PRESSURE"] },
+      "plongee": { "cible": "A SCUBA TANK", "legende": ["MORE THAN INSIDE", "A FULL SCUBA TANK"] },
+      "acier": { "cible": "STEEL", "legende": ["STEEL WOULD NOW", "BEND LIKE CLAY"] },
+      "diamant": { "cible": "DIAMOND", "legende": ["GRAPHITE + HEAT", "= DIAMOND"] },
+      "manteau": { "cible": "EARTH'S MANTLE", "legende": ["LIKE 400 MILES", "DOWN IN THE EARTH"] },
+      "noyau": { "cible": "EARTH'S CORE", "legende": ["LIKE THE TOP OF", "EARTH'S CORE"] },
+      "centre": { "cible": "EARTH'S CENTER", "legende": ["THE PRESSURE AT THE", "CENTER OF THE EARTH"] }
+    }
+  },
+  "es": {
+    "titre": "¿Y si una prensa hidráulica empujara un 40 % más fuerte cada segundo?",
+    "description": "Una prensa hidráulica empuja un 40 % más fuerte cada segundo sobre un bloque de grafito, el de los lápices. Presión de espresso en el segundo {n_espresso}, el acero empieza a fluir en el {n_acier}, presión para fabricar diamantes en el {n_diamant} y en el {n_centre} iguala el centro de la Tierra. La sorpresa: los laboratorios llegan a esa presión cada día con dos diamantes diminutos y la fuerza de un peso de {force_kg} kg.\nFuentes: NIST; Specialty Coffee Association; ASTM A36; GIA Gems & Gemology; Scientific Reports (2018); PREM; Nature (2008); O'Bannon et al. (2018).",
+    "regle": ["LA PRENSA EMPUJA UN 40 %", "MÁS FUERTE CADA SEGUNDO"],
+    "regle2": ["SOBRE UN BLOQUE DE", "GRAFITO DE LÁPIZ"],
+    "pli": "SEG",
+    "suite": "SIGUE: {cible}",
+    "restant": "FALTAN {n} SEGUNDOS",
+    "restant1": "FALTA 1 SEGUNDO",
+    "labo": ["LOS LABORATORIOS", "HACEN ESTO CADA DÍA"],
+    "pointes": ["ENTRE DOS PUNTAS DE", "DIAMANTE DE 20 µM"],
+    "force": ["CON LA FUERZA DE", "UN PESO DE {force} KG"],
+    "force_unite": "KG",
+    "force_kg": 1,
+    "unites": [{ "max": 1000, "pa": 100000, "nom": "BAR" }, { "max": 1000, "pa": 1e8, "nom": "MIL BAR" }, { "max": 1e20, "pa": 1e11, "nom": "MILLONES DE BAR" }],
+    "separateurs": { "milliers": ".", "decimale": "," },
+    "paliers": {
+      "espresso": { "cible": "UN ESPRESSO", "legende": ["LA PRESIÓN DE", "UN ESPRESSO"] },
+      "plongee": { "cible": "UN TANQUE DE BUCEO", "legende": ["MÁS QUE DENTRO DE UN", "TANQUE DE BUCEO LLENO"] },
+      "acier": { "cible": "EL ACERO", "legende": ["EL ACERO YA SE", "DOBLARÍA COMO PLASTILINA"] },
+      "diamant": { "cible": "EL DIAMANTE", "legende": ["GRAFITO + CALOR", "= DIAMANTE"] },
+      "manteau": { "cible": "EL MANTO TERRESTRE", "legende": ["COMO A 660 KM", "BAJO TIERRA"] },
+      "noyau": { "cible": "EL NÚCLEO", "legende": ["COMO EN EL BORDE", "DEL NÚCLEO TERRESTRE"] },
+      "centre": { "cible": "EL CENTRO TERRESTRE", "legende": ["LA PRESIÓN EN EL", "CENTRO DE LA TIERRA"] }
+    }
+  },
+  "pt": {
+    "titre": "E se uma prensa hidráulica empurrasse 40% mais forte a cada segundo?",
+    "description": "Uma prensa hidráulica empurra 40% mais forte a cada segundo sobre um bloco de grafite, o do lápis. Pressão de espresso no segundo {n_espresso}, o aço começa a escoar no {n_acier}, pressão de fabricar diamante no {n_diamant} e no {n_centre} ela iguala o centro da Terra. A surpresa: os laboratórios chegam a essa pressão todo dia com dois diamantes minúsculos e a força de um peso de {force_kg} kg.\nFontes: NIST; Specialty Coffee Association; ASTM A36; GIA Gems & Gemology; Scientific Reports (2018); PREM; Nature (2008); O'Bannon et al. (2018).",
+    "regle": ["A PRENSA EMPURRA 40% MAIS", "FORTE A CADA SEGUNDO"],
+    "regle2": ["SOBRE UM BLOCO DE", "GRAFITE DE LÁPIS"],
+    "pli": "SEG",
+    "suite": "PRÓXIMO: {cible}",
+    "restant": "FALTAM {n} SEGUNDOS",
+    "restant1": "FALTA 1 SEGUNDO",
+    "labo": ["OS LABORATÓRIOS", "FAZEM ISSO TODO DIA"],
+    "pointes": ["ENTRE DUAS PONTAS DE", "DIAMANTE DE 20 µM"],
+    "force": ["COM A FORÇA DE", "UM PESO DE {force} KG"],
+    "force_unite": "KG",
+    "force_kg": 1,
+    "unites": [{ "max": 1000, "pa": 100000, "nom": "BAR" }, { "max": 1000, "pa": 1e8, "nom": "MIL BAR" }, { "max": 1e20, "pa": 1e11, "nom": "MILHÕES DE BAR" }],
+    "separateurs": { "milliers": ".", "decimale": "," },
+    "paliers": {
+      "espresso": { "cible": "UM ESPRESSO", "legende": ["A PRESSÃO DE", "UM ESPRESSO"] },
+      "plongee": { "cible": "O MERGULHO", "legende": ["MAIS QUE DENTRO DE UM", "CILINDRO DE MERGULHO"] },
+      "acier": { "cible": "O AÇO", "legende": ["O AÇO JÁ DOBRARIA", "COMO MASSINHA"] },
+      "diamant": { "cible": "O DIAMANTE", "legende": ["GRAFITE + CALOR", "= DIAMANTE"] },
+      "manteau": { "cible": "O MANTO DA TERRA", "legende": ["COMO A 660 KM", "DE PROFUNDIDADE"] },
+      "noyau": { "cible": "O NÚCLEO", "legende": ["COMO NA BORDA", "DO NÚCLEO DA TERRA"] },
+      "centre": { "cible": "O CENTRO DA TERRA", "legende": ["A PRESSÃO NO", "CENTRO DA TERRA"] }
+    }
+  }
+}

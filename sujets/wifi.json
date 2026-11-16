@@ -1,0 +1,101 @@
+{
+  "regle_physique": {
+    "debit_0_bit_s": 1,
+    "facteur": 2,
+    "telephone_octets": 128e9,
+    "hypothese_telephone": "Un téléphone de 128 Go (capacité d'entrée de gamme courante, choisie comme exemple), supposé vide au départ",
+    "source_regle": "Débit de départ : 1 bit par seconde, doublé chaque seconde"
+  },
+  "references": {
+    "sms": { "bits": 1120, "source": "Un SMS : 140 octets, 160 caractères codés sur 7 bits (GSM 03.38 ; documentation Twilio et Plivo)" },
+    "apollo": { "bits": 622592, "source": "Mémoire complète de l'ordinateur de guidage d'Apollo : 36 864 mots fixes + 2 048 mots effaçables de 16 bits (NASA, Computers in Spaceflight ; American Scientist 2019)" },
+    "chanson": { "bits": 26112000, "source": "Une chanson de 3 min 24 s (durée moyenne des tubes du Billboard Hot 100 en 2025) en MP3 à 128 kbit/s" },
+    "genome": { "bits": 6.2e9, "source": "Génome humain : environ 3,1 milliards de paires de bases (référence GRCh38 ; NHGRI : environ 3 milliards), 2 bits par base" },
+    "film": { "bits": 4.8e10, "source": "Un film de 2 h en HD : environ 3 Go par heure en 1080p (chiffres d'aide au streaming, Cord Cutters et autres)" },
+    "wikipedia": { "bits": 1.924e11, "source": "Texte de toute la Wikipédia anglaise, compressé, sans médias : environ 24,05 Go au 16 octobre 2024 (Wikipedia: Size of Wikipedia)" },
+    "fibre": { "bits": 4.02e14, "source": "Record de débit sur une fibre optique standard : 402 Tbit/s (NICT, Aston University et Nokia Bell Labs, OFC 2024 ; Live Science, ScienceDaily)" },
+    "internet": { "bits": 3.056e15, "source": "Trafic mondial d'Internet : 33 exaoctets par jour (Sandvine, Global Internet Phenomena Report 2024), soit 3,06 x 10^15 bits par seconde" },
+    "vie": { "bits": 1.544e16, "source": "Une vie entière filmée en HD : 73,3 ans d'espérance de vie (ONU, World Population Prospects 2024) x 3 Go par heure" }
+  },
+  "en": {
+    "titre": "What If Your Wi-Fi Got Twice as Fast Every Second?",
+    "description": "Your internet starts at 1 bit per second and doubles every second. A text message at second {n_sms}, the Apollo 11 computer's entire memory at second {n_apollo}, an HD movie at second {n_film}, all of Wikipedia at second {n_wikipedia}, and the whole internet's traffic at second {n_internet}. The catch: a 128 GB phone was full at second {n_plein}, so it kept only {pct}% of everything.\nSources: GSM 03.38; NASA; Billboard; NHGRI; Wikipedia; NICT / Aston University (OFC 2024); Sandvine (2024); UN World Population Prospects 2024.",
+    "regle": ["YOUR INTERNET DOUBLES", "ITS SPEED EVERY SECOND"],
+    "regle2": ["STARTING AT", "1 BIT PER SECOND"],
+    "pli": "SEC",
+    "suite": "NEXT: {cible}",
+    "restant": "{n} SECONDS TO GO",
+    "restant1": "1 SECOND TO GO",
+    "attends": ["WAIT... YOUR PHONE", "ONLY HAS 128 GB"],
+    "plein": ["IT WAS FULL", "AT SECOND {n}"],
+    "garde": ["IT KEPT {pct}%", "OF THE DOWNLOAD"],
+    "pct_etiquette": "% KEPT",
+    "unites": ["BPS", "KBPS", "MBPS", "GBPS", "TBPS", "PBPS", "EBPS"],
+    "separateurs": { "milliers": ",", "decimale": "." },
+    "paliers": {
+      "sms": { "cible": "A TEXT MESSAGE", "legende": ["ONE TEXT MESSAGE", "PER SECOND"] },
+      "apollo": { "cible": "APOLLO 11'S COMPUTER", "legende": ["THE APOLLO 11 COMPUTER'S", "WHOLE MEMORY, EVERY SECOND"] },
+      "chanson": { "cible": "A SONG", "legende": ["A WHOLE SONG", "EVERY SECOND"] },
+      "genome": { "cible": "YOUR DNA", "legende": ["YOUR ENTIRE DNA CODE", "EVERY SECOND"] },
+      "film": { "cible": "AN HD MOVIE", "legende": ["A FULL HD MOVIE", "EVERY SECOND"] },
+      "wikipedia": { "cible": "ALL OF WIKIPEDIA", "legende": ["ALL OF WIKIPEDIA", "EVERY SECOND"] },
+      "fibre": { "cible": "THE SPEED RECORD", "legende": ["FASTER THAN THE", "WORLD RECORD FIBER"] },
+      "internet": { "cible": "THE WHOLE INTERNET", "legende": ["MORE THAN THE WHOLE", "INTERNET'S TRAFFIC"] },
+      "vie": { "cible": "YOUR WHOLE LIFE", "legende": ["YOUR WHOLE LIFE IN HD,", "EVERY SECOND"] }
+    }
+  },
+  "es": {
+    "titre": "¿Y si tu wifi fuera el doble de rápido cada segundo?",
+    "description": "Tu internet empieza a 1 bit por segundo y duplica su velocidad cada segundo. Un SMS en el segundo {n_sms}, toda la memoria de la computadora del Apolo 11 en el {n_apollo}, una película en HD en el {n_film}, toda Wikipedia en el {n_wikipedia} y todo el tráfico de internet en el {n_internet}. El problema: un celular de 128 GB se llenó en el segundo {n_plein}, así que guardó solo el {pct} % de todo.\nFuentes: GSM 03.38; NASA; Billboard; NHGRI; Wikipedia; NICT / Aston University (OFC 2024); Sandvine (2024); ONU, World Population Prospects 2024.",
+    "regle": ["TU INTERNET DUPLICA SU", "VELOCIDAD CADA SEGUNDO"],
+    "regle2": ["EMPEZANDO EN", "1 BIT POR SEGUNDO"],
+    "pli": "SEG",
+    "suite": "SIGUE: {cible}",
+    "restant": "FALTAN {n} SEGUNDOS",
+    "restant1": "FALTA 1 SEGUNDO",
+    "attends": ["ESPERA... TU CELULAR", "SOLO TIENE 128 GB"],
+    "plein": ["SE LLENÓ EN", "EL SEGUNDO {n}"],
+    "garde": ["GUARDÓ SOLO EL {pct} %", "DE LA DESCARGA"],
+    "pct_etiquette": "% GUARDADO",
+    "unites": ["BPS", "KBPS", "MBPS", "GBPS", "TBPS", "PBPS", "EBPS"],
+    "separateurs": { "milliers": ".", "decimale": "," },
+    "paliers": {
+      "sms": { "cible": "UN SMS", "legende": ["UN SMS", "POR SEGUNDO"] },
+      "apollo": { "cible": "EL APOLO 11", "legende": ["LA MEMORIA DEL APOLO 11", "CADA SEGUNDO"] },
+      "chanson": { "cible": "UNA CANCIÓN", "legende": ["UNA CANCIÓN ENTERA", "CADA SEGUNDO"] },
+      "genome": { "cible": "TU ADN", "legende": ["TODO TU ADN", "CADA SEGUNDO"] },
+      "film": { "cible": "UNA PELÍCULA EN HD", "legende": ["UNA PELÍCULA EN HD", "CADA SEGUNDO"] },
+      "wikipedia": { "cible": "TODA WIKIPEDIA", "legende": ["TODA WIKIPEDIA", "CADA SEGUNDO"] },
+      "fibre": { "cible": "EL RÉCORD MUNDIAL", "legende": ["MÁS RÁPIDO QUE EL", "RÉCORD DE FIBRA ÓPTICA"] },
+      "internet": { "cible": "TODO INTERNET", "legende": ["MÁS QUE TODO EL", "TRÁFICO DE INTERNET"] },
+      "vie": { "cible": "TU VIDA ENTERA", "legende": ["TU VIDA ENTERA EN HD,", "CADA SEGUNDO"] }
+    }
+  },
+  "pt": {
+    "titre": "E se o seu wi-fi ficasse duas vezes mais rápido a cada segundo?",
+    "description": "Sua internet começa a 1 bit por segundo e dobra de velocidade a cada segundo. Um SMS no segundo {n_sms}, toda a memória do computador da Apollo 11 no {n_apollo}, um filme em HD no {n_film}, a Wikipédia inteira no {n_wikipedia} e todo o tráfego da internet no {n_internet}. O problema: um celular de 128 GB lotou no segundo {n_plein}, então guardou só {pct}% de tudo.\nFontes: GSM 03.38; NASA; Billboard; NHGRI; Wikipédia; NICT / Aston University (OFC 2024); Sandvine (2024); ONU, World Population Prospects 2024.",
+    "regle": ["SUA INTERNET DOBRA DE", "VELOCIDADE A CADA SEGUNDO"],
+    "regle2": ["COMEÇANDO EM", "1 BIT POR SEGUNDO"],
+    "pli": "SEG",
+    "suite": "PRÓXIMO: {cible}",
+    "restant": "FALTAM {n} SEGUNDOS",
+    "restant1": "FALTA 1 SEGUNDO",
+    "attends": ["ESPERA... SEU CELULAR", "SÓ TEM 128 GB"],
+    "plein": ["ELE LOTOU NO", "SEGUNDO {n}"],
+    "garde": ["GUARDOU SÓ {pct}%", "DO DOWNLOAD"],
+    "pct_etiquette": "% GUARDADO",
+    "unites": ["BPS", "KBPS", "MBPS", "GBPS", "TBPS", "PBPS", "EBPS"],
+    "separateurs": { "milliers": ".", "decimale": "," },
+    "paliers": {
+      "sms": { "cible": "UM SMS", "legende": ["UM SMS", "POR SEGUNDO"] },
+      "apollo": { "cible": "A APOLLO 11", "legende": ["A MEMÓRIA DA APOLLO 11", "A CADA SEGUNDO"] },
+      "chanson": { "cible": "UMA MÚSICA", "legende": ["UMA MÚSICA INTEIRA", "A CADA SEGUNDO"] },
+      "genome": { "cible": "SEU DNA", "legende": ["TODO O SEU DNA", "A CADA SEGUNDO"] },
+      "film": { "cible": "UM FILME EM HD", "legende": ["UM FILME EM HD", "A CADA SEGUNDO"] },
+      "wikipedia": { "cible": "A WIKIPÉDIA", "legende": ["A WIKIPÉDIA INTEIRA", "A CADA SEGUNDO"] },
+      "fibre": { "cible": "O RECORDE MUNDIAL", "legende": ["MAIS RÁPIDO QUE O", "RECORDE DA FIBRA ÓPTICA"] },
+      "internet": { "cible": "A INTERNET INTEIRA", "legende": ["MAIS QUE TODO O", "TRÁFEGO DA INTERNET"] },
+      "vie": { "cible": "SUA VIDA INTEIRA", "legende": ["SUA VIDA INTEIRA EM HD,", "A CADA SEGUNDO"] }
+    }
+  }
+}

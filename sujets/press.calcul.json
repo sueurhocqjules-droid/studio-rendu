@@ -1,0 +1,184 @@
+{
+  "n_max": 45,
+  "p0_pa": 101325,
+  "facteur": 1.4,
+  "force_n": 113.09733552923257,
+  "force_kg": 11.528780380146031,
+  "paliers": [
+    {
+      "cle": "espresso",
+      "pa": 900000.0,
+      "pas": 7,
+      "arrivee_s": 6.5,
+      "source": "Extraction d'un espresso : 9 bar (recommandation de 9 ± 1 bar attribuée à la Specialty Coffee Association)"
+    },
+    {
+      "cle": "plongee",
+      "pa": 20684000.0,
+      "pas": 16,
+      "arrivee_s": 15.5,
+      "source": "Bouteille de plongée aluminium 80 : 3 000 psi (207 bar) de pression de service (fiches des fabricants)"
+    },
+    {
+      "cle": "acier",
+      "pa": 250000000.0,
+      "pas": 24,
+      "arrivee_s": 23.5,
+      "source": "Acier de construction ASTM A36 : limite d'élasticité minimale de 36 ksi (250 MPa)"
+    },
+    {
+      "cle": "diamant",
+      "pa": 5000000000.0,
+      "pas": 33,
+      "arrivee_s": 32.5,
+      "source": "Diamant synthétique HPHT : 5 à 6 GPa et 1 300 à 1 600 °C à partir de graphite, avec un métal catalyseur (GIA, Gems & Gemology 2014 et 2017)"
+    },
+    {
+      "cle": "manteau",
+      "pa": 23400000000.0,
+      "pas": 37,
+      "arrivee_s": 36.5,
+      "source": "Discontinuité des 660 km dans le manteau : 23,4 GPa (Scientific Reports, PMC5910398)"
+    },
+    {
+      "cle": "noyau",
+      "pa": 136000000000.0,
+      "pas": 42,
+      "arrivee_s": 41.5,
+      "source": "Limite noyau-manteau : 136 GPa (modèle PREM, via Wikipedia « Upper mantle » et « Lower mantle »)"
+    },
+    {
+      "cle": "centre",
+      "pa": 360000000000.0,
+      "pas": 45,
+      "arrivee_s": 44.5,
+      "source": "Centre de la Terre : environ 360 GPa (Nature 2008, « pressures in Earth's interior range up to 360 GPa »)"
+    }
+  ],
+  "t_limite": 44.5,
+  "t_coupe": 47.7,
+  "t_qui": 51.7,
+  "t_patte": 55.7,
+  "t_retour": 59.7,
+  "t_fin": 62.7,
+  "duree_s": 63.300000000000004,
+  "descriptions": {
+    "en": "A hydraulic press pushes 40% harder every second on a block of graphite, the stuff in pencils. Espresso pressure at second 7, steel starts to flow at second 24, diamond-making pressure at second 33, and at second 45 it matches the center of the Earth. The twist: labs reach that pressure every day with two tiny diamonds and the force of a 25 lb weight.\nSources: NIST; Specialty Coffee Association; ASTM A36; GIA Gems & Gemology; Scientific Reports (2018); PREM; Nature (2008); O'Bannon et al. (2018).",
+    "es": "Una prensa hidráulica empuja un 40 % más fuerte cada segundo sobre un bloque de grafito, el de los lápices. Presión de espresso en el segundo 7, el acero empieza a fluir en el 24, presión para fabricar diamantes en el 33 y en el 45 iguala el centro de la Tierra. La sorpresa: los laboratorios llegan a esa presión cada día con dos diamantes diminutos y la fuerza de un peso de 11,5 kg.\nFuentes: NIST; Specialty Coffee Association; ASTM A36; GIA Gems & Gemology; Scientific Reports (2018); PREM; Nature (2008); O'Bannon et al. (2018).",
+    "pt": "Uma prensa hidráulica empurra 40% mais forte a cada segundo sobre um bloco de grafite, o do lápis. Pressão de espresso no segundo 7, o aço começa a escoar no 24, pressão de fabricar diamante no 33 e no 45 ela iguala o centro da Terra. A surpresa: os laboratórios chegam a essa pressão todo dia com dois diamantes minúsculos e a força de um peso de 11,5 kg.\nFontes: NIST; Specialty Coffee Association; ASTM A36; GIA Gems & Gemology; Scientific Reports (2018); PREM; Nature (2008); O'Bannon et al. (2018)."
+  },
+  "son": {
+    "duree_s": 63.300000000000004,
+    "tics": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "paliers": [
+      6.5,
+      15.5,
+      23.5,
+      32.5,
+      36.5,
+      41.5,
+      44.5
+    ],
+    "retournements": [
+      45.0,
+      47.7,
+      55.7
+    ],
+    "fin": 62.7,
+    "base_hz": 55,
+    "tic_hz": 900,
+    "bourdon": [
+      [
+        0,
+        110,
+        0.04
+      ],
+      [
+        15,
+        90,
+        0.08
+      ],
+      [
+        33,
+        60,
+        0.18
+      ],
+      [
+        44.5,
+        41,
+        0.32
+      ],
+      [
+        47.7,
+        41,
+        0.32
+      ],
+      [
+        48.1,
+        41,
+        0.0
+      ],
+      [
+        59.7,
+        110,
+        0.0
+      ],
+      [
+        62.7,
+        110,
+        0.04
+      ],
+      [
+        63.300000000000004,
+        110,
+        0.0
+      ]
+    ]
+  }
+}

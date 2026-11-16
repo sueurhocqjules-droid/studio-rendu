@@ -1,0 +1,109 @@
+{
+  "regle_physique": {
+    "masse_kg": 0.727,
+    "source_masse": "Pizza surgelée au fromage, pâte normale, cuite : paquet entier de 24 oz = 727 g (USDA FoodData Central, « Pizza, cheese topping, regular crust, frozen, cooked », table des portions)",
+    "morceaux_par_coupe": 4,
+    "composition_g_100g": { "eau": 46.3, "proteines": 10.4, "lipides": 12.3, "glucides": 29.0, "fibres": 2.2, "cendres": 2.1 },
+    "source_composition": "Même fiche USDA FoodData Central, pour 100 g",
+    "formules": {
+      "eau": { "masse_da": 18.015, "atomes": 3, "formule": "H2O" },
+      "proteines": { "masse_da": 110.5, "atomes": 15.6, "formule": "résidu d'acide aminé moyen, environ C4.9 H7.8 N1.4 O1.5 S0.04" },
+      "lipides": { "masse_da": 885.4, "atomes": 167, "formule": "triglycéride type trioléine C57 H104 O6" },
+      "glucides": { "masse_da": 162.14, "atomes": 21, "formule": "unité d'amidon C6 H10 O5" },
+      "fibres": { "masse_da": 162.14, "atomes": 21, "formule": "unité de cellulose C6 H10 O5" },
+      "cendres": { "masse_da": 58.44, "atomes": 2, "formule": "sel NaCl" }
+    },
+    "hypothese_formules": "Chaque constituant est représenté par une formule type (hypothèse de calcul) pour estimer la masse moyenne d'un atome de pizza",
+    "dalton_kg": 1.6605390666e-27,
+    "source_dalton": "Unité de masse atomique : 1,660 539 066 60 x 10^-27 kg (CODATA 2018)"
+  },
+  "references": {
+    "raisin": { "kg": 0.005, "source": "Un grain de raisin de table : environ 5 g (4 à 7 g selon les variétés)" },
+    "riz": { "kg": 1.7e-5, "source": "Grain de riz blanchi : 16,5 à 17,75 g les 1 000 grains pour cinq variétés NSIC (étude philippine, IJSTE), environ 17 mg" },
+    "sel": { "kg": 5.8e-8, "source": "Grain de sel de table : cube d'environ 0,3 mm, environ 58 µg (densité 2,16 g/cm3)" },
+    "cellule": { "kg": 2.25e-12, "source": "Cellule humaine : volume caractéristique de 2 250 µm3 (BioNumbers BNID 100434, de 500 à 4 000 µm3) à environ 1 g/mL, soit 2,25 ng" },
+    "bacterie": { "kg": 1e-15, "source": "Escherichia coli : environ 1 pg de masse humide (BioNumbers ; 1,126 pg en phase exponentielle, Kubitschek 1986)" },
+    "pelagibacter": { "kg": 3.7e-17, "source": "Pelagibacter ubique (SAR11), parmi les plus petites cellules libres connues : 0,037 µm3 en cryotomographie (PMC5322313), soit environ 37 fg à 1 g/mL" },
+    "virus": { "kg": 5.2e-19, "source": "Virion de la grippe : 5,2 x 10^-16 g mesuré par résonance optique (Vollmer et al., PNAS 2008)" },
+    "hemoglobine": { "kg": 1.0711e-22, "source": "Hémoglobine : environ 64 500 Da (Merck Index, fiche Sigma-Aldrich ; 64 400 à 64 650 Da selon les fiches)" },
+    "atome": { "kg": 0, "source": "Masse moyenne d'un atome de la pizza, calculée à partir de la composition USDA" }
+  },
+  "en": {
+    "titre": "What If You Cut a Pizza Into 4 Every Second?",
+    "description": "Cut a pizza into 4 every second and keep only one piece. At cut {n_riz} it weighs less than a grain of rice, at cut {n_bacterie} less than a bacterium, and at cut {n_atome} your piece is a single atom. That's when the knife has to stop: in Greek, \"atom\" literally means \"uncuttable\".\nSources: USDA FoodData Central; BioNumbers (Harvard); Vollmer et al., PNAS (2008); Sigma-Aldrich; CODATA 2018.",
+    "regle": ["CUT THE PIZZA INTO 4", "EVERY SECOND"],
+    "regle2": ["KEEP ONE PIECE,", "CUT AGAIN"],
+    "pli": "CUT",
+    "suite": "NEXT: {cible}",
+    "restant": "{n} CUTS TO GO",
+    "restant1": "1 CUT TO GO",
+    "stop": ["THE KNIFE", "CAN'T CUT IT"],
+    "grec": ["IN GREEK, \"ATOM\"", "MEANS \"UNCUTTABLE\""],
+    "total": ["YOU MADE {n} SEPTILLION", "PIECES OF PIZZA"],
+    "unites": ["G", "MG", "µG", "NG", "PG", "FG", "AG", "ZG", "YG"],
+    "separateurs": { "milliers": ",", "decimale": "." },
+    "paliers": {
+      "raisin": { "cible": "A GRAPE", "legende": ["LIGHTER THAN", "A GRAPE"] },
+      "riz": { "cible": "A GRAIN OF RICE", "legende": ["LIGHTER THAN", "A GRAIN OF RICE"] },
+      "sel": { "cible": "A GRAIN OF SALT", "legende": ["LIGHTER THAN", "A GRAIN OF SALT"] },
+      "cellule": { "cible": "ONE OF YOUR CELLS", "legende": ["LIGHTER THAN", "ONE OF YOUR CELLS"] },
+      "bacterie": { "cible": "A BACTERIUM", "legende": ["LIGHTER THAN", "A BACTERIUM"] },
+      "pelagibacter": { "cible": "THE TINIEST BACTERIUM", "legende": ["LIGHTER THAN THE", "TINIEST BACTERIUM"] },
+      "virus": { "cible": "A FLU VIRUS", "legende": ["LIGHTER THAN", "A FLU VIRUS"] },
+      "hemoglobine": { "cible": "ONE PROTEIN", "legende": ["LIGHTER THAN ONE", "BLOOD PROTEIN"] },
+      "atome": { "cible": "ONE ATOM", "legende": ["YOUR PIECE IS NOW", "ONE SINGLE ATOM"] }
+    }
+  },
+  "es": {
+    "titre": "¿Y si cortaras una pizza en 4 cada segundo?",
+    "description": "Corta una pizza en 4 cada segundo y quédate con un solo trozo. En el corte {n_riz} pesa menos que un grano de arroz, en el {n_bacterie} menos que una bacteria y en el {n_atome} tu trozo es un solo átomo. Ahí el cuchillo se detiene: en griego, «átomo» significa literalmente «que no se puede cortar».\nFuentes: USDA FoodData Central; BioNumbers (Harvard); Vollmer et al., PNAS (2008); Sigma-Aldrich; CODATA 2018.",
+    "regle": ["CORTA LA PIZZA EN 4", "CADA SEGUNDO"],
+    "regle2": ["TOMA UN TROZO", "Y CORTA OTRA VEZ"],
+    "pli": "CORTE",
+    "suite": "SIGUE: {cible}",
+    "restant": "FALTAN {n} CORTES",
+    "restant1": "FALTA 1 CORTE",
+    "stop": ["EL CUCHILLO", "YA NO PUEDE"],
+    "grec": ["EN GRIEGO, «ÁTOMO»", "SIGNIFICA «INDIVISIBLE»"],
+    "total": ["HICISTE {n} CUATRILLONES", "DE TROZOS DE PIZZA"],
+    "unites": ["G", "MG", "µG", "NG", "PG", "FG", "AG", "ZG", "YG"],
+    "separateurs": { "milliers": ".", "decimale": "," },
+    "paliers": {
+      "raisin": { "cible": "UNA UVA", "legende": ["MÁS LIGERO QUE", "UNA UVA"] },
+      "riz": { "cible": "UN GRANO DE ARROZ", "legende": ["MÁS LIGERO QUE", "UN GRANO DE ARROZ"] },
+      "sel": { "cible": "UN GRANO DE SAL", "legende": ["MÁS LIGERO QUE", "UN GRANO DE SAL"] },
+      "cellule": { "cible": "UNA DE TUS CÉLULAS", "legende": ["MÁS LIGERO QUE", "UNA DE TUS CÉLULAS"] },
+      "bacterie": { "cible": "UNA BACTERIA", "legende": ["MÁS LIGERO QUE", "UNA BACTERIA"] },
+      "pelagibacter": { "cible": "UNA BACTERIA ENANA", "legende": ["MÁS LIGERO QUE LA", "BACTERIA MÁS CHICA"] },
+      "virus": { "cible": "UN VIRUS DE LA GRIPE", "legende": ["MÁS LIGERO QUE UN", "VIRUS DE LA GRIPE"] },
+      "hemoglobine": { "cible": "UNA PROTEÍNA", "legende": ["MÁS LIGERO QUE UNA", "PROTEÍNA DE LA SANGRE"] },
+      "atome": { "cible": "UN ÁTOMO", "legende": ["TU TROZO YA ES", "UN SOLO ÁTOMO"] }
+    }
+  },
+  "pt": {
+    "titre": "E se você cortasse uma pizza em 4 a cada segundo?",
+    "description": "Corte uma pizza em 4 a cada segundo e fique com um só pedaço. No corte {n_riz} ele pesa menos que um grão de arroz, no {n_bacterie} menos que uma bactéria e no {n_atome} seu pedaço é um único átomo. Aí a faca para: em grego, \"átomo\" quer dizer literalmente \"que não pode ser cortado\".\nFontes: USDA FoodData Central; BioNumbers (Harvard); Vollmer et al., PNAS (2008); Sigma-Aldrich; CODATA 2018.",
+    "regle": ["CORTE A PIZZA EM 4", "A CADA SEGUNDO"],
+    "regle2": ["PEGUE UM PEDAÇO", "E CORTE DE NOVO"],
+    "pli": "CORTE",
+    "suite": "PRÓXIMO: {cible}",
+    "restant": "FALTAM {n} CORTES",
+    "restant1": "FALTA 1 CORTE",
+    "stop": ["A FACA", "NÃO CORTA MAIS"],
+    "grec": ["EM GREGO, \"ÁTOMO\"", "QUER DIZER \"INDIVISÍVEL\""],
+    "total": ["VOCÊ FEZ {n} SEPTILHÕES", "DE PEDAÇOS DE PIZZA"],
+    "unites": ["G", "MG", "µG", "NG", "PG", "FG", "AG", "ZG", "YG"],
+    "separateurs": { "milliers": ".", "decimale": "," },
+    "paliers": {
+      "raisin": { "cible": "UMA UVA", "legende": ["MAIS LEVE QUE", "UMA UVA"] },
+      "riz": { "cible": "UM GRÃO DE ARROZ", "legende": ["MAIS LEVE QUE", "UM GRÃO DE ARROZ"] },
+      "sel": { "cible": "UM GRÃO DE SAL", "legende": ["MAIS LEVE QUE", "UM GRÃO DE SAL"] },
+      "cellule": { "cible": "UMA CÉLULA SUA", "legende": ["MAIS LEVE QUE", "UMA CÉLULA SUA"] },
+      "bacterie": { "cible": "UMA BACTÉRIA", "legende": ["MAIS LEVE QUE", "UMA BACTÉRIA"] },
+      "pelagibacter": { "cible": "A MENOR BACTÉRIA", "legende": ["MAIS LEVE QUE A", "MENOR BACTÉRIA"] },
+      "virus": { "cible": "UM VÍRUS DA GRIPE", "legende": ["MAIS LEVE QUE UM", "VÍRUS DA GRIPE"] },
+      "hemoglobine": { "cible": "UMA PROTEÍNA", "legende": ["MAIS LEVE QUE UMA", "PROTEÍNA DO SANGUE"] },
+      "atome": { "cible": "UM ÁTOMO", "legende": ["SEU PEDAÇO AGORA", "É UM ÚNICO ÁTOMO"] }
+    }
+  }
+}

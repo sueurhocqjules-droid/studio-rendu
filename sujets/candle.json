@@ -1,0 +1,101 @@
+{
+  "regle_physique": {
+    "puissance_0_w": 80,
+    "cire_kg_s": 1.6667e-6,
+    "source_bougie": "Bougie de paraffine type chandelle : environ 0,1 g de cire par minute et 80 W de chaleur (Wikipedia « Candle », mesures citées ; chaleur de combustion de la paraffine 42 à 44 kJ/g)",
+    "facteur": 4,
+    "lune_kg": 7.346e22,
+    "source_lune": "Masse de la Lune : 0,07346 x 10^24 kg (NASA, Moon Fact Sheet, 2024)",
+    "c_m_s": 299792458,
+    "source_c": "Vitesse de la lumière, exacte (BIPM) ; perte de masse du Soleil = luminosité / c²",
+    "soleil_w": 3.828e26,
+    "rayon_terre_m": 6371000,
+    "constante_solaire_w_m2": 1361,
+    "source_constante": "Éclairement solaire total 1 361 W/m² (IAU 2015, résolution B3) ; rayon moyen de la Terre 6 371 km (NASA)"
+  },
+  "references": {
+    "cheval": { "w": 745.7, "source": "Un cheval-vapeur mécanique : 550 pieds-livres par seconde = 745,7 W (NIST, circulaires du National Bureau of Standards)" },
+    "eolienne": { "w": 3.4e6, "source": "Éolienne terrestre neuve aux États-Unis en 2023 : 3,4 MW en moyenne (DOE / Lawrence Berkeley National Laboratory, Land-Based Wind Market Report 2024)" },
+    "barrage": { "w": 2.08e9, "source": "Barrage Hoover : environ 2 080 MW de capacité nominale (US Bureau of Reclamation, FAQ)" },
+    "humanite": { "w": 1.966e13, "source": "Toute l'énergie primaire de l'humanité : 620 EJ en 2023 (Energy Institute, Statistical Review of World Energy 2024), soit 19,7 TW en moyenne" },
+    "ouragan": { "w": 6e14, "source": "Chaleur libérée par un ouragan : environ 6 x 10^14 W (NOAA AOML, Hurricane FAQ, C. Landsea)" },
+    "terre": { "w": 1.7355e17, "source": "Toute la lumière du Soleil qui frappe la Terre : 1 361 W/m² x π x (6 371 km)², calculé" },
+    "proxima": { "w": 5.78e23, "source": "Proxima du Centaure : 0,00151 fois la luminosité du Soleil (Ribas et al. 2017, Astronomy & Astrophysics)" },
+    "soleil": { "w": 3.828e26, "source": "Luminosité nominale du Soleil : 3,828 x 10^26 W (IAU 2015, résolution B2)" }
+  },
+  "en": {
+    "titre": "What If a Candle Got 4 Times Stronger Every Second?",
+    "description": "A candle releases 4 times more energy every second. Stronger than a horse at second {n_cheval}, a dam at second {n_barrage}, all of humanity at second {n_humanite}, a hurricane at second {n_ouragan}, and at second {n_soleil} it shines like the Sun. The catch: it would burn a Moon's worth of wax every {h_en} hours, about {k_en} billion times more fuel than the real Sun, which runs on nuclear fusion.\nSources: Wikipedia (Candle); NIST; US DOE / LBNL; US Bureau of Reclamation; Energy Institute (2024); NOAA AOML; IAU 2015; Ribas et al. (2017); NASA.",
+    "regle": ["A CANDLE GETS 4 TIMES", "STRONGER EVERY SECOND"],
+    "regle2": ["IT STARTS AT", "80 WATTS"],
+    "pli": "SEC",
+    "suite": "NEXT: {cible}",
+    "restant": "{n} SECONDS TO GO",
+    "restant1": "1 SECOND TO GO",
+    "cire": ["IT BURNS A MOON OF WAX", "EVERY {h} HOURS"],
+    "vrai": ["THE REAL SUN USES {k}", "BILLION TIMES LESS FUEL"],
+    "fusion": ["ITS SECRET:", "NUCLEAR FUSION"],
+    "unites": ["WATTS", "KILOWATTS", "MEGAWATTS", "GIGAWATTS", "TERAWATTS", "PETAWATTS", "EXAWATTS", "ZETTAWATTS", "YOTTAWATTS"],
+    "separateurs": { "milliers": ",", "decimale": "." },
+    "paliers": {
+      "cheval": { "cible": "A HORSE", "legende": ["STRONGER THAN", "A HORSE"] },
+      "eolienne": { "cible": "A WIND TURBINE", "legende": ["MORE THAN A", "WIND TURBINE"] },
+      "barrage": { "cible": "THE HOOVER DAM", "legende": ["MORE POWER THAN", "THE HOOVER DAM"] },
+      "humanite": { "cible": "ALL OF HUMANITY", "legende": ["MORE POWER THAN", "ALL OF HUMANITY USES"] },
+      "ouragan": { "cible": "A HURRICANE", "legende": ["HOTTER THAN", "A HURRICANE"] },
+      "terre": { "cible": "ALL SUNLIGHT ON EARTH", "legende": ["MORE THAN ALL THE", "SUNLIGHT HITTING EARTH"] },
+      "proxima": { "cible": "A STAR", "legende": ["AS BRIGHT AS", "THE NEAREST STAR"] },
+      "soleil": { "cible": "THE SUN", "legende": ["THE CANDLE NOW", "SHINES LIKE THE SUN"] }
+    }
+  },
+  "es": {
+    "titre": "¿Y si una vela fuera 4 veces más potente cada segundo?",
+    "description": "Una vela libera 4 veces más energía cada segundo. Más que un caballo en el segundo {n_cheval}, una presa en el {n_barrage}, toda la humanidad en el {n_humanite}, un huracán en el {n_ouragan} y en el {n_soleil} brilla como el Sol. El problema: quemaría una Luna entera de cera cada {h_es} horas, unas {k_es} millones de veces más combustible que el Sol de verdad, que funciona con fusión nuclear.\nFuentes: Wikipedia (Candle); NIST; DOE / LBNL de EE. UU.; Bureau of Reclamation; Energy Institute (2024); NOAA AOML; UAI 2015; Ribas et al. (2017); NASA.",
+    "regle": ["UNA VELA ES 4 VECES MÁS", "POTENTE CADA SEGUNDO"],
+    "regle2": ["EMPIEZA CON", "80 VATIOS"],
+    "pli": "SEG",
+    "suite": "SIGUE: {cible}",
+    "restant": "FALTAN {n} SEGUNDOS",
+    "restant1": "FALTA 1 SEGUNDO",
+    "cire": ["QUEMA UNA LUNA DE CERA", "CADA {h} HORAS"],
+    "vrai": ["EL SOL REAL USA {k}", "MILLONES DE VECES MENOS"],
+    "fusion": ["SU SECRETO:", "LA FUSIÓN NUCLEAR"],
+    "unites": ["VATIOS", "KILOVATIOS", "MEGAVATIOS", "GIGAVATIOS", "TERAVATIOS", "PETAVATIOS", "EXAVATIOS", "ZETAVATIOS", "YOTAVATIOS"],
+    "separateurs": { "milliers": ".", "decimale": "," },
+    "paliers": {
+      "cheval": { "cible": "UN CABALLO", "legende": ["MÁS FUERTE QUE", "UN CABALLO"] },
+      "eolienne": { "cible": "UN AEROGENERADOR", "legende": ["MÁS QUE UN", "AEROGENERADOR"] },
+      "barrage": { "cible": "LA PRESA HOOVER", "legende": ["MÁS POTENCIA QUE", "LA PRESA HOOVER"] },
+      "humanite": { "cible": "TODA LA HUMANIDAD", "legende": ["MÁS ENERGÍA QUE", "TODA LA HUMANIDAD"] },
+      "ouragan": { "cible": "UN HURACÁN", "legende": ["MÁS CALOR QUE", "UN HURACÁN"] },
+      "terre": { "cible": "LA LUZ DEL SOL", "legende": ["MÁS QUE TODA LA LUZ", "DEL SOL SOBRE LA TIERRA"] },
+      "proxima": { "cible": "UNA ESTRELLA", "legende": ["TANTO COMO LA", "ESTRELLA MÁS CERCANA"] },
+      "soleil": { "cible": "EL SOL", "legende": ["LA VELA YA BRILLA", "COMO EL SOL"] }
+    }
+  },
+  "pt": {
+    "titre": "E se uma vela ficasse 4 vezes mais forte a cada segundo?",
+    "description": "Uma vela libera 4 vezes mais energia a cada segundo. Mais forte que um cavalo no segundo {n_cheval}, que uma usina hidrelétrica no {n_barrage}, que toda a humanidade no {n_humanite}, que um furacão no {n_ouragan} e no {n_soleil} ela brilha como o Sol. O problema: queimaria uma Lua inteira de cera a cada {h_pt} horas, cerca de {k_pt} bilhão de vezes mais combustível que o Sol de verdade, que funciona com fusão nuclear.\nFontes: Wikipedia (Candle); NIST; DOE / LBNL dos EUA; Bureau of Reclamation; Energy Institute (2024); NOAA AOML; UAI 2015; Ribas et al. (2017); NASA.",
+    "regle": ["UMA VELA FICA 4 VEZES", "MAIS FORTE A CADA SEGUNDO"],
+    "regle2": ["ELA COMEÇA COM", "80 WATTS"],
+    "pli": "SEG",
+    "suite": "PRÓXIMO: {cible}",
+    "restant": "FALTAM {n} SEGUNDOS",
+    "restant1": "FALTA 1 SEGUNDO",
+    "cire": ["QUEIMA UMA LUA DE CERA", "A CADA {h} HORAS"],
+    "vrai": ["O SOL DE VERDADE USA", "{k} BILHÃO DE VEZES MENOS"],
+    "fusion": ["O SEGREDO DELE:", "A FUSÃO NUCLEAR"],
+    "unites": ["WATTS", "QUILOWATTS", "MEGAWATTS", "GIGAWATTS", "TERAWATTS", "PETAWATTS", "EXAWATTS", "ZETTAWATTS", "YOTTAWATTS"],
+    "separateurs": { "milliers": ".", "decimale": "," },
+    "paliers": {
+      "cheval": { "cible": "UM CAVALO", "legende": ["MAIS FORTE QUE", "UM CAVALO"] },
+      "eolienne": { "cible": "UMA TURBINA EÓLICA", "legende": ["MAIS QUE UMA", "TURBINA EÓLICA"] },
+      "barrage": { "cible": "A REPRESA HOOVER", "legende": ["MAIS POTÊNCIA QUE", "A REPRESA HOOVER"] },
+      "humanite": { "cible": "TODA A HUMANIDADE", "legende": ["MAIS ENERGIA QUE", "TODA A HUMANIDADE"] },
+      "ouragan": { "cible": "UM FURACÃO", "legende": ["MAIS CALOR QUE", "UM FURACÃO"] },
+      "terre": { "cible": "O SOL NA TERRA", "legende": ["MAIS QUE TODA A LUZ", "DO SOL NA TERRA"] },
+      "proxima": { "cible": "UMA ESTRELA", "legende": ["TANTO QUANTO A", "ESTRELA MAIS PRÓXIMA"] },
+      "soleil": { "cible": "O SOL", "legende": ["A VELA JÁ BRILHA", "COMO O SOL"] }
+    }
+  }
+}

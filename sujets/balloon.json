@@ -1,0 +1,114 @@
+{
+  "regle_physique": {
+    "volume_0_m3": 0.0005,
+    "source_volume_0": "Un souffle au repos : volume courant d'environ 500 mL chez l'adulte (Wikipedia « Lung volumes and capacities » ; JoVE)",
+    "facteur": 3,
+    "masse_atmosphere_kg": 5.148e18,
+    "source_atmosphere": "Masse de l'atmosphère : 5,148 x 10^18 kg (NCAR, via Wikipedia « Atmosphere of Earth » ; BioNumbers)",
+    "densite_air_kg_m3": 1.225,
+    "source_densite": "Air au niveau de la mer : 1,225 kg/m3 (atmosphère standard des États-Unis, 1976)",
+    "hypothese": "Tout l'air de la Terre ramené à la densité du niveau de la mer, comme l'air soufflé dans un ballon"
+  },
+  "references": {
+    "poumons": { "m3": 0.006, "source": "Capacité pulmonaire totale d'un homme adulte : environ 6 L (Wikipedia « Lung volumes and capacities »)" },
+    "piscine": { "m3": 2500, "source": "Bassin olympique : 50 x 25 m sur 2 m de profondeur minimum, soit 2 500 m3" },
+    "pyramide": { "m3": 2.6e6, "source": "Grande Pyramide de Gizeh : environ 2,6 millions de m3 (Wikipedia ; 2 583 283 m3 selon d'autres calculs)" },
+    "lochness": { "m3": 7.4e9, "source": "Loch Ness : 7,4 km3 d'eau (Loch Ness Project, relevé bathymétrique : 7,452 milliards de m3)" },
+    "canyon": { "m3": 4.17e12, "source": "Grand Canyon : 5,45 billions de yards cubes, soit 4,17 x 10^12 m3 (National Park Service, statistiques du parc)" },
+    "antarctique": { "m3": 2.7e16, "source": "Calotte glaciaire de l'Antarctique : 27 millions de km3 (Bedmap2, Fretwell et al. 2013, The Cryosphere)" },
+    "atmosphere": { "m3": 0, "source": "Tout l'air de la Terre au niveau de la mer : masse de l'atmosphère / 1,225 kg/m3, calculé" }
+  },
+  "en": {
+    "titre": "What If Your Balloon Tripled Its Air Every Second?",
+    "description": "You blow one breath into a balloon, and the air inside triples every second. Bigger than your lungs at second {n_poumons}, an Olympic pool at second {n_piscine}, the Great Pyramid at second {n_pyramide}, the Grand Canyon at second {n_canyon}, and at second {n_atmosphere} it holds all the air on Earth: a balloon {d_mi} miles wide.\nSources: Wikipedia (lung volumes); US Standard Atmosphere 1976; NCAR; Loch Ness Project; National Park Service; Fretwell et al., The Cryosphere (2013).",
+    "regle": ["YOUR BALLOON TRIPLES", "ITS AIR EVERY SECOND"],
+    "regle2": ["IT STARTS WITH", "ONE BREATH"],
+    "pli": "SEC",
+    "suite": "NEXT: {cible}",
+    "restant": "{n} SECONDS TO GO",
+    "restant1": "1 SECOND TO GO",
+    "vide": ["IT'S {d} MILES WIDE", "AND THE SKY IS EMPTY"],
+    "pop": ["POP."],
+    "souffle": ["AND IT ALL STARTED", "WITH ONE BREATH"],
+    "unites": [
+      { "max": 1000, "m3": 0.001, "nom": "LITERS OF AIR" },
+      { "max": 1e6, "m3": 1, "nom": "CUBIC METERS" },
+      { "max": 1000, "m3": 1e6, "nom": "MILLION CUBIC METERS" },
+      { "max": 1e6, "m3": 1e9, "nom": "CUBIC KM" },
+      { "max": 1000, "m3": 1e15, "nom": "MILLION CUBIC KM" },
+      { "max": 1e30, "m3": 1e18, "nom": "BILLION CUBIC KM" }
+    ],
+    "separateurs": { "milliers": ",", "decimale": "." },
+    "paliers": {
+      "poumons": { "cible": "YOUR LUNGS", "legende": ["MORE AIR THAN", "YOUR LUNGS HOLD"] },
+      "piscine": { "cible": "AN OLYMPIC POOL", "legende": ["BIGGER THAN AN", "OLYMPIC POOL"] },
+      "pyramide": { "cible": "THE GREAT PYRAMID", "legende": ["BIGGER THAN THE", "GREAT PYRAMID"] },
+      "lochness": { "cible": "LOCH NESS", "legende": ["MORE AIR THAN THE", "WATER IN LOCH NESS"] },
+      "canyon": { "cible": "THE GRAND CANYON", "legende": ["IT COULD FILL THE", "GRAND CANYON"] },
+      "antarctique": { "cible": "ANTARCTICA'S ICE", "legende": ["BIGGER THAN ALL", "OF ANTARCTICA'S ICE"] },
+      "atmosphere": { "cible": "ALL THE AIR", "legende": ["IT NOW HOLDS ALL", "THE AIR ON EARTH"] }
+    }
+  },
+  "es": {
+    "titre": "¿Y si tu globo triplicara su aire cada segundo?",
+    "description": "Soplas una vez dentro de un globo y el aire de adentro se triplica cada segundo. Más que tus pulmones en el segundo {n_poumons}, una piscina olímpica en el {n_piscine}, la Gran Pirámide en el {n_pyramide}, el Gran Cañón en el {n_canyon} y en el {n_atmosphere} contiene todo el aire de la Tierra: un globo de {d_km} km de ancho.\nFuentes: Wikipedia (volúmenes pulmonares); Atmósfera Estándar de EE. UU. 1976; NCAR; Loch Ness Project; National Park Service; Fretwell et al., The Cryosphere (2013).",
+    "regle": ["TU GLOBO TRIPLICA SU", "AIRE CADA SEGUNDO"],
+    "regle2": ["EMPIEZA CON", "UN SOLO SOPLO"],
+    "pli": "SEG",
+    "suite": "SIGUE: {cible}",
+    "restant": "FALTAN {n} SEGUNDOS",
+    "restant1": "FALTA 1 SEGUNDO",
+    "vide": ["MIDE {d} KM DE ANCHO", "Y EL CIELO QUEDÓ VACÍO"],
+    "pop": ["¡PUM!"],
+    "souffle": ["Y TODO EMPEZÓ CON", "UN SOLO SOPLO"],
+    "unites": [
+      { "max": 1000, "m3": 0.001, "nom": "LITROS DE AIRE" },
+      { "max": 1e6, "m3": 1, "nom": "METROS CÚBICOS" },
+      { "max": 1000, "m3": 1e6, "nom": "MILLONES DE M³" },
+      { "max": 1e6, "m3": 1e9, "nom": "KM CÚBICOS" },
+      { "max": 1000, "m3": 1e15, "nom": "MILLONES DE KM³" },
+      { "max": 1e30, "m3": 1e18, "nom": "MIL MILLONES DE KM³" }
+    ],
+    "separateurs": { "milliers": ".", "decimale": "," },
+    "paliers": {
+      "poumons": { "cible": "TUS PULMONES", "legende": ["MÁS AIRE DEL QUE", "CABE EN TUS PULMONES"] },
+      "piscine": { "cible": "UNA PISCINA OLÍMPICA", "legende": ["MÁS GRANDE QUE UNA", "PISCINA OLÍMPICA"] },
+      "pyramide": { "cible": "LA GRAN PIRÁMIDE", "legende": ["MÁS GRANDE QUE LA", "GRAN PIRÁMIDE"] },
+      "lochness": { "cible": "EL LAGO NESS", "legende": ["MÁS AIRE QUE AGUA", "EN EL LAGO NESS"] },
+      "canyon": { "cible": "EL GRAN CAÑÓN", "legende": ["PODRÍA LLENAR", "EL GRAN CAÑÓN"] },
+      "antarctique": { "cible": "EL HIELO ANTÁRTICO", "legende": ["MÁS QUE TODO EL", "HIELO DE LA ANTÁRTIDA"] },
+      "atmosphere": { "cible": "TODO EL AIRE", "legende": ["YA TIENE TODO EL", "AIRE DE LA TIERRA"] }
+    }
+  },
+  "pt": {
+    "titre": "E se o seu balão triplicasse o ar a cada segundo?",
+    "description": "Você sopra uma vez dentro de um balão e o ar lá dentro triplica a cada segundo. Mais que seus pulmões no segundo {n_poumons}, uma piscina olímpica no {n_piscine}, a Grande Pirâmide no {n_pyramide}, o Grand Canyon no {n_canyon} e no {n_atmosphere} ele guarda todo o ar da Terra: um balão de {d_km} km de largura.\nFontes: Wikipédia (volumes pulmonares); Atmosfera Padrão dos EUA 1976; NCAR; Loch Ness Project; National Park Service; Fretwell et al., The Cryosphere (2013).",
+    "regle": ["SEU BALÃO TRIPLICA O AR", "A CADA SEGUNDO"],
+    "regle2": ["COMEÇA COM", "UM SOPRO SÓ"],
+    "pli": "SEG",
+    "suite": "PRÓXIMO: {cible}",
+    "restant": "FALTAM {n} SEGUNDOS",
+    "restant1": "FALTA 1 SEGUNDO",
+    "vide": ["ELE TEM {d} KM DE LARGURA", "E O CÉU FICOU VAZIO"],
+    "pop": ["POU!"],
+    "souffle": ["E TUDO COMEÇOU", "COM UM SOPRO SÓ"],
+    "unites": [
+      { "max": 1000, "m3": 0.001, "nom": "LITROS DE AR" },
+      { "max": 1e6, "m3": 1, "nom": "METROS CÚBICOS" },
+      { "max": 1000, "m3": 1e6, "nom": "MILHÕES DE M³" },
+      { "max": 1e6, "m3": 1e9, "nom": "KM CÚBICOS" },
+      { "max": 1000, "m3": 1e15, "nom": "MILHÕES DE KM³" },
+      { "max": 1e30, "m3": 1e18, "nom": "BILHÕES DE KM³" }
+    ],
+    "separateurs": { "milliers": ".", "decimale": "," },
+    "paliers": {
+      "poumons": { "cible": "SEUS PULMÕES", "legende": ["MAIS AR DO QUE CABE", "NOS SEUS PULMÕES"] },
+      "piscine": { "cible": "A PISCINA OLÍMPICA", "legende": ["MAIOR QUE UMA", "PISCINA OLÍMPICA"] },
+      "pyramide": { "cible": "A GRANDE PIRÂMIDE", "legende": ["MAIOR QUE A", "GRANDE PIRÂMIDE"] },
+      "lochness": { "cible": "O LAGO NESS", "legende": ["MAIS AR QUE A ÁGUA", "DO LAGO NESS"] },
+      "canyon": { "cible": "O GRAND CANYON", "legende": ["ELE ENCHERIA", "O GRAND CANYON"] },
+      "antarctique": { "cible": "A ANTÁRTIDA", "legende": ["MAIS QUE TODO O GELO", "DA ANTÁRTIDA"] },
+      "atmosphere": { "cible": "TODO O AR", "legende": ["ELE JÁ TEM TODO", "O AR DA TERRA"] }
+    }
+  }
+}

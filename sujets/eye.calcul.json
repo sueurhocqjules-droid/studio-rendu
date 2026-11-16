@@ -1,0 +1,210 @@
+{
+  "n_max": 55,
+  "facteur": 1.3,
+  "theta0_rad": 0.0002908882086657216,
+  "piece_0_m": 83.39973665924263,
+  "pupille_m": 4264.6243258086015,
+  "paliers": [
+    {
+      "cle": "aigle",
+      "angle_rad": 0.00012468418716919056,
+      "pas": 4,
+      "arrivee_s": 3.5,
+      "source": "Aigle d'Australie (Aquila audax) : 140 cycles par degré contre environ 60 pour l'humain, soit à peu près deux fois mieux (Reymond 1985, Vision Research ; Caves et al. 2018, Trends in Ecology & Evolution)"
+    },
+    {
+      "cle": "tennis",
+      "angle_rad": 5.6595238095238095e-05,
+      "pas": 7,
+      "arrivee_s": 6.5,
+      "source": "Court de tennis : 23,77 m (78 pieds) de long (règles de l'ITF) ; vu depuis la station spatiale, à environ 420 km (NASA, orbite de 400 à 420 km)"
+    },
+    {
+      "cle": "personne",
+      "angle_rad": 4.197619047619048e-06,
+      "pas": 17,
+      "arrivee_s": 16.5,
+      "source": "Une personne de 1,763 m (taille moyenne d'un homme adulte aux États-Unis, CDC NCHS) vue depuis la station spatiale à 420 km"
+    },
+    {
+      "cle": "plaque",
+      "angle_rad": 7.257142857142858e-07,
+      "pas": 23,
+      "arrivee_s": 22.5,
+      "source": "Plaque d'immatriculation américaine : 12 x 6 pouces (fiche de spécifications du Texas DMV) ; vue depuis la station spatiale à 420 km"
+    },
+    {
+      "cle": "hubble",
+      "angle_rad": 2.42406840554768e-07,
+      "pas": 28,
+      "arrivee_s": 27.5,
+      "source": "Résolution du télescope spatial Hubble : environ 0,05 seconde d'arc (ESA Hubble : 0,05 à 0,1 seconde d'arc)"
+    },
+    {
+      "cle": "alphaa",
+      "angle_rad": 4.12624923992326e-08,
+      "pas": 34,
+      "arrivee_s": 33.5,
+      "source": "Diamètre apparent d'Alpha du Centaure A : 8,511 millisecondes d'arc (Kervella et al. 2003, VLTI/VINCI)"
+    },
+    {
+      "cle": "proxima",
+      "angle_rad": 4.945099547317267e-09,
+      "pas": 42,
+      "arrivee_s": 41.5,
+      "source": "Diamètre apparent de Proxima du Centaure : 1,02 milliseconde d'arc (Ségransan et al. 2003, ESO eso0232)"
+    },
+    {
+      "cle": "ballon",
+      "angle_rad": 5.712799167533818e-10,
+      "pas": 51,
+      "arrivee_s": 50.5,
+      "source": "Ballon de football taille 5 : 68 à 70 cm de circonférence (Lois du jeu, FIFA), soit 21,96 cm de diamètre pour 69 cm ; posé sur la Lune, à 384 400 km (NASA)"
+    },
+    {
+      "cle": "trounoir",
+      "angle_rad": 1.9392547244381442e-10,
+      "pas": 55,
+      "arrivee_s": 54.5,
+      "source": "Anneau du trou noir M87* : environ 40 microsecondes d'arc (Event Horizon Telescope Collaboration 2019, ApJL 875 L1)"
+    }
+  ],
+  "t_limite": 54.5,
+  "t_coupe": 57.1,
+  "t_qui": 61.1,
+  "t_patte": 65.3,
+  "t_retour": 67.89999999999999,
+  "t_fin": 71.1,
+  "duree_s": 71.69999999999999,
+  "descriptions": {
+    "en": "Your eyesight gets 30% sharper every second. At second 4 you see like an eagle, at second 17 you could spot a person from the space station, at second 28 you beat the Hubble telescope, and at second 55 you can see a black hole. The catch: physics says your pupil would then need to be 2.6 miles wide.\nSources: Webvision (University of Utah); US Mint; Reymond (1985); NASA; FIFA; ESA Hubble; Kervella et al. (2003); ESO; Event Horizon Telescope (2019); OpenStax University Physics.",
+    "es": "Tu vista es un 30 % más aguda cada segundo. En el segundo 4 ves como un águila, en el 17 distinguirías a una persona desde la estación espacial, en el 28 superas al telescopio Hubble y en el 55 puedes ver un agujero negro. El problema: según la física, tu pupila tendría que medir 4,3 km de ancho.\nFuentes: Webvision (Universidad de Utah); US Mint; Reymond (1985); NASA; FIFA; ESA Hubble; Kervella et al. (2003); ESO; Event Horizon Telescope (2019); OpenStax University Physics.",
+    "pt": "Sua visão fica 30% mais nítida a cada segundo. No segundo 4 você enxerga como uma águia, no 17 veria uma pessoa lá da estação espacial, no 28 supera o telescópio Hubble e no 55 consegue ver um buraco negro. O problema: pela física, sua pupila teria que ter 4,3 km de largura.\nFontes: Webvision (Universidade de Utah); US Mint; Reymond (1985); NASA; FIFA; ESA Hubble; Kervella et al. (2003); ESO; Event Horizon Telescope (2019); OpenStax University Physics."
+  },
+  "son": {
+    "duree_s": 71.69999999999999,
+    "tics": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54
+    ],
+    "paliers": [
+      3.5,
+      6.5,
+      16.5,
+      22.5,
+      27.5,
+      33.5,
+      41.5,
+      50.5,
+      54.5
+    ],
+    "retournements": [
+      57.1,
+      61.1,
+      65.3
+    ],
+    "fin": 71.1,
+    "base_hz": 98,
+    "tic_hz": 1800,
+    "bourdon": [
+      [
+        0,
+        392,
+        0.0
+      ],
+      [
+        6,
+        392,
+        0.03
+      ],
+      [
+        30,
+        587,
+        0.06
+      ],
+      [
+        54.5,
+        784,
+        0.1
+      ],
+      [
+        57.1,
+        784,
+        0.1
+      ],
+      [
+        57.4,
+        784,
+        0.0
+      ],
+      [
+        67.89999999999999,
+        392,
+        0.0
+      ],
+      [
+        71.1,
+        392,
+        0.03
+      ],
+      [
+        71.69999999999999,
+        392,
+        0.0
+      ]
+    ]
+  }
+}

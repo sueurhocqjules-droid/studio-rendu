@@ -1,0 +1,93 @@
+{
+  "regle_physique": {
+    "champ_0_t": 0.005,
+    "source_champ_0": "Aimant de réfrigérateur typique : 5 mT (Wikipedia, « Tesla (unit) » et « Orders of magnitude (magnetic field) »)",
+    "gain_par_seconde": 0.5,
+    "magnetar_t": 1e11,
+    "source_magnetar": "Magnétar SGR 1806-20 : environ 10^15 gauss, soit 10^11 T (NASA Goddard, 2002)",
+    "carte_km": 160000,
+    "carte_mi": 100000,
+    "source_carte": "Un magnétar pourrait effacer une carte magnétique à environ 100 000 miles (160 000 km), la moitié de la distance de la Lune (NASA Imagine the Universe 2004 ; NASA APOD)"
+  },
+  "references": {
+    "tache": { "t": 0.3, "source": "Tache solaire : environ 0,3 T (Wikipedia « Tesla (unit) » ; National MagLab : jusqu'à 0,4 T)" },
+    "irm": { "t": 3, "source": "IRM médicale : 1,5 à 3 T (Wikipedia « Orders of magnitude (magnetic field) »)" },
+    "grenouille": { "t": 16, "source": "Grenouille vivante mise en lévitation dans environ 16 T (Berry et Geim 1997, European Journal of Physics ; High Field Magnet Laboratory de Nimègue ; prix Ig Nobel 2000)" },
+    "record": { "t": 100, "source": "Premier champ non destructif de 100 T, mars 2012, National MagLab (Los Alamos)" },
+    "explosion": { "t": 2800, "source": "Record de 2 800 T par compression de flux explosive, RFNC-VNIIEF, Sarov, 2001 (conférence Megagauss ; Physics World) ; l'installation est détruite" },
+    "naine": { "t": 1e5, "source": "Naines blanches les plus magnétiques : environ 10^9 G, soit 10^5 T (revues arXiv 2107.08458 et suivantes)" },
+    "atome": { "t": 235051.757, "source": "Unité atomique de champ magnétique : 2,350 517 57 x 10^5 T (CODATA 2022) ; au-delà, le champ l'emporte sur l'attraction du noyau et les atomes s'étirent en aiguilles le long du champ" }
+  },
+  "en": {
+    "titre": "What If a Fridge Magnet Got 50% Stronger Every Second?",
+    "description": "A fridge magnet gets 50% stronger every second. At second {n_irm} it's an MRI, at second {n_grenouille} it can levitate a frog, at second {n_explosion} it beats the strongest field ever made on Earth, and at second {n_atome} atoms stretch into needles. And a magnetar is still {k_en} times stronger.\nSources: National MagLab; Berry & Geim, European Journal of Physics (1997); RFNC-VNIIEF (2001); CODATA 2022; NASA.",
+    "regle": ["A FRIDGE MAGNET GETS", "50% STRONGER EVERY SECOND"],
+    "regle2": ["WATCH WHAT", "IT PULLS IN"],
+    "pli": "SEC",
+    "unite": "TESLA",
+    "suite": "NEXT: {cible}",
+    "restant": "{n} SECONDS TO GO",
+    "restant1": "1 SECOND TO GO",
+    "magnetar": ["A MAGNETAR IS STILL", "{k} TIMES STRONGER"],
+    "carte": ["IT COULD WIPE A CARD", "FROM {d} MILES AWAY"],
+    "frigo": ["MEANWHILE, ON", "YOUR FRIDGE: 0.005 T"],
+    "separateurs": { "milliers": ",", "decimale": "." },
+    "paliers": {
+      "tache": { "cible": "A SUNSPOT", "legende": ["STRONGER THAN", "A SUNSPOT"] },
+      "irm": { "cible": "AN MRI", "legende": ["AS STRONG AS", "AN MRI SCANNER"] },
+      "grenouille": { "cible": "A FLYING FROG", "legende": ["IT CAN NOW", "LEVITATE A FROG"] },
+      "record": { "cible": "THE LAB RECORD", "legende": ["THE STRONGEST MAGNET", "THAT DOESN'T EXPLODE"] },
+      "explosion": { "cible": "THE ALL-TIME RECORD", "legende": ["STRONGER THAN ANY FIELD", "EVER MADE ON EARTH"] },
+      "naine": { "cible": "A DEAD STAR", "legende": ["AS STRONG AS A", "WHITE DWARF STAR"] },
+      "atome": { "cible": "ATOMS", "legende": ["ATOMS STRETCH", "INTO NEEDLES"] }
+    }
+  },
+  "es": {
+    "titre": "¿Y si un imán de refrigerador fuera un 50 % más fuerte cada segundo?",
+    "description": "Un imán de refrigerador es un 50 % más fuerte cada segundo. En el segundo {n_irm} es una resonancia magnética, en el {n_grenouille} puede hacer levitar una rana, en el {n_explosion} supera el campo más fuerte jamás creado en la Tierra y en el {n_atome} los átomos se estiran como agujas. Y un magnetar sigue siendo {k_es} veces más fuerte.\nFuentes: National MagLab; Berry y Geim, European Journal of Physics (1997); RFNC-VNIIEF (2001); CODATA 2022; NASA.",
+    "regle": ["UN IMÁN DE REFRI, UN 50 %", "MÁS FUERTE CADA SEGUNDO"],
+    "regle2": ["MIRA LO QUE", "VA ATRAPANDO"],
+    "pli": "SEG",
+    "unite": "TESLA",
+    "suite": "SIGUE: {cible}",
+    "restant": "FALTAN {n} SEGUNDOS",
+    "restant1": "FALTA 1 SEGUNDO",
+    "magnetar": ["UN MAGNETAR SIGUE SIENDO", "{k} VECES MÁS FUERTE"],
+    "carte": ["BORRARÍA UNA TARJETA", "A {d} KM"],
+    "frigo": ["MIENTRAS TANTO, EN", "TU REFRI: 0,005 T"],
+    "separateurs": { "milliers": ".", "decimale": "," },
+    "paliers": {
+      "tache": { "cible": "UNA MANCHA SOLAR", "legende": ["MÁS FUERTE QUE", "UNA MANCHA SOLAR"] },
+      "irm": { "cible": "UNA RESONANCIA", "legende": ["TAN FUERTE COMO UNA", "RESONANCIA MAGNÉTICA"] },
+      "grenouille": { "cible": "UNA RANA VOLADORA", "legende": ["YA PUEDE HACER", "LEVITAR UNA RANA"] },
+      "record": { "cible": "EL RÉCORD DEL LAB", "legende": ["EL IMÁN MÁS FUERTE", "QUE NO EXPLOTA"] },
+      "explosion": { "cible": "EL RÉCORD ABSOLUTO", "legende": ["MÁS QUE CUALQUIER CAMPO", "CREADO EN LA TIERRA"] },
+      "naine": { "cible": "UNA ESTRELLA MUERTA", "legende": ["TAN FUERTE COMO UNA", "ENANA BLANCA"] },
+      "atome": { "cible": "LOS ÁTOMOS", "legende": ["LOS ÁTOMOS SE", "ESTIRAN COMO AGUJAS"] }
+    }
+  },
+  "pt": {
+    "titre": "E se um ímã de geladeira ficasse 50% mais forte a cada segundo?",
+    "description": "Um ímã de geladeira fica 50% mais forte a cada segundo. No segundo {n_irm} ele é uma ressonância magnética, no {n_grenouille} faz um sapo levitar, no {n_explosion} supera o campo mais forte já criado na Terra e no {n_atome} os átomos se esticam como agulhas. E um magnetar ainda é {k_pt} vezes mais forte.\nFontes: National MagLab; Berry e Geim, European Journal of Physics (1997); RFNC-VNIIEF (2001); CODATA 2022; NASA.",
+    "regle": ["UM ÍMÃ DE GELADEIRA FICA", "50% MAIS FORTE POR SEGUNDO"],
+    "regle2": ["VEJA O QUE", "ELE VAI PUXANDO"],
+    "pli": "SEG",
+    "unite": "TESLA",
+    "suite": "PRÓXIMO: {cible}",
+    "restant": "FALTAM {n} SEGUNDOS",
+    "restant1": "FALTA 1 SEGUNDO",
+    "magnetar": ["UM MAGNETAR AINDA É", "{k} VEZES MAIS FORTE"],
+    "carte": ["APAGARIA UM CARTÃO", "A {d} KM DE DISTÂNCIA"],
+    "frigo": ["ENQUANTO ISSO, NA", "SUA GELADEIRA: 0,005 T"],
+    "separateurs": { "milliers": ".", "decimale": "," },
+    "paliers": {
+      "tache": { "cible": "UMA MANCHA SOLAR", "legende": ["MAIS FORTE QUE UMA", "MANCHA SOLAR"] },
+      "irm": { "cible": "UMA RESSONÂNCIA", "legende": ["TÃO FORTE QUANTO UMA", "RESSONÂNCIA MAGNÉTICA"] },
+      "grenouille": { "cible": "UM SAPO VOADOR", "legende": ["JÁ CONSEGUE FAZER", "UM SAPO LEVITAR"] },
+      "record": { "cible": "O RECORDE DO LAB", "legende": ["O ÍMÃ MAIS FORTE", "QUE NÃO EXPLODE"] },
+      "explosion": { "cible": "O RECORDE ABSOLUTO", "legende": ["MAIS QUE QUALQUER CAMPO", "JÁ CRIADO NA TERRA"] },
+      "naine": { "cible": "UMA ESTRELA MORTA", "legende": ["TÃO FORTE QUANTO UMA", "ANÃ BRANCA"] },
+      "atome": { "cible": "OS ÁTOMOS", "legende": ["OS ÁTOMOS SE ESTICAM", "COMO AGULHAS"] }
+    }
+  }
+}

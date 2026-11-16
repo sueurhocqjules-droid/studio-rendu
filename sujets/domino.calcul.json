@@ -1,0 +1,215 @@
+{
+  "n_max": 42,
+  "h0_m": 0.005,
+  "facteur": 1.5,
+  "epaisseur": 0.2,
+  "h_fin_m": 124394.98861057515,
+  "e_tap_j": 4.280149418646136e-09,
+  "e_fin_j": 6.62414231518034e+22,
+  "amplification": 1.5476427730122648e+31,
+  "annees_energie": 107,
+  "tap": {
+    "en": "0.0000000043",
+    "es": "0,0000000043",
+    "pt": "0,0000000043"
+  },
+  "paliers": [
+    {
+      "cle": "domino",
+      "m": 0.048,
+      "pas": 6,
+      "arrivee_s": 5.5,
+      "hauteur_m": 0.056953125,
+      "source": "Domino de jeu standard : 48 mm de haut (formats du commerce, 48 à 54 mm)"
+    },
+    {
+      "cle": "quille",
+      "m": 0.381,
+      "pas": 11,
+      "arrivee_s": 10.5,
+      "hauteur_m": 0.43248779296875,
+      "source": "Quille de bowling : 15 pouces (38,1 cm), norme de l'United States Bowling Congress"
+    },
+    {
+      "cle": "toi",
+      "m": 1.763,
+      "pas": 15,
+      "arrivee_s": 14.5,
+      "hauteur_m": 2.189469451904297,
+      "source": "Homme adulte aux États-Unis : 69,4 pouces (176,3 cm), CDC NCHS 2003-2006"
+    },
+    {
+      "cle": "girafe",
+      "m": 5.8,
+      "pas": 18,
+      "arrivee_s": 17.5,
+      "hauteur_m": 7.389459400177002,
+      "source": "Girafe la plus haute jamais mesurée : George, 5,8 m, zoo de Chester, 1969, Guinness World Records"
+    },
+    {
+      "cle": "christ",
+      "m": 38,
+      "pas": 23,
+      "arrivee_s": 22.5,
+      "hauteur_m": 56.11370732009411,
+      "source": "Christ Rédempteur de Rio : 30 m de statue sur un piédestal de 8 m, 38 m au total (Structurae, Britannica)"
+    },
+    {
+      "cle": "burj",
+      "m": 828,
+      "pas": 30,
+      "arrivee_s": 29.5,
+      "hauteur_m": 958.7552961644204,
+      "source": "Burj Khalifa : 828 m, burjkhalifa.ae et Guinness World Records"
+    },
+    {
+      "cle": "fuji",
+      "m": 3776,
+      "pas": 34,
+      "arrivee_s": 33.5,
+      "hauteur_m": 4853.698686832379,
+      "source": "Mont Fuji : 3 776 m, Autorité d'information géospatiale du Japon (GSI)"
+    },
+    {
+      "cle": "ballon",
+      "m": 53700,
+      "pas": 40,
+      "arrivee_s": 39.5,
+      "hauteur_m": 55286.661604700064,
+      "source": "Record d'altitude d'un ballon sans équipage : 53,7 km, JAXA, 2013 (ballon de film de 2,8 µm)"
+    },
+    {
+      "cle": "espace",
+      "m": 100000,
+      "pas": 42,
+      "arrivee_s": 41.5,
+      "hauteur_m": 124394.98861057515,
+      "source": "Ligne de Kármán : 100 km, limite de l'espace retenue par la FAI"
+    }
+  ],
+  "t_limite": 41.5,
+  "t_coupe": 44.5,
+  "t_qui": 49.5,
+  "t_patte": 55.0,
+  "t_retour": 58.5,
+  "t_fin": 62.5,
+  "duree_s": 63.1,
+  "descriptions": {
+    "en": "Each domino is 50% bigger than the one before, and one falls every second. Domino 15 is taller than you, domino 30 is taller than the Burj Khalifa, and domino 42 reaches space. The craziest part: a domino really can knock over one 1.5 times its size.\nSources: Whitehead, American Journal of Physics (1983); Stephen Morris, University of Toronto; Guinness World Records; JAXA; FAI; Energy Institute Statistical Review 2024; The Wood Database.",
+    "es": "Cada ficha de dominó es un 50 % más grande que la anterior y cae una por segundo. La ficha 15 es más alta que tú, la 30 supera al Burj Khalifa y la 42 llega al espacio. Lo más loco: una ficha de verdad puede tumbar a otra 1,5 veces más grande.\nFuentes: Whitehead, American Journal of Physics (1983); Stephen Morris, Universidad de Toronto; Guinness World Records; JAXA; FAI; Energy Institute Statistical Review 2024; The Wood Database.",
+    "pt": "Cada peça de dominó é 50% maior que a anterior e cai uma por segundo. A peça 15 é mais alta que você, a 30 passa do Burj Khalifa e a 42 chega ao espaço. O mais louco: uma peça de verdade consegue derrubar outra 1,5 vez maior.\nFontes: Whitehead, American Journal of Physics (1983); Stephen Morris, Universidade de Toronto; Guinness World Records; JAXA; FAI; Energy Institute Statistical Review 2024; The Wood Database."
+  },
+  "son": {
+    "duree_s": 63.1,
+    "tics": [
+      0.95,
+      1.95,
+      2.95,
+      3.95,
+      4.95,
+      5.95,
+      6.95,
+      7.95,
+      8.95,
+      9.95,
+      10.95,
+      11.95,
+      12.95,
+      13.95,
+      14.95,
+      15.95,
+      16.95,
+      17.95,
+      18.95,
+      19.95,
+      20.95,
+      21.95,
+      22.95,
+      23.95,
+      24.95,
+      25.95,
+      26.95,
+      27.95,
+      28.95,
+      29.95,
+      30.95,
+      31.95,
+      32.95,
+      33.95,
+      34.95,
+      35.95,
+      36.95,
+      37.95,
+      38.95,
+      39.95,
+      40.95,
+      41.95
+    ],
+    "paliers": [
+      5.5,
+      10.5,
+      14.5,
+      17.5,
+      22.5,
+      29.5,
+      33.5,
+      39.5,
+      41.5
+    ],
+    "retournements": [
+      42.7,
+      49.5,
+      55.0
+    ],
+    "fin": 62.5,
+    "base_hz": 82,
+    "tic_hz": 1200,
+    "bourdon": [
+      [
+        0,
+        330,
+        0.0
+      ],
+      [
+        10,
+        300,
+        0.04
+      ],
+      [
+        25,
+        180,
+        0.1
+      ],
+      [
+        41.5,
+        55,
+        0.3
+      ],
+      [
+        44.5,
+        45,
+        0.35
+      ],
+      [
+        45.1,
+        45,
+        0.0
+      ],
+      [
+        58.5,
+        120,
+        0.0
+      ],
+      [
+        62.5,
+        330,
+        0.05
+      ],
+      [
+        63.1,
+        330,
+        0.0
+      ]
+    ]
+  }
+}

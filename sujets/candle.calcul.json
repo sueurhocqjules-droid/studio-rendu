@@ -1,0 +1,197 @@
+{
+  "n_max": 41,
+  "p0_w": 80,
+  "facteur": 4,
+  "cire_kg_s": 7.975159500000001e+18,
+  "heures_lune": 2.55863917901022,
+  "soleil_kg_s": 4259224414.5732517,
+  "rapport": 1872444070.5008175,
+  "textes": {
+    "h": {
+      "en": "2.6",
+      "es": "2,6",
+      "pt": "2,6"
+    },
+    "k": {
+      "en": "1.9",
+      "es": "1.900",
+      "pt": "1,9"
+    }
+  },
+  "paliers": [
+    {
+      "cle": "cheval",
+      "w": 745.7,
+      "pas": 2,
+      "arrivee_s": 1.5,
+      "source": "Un cheval-vapeur mécanique : 550 pieds-livres par seconde = 745,7 W (NIST, circulaires du National Bureau of Standards)"
+    },
+    {
+      "cle": "eolienne",
+      "w": 3400000.0,
+      "pas": 8,
+      "arrivee_s": 7.5,
+      "source": "Éolienne terrestre neuve aux États-Unis en 2023 : 3,4 MW en moyenne (DOE / Lawrence Berkeley National Laboratory, Land-Based Wind Market Report 2024)"
+    },
+    {
+      "cle": "barrage",
+      "w": 2080000000.0,
+      "pas": 13,
+      "arrivee_s": 12.5,
+      "source": "Barrage Hoover : environ 2 080 MW de capacité nominale (US Bureau of Reclamation, FAQ)"
+    },
+    {
+      "cle": "humanite",
+      "w": 19660000000000.0,
+      "pas": 19,
+      "arrivee_s": 18.5,
+      "source": "Toute l'énergie primaire de l'humanité : 620 EJ en 2023 (Energy Institute, Statistical Review of World Energy 2024), soit 19,7 TW en moyenne"
+    },
+    {
+      "cle": "ouragan",
+      "w": 600000000000000.0,
+      "pas": 22,
+      "arrivee_s": 21.5,
+      "source": "Chaleur libérée par un ouragan : environ 6 x 10^14 W (NOAA AOML, Hurricane FAQ, C. Landsea)"
+    },
+    {
+      "cle": "terre",
+      "w": 1.7354943656730547e+17,
+      "pas": 26,
+      "arrivee_s": 25.5,
+      "source": "Toute la lumière du Soleil qui frappe la Terre : 1 361 W/m² x π x (6 371 km)², calculé"
+    },
+    {
+      "cle": "proxima",
+      "w": 5.78e+23,
+      "pas": 37,
+      "arrivee_s": 36.5,
+      "source": "Proxima du Centaure : 0,00151 fois la luminosité du Soleil (Ribas et al. 2017, Astronomy & Astrophysics)"
+    },
+    {
+      "cle": "soleil",
+      "w": 3.828e+26,
+      "pas": 41,
+      "arrivee_s": 40.5,
+      "source": "Luminosité nominale du Soleil : 3,828 x 10^26 W (IAU 2015, résolution B2)"
+    }
+  ],
+  "t_limite": 40.5,
+  "t_coupe": 43.9,
+  "t_qui": 48.9,
+  "t_patte": 53.9,
+  "t_retour": 57.9,
+  "t_fin": 61.5,
+  "duree_s": 62.1,
+  "descriptions": {
+    "en": "A candle releases 4 times more energy every second. Stronger than a horse at second 2, a dam at second 13, all of humanity at second 19, a hurricane at second 22, and at second 41 it shines like the Sun. The catch: it would burn a Moon's worth of wax every 2.6 hours, about 1.9 billion times more fuel than the real Sun, which runs on nuclear fusion.\nSources: Wikipedia (Candle); NIST; US DOE / LBNL; US Bureau of Reclamation; Energy Institute (2024); NOAA AOML; IAU 2015; Ribas et al. (2017); NASA.",
+    "es": "Una vela libera 4 veces más energía cada segundo. Más que un caballo en el segundo 2, una presa en el 13, toda la humanidad en el 19, un huracán en el 22 y en el 41 brilla como el Sol. El problema: quemaría una Luna entera de cera cada 2,6 horas, unas 1.900 millones de veces más combustible que el Sol de verdad, que funciona con fusión nuclear.\nFuentes: Wikipedia (Candle); NIST; DOE / LBNL de EE. UU.; Bureau of Reclamation; Energy Institute (2024); NOAA AOML; UAI 2015; Ribas et al. (2017); NASA.",
+    "pt": "Uma vela libera 4 vezes mais energia a cada segundo. Mais forte que um cavalo no segundo 2, que uma usina hidrelétrica no 13, que toda a humanidade no 19, que um furacão no 22 e no 41 ela brilha como o Sol. O problema: queimaria uma Lua inteira de cera a cada 2,6 horas, cerca de 1,9 bilhão de vezes mais combustível que o Sol de verdade, que funciona com fusão nuclear.\nFontes: Wikipedia (Candle); NIST; DOE / LBNL dos EUA; Bureau of Reclamation; Energy Institute (2024); NOAA AOML; UAI 2015; Ribas et al. (2017); NASA."
+  },
+  "son": {
+    "duree_s": 62.1,
+    "tics": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40
+    ],
+    "paliers": [
+      1.5,
+      7.5,
+      12.5,
+      18.5,
+      21.5,
+      25.5,
+      36.5,
+      40.5
+    ],
+    "retournements": [
+      43.9,
+      48.9,
+      53.9
+    ],
+    "fin": 61.5,
+    "base_hz": 87,
+    "tic_hz": 1300,
+    "bourdon": [
+      [
+        0,
+        140,
+        0.0
+      ],
+      [
+        8,
+        120,
+        0.04
+      ],
+      [
+        26,
+        80,
+        0.12
+      ],
+      [
+        40.5,
+        50,
+        0.24
+      ],
+      [
+        53.9,
+        50,
+        0.2
+      ],
+      [
+        57.9,
+        140,
+        0.0
+      ],
+      [
+        61.5,
+        140,
+        0.02
+      ],
+      [
+        62.1,
+        140,
+        0.0
+      ]
+    ]
+  }
+}
