@@ -37,9 +37,10 @@ import { sneeze } from "./scenes/sneeze";
 import { zoom } from "./scenes/zoom";
 import { rope } from "./scenes/rope";
 import { ant } from "./scenes/ant";
+import { popcorn } from "./scenes/popcorn";
 
 // Les props d'une composition sont sérialisées : on passe le nom, et le sujet se retrouve ici
-export const SUJETS: Sujet[] = [paper, dollar, ball, coffee, walk, rice, gravity, ice, mosquito, moon, flood, wind, volume, spin, clone, coin, light, pepper, time, heart, dive, volt, snowball, thick, domino, pizza, eye, press, wifi, magnet, balloon, candle, germ, rumor, sneeze, zoom, rope, ant];
+export const SUJETS: Sujet[] = [paper, dollar, ball, coffee, walk, rice, gravity, ice, mosquito, moon, flood, wind, volume, spin, clone, coin, light, pepper, time, heart, dive, volt, snowball, thick, domino, pizza, eye, press, wifi, magnet, balloon, candle, germ, rumor, sneeze, zoom, rope, ant, popcorn];
 
 export const sujetNomme = (nom: string) => {
   const sujet = SUJETS.find((s) => s.nom === nom);

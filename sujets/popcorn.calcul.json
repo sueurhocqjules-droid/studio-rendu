@@ -1,0 +1,212 @@
+{
+  "n_max": 58,
+  "k0_kcal": 1200,
+  "facteur": 1.5,
+  "pct_jour": 60,
+  "paliers": [
+    {
+      "cle": "elephant",
+      "kcal": 74091.77820267685,
+      "pas": 11,
+      "arrivee_s": 10.5,
+      "source": "Lagendijk, de Boer et van Wieren, « Can African elephants survive and thrive in monostands of Colophospermum mopane woodlands? », Pachyderm n° 39, 2005, tableau 1 (d'après Meissner 1982) : éléphant mâle de 50 ans, 3 700 kg, besoin en énergie métabolisable de 310 MJ par jour"
+    },
+    {
+      "cle": "baleine",
+      "kcal": 457000,
+      "pas": 15,
+      "arrivee_s": 14.5,
+      "source": "Goldbogen et al., Journal of Experimental Biology 2011 (doi 10.1242/jeb.048157), rapporté par National Geographic (9 décembre 2010) : une baleine bleue avale jusqu'à 457 000 calories en une seule bouchée de krill"
+    },
+    {
+      "cle": "titanic",
+      "kcal": 4400000,
+      "pas": 21,
+      "arrivee_s": 20.5,
+      "source": "Encyclopædia Britannica, « Titanic » : « some 2,200 people » à bord (les listes d'origine sont inexactes)"
+    },
+    {
+      "cle": "vie",
+      "kcal": 53545650.0,
+      "pas": 27,
+      "arrivee_s": 26.5,
+      "source": "ONU, World Population Prospects 2024 (Key Messages) : espérance de vie à la naissance dans le monde de 73,3 ans en 2024. Une vie = 73,3 ans x 365,25 jours x 2 000 kcal"
+    },
+    {
+      "cle": "stade",
+      "kcal": 180000000,
+      "pas": 30,
+      "arrivee_s": 29.5,
+      "source": "Stade de Wembley (Londres), 90 000 places, le plus grand stade du Royaume-Uni (Wikipedia « Wembley Stadium », Designing Buildings Wiki)"
+    },
+    {
+      "cle": "paris",
+      "kcal": 4207556000,
+      "pas": 38,
+      "arrivee_s": 37.5,
+      "source": "Insee Flash Île-de-France (décembre 2025), figure 1 : Paris compte 2 103 778 habitants au 1er janvier 2023"
+    },
+    {
+      "cle": "hotdogs",
+      "kcal": 47100000000,
+      "pas": 44,
+      "arrivee_s": 43.5,
+      "source": "National Hot Dog and Sausage Council : 150 millions de hot-dogs mangés aux États-Unis le 4 juillet (Fortune, 4 juillet 2026). USDA (base FNDDS, via MedicineNet et MyFoodData) : un hot-dog nature dans un pain blanc, 102 g, 314 calories"
+    },
+    {
+      "cle": "usa",
+      "kcal": 683569714000,
+      "pas": 50,
+      "arrivee_s": 49.5,
+      "source": "U.S. Census Bureau, Vintage 2025 : 341,8 millions d'habitants au 1er juillet 2025 (communiqué du 27 janvier 2026)"
+    },
+    {
+      "cle": "monde",
+      "kcal": 16463226140000,
+      "pas": 58,
+      "arrivee_s": 57.5,
+      "source": "ONU, World Population Prospects 2024 : 8 231 613 070 habitants au 1er juillet 2025 (statisticstimes.com)"
+    }
+  ],
+  "t_limite": 57.5,
+  "t_vrai": 61.1,
+  "t_jour": 64.9,
+  "t_film": 68.7,
+  "t_retour": 71.3,
+  "t_fin": 72.89999999999999,
+  "duree_s": 73.49999999999999,
+  "descriptions": {
+    "en": "Your movie popcorn gets 50% bigger every second. It feeds an elephant for a day at second 11, everyone on the Titanic at second 21, you for your whole life at second 27, all of Paris at second 38 and all 8.2 billion humans for a day at second 58. The scary part is the start: one large movie popcorn measured 1,200 calories, 60% of a whole day of food.\nMath: 1,200 calories to start, times 1.5 every second; a day of food = 2,000 calories.\nSources: CSPI, Nutrition Action Healthletter 2009; FDA; Lagendijk et al., Pachyderm 2005; Goldbogen et al., Journal of Experimental Biology 2011; Britannica; UN World Population Prospects 2024; Insee 2025; National Hot Dog and Sausage Council; USDA; U.S. Census Bureau Vintage 2025.",
+    "es": "Tus palomitas de cine crecen 50% cada segundo. Alimentan a un elefante por un día en el segundo 11, a todos los del Titanic en el segundo 21, a ti toda tu vida en el segundo 27, a todo París en el segundo 38 y a los 8.200 millones de humanos por un día en el segundo 58. Lo que asusta es el comienzo: una cubeta grande de palomitas de cine midió 1.200 calorías, el 60% de la comida de todo un día.\nCálculo: 1.200 calorías al inicio, por 1,5 cada segundo; un día de comida = 2.000 calorías.\nFuentes: CSPI, Nutrition Action Healthletter 2009; FDA; Lagendijk et al., Pachyderm 2005; Goldbogen et al., Journal of Experimental Biology 2011; Britannica; ONU, World Population Prospects 2024; Insee 2025; National Hot Dog and Sausage Council; USDA; Oficina del Censo de EE. UU., Vintage 2025.",
+    "pt": "A sua pipoca do cinema cresce 50% a cada segundo. Ela alimenta um elefante por um dia no segundo 11, todo mundo do Titanic no segundo 21, você pela vida inteira no segundo 27, Paris inteira no segundo 38 e os 8,2 bilhões de humanos por um dia no segundo 58. O susto está no começo: um balde grande de pipoca de cinema mediu 1.200 calorias, 60% da comida de um dia inteiro.\nCálculo: 1.200 calorias no início, vezes 1,5 a cada segundo; um dia de comida = 2.000 calorias.\nFontes: CSPI, Nutrition Action Healthletter 2009; FDA; Lagendijk et al., Pachyderm 2005; Goldbogen et al., Journal of Experimental Biology 2011; Britannica; ONU, World Population Prospects 2024; Insee 2025; National Hot Dog and Sausage Council; USDA; Census dos EUA, Vintage 2025."
+  },
+  "son": {
+    "duree_s": 73.49999999999999,
+    "tics": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57
+    ],
+    "paliers": [
+      10.5,
+      14.5,
+      20.5,
+      26.5,
+      29.5,
+      37.5,
+      43.5,
+      49.5,
+      57.5
+    ],
+    "retournements": [
+      61.1,
+      64.9,
+      68.7
+    ],
+    "fin": 72.89999999999999,
+    "base_hz": 98,
+    "tic_hz": 1500,
+    "bourdon": [
+      [
+        0,
+        120,
+        0.04
+      ],
+      [
+        20,
+        160,
+        0.08
+      ],
+      [
+        40,
+        220,
+        0.14
+      ],
+      [
+        57.5,
+        300,
+        0.22
+      ],
+      [
+        61.09,
+        300,
+        0.22
+      ],
+      [
+        61.1,
+        120,
+        0.04
+      ],
+      [
+        64.9,
+        90,
+        0.08
+      ],
+      [
+        68.7,
+        120,
+        0.05
+      ],
+      [
+        73.49999999999999,
+        120,
+        0
+      ]
+    ]
+  }
+}

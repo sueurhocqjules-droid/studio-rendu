@@ -1,0 +1,376 @@
+{
+  "nom": "popcorn",
+  "seau": {
+    "kcal": 1200,
+    "source": "Center for Science in the Public Interest (CSPI), « Two Thumbs Down for Movie Theater Popcorn », 18 novembre 2009 (Nutrition Action Healthletter, décembre 2009) : grand pop-corn d'une des trois grandes chaînes de cinéma des États-Unis mesuré en laboratoire à 1 200 calories (la chaîne en annonçait 960). Le nom de la chaîne n'apparaît pas dans la vidéo"
+  },
+  "facteur": 1.5,
+  "jour_kcal": {
+    "valeur": 2000,
+    "source": "FDA, Nutrition Facts Label : « 2,000 calories a day is used for general nutrition advice » (référence de la valeur quotidienne). Hypothèse : 2 000 kcal par personne et par jour pour tous les paliers « pour une journée »"
+  },
+  "kj_par_kcal": 4.184,
+  "references": {
+    "elephant": {
+      "kj": 310000000,
+      "source": "Lagendijk, de Boer et van Wieren, « Can African elephants survive and thrive in monostands of Colophospermum mopane woodlands? », Pachyderm n° 39, 2005, tableau 1 (d'après Meissner 1982) : éléphant mâle de 50 ans, 3 700 kg, besoin en énergie métabolisable de 310 MJ par jour"
+    },
+    "baleine": {
+      "kcal": 457000,
+      "source": "Goldbogen et al., Journal of Experimental Biology 2011 (doi 10.1242/jeb.048157), rapporté par National Geographic (9 décembre 2010) : une baleine bleue avale jusqu'à 457 000 calories en une seule bouchée de krill"
+    },
+    "titanic": {
+      "personnes": 2200,
+      "source": "Encyclopædia Britannica, « Titanic » : « some 2,200 people » à bord (les listes d'origine sont inexactes)"
+    },
+    "vie": {
+      "annees": 73.3,
+      "source": "ONU, World Population Prospects 2024 (Key Messages) : espérance de vie à la naissance dans le monde de 73,3 ans en 2024. Une vie = 73,3 ans x 365,25 jours x 2 000 kcal"
+    },
+    "stade": {
+      "personnes": 90000,
+      "source": "Stade de Wembley (Londres), 90 000 places, le plus grand stade du Royaume-Uni (Wikipedia « Wembley Stadium », Designing Buildings Wiki)"
+    },
+    "paris": {
+      "personnes": 2103778,
+      "source": "Insee Flash Île-de-France (décembre 2025), figure 1 : Paris compte 2 103 778 habitants au 1er janvier 2023"
+    },
+    "hotdogs": {
+      "nombre": 150000000,
+      "kcal_piece": 314,
+      "source": "National Hot Dog and Sausage Council : 150 millions de hot-dogs mangés aux États-Unis le 4 juillet (Fortune, 4 juillet 2026). USDA (base FNDDS, via MedicineNet et MyFoodData) : un hot-dog nature dans un pain blanc, 102 g, 314 calories"
+    },
+    "usa": {
+      "personnes": 341784857,
+      "source": "U.S. Census Bureau, Vintage 2025 : 341,8 millions d'habitants au 1er juillet 2025 (communiqué du 27 janvier 2026)"
+    },
+    "monde": {
+      "personnes": 8231613070,
+      "source": "ONU, World Population Prospects 2024 : 8 231 613 070 habitants au 1er juillet 2025 (statisticstimes.com)"
+    }
+  },
+  "en": {
+    "titre": "What If Your Movie Popcorn Got 50% Bigger Every Second?",
+    "description": "Your movie popcorn gets 50% bigger every second. It feeds an elephant for a day at second {n_elephant}, everyone on the Titanic at second {n_titanic}, you for your whole life at second {n_vie}, all of Paris at second {n_paris} and all {humains_md} billion humans for a day at second {n_monde}. The scary part is the start: one large movie popcorn measured {seau} calories, {pct}% of a whole day of food.\nMath: {seau} calories to start, times 1.5 every second; a day of food = 2,000 calories.\nSources: CSPI, Nutrition Action Healthletter 2009; FDA; Lagendijk et al., Pachyderm 2005; Goldbogen et al., Journal of Experimental Biology 2011; Britannica; UN World Population Prospects 2024; Insee 2025; National Hot Dog and Sausage Council; USDA; U.S. Census Bureau Vintage 2025.",
+    "regle": [
+      "YOUR MOVIE POPCORN",
+      "GETS 50% BIGGER",
+      "EVERY SECOND"
+    ],
+    "regle2": [
+      "WHO COULD",
+      "IT FEED?"
+    ],
+    "pli": "SEC",
+    "unites": {
+      "unite": "CALORIES",
+      "millions": "MILLION CALORIES",
+      "milliards": "BILLION CALORIES",
+      "billions": "TRILLION CALORIES"
+    },
+    "vrai": [
+      "BACK TO REAL LIFE:",
+      "ONE LARGE",
+      "MOVIE POPCORN"
+    ],
+    "jour": [
+      "THAT'S {pct}% OF",
+      "A WHOLE DAY OF FOOD"
+    ],
+    "jour_compteur": [
+      "{pct}%",
+      "OF YOUR DAY"
+    ],
+    "film": [
+      "BEFORE THE MOVIE",
+      "EVEN STARTS"
+    ],
+    "separateurs": {
+      "milliers": ",",
+      "decimale": "."
+    },
+    "paliers": {
+      "elephant": {
+        "cible": "AN ELEPHANT",
+        "legende": [
+          "IT FEEDS AN",
+          "ELEPHANT FOR A DAY"
+        ]
+      },
+      "baleine": {
+        "cible": "A WHALE'S BITE",
+        "legende": [
+          "A BLUE WHALE'S",
+          "BIGGEST BITE"
+        ]
+      },
+      "titanic": {
+        "cible": "THE TITANIC",
+        "legende": [
+          "EVERYONE ON THE",
+          "TITANIC FOR A DAY"
+        ]
+      },
+      "vie": {
+        "cible": "YOUR WHOLE LIFE",
+        "legende": [
+          "IT FEEDS YOU",
+          "YOUR WHOLE LIFE"
+        ]
+      },
+      "stade": {
+        "cible": "A FULL STADIUM",
+        "legende": [
+          "A 90,000-SEAT",
+          "STADIUM FOR A DAY"
+        ]
+      },
+      "paris": {
+        "cible": "ALL OF PARIS",
+        "legende": [
+          "ALL OF PARIS",
+          "FOR A DAY"
+        ]
+      },
+      "hotdogs": {
+        "cible": "JULY 4TH",
+        "legende": [
+          "EVERY HOT DOG",
+          "EATEN ON JULY 4TH"
+        ]
+      },
+      "usa": {
+        "cible": "THE WHOLE USA",
+        "legende": [
+          "THE WHOLE USA",
+          "FOR A DAY"
+        ]
+      },
+      "monde": {
+        "cible": "EVERY HUMAN",
+        "legende": [
+          "EVERY HUMAN",
+          "ON EARTH FOR A DAY"
+        ]
+      }
+    },
+    "dans": "IN {n} SECONDS:",
+    "dans1": "IN 1 SECOND:"
+  },
+  "es": {
+    "titre": "¿Y si tus palomitas de cine crecieran 50% cada segundo?",
+    "description": "Tus palomitas de cine crecen 50% cada segundo. Alimentan a un elefante por un día en el segundo {n_elephant}, a todos los del Titanic en el segundo {n_titanic}, a ti toda tu vida en el segundo {n_vie}, a todo París en el segundo {n_paris} y a los {humains_mm} millones de humanos por un día en el segundo {n_monde}. Lo que asusta es el comienzo: una cubeta grande de palomitas de cine midió {seau} calorías, el {pct}% de la comida de todo un día.\nCálculo: {seau} calorías al inicio, por 1,5 cada segundo; un día de comida = 2.000 calorías.\nFuentes: CSPI, Nutrition Action Healthletter 2009; FDA; Lagendijk et al., Pachyderm 2005; Goldbogen et al., Journal of Experimental Biology 2011; Britannica; ONU, World Population Prospects 2024; Insee 2025; National Hot Dog and Sausage Council; USDA; Oficina del Censo de EE. UU., Vintage 2025.",
+    "regle": [
+      "TUS PALOMITAS DE CINE",
+      "CRECEN UN 50%",
+      "CADA SEGUNDO"
+    ],
+    "regle2": [
+      "¿A QUIÉN PODRÍAN",
+      "ALIMENTAR?"
+    ],
+    "pli": "SEG",
+    "unites": {
+      "unite": "CALORÍAS",
+      "millions": "MILLONES DE KCAL",
+      "milliards": "MIL MILLONES KCAL",
+      "billions": "BILLONES DE KCAL"
+    },
+    "vrai": [
+      "DE VUELTA A LA REALIDAD:",
+      "UNA CUBETA GRANDE",
+      "DE PALOMITAS"
+    ],
+    "jour": [
+      "ES EL {pct}% DE LA",
+      "COMIDA DE TODO UN DÍA"
+    ],
+    "jour_compteur": [
+      "{pct}%",
+      "DE TU DÍA"
+    ],
+    "film": [
+      "Y LA PELÍCULA",
+      "NI HA EMPEZADO"
+    ],
+    "separateurs": {
+      "milliers": ".",
+      "decimale": ","
+    },
+    "paliers": {
+      "elephant": {
+        "cible": "UN ELEFANTE",
+        "legende": [
+          "ALIMENTA A UN",
+          "ELEFANTE UN DÍA"
+        ]
+      },
+      "baleine": {
+        "cible": "UNA BALLENA",
+        "legende": [
+          "EL BOCADO MÁS GRANDE",
+          "DE UNA BALLENA AZUL"
+        ]
+      },
+      "titanic": {
+        "cible": "EL TITANIC",
+        "legende": [
+          "A TODOS LOS DEL",
+          "TITANIC UN DÍA"
+        ]
+      },
+      "vie": {
+        "cible": "TODA TU VIDA",
+        "legende": [
+          "TE ALIMENTA",
+          "TODA TU VIDA"
+        ]
+      },
+      "stade": {
+        "cible": "UN ESTADIO LLENO",
+        "legende": [
+          "UN ESTADIO DE",
+          "90.000 PERSONAS"
+        ]
+      },
+      "paris": {
+        "cible": "TODO PARÍS",
+        "legende": [
+          "TODO PARÍS",
+          "POR UN DÍA"
+        ]
+      },
+      "hotdogs": {
+        "cible": "EL 4 DE JULIO",
+        "legende": [
+          "LOS HOT DOGS DEL",
+          "4 DE JULIO EN EE. UU."
+        ]
+      },
+      "usa": {
+        "cible": "TODO EE. UU.",
+        "legende": [
+          "TODO EE. UU.",
+          "POR UN DÍA"
+        ]
+      },
+      "monde": {
+        "cible": "TODA LA HUMANIDAD",
+        "legende": [
+          "TODA LA HUMANIDAD",
+          "POR UN DÍA"
+        ]
+      }
+    },
+    "dans": "EN {n} SEGUNDOS:",
+    "dans1": "EN 1 SEGUNDO:"
+  },
+  "pt": {
+    "titre": "E se a sua pipoca do cinema crescesse 50% a cada segundo?",
+    "description": "A sua pipoca do cinema cresce 50% a cada segundo. Ela alimenta um elefante por um dia no segundo {n_elephant}, todo mundo do Titanic no segundo {n_titanic}, você pela vida inteira no segundo {n_vie}, Paris inteira no segundo {n_paris} e os {humains_md} bilhões de humanos por um dia no segundo {n_monde}. O susto está no começo: um balde grande de pipoca de cinema mediu {seau} calorias, {pct}% da comida de um dia inteiro.\nCálculo: {seau} calorias no início, vezes 1,5 a cada segundo; um dia de comida = 2.000 calorias.\nFontes: CSPI, Nutrition Action Healthletter 2009; FDA; Lagendijk et al., Pachyderm 2005; Goldbogen et al., Journal of Experimental Biology 2011; Britannica; ONU, World Population Prospects 2024; Insee 2025; National Hot Dog and Sausage Council; USDA; Census dos EUA, Vintage 2025.",
+    "regle": [
+      "A SUA PIPOCA DO CINEMA",
+      "CRESCE 50%",
+      "A CADA SEGUNDO"
+    ],
+    "regle2": [
+      "QUEM ELA",
+      "CONSEGUE ALIMENTAR?"
+    ],
+    "pli": "SEG",
+    "unites": {
+      "unite": "CALORIAS",
+      "millions": "MILHÕES DE KCAL",
+      "milliards": "BILHÕES DE KCAL",
+      "billions": "TRILHÕES DE KCAL"
+    },
+    "vrai": [
+      "DE VOLTA À REALIDADE:",
+      "UM BALDE GRANDE",
+      "DE PIPOCA"
+    ],
+    "jour": [
+      "É {pct}% DA COMIDA",
+      "DE UM DIA INTEIRO"
+    ],
+    "jour_compteur": [
+      "{pct}%",
+      "DO SEU DIA"
+    ],
+    "film": [
+      "E O FILME",
+      "NEM COMEÇOU"
+    ],
+    "separateurs": {
+      "milliers": ".",
+      "decimale": ","
+    },
+    "paliers": {
+      "elephant": {
+        "cible": "UM ELEFANTE",
+        "legende": [
+          "ALIMENTA UM",
+          "ELEFANTE POR UM DIA"
+        ]
+      },
+      "baleine": {
+        "cible": "UMA BALEIA",
+        "legende": [
+          "A MAIOR BOCADA DE",
+          "UMA BALEIA-AZUL"
+        ]
+      },
+      "titanic": {
+        "cible": "O TITANIC",
+        "legende": [
+          "TODO MUNDO DO",
+          "TITANIC POR UM DIA"
+        ]
+      },
+      "vie": {
+        "cible": "A SUA VIDA",
+        "legende": [
+          "ALIMENTA VOCÊ",
+          "A VIDA INTEIRA"
+        ]
+      },
+      "stade": {
+        "cible": "UM ESTÁDIO LOTADO",
+        "legende": [
+          "UM ESTÁDIO DE",
+          "90 MIL PESSOAS"
+        ]
+      },
+      "paris": {
+        "cible": "PARIS INTEIRA",
+        "legende": [
+          "PARIS INTEIRA",
+          "POR UM DIA"
+        ]
+      },
+      "hotdogs": {
+        "cible": "O 4 DE JULHO",
+        "legende": [
+          "OS CACHORROS-QUENTES",
+          "DO 4 DE JULHO NOS EUA"
+        ]
+      },
+      "usa": {
+        "cible": "OS EUA INTEIROS",
+        "legende": [
+          "OS EUA INTEIROS",
+          "POR UM DIA"
+        ]
+      },
+      "monde": {
+        "cible": "A HUMANIDADE",
+        "legende": [
+          "A HUMANIDADE",
+          "INTEIRA POR UM DIA"
+        ]
+      }
+    },
+    "dans": "EM {n} SEGUNDOS:",
+    "dans1": "EM 1 SEGUNDO:"
+  }
+}
