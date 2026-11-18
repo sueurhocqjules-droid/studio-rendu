@@ -1,0 +1,124 @@
+{
+  "regle_physique": {
+    "champ_0_m": 0.1,
+    "source_champ_0": "Largeur de champ de départ : 10 cm, une main entière (largeur de la main adulte, 7,5 à 8,5 cm en médiane : tableau anthropométrique, PMC10308009)",
+    "facteur": 2,
+    "remplissage": 3,
+    "hypothese": "Un palier tombe à la première seconde où le champ devient plus étroit que 3 fois la taille de l'objet (l'objet occupe alors au moins le tiers de la largeur de l'écran) ; pour l'empreinte, l'objet est un groupe de 10 crêtes",
+    "atome_rayon_m": 7e-11,
+    "source_atome": "Rayon atomique empirique du carbone : 70 pm (Wikipedia « Atomic radii of the elements (data page) » ; rayon de van der Waals 170 pm)",
+    "noyau_rayon_m": 2.47e-15,
+    "source_noyau": "Rayon de charge du noyau de carbone 12 : 2,47 ± 0,02 fm (diffusion d'électrons ; 2,464 ± 0,012 fm à Mayence, 2,4702 fm par atomes muoniques)",
+    "proton_rayon_m": 8.414e-16,
+    "source_proton": "Rayon de charge du proton : 0,8414 fm (CODATA 2018) ; le proton contient trois quarks de valence (Wikipedia « Proton »)",
+    "bille_m": 0.01,
+    "terrain_m": 105,
+    "source_terrain": "Terrain de football recommandé par la FIFA : 105 x 68 m (FIFA, Football Stadiums Guidelines, 5.3)"
+  },
+  "references": {
+    "empreinte": { "taille_m": 0.0046, "source": "Écart moyen entre deux crêtes d'empreinte digitale : 0,46 mm chez l'homme, 0,41 mm chez la femme (étude de 1989 sur la distance entre crêtes, résumé NCJRS/OJP « Analysis of ridge-to-ridge distance on fingerprints ») ; 10 crêtes = 4,6 mm" },
+    "cellule": { "taille_m": 4e-5, "source": "Cornéocyte (cellule morte de la couche cornée) : 30 à 50 µm de diamètre (Wikipedia « Corneocyte » ; 25 à 35 µm selon la revue de l'université de Birmingham)" },
+    "bacterie": { "taille_m": 1e-6, "source": "Staphylococcus epidermidis, la bactérie la plus courante sur la peau : 0,5 à 1,5 µm (MicrobeWiki, Kenyon College ; VetBact 0,8 à 1 µm)" },
+    "virus": { "taille_m": 1.2e-7, "source": "Bactériophage de type T4 : tête de 120 nm sur 86 nm, remplie d'ADN double brin (revue Viruses 2023, PMC9958956)" },
+    "adn": { "taille_m": 2e-9, "source": "Double hélice d'ADN (forme B) : 2 nm de large (Durham University ; Lancaster University, glossaire)" },
+    "atome": { "taille_m": 1.4e-10, "source": "Atome de carbone : 2 x 70 pm (rayon atomique empirique, Wikipedia « Atomic radii of the elements »)" },
+    "noyau": { "taille_m": 4.94e-15, "source": "Noyau de carbone 12 : 2 x 2,47 fm (diffusion d'électrons)" },
+    "proton": { "taille_m": 1.6828e-15, "source": "Proton : 2 x 0,8414 fm (CODATA 2018)" }
+  },
+  "en": {
+    "titre": "What If You Zoomed In 2x Every Second?",
+    "description": "Start with your hand and zoom in twice as close every second. Your fingerprint at second {n_empreinte}, a skin cell at second {n_cellule}, a bacterium at second {n_bacterie}, DNA at second {n_adn}, a carbon atom at second {n_atome}... and then {vide} seconds of nothing before the nucleus. If the nucleus were 1 cm wide, the atom would span {k_en} soccer fields: it is {p_en}% empty space.\nSources: CODATA 2018; Wikipedia (atomic radii, corneocyte); electron-scattering measurements of carbon-12; Viruses (2023) on phage T4; Durham University; MicrobeWiki; FIFA Football Stadiums Guidelines.",
+    "regle": ["YOU ZOOM IN 2X", "EVERY SECOND"],
+    "regle2": ["IT STARTS WITH", "YOUR HAND"],
+    "pli": "SEC",
+    "suite": "NEXT: {cible}",
+    "restant": "{n} SECONDS TO GO",
+    "restant1": "1 SECOND TO GO",
+    "vide": ["NOTHING BUT", "EMPTY SPACE"],
+    "bille": ["IF THE NUCLEUS WERE {cm} CM", "THE ATOM WOULD SPAN", "{k} SOCCER FIELDS"],
+    "vide_final": ["THE ATOM IS", "{p}% EMPTY"],
+    "main": ["AND YOUR HAND IS", "MADE OF ATOMS"],
+    "unites": [
+      { "max": 1000, "x": 1, "nom": "TIMES" },
+      { "max": 1000, "x": 1e3, "nom": "THOUSAND TIMES" },
+      { "max": 1000, "x": 1e6, "nom": "MILLION TIMES" },
+      { "max": 1000, "x": 1e9, "nom": "BILLION TIMES" },
+      { "max": 1e30, "x": 1e12, "nom": "TRILLION TIMES" }
+    ],
+    "separateurs": { "milliers": ",", "decimale": "." },
+    "paliers": {
+      "empreinte": { "cible": "YOUR FINGERPRINT", "legende": ["THE RIDGES OF", "YOUR FINGERPRINT"] },
+      "cellule": { "cible": "A SKIN CELL", "legende": ["ONE DEAD", "SKIN CELL"] },
+      "bacterie": { "cible": "A BACTERIUM", "legende": ["A BACTERIUM", "LIVING ON YOUR SKIN"] },
+      "virus": { "cible": "A VIRUS", "legende": ["A VIRUS THAT", "ATTACKS BACTERIA"] },
+      "adn": { "cible": "ITS DNA", "legende": ["ITS DNA:", "{adn} NANOMETERS WIDE"] },
+      "atome": { "cible": "AN ATOM", "legende": ["ONE CARBON", "ATOM"] },
+      "noyau": { "cible": "THE NUCLEUS", "legende": ["FINALLY:", "THE NUCLEUS"] },
+      "proton": { "cible": "A PROTON", "legende": ["A PROTON:", "3 QUARKS INSIDE"] }
+    }
+  },
+  "es": {
+    "titre": "¿Y si hicieras zoom x2 cada segundo?",
+    "description": "Empiezas con tu mano y te acercas el doble cada segundo. Tu huella en el segundo {n_empreinte}, una célula de la piel en el {n_cellule}, una bacteria en el {n_bacterie}, el ADN en el {n_adn}, un átomo de carbono en el {n_atome}... y luego {vide} segundos de nada antes del núcleo. Si el núcleo midiera 1 cm, el átomo ocuparía {k_es} canchas de fútbol: está vacío en un {p_es} %.\nFuentes: CODATA 2018; Wikipedia (radios atómicos, corneocito); mediciones del carbono 12 por dispersión de electrones; Viruses (2023) sobre el fago T4; Durham University; MicrobeWiki; FIFA, guía de estadios.",
+    "regle": ["HACES ZOOM X2", "CADA SEGUNDO"],
+    "regle2": ["EMPIEZA EN", "TU MANO"],
+    "pli": "SEG",
+    "suite": "SIGUE: {cible}",
+    "restant": "FALTAN {n} SEGUNDOS",
+    "restant1": "FALTA 1 SEGUNDO",
+    "vide": ["NADA MÁS QUE", "ESPACIO VACÍO"],
+    "bille": ["SI EL NÚCLEO MIDIERA {cm} CM", "EL ÁTOMO OCUPARÍA", "{k} CANCHAS DE FÚTBOL"],
+    "vide_final": ["EL ÁTOMO ESTÁ", "{p} % VACÍO"],
+    "main": ["Y TU MANO ESTÁ", "HECHA DE ÁTOMOS"],
+    "unites": [
+      { "max": 1000, "x": 1, "nom": "VECES" },
+      { "max": 1000, "x": 1e3, "nom": "MIL VECES" },
+      { "max": 1000, "x": 1e6, "nom": "MILLONES" },
+      { "max": 1000, "x": 1e9, "nom": "MIL MILLONES" },
+      { "max": 1e30, "x": 1e12, "nom": "BILLONES" }
+    ],
+    "separateurs": { "milliers": ".", "decimale": "," },
+    "paliers": {
+      "empreinte": { "cible": "TU HUELLA", "legende": ["LAS LÍNEAS DE", "TU HUELLA DACTILAR"] },
+      "cellule": { "cible": "UNA CÉLULA", "legende": ["UNA CÉLULA MUERTA", "DE TU PIEL"] },
+      "bacterie": { "cible": "UNA BACTERIA", "legende": ["UNA BACTERIA QUE", "VIVE EN TU PIEL"] },
+      "virus": { "cible": "UN VIRUS", "legende": ["UN VIRUS QUE", "ATACA BACTERIAS"] },
+      "adn": { "cible": "SU ADN", "legende": ["SU ADN:", "{adn} NANÓMETROS DE ANCHO"] },
+      "atome": { "cible": "UN ÁTOMO", "legende": ["UN ÁTOMO", "DE CARBONO"] },
+      "noyau": { "cible": "EL NÚCLEO", "legende": ["POR FIN:", "EL NÚCLEO"] },
+      "proton": { "cible": "UN PROTÓN", "legende": ["UN PROTÓN:", "3 QUARKS ADENTRO"] }
+    }
+  },
+  "pt": {
+    "titre": "E se você desse zoom 2x a cada segundo?",
+    "description": "Você começa pela sua mão e chega duas vezes mais perto a cada segundo. Sua digital no segundo {n_empreinte}, uma célula da pele no {n_cellule}, uma bactéria no {n_bacterie}, o DNA no {n_adn}, um átomo de carbono no {n_atome}... e depois {vide} segundos de nada antes do núcleo. Se o núcleo tivesse 1 cm, o átomo ocuparia {k_pt} campos de futebol: ele é {p_pt}% vazio.\nFontes: CODATA 2018; Wikipédia (raios atômicos, corneócito); medidas do carbono 12 por espalhamento de elétrons; Viruses (2023) sobre o fago T4; Durham University; MicrobeWiki; FIFA, guia de estádios.",
+    "regle": ["VOCÊ DÁ ZOOM 2X", "A CADA SEGUNDO"],
+    "regle2": ["COMEÇA NA", "SUA MÃO"],
+    "pli": "SEG",
+    "suite": "PRÓXIMO: {cible}",
+    "restant": "FALTAM {n} SEGUNDOS",
+    "restant1": "FALTA 1 SEGUNDO",
+    "vide": ["NADA ALÉM DE", "ESPAÇO VAZIO"],
+    "bille": ["SE O NÚCLEO TIVESSE {cm} CM", "O ÁTOMO OCUPARIA", "{k} CAMPOS DE FUTEBOL"],
+    "vide_final": ["O ÁTOMO É", "{p}% VAZIO"],
+    "main": ["E A SUA MÃO É", "FEITA DE ÁTOMOS"],
+    "unites": [
+      { "max": 1000, "x": 1, "nom": "VEZES" },
+      { "max": 1000, "x": 1e3, "nom": "MIL VEZES" },
+      { "max": 1000, "x": 1e6, "nom": "MILHÕES" },
+      { "max": 1000, "x": 1e9, "nom": "BILHÕES" },
+      { "max": 1e30, "x": 1e12, "nom": "TRILHÕES" }
+    ],
+    "separateurs": { "milliers": ".", "decimale": "," },
+    "paliers": {
+      "empreinte": { "cible": "SUA DIGITAL", "legende": ["AS LINHAS DA", "SUA DIGITAL"] },
+      "cellule": { "cible": "UMA CÉLULA", "legende": ["UMA CÉLULA MORTA", "DA SUA PELE"] },
+      "bacterie": { "cible": "UMA BACTÉRIA", "legende": ["UMA BACTÉRIA QUE", "VIVE NA SUA PELE"] },
+      "virus": { "cible": "UM VÍRUS", "legende": ["UM VÍRUS QUE", "ATACA BACTÉRIAS"] },
+      "adn": { "cible": "O DNA DELE", "legende": ["O DNA DELE:", "{adn} NANÔMETROS DE LARGURA"] },
+      "atome": { "cible": "UM ÁTOMO", "legende": ["UM ÁTOMO", "DE CARBONO"] },
+      "noyau": { "cible": "O NÚCLEO", "legende": ["ENFIM:", "O NÚCLEO"] },
+      "proton": { "cible": "UM PRÓTON", "legende": ["UM PRÓTON:", "3 QUARKS DENTRO"] }
+    }
+  }
+}

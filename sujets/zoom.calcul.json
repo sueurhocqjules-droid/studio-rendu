@@ -1,0 +1,222 @@
+{
+  "n_max": 45,
+  "champ_0_m": 0.1,
+  "facteur": 2,
+  "vide_s": 15,
+  "vide_pct": 99.99999999999561,
+  "atome_si_noyau_1cm_m": 283.4008097165992,
+  "terrains": 2.699055330634278,
+  "rapport_atome_noyau": 28340.08097165992,
+  "textes": {
+    "p": {
+      "en": "99.9999999999956",
+      "es": "99,9999999999956",
+      "pt": "99,9999999999956"
+    },
+    "k": {
+      "en": "2.7",
+      "es": "2,7",
+      "pt": "2,7"
+    },
+    "adn": {
+      "en": "2",
+      "es": "2",
+      "pt": "2"
+    },
+    "cm": {
+      "en": "1",
+      "es": "1",
+      "pt": "1"
+    }
+  },
+  "paliers": [
+    {
+      "cle": "empreinte",
+      "taille_m": 0.0046,
+      "pas": 3,
+      "arrivee_s": 2.5,
+      "source": "Écart moyen entre deux crêtes d'empreinte digitale : 0,46 mm chez l'homme, 0,41 mm chez la femme (étude de 1989 sur la distance entre crêtes, résumé NCJRS/OJP « Analysis of ridge-to-ridge distance on fingerprints ») ; 10 crêtes = 4,6 mm"
+    },
+    {
+      "cle": "cellule",
+      "taille_m": 4e-05,
+      "pas": 10,
+      "arrivee_s": 9.5,
+      "source": "Cornéocyte (cellule morte de la couche cornée) : 30 à 50 µm de diamètre (Wikipedia « Corneocyte » ; 25 à 35 µm selon la revue de l'université de Birmingham)"
+    },
+    {
+      "cle": "bacterie",
+      "taille_m": 1e-06,
+      "pas": 16,
+      "arrivee_s": 15.5,
+      "source": "Staphylococcus epidermidis, la bactérie la plus courante sur la peau : 0,5 à 1,5 µm (MicrobeWiki, Kenyon College ; VetBact 0,8 à 1 µm)"
+    },
+    {
+      "cle": "virus",
+      "taille_m": 1.2e-07,
+      "pas": 19,
+      "arrivee_s": 18.5,
+      "source": "Bactériophage de type T4 : tête de 120 nm sur 86 nm, remplie d'ADN double brin (revue Viruses 2023, PMC9958956)"
+    },
+    {
+      "cle": "adn",
+      "taille_m": 2e-09,
+      "pas": 24,
+      "arrivee_s": 23.5,
+      "source": "Double hélice d'ADN (forme B) : 2 nm de large (Durham University ; Lancaster University, glossaire)"
+    },
+    {
+      "cle": "atome",
+      "taille_m": 1.4e-10,
+      "pas": 28,
+      "arrivee_s": 27.5,
+      "source": "Atome de carbone : 2 x 70 pm (rayon atomique empirique, Wikipedia « Atomic radii of the elements »)"
+    },
+    {
+      "cle": "noyau",
+      "taille_m": 4.94e-15,
+      "pas": 43,
+      "arrivee_s": 42.5,
+      "source": "Noyau de carbone 12 : 2 x 2,47 fm (diffusion d'électrons)"
+    },
+    {
+      "cle": "proton",
+      "taille_m": 1.6828e-15,
+      "pas": 45,
+      "arrivee_s": 44.5,
+      "source": "Proton : 2 x 0,8414 fm (CODATA 2018)"
+    }
+  ],
+  "t_limite": 44.5,
+  "t_coupe": 47.9,
+  "t_qui": 52.699999999999996,
+  "t_patte": 57.099999999999994,
+  "t_retour": 57.49999999999999,
+  "t_fin": 62.49999999999999,
+  "duree_s": 63.099999999999994,
+  "descriptions": {
+    "en": "Start with your hand and zoom in twice as close every second. Your fingerprint at second 3, a skin cell at second 10, a bacterium at second 16, DNA at second 24, a carbon atom at second 28... and then 15 seconds of nothing before the nucleus. If the nucleus were 1 cm wide, the atom would span 2.7 soccer fields: it is 99.9999999999956% empty space.\nSources: CODATA 2018; Wikipedia (atomic radii, corneocyte); electron-scattering measurements of carbon-12; Viruses (2023) on phage T4; Durham University; MicrobeWiki; FIFA Football Stadiums Guidelines.",
+    "es": "Empiezas con tu mano y te acercas el doble cada segundo. Tu huella en el segundo 3, una célula de la piel en el 10, una bacteria en el 16, el ADN en el 24, un átomo de carbono en el 28... y luego 15 segundos de nada antes del núcleo. Si el núcleo midiera 1 cm, el átomo ocuparía 2,7 canchas de fútbol: está vacío en un 99,9999999999956 %.\nFuentes: CODATA 2018; Wikipedia (radios atómicos, corneocito); mediciones del carbono 12 por dispersión de electrones; Viruses (2023) sobre el fago T4; Durham University; MicrobeWiki; FIFA, guía de estadios.",
+    "pt": "Você começa pela sua mão e chega duas vezes mais perto a cada segundo. Sua digital no segundo 3, uma célula da pele no 10, uma bactéria no 16, o DNA no 24, um átomo de carbono no 28... e depois 15 segundos de nada antes do núcleo. Se o núcleo tivesse 1 cm, o átomo ocuparia 2,7 campos de futebol: ele é 99,9999999999956% vazio.\nFontes: CODATA 2018; Wikipédia (raios atômicos, corneócito); medidas do carbono 12 por espalhamento de elétrons; Viruses (2023) sobre o fago T4; Durham University; MicrobeWiki; FIFA, guia de estádios."
+  },
+  "son": {
+    "duree_s": 63.099999999999994,
+    "tics": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "paliers": [
+      2.5,
+      9.5,
+      15.5,
+      18.5,
+      23.5,
+      27.5,
+      42.5,
+      44.5
+    ],
+    "retournements": [
+      47.9,
+      52.699999999999996,
+      57.099999999999994
+    ],
+    "fin": 62.49999999999999,
+    "base_hz": 73,
+    "tic_hz": 1800,
+    "bourdon": [
+      [
+        0,
+        130,
+        0.0
+      ],
+      [
+        3,
+        140,
+        0.04
+      ],
+      [
+        27.5,
+        260,
+        0.09
+      ],
+      [
+        29,
+        90,
+        0.05
+      ],
+      [
+        42,
+        120,
+        0.07
+      ],
+      [
+        44.5,
+        330,
+        0.12
+      ],
+      [
+        52.699999999999996,
+        330,
+        0.1
+      ],
+      [
+        57.099999999999994,
+        330,
+        0.12
+      ],
+      [
+        62.199999999999996,
+        130,
+        0.0
+      ],
+      [
+        63.099999999999994,
+        130,
+        0.0
+      ]
+    ]
+  }
+}

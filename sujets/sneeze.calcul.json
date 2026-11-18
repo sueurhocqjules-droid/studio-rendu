@@ -1,0 +1,212 @@
+{
+  "n_max": 44,
+  "n_lumiere": 45,
+  "v0_m_s": 4.5,
+  "facteur": 1.5,
+  "c_m_s": 299792458,
+  "m_s_en_mph": 2.2369362920544,
+  "m_s_en_kmh": 3.6,
+  "v0": {
+    "en": 10,
+    "es": 16,
+    "pt": 16
+  },
+  "lune_s": 1.5260032788627103,
+  "lune": {
+    "en": "1.5",
+    "es": "1.5",
+    "pt": "1,5"
+  },
+  "paliers": [
+    {
+      "cle": "guepard",
+      "m_s": 25.9,
+      "pas": 5,
+      "arrivee_s": 4.5,
+      "source": "Guépard sauvage : pointe à 25,9 m/s (93 km/h) mesurée par colliers GPS au Botswana (Wilson et al., Nature 498, 2013)"
+    },
+    {
+      "cle": "f1",
+      "m_s": 103.5,
+      "pas": 8,
+      "arrivee_s": 7.5,
+      "source": "Vitesse la plus élevée en Grand Prix de Formule 1 : 372,6 km/h, Juan Pablo Montoya, Monza, 4 septembre 2005 (Guinness World Records)"
+    },
+    {
+      "cle": "son",
+      "m_s": 343,
+      "pas": 11,
+      "arrivee_s": 10.5,
+      "source": "Vitesse du son dans l'air sec à 20 °C : 343 m/s"
+    },
+    {
+      "cle": "balle",
+      "m_s": 945,
+      "pas": 14,
+      "arrivee_s": 13.5,
+      "source": "Balle de fusil 5,56 x 45 mm OTAN (SS109) : 945 m/s à la bouche, canon de 510 mm (fiche technique RUAG)"
+    },
+    {
+      "cle": "liberation",
+      "m_s": 11186,
+      "pas": 20,
+      "arrivee_s": 19.5,
+      "source": "Vitesse de libération de la Terre : 11,186 km/s (NASA, Earth Fact Sheet)"
+    },
+    {
+      "cle": "sonde",
+      "m_s": 192220,
+      "pas": 27,
+      "arrivee_s": 26.5,
+      "source": "Parker Solar Probe : 192,22 km/s le 24 décembre 2024, l'objet le plus rapide jamais construit (Guinness World Records, NASA)"
+    },
+    {
+      "cle": "etoile",
+      "m_s": 1700000,
+      "pas": 32,
+      "arrivee_s": 31.5,
+      "source": "Étoile S5-HVS1 : plus de 1 700 km/s, éjectée par le trou noir central de la Voie lactée (Koposov et al., MNRAS 2019 ; UNSW)"
+    },
+    {
+      "cle": "tour",
+      "m_s": 40075016.68557849,
+      "pas": 40,
+      "arrivee_s": 39.5,
+      "source": "Rayon équatorial de la Terre : 6 378,137 km (NASA, Earth Fact Sheet) ; tour de l'équateur en une seconde"
+    },
+    {
+      "cle": "lune",
+      "m_s": 192200000.0,
+      "pas": 44,
+      "arrivee_s": 43.5,
+      "source": "Distance Terre-Lune (demi-grand axe) : 384 400 km (NASA, Moon Fact Sheet) ; atteinte en moins de 2 secondes"
+    }
+  ],
+  "t_limite": 43.5,
+  "t_coupe": 47.1,
+  "t_qui": 51.9,
+  "t_patte": 56.5,
+  "t_retour": 60.3,
+  "t_fin": 61.699999999999996,
+  "duree_s": 62.3,
+  "descriptions": {
+    "en": "A real sneeze tops out around 10 mph. Now make it 50% faster every second: it outruns a cheetah at second 5, breaks the sound barrier at 11, leaves Earth for good at 20, beats the fastest spacecraft at 27 and reaches the Moon in 1.5 seconds at 44. At second 45 it would have to outrun light. The universe says: bless you.\nSources: Tang et al. (PLOS ONE, 2013), Wilson et al. (Nature, 2013), Guinness World Records, RUAG, NASA fact sheets, Koposov et al. (MNRAS, 2019), BIPM.",
+    "es": "Un estornudo real llega a unos 16 km/h. Ahora hazlo un 50 % más rápido cada segundo: supera a un guepardo en el segundo 5, rompe la barrera del sonido en el 11, escapa de la Tierra en el 20, gana a la nave más rápida en el 27 y llega a la Luna en 1.5 segundos en el 44. En el segundo 45 tendría que ganarle a la luz. El universo dice: ¡salud!\nFuentes: Tang et al. (PLOS ONE, 2013), Wilson et al. (Nature, 2013), Guinness World Records, RUAG, fichas de la NASA, Koposov et al. (MNRAS, 2019), BIPM.",
+    "pt": "Um espirro de verdade chega a uns 16 km/h. Agora deixe ele 50% mais rápido a cada segundo: passa um guepardo no segundo 5, quebra a barreira do som no 11, escapa da Terra no 20, vence a nave mais rápida no 27 e chega à Lua em 1,5 segundos no 44. No segundo 45, teria que vencer a luz. O universo diz: saúde!\nFontes: Tang et al. (PLOS ONE, 2013), Wilson et al. (Nature, 2013), Guinness World Records, RUAG, fichas da NASA, Koposov et al. (MNRAS, 2019), BIPM."
+  },
+  "son": {
+    "duree_s": 62.3,
+    "tics": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43
+    ],
+    "paliers": [
+      4.5,
+      7.5,
+      10.5,
+      13.5,
+      19.5,
+      26.5,
+      31.5,
+      39.5,
+      43.5
+    ],
+    "retournements": [
+      47.1,
+      51.9,
+      56.5
+    ],
+    "fin": 61.699999999999996,
+    "base_hz": 98,
+    "tic_hz": 1500,
+    "bourdon": [
+      [
+        0,
+        120,
+        0.0
+      ],
+      [
+        4,
+        140,
+        0.04
+      ],
+      [
+        20,
+        260,
+        0.1
+      ],
+      [
+        43.5,
+        520,
+        0.2
+      ],
+      [
+        47.09,
+        520,
+        0.2
+      ],
+      [
+        47.1,
+        520,
+        0.0
+      ],
+      [
+        60.3,
+        120,
+        0.0
+      ],
+      [
+        61.699999999999996,
+        120,
+        0.03
+      ],
+      [
+        62.3,
+        120,
+        0.0
+      ]
+    ]
+  }
+}

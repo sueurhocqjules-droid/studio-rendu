@@ -1,0 +1,114 @@
+{
+  "regle_physique": {
+    "longueur_0_m": 1.2,
+    "facteur": 2,
+    "c_m_s": 299792458,
+    "chaussure_m": 0.3,
+    "source_longueur": "Lacet de basket à 6 ou 7 paires d'œillets : 120 cm (tableau de longueurs Kicks Shoelaces ; Skolyx et Pear Shoelace donnent aussi environ 120 cm)",
+    "source_c": "Vitesse de la lumière dans le vide : 299 792 458 m/s, exacte par définition (BIPM)"
+  },
+  "references": {
+    "bus": { "m": 12, "forme": "couche", "source": "Bus urbain standard à un étage : 12 m, la longueur la plus courante (Wikipedia « Single-deck bus », Karsan)" },
+    "terrain": { "m": 105, "forme": "couche", "source": "Terrain de football recommandé par la FIFA : 105 m x 68 m (FIFA Stadium Guidelines, 5.3)" },
+    "burj": { "m": 828, "forme": "debout", "source": "Burj Khalifa : 828 m, hauteur officielle ratifiée par le CTBUH (2010)" },
+    "everest": { "m": 8848.86, "forme": "debout", "source": "Everest : 8 848,86 m, hauteur annoncée conjointement par la Chine et le Népal le 8 décembre 2020 (AP, Al Jazeera)" },
+    "parislondres": { "m": 344000, "forme": "debout", "source": "Paris-Londres à vol d'oiseau : 344 km (distance orthodromique, formule de haversine sur WGS84)" },
+    "tour": { "rayon_m": 6378137, "forme": "tour", "source": "Rayon équatorial de la Terre : 6 378,137 km (NASA, Earth Fact Sheet) ; tour de l'équateur recalculé" },
+    "lune": { "m": 384400000, "forme": "debout", "source": "Distance Terre-Lune (demi-grand axe) : 384 400 km (NASA, Moon Fact Sheet)" },
+    "soleil": { "m": 149597870700, "forme": "debout", "source": "Unité astronomique : 149 597 870 700 m exactement (UAI 2012, résolution B2)" },
+    "voyager": { "jours_lumiere": 1, "forme": "debout", "source": "Voyager 1 atteint un jour-lumière de la Terre le 18 novembre 2026, environ 25,9 milliards de km (NASA JPL, via EarthSky, Popular Science) ; distance recalculée avec c x 86 400 s" }
+  },
+  "en": {
+    "titre": "What If Your Shoelace Doubled in Length Every Second?",
+    "description": "A sneaker lace is about {l0_en} long. Now double it every second: longer than a bus at second {n_bus}, taller than Everest at {n_everest}, Paris to London at {n_parislondres}, around the Earth at {n_tour}, to the Moon at {n_lune}, to the Sun at {n_soleil}, and at {n_voyager} it reaches Voyager 1, which just became the first probe one light-day from Earth. By then light needs {h} hours to cross it, and its tip has been outrunning light since second {n_bout}.\nSources: Kicks Shoelaces, FIFA, CTBUH, China and Nepal (2020), NASA fact sheets and JPL, IAU 2012, BIPM.",
+    "regle": ["YOUR SHOELACE DOUBLES", "IN LENGTH EVERY SECOND"],
+    "pli": "SEC",
+    "suite": "NEXT: {cible}",
+    "restant": "{n} SECONDS TO GO",
+    "restant1": "1 SECOND TO GO",
+    "jour": ["LIGHT NOW NEEDS {h} HOURS", "TO GO FROM END TO END"],
+    "bout": ["ITS TIP HAS BEEN OUTRUNNING", "LIGHT SINCE SECOND {n}"],
+    "noeud": ["GOOD LUCK", "TYING YOUR SHOE"],
+    "unites": [
+      { "max": 1609.344, "metres": 0.3048, "nom": "FEET", "nom1": "FOOT" },
+      { "max": 1609344000, "metres": 1609.344, "nom": "MILES", "nom1": "MILE" },
+      { "max": 1609344000000, "metres": 1609344000, "nom": "MILLION MILES", "nom1": "MILLION MILES" },
+      { "max": 1e30, "metres": 1609344000000, "nom": "BILLION MILES", "nom1": "BILLION MILES" }
+    ],
+    "unite_l0": { "metres": 0.0254, "nom": "INCHES" },
+    "separateurs": { "milliers": ",", "decimale": "." },
+    "paliers": {
+      "bus": { "cible": "A CITY BUS", "legende": ["LONGER THAN", "A CITY BUS"] },
+      "terrain": { "cible": "A SOCCER FIELD", "legende": ["LONGER THAN", "A SOCCER FIELD"] },
+      "burj": { "cible": "THE TALLEST TOWER", "legende": ["TALLER THAN THE", "TALLEST TOWER ON EARTH"] },
+      "everest": { "cible": "MOUNT EVEREST", "legende": ["STANDING UP, IT WOULD", "TOWER OVER EVEREST"] },
+      "parislondres": { "cible": "PARIS TO LONDON", "legende": ["IT STRETCHES FROM", "PARIS TO LONDON"] },
+      "tour": { "cible": "AROUND THE EARTH", "legende": ["IT WRAPS ALL THE WAY", "AROUND THE EARTH"] },
+      "lune": { "cible": "THE MOON", "legende": ["IT REACHES", "THE MOON"] },
+      "soleil": { "cible": "THE SUN", "legende": ["IT REACHES", "THE SUN"] },
+      "voyager": { "cible": "THE FARTHEST PROBE", "legende": ["IT REACHES THE", "FARTHEST SPACE PROBE"] }
+    }
+  },
+  "es": {
+    "titre": "¿Y si el cordón de tu zapato duplicara su largo cada segundo?",
+    "description": "Un cordón de tenis mide unos {l0_es}. Ahora duplícalo cada segundo: más largo que un autobús en el segundo {n_bus}, más alto que el Everest en el {n_everest}, de París a Londres en el {n_parislondres}, da la vuelta a la Tierra en el {n_tour}, llega a la Luna en el {n_lune}, al Sol en el {n_soleil} y en el {n_voyager} alcanza a la Voyager 1, que acaba de ser la primera sonda a un día luz de la Tierra. Para entonces la luz tarda {h} horas en recorrerlo, y su punta va más rápido que la luz desde el segundo {n_bout}.\nFuentes: Kicks Shoelaces, FIFA, CTBUH, China y Nepal (2020), fichas de la NASA y JPL, UAI 2012, BIPM.",
+    "regle": ["TU CORDÓN DUPLICA", "SU LARGO CADA SEGUNDO"],
+    "pli": "SEG",
+    "suite": "SIGUE: {cible}",
+    "restant": "FALTAN {n} SEGUNDOS",
+    "restant1": "FALTA 1 SEGUNDO",
+    "jour": ["LA LUZ YA TARDA {h} HORAS", "EN IR DE PUNTA A PUNTA"],
+    "bout": ["SU PUNTA VA MÁS RÁPIDO QUE", "LA LUZ DESDE EL SEGUNDO {n}"],
+    "noeud": ["SUERTE AMARRANDO", "TUS ZAPATOS"],
+    "unites": [
+      { "max": 1000, "metres": 1, "nom": "METROS", "nom1": "METRO" },
+      { "max": 1000000000, "metres": 1000, "nom": "KM", "nom1": "KM" },
+      { "max": 1000000000000, "metres": 1000000000, "nom": "MILLONES DE KM", "nom1": "MILLÓN DE KM" },
+      { "max": 1e30, "metres": 1000000000000, "nom": "MIL MILLONES DE KM", "nom1": "MIL MILLONES DE KM" }
+    ],
+    "unite_l0": { "metres": 0.01, "nom": "CM" },
+    "separateurs": { "milliers": ",", "decimale": "." },
+    "paliers": {
+      "bus": { "cible": "UN AUTOBÚS", "legende": ["MÁS LARGO QUE", "UN AUTOBÚS"] },
+      "terrain": { "cible": "UNA CANCHA DE FÚTBOL", "legende": ["MÁS LARGO QUE UNA", "CANCHA DE FÚTBOL"] },
+      "burj": { "cible": "LA TORRE MÁS ALTA", "legende": ["MÁS ALTO QUE LA TORRE", "MÁS ALTA DEL MUNDO"] },
+      "everest": { "cible": "EL EVEREST", "legende": ["DE PIE, SERÍA MÁS", "ALTO QUE EL EVEREST"] },
+      "parislondres": { "cible": "DE PARÍS A LONDRES", "legende": ["YA VA DE PARÍS", "A LONDRES"] },
+      "tour": { "cible": "LA VUELTA AL MUNDO", "legende": ["LE DA LA VUELTA", "A TODA LA TIERRA"] },
+      "lune": { "cible": "LA LUNA", "legende": ["LLEGA HASTA", "LA LUNA"] },
+      "soleil": { "cible": "EL SOL", "legende": ["LLEGA HASTA", "EL SOL"] },
+      "voyager": { "cible": "LA SONDA MÁS LEJANA", "legende": ["ALCANZA A LA SONDA", "MÁS LEJANA"] }
+    }
+  },
+  "pt": {
+    "titre": "E se o cadarço do seu tênis dobrasse de tamanho a cada segundo?",
+    "description": "Um cadarço de tênis tem uns {l0_pt}. Agora dobre o tamanho a cada segundo: maior que um ônibus no segundo {n_bus}, mais alto que o Everest no {n_everest}, de Paris a Londres no {n_parislondres}, dá a volta na Terra no {n_tour}, chega à Lua no {n_lune}, ao Sol no {n_soleil} e no {n_voyager} alcança a Voyager 1, que acabou de virar a primeira sonda a um dia-luz da Terra. Aí a luz leva {h} horas para atravessá-lo, e a ponta dele corre mais que a luz desde o segundo {n_bout}.\nFontes: Kicks Shoelaces, FIFA, CTBUH, China e Nepal (2020), fichas da NASA e JPL, UAI 2012, BIPM.",
+    "regle": ["SEU CADARÇO DOBRA DE", "TAMANHO A CADA SEGUNDO"],
+    "pli": "SEG",
+    "suite": "PRÓXIMO: {cible}",
+    "restant": "FALTAM {n} SEGUNDOS",
+    "restant1": "FALTA 1 SEGUNDO",
+    "jour": ["A LUZ JÁ LEVA {h} HORAS", "PARA IR DE PONTA A PONTA"],
+    "bout": ["A PONTA DELE CORRE MAIS QUE", "A LUZ DESDE O SEGUNDO {n}"],
+    "noeud": ["BOA SORTE PARA", "AMARRAR O TÊNIS"],
+    "unites": [
+      { "max": 1000, "metres": 1, "nom": "METROS", "nom1": "METRO" },
+      { "max": 1000000000, "metres": 1000, "nom": "KM", "nom1": "KM" },
+      { "max": 1000000000000, "metres": 1000000000, "nom": "MILHÕES DE KM", "nom1": "MILHÃO DE KM" },
+      { "max": 1e30, "metres": 1000000000000, "nom": "BILHÕES DE KM", "nom1": "BILHÃO DE KM" }
+    ],
+    "unite_l0": { "metres": 0.01, "nom": "CM" },
+    "separateurs": { "milliers": ".", "decimale": "," },
+    "paliers": {
+      "bus": { "cible": "UM ÔNIBUS", "legende": ["MAIOR QUE", "UM ÔNIBUS"] },
+      "terrain": { "cible": "UM CAMPO DE FUTEBOL", "legende": ["MAIOR QUE UM", "CAMPO DE FUTEBOL"] },
+      "burj": { "cible": "A TORRE MAIS ALTA", "legende": ["MAIS ALTO QUE A TORRE", "MAIS ALTA DO MUNDO"] },
+      "everest": { "cible": "O EVEREST", "legende": ["EM PÉ, FICARIA MAIS", "ALTO QUE O EVEREST"] },
+      "parislondres": { "cible": "DE PARIS A LONDRES", "legende": ["JÁ VAI DE PARIS", "ATÉ LONDRES"] },
+      "tour": { "cible": "A VOLTA AO MUNDO", "legende": ["DÁ A VOLTA", "NA TERRA INTEIRA"] },
+      "lune": { "cible": "A LUA", "legende": ["CHEGA ATÉ", "A LUA"] },
+      "soleil": { "cible": "O SOL", "legende": ["CHEGA ATÉ", "O SOL"] },
+      "voyager": { "cible": "A SONDA MAIS DISTANTE", "legende": ["ALCANÇA A SONDA", "MAIS DISTANTE"] }
+    }
+  }
+}

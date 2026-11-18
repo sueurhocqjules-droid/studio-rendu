@@ -1,0 +1,112 @@
+{
+  "regle_physique": {
+    "premiers": 1,
+    "a_qui_chacun_dit": 2,
+    "naissances_par_an": 132399173,
+    "secondes_par_an": 31557600,
+    "source_regle": "Chaque personne qui apprend le secret le dit à une nouvelle personne la seconde suivante, puis à une autre la seconde d'après, et s'arrête : les nouveaux venus suivent la suite de Fibonacci",
+    "source_naissances": "Naissances dans le monde en 2025 : 132 399 173 (ONU, World Population Prospects 2024, via statisticstimes.com)"
+  },
+  "references": {
+    "classe": { "personnes": 26.8, "source": "Taille moyenne d'une classe du secondaire public aux États-Unis : 26,8 élèves en 2011-2012 (NCES, Digest of Education Statistics)" },
+    "ecole": { "personnes": 514, "source": "École publique américaine moyenne : 514 élèves (NCES, données 2022, via Education Week)" },
+    "paquebot": { "personnes": 9950, "source": "Plus grand paquebot du monde (Icon of the Seas) : 7 600 passagers au maximum et 2 350 membres d'équipage, soit 9 950 personnes (Wikipedia, CNN)" },
+    "stade": { "personnes": 90000, "source": "Stade de Wembley : 90 000 places, le plus grand du Royaume-Uni" },
+    "ville": { "personnes": 8585000, "source": "New York : 8 585 000 habitants au 1er juillet 2025 (NYC Department of City Planning, estimations du Census Bureau, mars 2026)" },
+    "usa": { "personnes": 341784857, "source": "États-Unis : 341 784 857 habitants au 1er juillet 2025 (U.S. Census Bureau, Vintage 2025)" },
+    "inde": { "personnes": 1463865525, "source": "Inde : 1 463 865 525 habitants en 2025, pays le plus peuplé (ONU, World Population Prospects 2024 ; UNFPA, État de la population mondiale 2025)" },
+    "terre": { "personnes": 8231613070, "source": "Population mondiale au 1er juillet 2025 : 8 231 613 070 (ONU, World Population Prospects 2024 ; UNFPA donne 8 232 millions pour 2025)" }
+  },
+  "en": {
+    "titre": "What If Everyone Who Heard Your Secret Told 2 New People?",
+    "description": "You tell a secret to 2 people, one per second, and everyone who hears it does the same. Your whole class knows at second {n_classe}, the biggest cruise ship at {n_paquebot}, New York City at {n_ville}, India at {n_inde} and every person on Earth at second {n_terre}. Then there's nobody left to tell, except the {b_en} babies born every second.\nSources: UN World Population Prospects 2024, UNFPA, U.S. Census Bureau, NYC Department of City Planning, NCES, Wikipedia.",
+    "regle": ["YOU TELL 2 PEOPLE A SECRET,", "ONE PER SECOND"],
+    "regle2": ["AND EVERYONE WHO HEARS IT", "DOES THE SAME"],
+    "pli": "SEC",
+    "suite": "NEXT: {cible}",
+    "restant": "{n} SECONDS TO GO",
+    "restant1": "1 SECOND TO GO",
+    "vide": ["NOBODY", "LEFT TO TELL"],
+    "bebes": ["EXCEPT NEWBORNS:", "ABOUT {b} EVERY SECOND"],
+    "parler": ["EVERY BABY HEARS IT", "BEFORE IT CAN TALK"],
+    "personne_restante": "PEOPLE LEFT TO TELL",
+    "bebe_restant": "NEWBORNS TO TELL",
+    "unites": [
+      { "max": 1000000, "diviseur": 1, "nom": "PEOPLE KNOW", "nom1": "PERSON KNOWS" },
+      { "max": 1000000000, "diviseur": 1000000, "nom": "MILLION KNOW", "nom1": "MILLION KNOW" },
+      { "max": 1e15, "diviseur": 1000000000, "nom": "BILLION KNOW", "nom1": "BILLION KNOW" }
+    ],
+    "separateurs": { "milliers": ",", "decimale": "." },
+    "paliers": {
+      "classe": { "cible": "YOUR CLASS", "legende": ["YOUR WHOLE CLASS", "KNOWS"] },
+      "ecole": { "cible": "YOUR SCHOOL", "legende": ["THE WHOLE SCHOOL", "KNOWS"] },
+      "paquebot": { "cible": "A CRUISE SHIP", "legende": ["THE BIGGEST CRUISE SHIP", "ON EARTH KNOWS"] },
+      "stade": { "cible": "A STADIUM", "legende": ["A PACKED STADIUM", "KNOWS"] },
+      "ville": { "cible": "NEW YORK CITY", "legende": ["ALL OF NEW YORK CITY", "KNOWS"] },
+      "usa": { "cible": "THE USA", "legende": ["EVERYONE IN THE USA", "KNOWS"] },
+      "inde": { "cible": "INDIA", "legende": ["ALL OF INDIA", "KNOWS"] },
+      "terre": { "cible": "THE WHOLE PLANET", "legende": ["EVERY PERSON ON EARTH", "KNOWS YOUR SECRET"] }
+    }
+  },
+  "es": {
+    "titre": "¿Y si todos los que oyen tu secreto se lo contaran a 2 personas?",
+    "description": "Le cuentas un secreto a 2 personas, una por segundo, y todos los que lo oyen hacen lo mismo. Toda tu clase lo sabe en el segundo {n_classe}, el crucero más grande en el {n_paquebot}, Nueva York en el {n_ville}, la India en el {n_inde} y toda la Tierra en el segundo {n_terre}. Luego ya no queda nadie a quien contárselo, salvo los {b_es} bebés que nacen cada segundo.\nFuentes: ONU World Population Prospects 2024, UNFPA, Oficina del Censo de EE. UU., Departamento de Planificación de Nueva York, NCES, Wikipedia.",
+    "regle": ["LE CUENTAS UN SECRETO A 2", "PERSONAS, UNA POR SEGUNDO"],
+    "regle2": ["Y TODOS LOS QUE LO OYEN", "HACEN LO MISMO"],
+    "pli": "SEG",
+    "suite": "SIGUE: {cible}",
+    "restant": "FALTAN {n} SEGUNDOS",
+    "restant1": "FALTA 1 SEGUNDO",
+    "vide": ["YA NO QUEDA NADIE", "A QUIEN CONTARLE"],
+    "bebes": ["SALVO LOS RECIÉN NACIDOS:", "UNOS {b} POR SEGUNDO"],
+    "parler": ["CADA BEBÉ LO OYE", "ANTES DE SABER HABLAR"],
+    "personne_restante": "PERSONAS SIN SABERLO",
+    "bebe_restant": "BEBÉS SIN SABERLO",
+    "unites": [
+      { "max": 1000000, "diviseur": 1, "nom": "LO SABEN", "nom1": "LO SABE" },
+      { "max": 1e15, "diviseur": 1000000, "nom": "MILLONES LO SABEN", "nom1": "MILLÓN LO SABE" }
+    ],
+    "separateurs": { "milliers": ",", "decimale": "." },
+    "paliers": {
+      "classe": { "cible": "TU CLASE", "legende": ["TODA TU CLASE", "LO SABE"] },
+      "ecole": { "cible": "TU ESCUELA", "legende": ["TODA LA ESCUELA", "LO SABE"] },
+      "paquebot": { "cible": "UN CRUCERO", "legende": ["EL CRUCERO MÁS GRANDE", "DEL MUNDO LO SABE"] },
+      "stade": { "cible": "UN ESTADIO", "legende": ["UN ESTADIO LLENO", "LO SABE"] },
+      "ville": { "cible": "NUEVA YORK", "legende": ["TODA NUEVA YORK", "LO SABE"] },
+      "usa": { "cible": "ESTADOS UNIDOS", "legende": ["TODO ESTADOS UNIDOS", "LO SABE"] },
+      "inde": { "cible": "LA INDIA", "legende": ["TODA LA INDIA", "LO SABE"] },
+      "terre": { "cible": "TODO EL PLANETA", "legende": ["TODA LA TIERRA", "SABE TU SECRETO"] }
+    }
+  },
+  "pt": {
+    "titre": "E se todo mundo que ouve seu segredo contasse para 2 pessoas?",
+    "description": "Você conta um segredo para 2 pessoas, uma por segundo, e todo mundo que ouve faz a mesma coisa. Sua turma inteira sabe no segundo {n_classe}, o maior navio de cruzeiro no {n_paquebot}, Nova York no {n_ville}, a Índia no {n_inde} e a Terra inteira no segundo {n_terre}. Aí não sobra ninguém para contar, só os {b_pt} bebês que nascem a cada segundo.\nFontes: ONU World Population Prospects 2024, UNFPA, Census Bureau dos EUA, Departamento de Planejamento de Nova York, NCES, Wikipedia.",
+    "regle": ["VOCÊ CONTA UM SEGREDO PARA", "2 PESSOAS, UMA POR SEGUNDO"],
+    "regle2": ["E QUEM OUVE", "FAZ A MESMA COISA"],
+    "pli": "SEG",
+    "suite": "PRÓXIMO: {cible}",
+    "restant": "FALTAM {n} SEGUNDOS",
+    "restant1": "FALTA 1 SEGUNDO",
+    "vide": ["NÃO SOBROU NINGUÉM", "PARA CONTAR"],
+    "bebes": ["SÓ OS RECÉM-NASCIDOS:", "CERCA DE {b} POR SEGUNDO"],
+    "parler": ["CADA BEBÊ OUVE", "ANTES DE APRENDER A FALAR"],
+    "personne_restante": "PESSOAS SEM SABER",
+    "bebe_restant": "BEBÊS SEM SABER",
+    "unites": [
+      { "max": 1000000, "diviseur": 1, "nom": "PESSOAS SABEM", "nom1": "PESSOA SABE" },
+      { "max": 1000000000, "diviseur": 1000000, "nom": "MILHÕES SABEM", "nom1": "MILHÃO SABE" },
+      { "max": 1e15, "diviseur": 1000000000, "nom": "BILHÕES SABEM", "nom1": "BILHÃO SABE" }
+    ],
+    "separateurs": { "milliers": ".", "decimale": "," },
+    "paliers": {
+      "classe": { "cible": "SUA TURMA", "legende": ["SUA TURMA INTEIRA", "SABE"] },
+      "ecole": { "cible": "SUA ESCOLA", "legende": ["A ESCOLA INTEIRA", "SABE"] },
+      "paquebot": { "cible": "UM NAVIO DE CRUZEIRO", "legende": ["O MAIOR NAVIO DE", "CRUZEIRO DO MUNDO SABE"] },
+      "stade": { "cible": "UM ESTÁDIO", "legende": ["UM ESTÁDIO LOTADO", "SABE"] },
+      "ville": { "cible": "NOVA YORK", "legende": ["NOVA YORK INTEIRA", "SABE"] },
+      "usa": { "cible": "OS EUA", "legende": ["OS ESTADOS UNIDOS", "INTEIROS SABEM"] },
+      "inde": { "cible": "A ÍNDIA", "legende": ["A ÍNDIA INTEIRA", "SABE"] },
+      "terre": { "cible": "O PLANETA INTEIRO", "legende": ["A TERRA INTEIRA", "SABE SEU SEGREDO"] }
+    }
+  }
+}

@@ -1,0 +1,216 @@
+{
+  "n_max": 45,
+  "l0_m": 1.2,
+  "facteur": 2,
+  "chaussure_m": 0.3,
+  "heures": 39,
+  "t_bout": 28.425120815490228,
+  "n_bout": 29,
+  "l0": {
+    "en": "47 INCHES",
+    "es": "120 CM",
+    "pt": "120 CM"
+  },
+  "paliers": [
+    {
+      "cle": "bus",
+      "m": 12,
+      "forme": "couche",
+      "pas": 4,
+      "arrivee_s": 3.5,
+      "source": "Bus urbain standard à un étage : 12 m, la longueur la plus courante (Wikipedia « Single-deck bus », Karsan)"
+    },
+    {
+      "cle": "terrain",
+      "m": 105,
+      "forme": "couche",
+      "pas": 7,
+      "arrivee_s": 6.5,
+      "source": "Terrain de football recommandé par la FIFA : 105 m x 68 m (FIFA Stadium Guidelines, 5.3)"
+    },
+    {
+      "cle": "burj",
+      "m": 828,
+      "forme": "debout",
+      "pas": 10,
+      "arrivee_s": 9.5,
+      "source": "Burj Khalifa : 828 m, hauteur officielle ratifiée par le CTBUH (2010)"
+    },
+    {
+      "cle": "everest",
+      "m": 8848.86,
+      "forme": "debout",
+      "pas": 13,
+      "arrivee_s": 12.5,
+      "source": "Everest : 8 848,86 m, hauteur annoncée conjointement par la Chine et le Népal le 8 décembre 2020 (AP, Al Jazeera)"
+    },
+    {
+      "cle": "parislondres",
+      "m": 344000,
+      "forme": "debout",
+      "pas": 19,
+      "arrivee_s": 18.5,
+      "source": "Paris-Londres à vol d'oiseau : 344 km (distance orthodromique, formule de haversine sur WGS84)"
+    },
+    {
+      "cle": "tour",
+      "m": 40075016.68557849,
+      "forme": "tour",
+      "pas": 25,
+      "arrivee_s": 24.5,
+      "source": "Rayon équatorial de la Terre : 6 378,137 km (NASA, Earth Fact Sheet) ; tour de l'équateur recalculé"
+    },
+    {
+      "cle": "lune",
+      "m": 384400000,
+      "forme": "debout",
+      "pas": 29,
+      "arrivee_s": 28.5,
+      "source": "Distance Terre-Lune (demi-grand axe) : 384 400 km (NASA, Moon Fact Sheet)"
+    },
+    {
+      "cle": "soleil",
+      "m": 149597870700,
+      "forme": "debout",
+      "pas": 37,
+      "arrivee_s": 36.5,
+      "source": "Unité astronomique : 149 597 870 700 m exactement (UAI 2012, résolution B2)"
+    },
+    {
+      "cle": "voyager",
+      "m": 25902068371200,
+      "forme": "debout",
+      "pas": 45,
+      "arrivee_s": 44.5,
+      "source": "Voyager 1 atteint un jour-lumière de la Terre le 18 novembre 2026, environ 25,9 milliards de km (NASA JPL, via EarthSky, Popular Science) ; distance recalculée avec c x 86 400 s"
+    }
+  ],
+  "t_limite": 44.5,
+  "t_coupe": 47.9,
+  "t_qui": 52.3,
+  "t_patte": 56.699999999999996,
+  "t_retour": 60.3,
+  "t_fin": 61.5,
+  "duree_s": 62.1,
+  "descriptions": {
+    "en": "A sneaker lace is about 47 inches long. Now double it every second: longer than a bus at second 4, taller than Everest at 13, Paris to London at 19, around the Earth at 25, to the Moon at 29, to the Sun at 37, and at 45 it reaches Voyager 1, which just became the first probe one light-day from Earth. By then light needs 39 hours to cross it, and its tip has been outrunning light since second 29.\nSources: Kicks Shoelaces, FIFA, CTBUH, China and Nepal (2020), NASA fact sheets and JPL, IAU 2012, BIPM.",
+    "es": "Un cordón de tenis mide unos 120 cm. Ahora duplícalo cada segundo: más largo que un autobús en el segundo 4, más alto que el Everest en el 13, de París a Londres en el 19, da la vuelta a la Tierra en el 25, llega a la Luna en el 29, al Sol en el 37 y en el 45 alcanza a la Voyager 1, que acaba de ser la primera sonda a un día luz de la Tierra. Para entonces la luz tarda 39 horas en recorrerlo, y su punta va más rápido que la luz desde el segundo 29.\nFuentes: Kicks Shoelaces, FIFA, CTBUH, China y Nepal (2020), fichas de la NASA y JPL, UAI 2012, BIPM.",
+    "pt": "Um cadarço de tênis tem uns 120 cm. Agora dobre o tamanho a cada segundo: maior que um ônibus no segundo 4, mais alto que o Everest no 13, de Paris a Londres no 19, dá a volta na Terra no 25, chega à Lua no 29, ao Sol no 37 e no 45 alcança a Voyager 1, que acabou de virar a primeira sonda a um dia-luz da Terra. Aí a luz leva 39 horas para atravessá-lo, e a ponta dele corre mais que a luz desde o segundo 29.\nFontes: Kicks Shoelaces, FIFA, CTBUH, China e Nepal (2020), fichas da NASA e JPL, UAI 2012, BIPM."
+  },
+  "son": {
+    "duree_s": 62.1,
+    "tics": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "paliers": [
+      3.5,
+      6.5,
+      9.5,
+      12.5,
+      18.5,
+      24.5,
+      28.5,
+      36.5,
+      44.5
+    ],
+    "retournements": [
+      47.9,
+      52.3,
+      56.699999999999996
+    ],
+    "fin": 61.5,
+    "base_hz": 73,
+    "tic_hz": 1200,
+    "bourdon": [
+      [
+        0,
+        392,
+        0.0
+      ],
+      [
+        3,
+        392,
+        0.04
+      ],
+      [
+        20,
+        196,
+        0.1
+      ],
+      [
+        44.5,
+        60,
+        0.2
+      ],
+      [
+        47.89,
+        60,
+        0.2
+      ],
+      [
+        47.9,
+        60,
+        0.0
+      ],
+      [
+        60.3,
+        392,
+        0.0
+      ],
+      [
+        61.5,
+        392,
+        0.03
+      ],
+      [
+        62.1,
+        392,
+        0.0
+      ]
+    ]
+  }
+}

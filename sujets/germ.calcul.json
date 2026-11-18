@@ -1,0 +1,213 @@
+{
+  "n_max": 56,
+  "m0_kg": 1e-15,
+  "facteur": 2,
+  "n_terre": 133,
+  "h_terre": 44.333333333333336,
+  "h_texte": "44",
+  "paliers": [
+    {
+      "cle": "globule",
+      "kg": 9.727199999999999e-14,
+      "pas": 7,
+      "arrivee_s": 6.5,
+      "source": "Globule rouge : volume moyen d'environ 90 fL (Wikipedia « Red blood cell ») et densité de 1,0808 g/cm3 (Leif et Vinograd 1964, PNAS, « The distribution of buoyant density of human erythrocytes »)"
+    },
+    {
+      "cle": "cellule",
+      "kg": 2.5e-12,
+      "pas": 12,
+      "arrivee_s": 11.5,
+      "source": "Une cellule humaine pèse en général 2 à 3 nanogrammes (phys.org 2017, à propos de Martínez-Martín et al., Nature 2017, la « picobalance »)"
+    },
+    {
+      "cle": "ovule",
+      "kg": 9.047786842338604e-10,
+      "pas": 20,
+      "arrivee_s": 19.5,
+      "source": "Ovule humain : environ 120 µm de diamètre, la plus grosse cellule humaine, à peine visible à l'œil nu (Africa Check, d'après « Cell Biology by the Numbers » ; Wikipedia « Egg cell »)"
+    },
+    {
+      "cle": "sel",
+      "kg": 5.8e-08,
+      "pas": 26,
+      "arrivee_s": 25.5,
+      "source": "Un grain de sel de table : environ 0,058 mg (Chef's Resource ; recoupé par PhysLink, environ 0,0585 mg)"
+    },
+    {
+      "cle": "moustique",
+      "kg": 2.5e-06,
+      "pas": 32,
+      "arrivee_s": 31.5,
+      "source": "Un moustique pèse environ 2,5 mg (American Mosquito Control Association, mosquito.org ; Wikipedia « Mosquito », 2 à 2,5 mg)"
+    },
+    {
+      "cle": "trombone",
+      "kg": 0.001,
+      "pas": 40,
+      "arrivee_s": 39.5,
+      "source": "Un trombone standard : environ 1 g (Wikipedia « Paper clip » ; 0,5 à 1,5 g selon la taille)"
+    },
+    {
+      "cle": "souris",
+      "kg": 0.02,
+      "pas": 45,
+      "arrivee_s": 44.5,
+      "source": "Souris domestique : 12 à 30 g (Encyclopaedia Britannica « house mouse » ; Virginia DWR 13 à 30 g), 20 g retenus"
+    },
+    {
+      "cle": "chat",
+      "kg": 4.5,
+      "pas": 52,
+      "arrivee_s": 51.5,
+      "source": "Chat domestique : environ 4,5 kg, soit 10 livres (moyenne courante des guides vétérinaires : PetSafe, Pumpkin, 3,6 à 4,5 kg)"
+    },
+    {
+      "cle": "toi",
+      "kg": 62,
+      "pas": 56,
+      "arrivee_s": 55.5,
+      "source": "Masse moyenne d'un adulte dans le monde : 62 kg (Walpole et al. 2012, BMC Public Health, « The weight of nations »)"
+    }
+  ],
+  "t_limite": 55.5,
+  "t_coupe": 58.5,
+  "t_qui": 61.3,
+  "t_patte": 65.1,
+  "t_point": 68.5,
+  "t_retour": 71.1,
+  "t_fin": 73.5,
+  "duree_s": 74.1,
+  "descriptions": {
+    "en": "One E. coli bacterium weighs about a picogram. What if it split in two every second? It outweighs a red blood cell at second 7, a grain of salt at second 26, a mosquito at second 32, a mouse at second 45, and at second 56 the pile weighs as much as you. Real E. coli takes about 20 minutes per split: at that pace, it would outweigh the Earth in 44 hours. It never does, because the food runs out first.\nSources: BioNumbers; Walpole et al., BMC Public Health (2012); NASA Earth Fact Sheet; Leif & Vinograd, PNAS (1964); Martínez-Martín et al., Nature (2017); Oregon State University, General Microbiology; American Mosquito Control Association; Britannica.",
+    "es": "Una bacteria E. coli pesa cerca de un picogramo. ¿Y si se dividiera en dos cada segundo? Supera a un glóbulo rojo en el segundo 7, a un grano de sal en el 26, a un mosquito en el 32, a un ratón en el 45 y en el 56 la pila pesa lo mismo que tú. Una E. coli real tarda unos 20 minutos en dividirse: a ese ritmo, superaría la masa de la Tierra en 44 horas. Nunca pasa, porque antes se le acaba la comida.\nFuentes: BioNumbers; Walpole et al., BMC Public Health (2012); NASA Earth Fact Sheet; Leif y Vinograd, PNAS (1964); Martínez-Martín et al., Nature (2017); Oregon State University, General Microbiology; American Mosquito Control Association; Britannica.",
+    "pt": "Uma bactéria E. coli pesa cerca de um picograma. E se ela se dividisse em duas a cada segundo? Passa um glóbulo vermelho no segundo 7, um grão de sal no 26, um mosquito no 32, um camundongo no 45 e no 56 a pilha pesa o mesmo que você. Uma E. coli de verdade leva uns 20 minutos para se dividir: nesse ritmo, passaria a massa da Terra em 44 horas. Isso nunca acontece, porque a comida acaba antes.\nFontes: BioNumbers; Walpole et al., BMC Public Health (2012); NASA Earth Fact Sheet; Leif e Vinograd, PNAS (1964); Martínez-Martín et al., Nature (2017); Oregon State University, General Microbiology; American Mosquito Control Association; Britannica."
+  },
+  "son": {
+    "duree_s": 74.1,
+    "tics": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55
+    ],
+    "paliers": [
+      6.5,
+      11.5,
+      19.5,
+      25.5,
+      31.5,
+      39.5,
+      44.5,
+      51.5,
+      55.5
+    ],
+    "retournements": [
+      58.5,
+      61.3,
+      65.1
+    ],
+    "fin": 73.5,
+    "base_hz": 98,
+    "tic_hz": 1400,
+    "bourdon": [
+      [
+        0,
+        110,
+        0.0
+      ],
+      [
+        3,
+        120,
+        0.04
+      ],
+      [
+        30,
+        180,
+        0.08
+      ],
+      [
+        55.5,
+        300,
+        0.12
+      ],
+      [
+        61.3,
+        340,
+        0.15
+      ],
+      [
+        65.1,
+        340,
+        0.14
+      ],
+      [
+        68.5,
+        90,
+        0.0
+      ],
+      [
+        73.5,
+        110,
+        0.02
+      ],
+      [
+        74.1,
+        110,
+        0.0
+      ]
+    ]
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "regle_physique": {
+    "masse_0_kg": 1e-15,
+    "source_masse_0": "Masse d'une bactérie E. coli : environ 1 picogramme (poids humide 1 pg, BioNumbers, via OpenWetWare « BioNumbers data base » ; Asimov Press « A single E. coli bacterium weighs about one picogram »)",
+    "facteur": 2,
+    "generation_reelle_min": 20,
+    "source_generation": "En laboratoire, dans des conditions idéales, E. coli se divise en deux environ toutes les 20 minutes (cours de microbiologie CCBC « Bacterial growth » ; Vaia « Bacterial growth »)",
+    "masse_terre_kg": 5.9722e24,
+    "source_terre": "Masse de la Terre : 5,9722 x 10^24 kg (NASA Goddard, Earth Fact Sheet, mise à jour 2024)",
+    "source_arret": "Une population de bactéries cesse de croître quand un nutriment essentiel s'épuise, que ses déchets l'empoisonnent ou que la place manque : c'est la phase stationnaire (Oregon State University, « General Microbiology », ch. 9 Microbial Growth ; Discover Magazine, « The Slow Growth Movement » : la masse de la Terre en environ deux jours si rien ne l'arrêtait)",
+    "hypothese": "Ovule compté à la densité de l'eau ; chaque palier tombe à la première seconde où la masse des bactéries dépasse la référence"
+  },
+  "references": {
+    "globule": { "volume_m3": 9e-17, "densite_kg_m3": 1080.8, "source": "Globule rouge : volume moyen d'environ 90 fL (Wikipedia « Red blood cell ») et densité de 1,0808 g/cm3 (Leif et Vinograd 1964, PNAS, « The distribution of buoyant density of human erythrocytes »)" },
+    "cellule": { "kg": 2.5e-12, "source": "Une cellule humaine pèse en général 2 à 3 nanogrammes (phys.org 2017, à propos de Martínez-Martín et al., Nature 2017, la « picobalance »)" },
+    "ovule": { "diametre_m": 1.2e-4, "densite_kg_m3": 1000, "source": "Ovule humain : environ 120 µm de diamètre, la plus grosse cellule humaine, à peine visible à l'œil nu (Africa Check, d'après « Cell Biology by the Numbers » ; Wikipedia « Egg cell »)" },
+    "sel": { "kg": 5.8e-8, "source": "Un grain de sel de table : environ 0,058 mg (Chef's Resource ; recoupé par PhysLink, environ 0,0585 mg)" },
+    "moustique": { "kg": 2.5e-6, "source": "Un moustique pèse environ 2,5 mg (American Mosquito Control Association, mosquito.org ; Wikipedia « Mosquito », 2 à 2,5 mg)" },
+    "trombone": { "kg": 1e-3, "source": "Un trombone standard : environ 1 g (Wikipedia « Paper clip » ; 0,5 à 1,5 g selon la taille)" },
+    "souris": { "kg": 0.02, "source": "Souris domestique : 12 à 30 g (Encyclopaedia Britannica « house mouse » ; Virginia DWR 13 à 30 g), 20 g retenus" },
+    "chat": { "kg": 4.5, "source": "Chat domestique : environ 4,5 kg, soit 10 livres (moyenne courante des guides vétérinaires : PetSafe, Pumpkin, 3,6 à 4,5 kg)" },
+    "toi": { "kg": 62, "source": "Masse moyenne d'un adulte dans le monde : 62 kg (Walpole et al. 2012, BMC Public Health, « The weight of nations »)" }
+  },
+  "en": {
+    "titre": "What If One Bacterium Doubled Every Second?",
+    "description": "One E. coli bacterium weighs about a picogram. What if it split in two every second? It outweighs a red blood cell at second {n_globule}, a grain of salt at second {n_sel}, a mosquito at second {n_moustique}, a mouse at second {n_souris}, and at second {n_toi} the pile weighs as much as you. Real E. coli takes about 20 minutes per split: at that pace, it would outweigh the Earth in {h_terre} hours. It never does, because the food runs out first.\nSources: BioNumbers; Walpole et al., BMC Public Health (2012); NASA Earth Fact Sheet; Leif & Vinograd, PNAS (1964); Martínez-Martín et al., Nature (2017); Oregon State University, General Microbiology; American Mosquito Control Association; Britannica.",
+    "regle": ["ONE BACTERIUM SPLITS", "IN TWO EVERY SECOND"],
+    "regle2": ["REAL ONES TAKE", "20 MINUTES"],
+    "pli": "SEC",
+    "suite": "NEXT: {cible}",
+    "restant": "{n} SECONDS TO GO",
+    "restant1": "1 SECOND TO GO",
+    "vraie": ["AT THE REAL PACE", "(ONE SPLIT EVERY 20 MIN)"],
+    "terre": ["IN {h} HOURS THEY'D", "OUTWEIGH THE EARTH"],
+    "faim": ["BUT THE FOOD RUNS OUT", "AND THEY STOP"],
+    "point": ["A REAL COLONY", "ENDS AS A DOT"],
+    "unites": [
+      { "max": 1000, "kg": 1e-15, "nom": "PICOGRAMS" },
+      { "max": 1000, "kg": 1e-12, "nom": "NANOGRAMS" },
+      { "max": 1000, "kg": 1e-9, "nom": "MICROGRAMS" },
+      { "max": 1000, "kg": 1e-6, "nom": "MILLIGRAMS" },
+      { "max": 1000, "kg": 1e-3, "nom": "GRAMS" },
+      { "max": 1e30, "kg": 1, "nom": "KILOGRAMS" }
+    ],
+    "separateurs": { "milliers": ",", "decimale": "." },
+    "paliers": {
+      "globule": { "cible": "A RED BLOOD CELL", "legende": ["HEAVIER THAN A", "RED BLOOD CELL"] },
+      "cellule": { "cible": "ONE OF YOUR CELLS", "legende": ["HEAVIER THAN ONE", "OF YOUR CELLS"] },
+      "ovule": { "cible": "THE BIGGEST HUMAN CELL", "legende": ["NOW YOU COULD", "SEE IT"] },
+      "sel": { "cible": "A GRAIN OF SALT", "legende": ["HEAVIER THAN A", "GRAIN OF SALT"] },
+      "moustique": { "cible": "A MOSQUITO", "legende": ["HEAVIER THAN", "A MOSQUITO"] },
+      "trombone": { "cible": "A PAPER CLIP", "legende": ["HEAVIER THAN", "A PAPER CLIP"] },
+      "souris": { "cible": "A MOUSE", "legende": ["HEAVIER THAN", "A MOUSE"] },
+      "chat": { "cible": "A CAT", "legende": ["HEAVIER THAN", "A CAT"] },
+      "toi": { "cible": "YOU", "legende": ["NOW THEY WEIGH", "AS MUCH AS YOU"] }
+    }
+  },
+  "es": {
+    "titre": "¿Y si una bacteria se duplicara cada segundo?",
+    "description": "Una bacteria E. coli pesa cerca de un picogramo. ¿Y si se dividiera en dos cada segundo? Supera a un glóbulo rojo en el segundo {n_globule}, a un grano de sal en el {n_sel}, a un mosquito en el {n_moustique}, a un ratón en el {n_souris} y en el {n_toi} la pila pesa lo mismo que tú. Una E. coli real tarda unos 20 minutos en dividirse: a ese ritmo, superaría la masa de la Tierra en {h_terre} horas. Nunca pasa, porque antes se le acaba la comida.\nFuentes: BioNumbers; Walpole et al., BMC Public Health (2012); NASA Earth Fact Sheet; Leif y Vinograd, PNAS (1964); Martínez-Martín et al., Nature (2017); Oregon State University, General Microbiology; American Mosquito Control Association; Britannica.",
+    "regle": ["UNA BACTERIA SE DIVIDE", "EN DOS CADA SEGUNDO"],
+    "regle2": ["LAS REALES TARDAN", "20 MINUTOS"],
+    "pli": "SEG",
+    "suite": "SIGUE: {cible}",
+    "restant": "FALTAN {n} SEGUNDOS",
+    "restant1": "FALTA 1 SEGUNDO",
+    "vraie": ["AL RITMO REAL", "(UNA CADA 20 MIN)"],
+    "terre": ["EN {h} HORAS PESARÍAN", "MÁS QUE LA TIERRA"],
+    "faim": ["PERO SE ACABA LA", "COMIDA Y SE DETIENEN"],
+    "point": ["UNA COLONIA REAL", "QUEDA EN UN PUNTITO"],
+    "unites": [
+      { "max": 1000, "kg": 1e-15, "nom": "PICOGRAMOS" },
+      { "max": 1000, "kg": 1e-12, "nom": "NANOGRAMOS" },
+      { "max": 1000, "kg": 1e-9, "nom": "MICROGRAMOS" },
+      { "max": 1000, "kg": 1e-6, "nom": "MILIGRAMOS" },
+      { "max": 1000, "kg": 1e-3, "nom": "GRAMOS" },
+      { "max": 1e30, "kg": 1, "nom": "KILOS" }
+    ],
+    "separateurs": { "milliers": ".", "decimale": "," },
+    "paliers": {
+      "globule": { "cible": "UN GLÓBULO ROJO", "legende": ["PESAN MÁS QUE UN", "GLÓBULO ROJO"] },
+      "cellule": { "cible": "UNA DE TUS CÉLULAS", "legende": ["PESAN MÁS QUE UNA", "DE TUS CÉLULAS"] },
+      "ovule": { "cible": "LA MAYOR CÉLULA", "legende": ["YA PODRÍAS", "VERLA A SIMPLE VISTA"] },
+      "sel": { "cible": "UN GRANO DE SAL", "legende": ["PESAN MÁS QUE UN", "GRANO DE SAL"] },
+      "moustique": { "cible": "UN MOSQUITO", "legende": ["PESAN MÁS QUE", "UN MOSQUITO"] },
+      "trombone": { "cible": "UN CLIP", "legende": ["PESAN MÁS QUE", "UN CLIP"] },
+      "souris": { "cible": "UN RATÓN", "legende": ["PESAN MÁS QUE", "UN RATÓN"] },
+      "chat": { "cible": "UN GATO", "legende": ["PESAN MÁS QUE", "UN GATO"] },
+      "toi": { "cible": "TÚ", "legende": ["YA PESAN", "LO MISMO QUE TÚ"] }
+    }
+  },
+  "pt": {
+    "titre": "E se uma bactéria se dividisse a cada segundo?",
+    "description": "Uma bactéria E. coli pesa cerca de um picograma. E se ela se dividisse em duas a cada segundo? Passa um glóbulo vermelho no segundo {n_globule}, um grão de sal no {n_sel}, um mosquito no {n_moustique}, um camundongo no {n_souris} e no {n_toi} a pilha pesa o mesmo que você. Uma E. coli de verdade leva uns 20 minutos para se dividir: nesse ritmo, passaria a massa da Terra em {h_terre} horas. Isso nunca acontece, porque a comida acaba antes.\nFontes: BioNumbers; Walpole et al., BMC Public Health (2012); NASA Earth Fact Sheet; Leif e Vinograd, PNAS (1964); Martínez-Martín et al., Nature (2017); Oregon State University, General Microbiology; American Mosquito Control Association; Britannica.",
+    "regle": ["UMA BACTÉRIA SE DIVIDE", "EM DUAS A CADA SEGUNDO"],
+    "regle2": ["AS DE VERDADE LEVAM", "20 MINUTOS"],
+    "pli": "SEG",
+    "suite": "PRÓXIMO: {cible}",
+    "restant": "FALTAM {n} SEGUNDOS",
+    "restant1": "FALTA 1 SEGUNDO",
+    "vraie": ["NO RITMO REAL", "(UMA A CADA 20 MIN)"],
+    "terre": ["EM {h} HORAS PESARIAM", "MAIS QUE A TERRA"],
+    "faim": ["MAS A COMIDA ACABA", "E ELAS PARAM"],
+    "point": ["UMA COLÔNIA REAL", "VIRA SÓ UM PONTINHO"],
+    "unites": [
+      { "max": 1000, "kg": 1e-15, "nom": "PICOGRAMAS" },
+      { "max": 1000, "kg": 1e-12, "nom": "NANOGRAMAS" },
+      { "max": 1000, "kg": 1e-9, "nom": "MICROGRAMAS" },
+      { "max": 1000, "kg": 1e-6, "nom": "MILIGRAMAS" },
+      { "max": 1000, "kg": 1e-3, "nom": "GRAMAS" },
+      { "max": 1e30, "kg": 1, "nom": "QUILOS" }
+    ],
+    "separateurs": { "milliers": ".", "decimale": "," },
+    "paliers": {
+      "globule": { "cible": "UM GLÓBULO VERMELHO", "legende": ["MAIS PESADAS QUE UM", "GLÓBULO VERMELHO"] },
+      "cellule": { "cible": "UMA CÉLULA SUA", "legende": ["MAIS PESADAS QUE", "UMA CÉLULA SUA"] },
+      "ovule": { "cible": "A MAIOR CÉLULA", "legende": ["AGORA DÁ PARA", "VER A OLHO NU"] },
+      "sel": { "cible": "UM GRÃO DE SAL", "legende": ["MAIS PESADAS QUE UM", "GRÃO DE SAL"] },
+      "moustique": { "cible": "UM MOSQUITO", "legende": ["MAIS PESADAS QUE", "UM MOSQUITO"] },
+      "trombone": { "cible": "UM CLIPE", "legende": ["MAIS PESADAS QUE", "UM CLIPE"] },
+      "souris": { "cible": "UM CAMUNDONGO", "legende": ["MAIS PESADAS QUE", "UM CAMUNDONGO"] },
+      "chat": { "cible": "UM GATO", "legende": ["MAIS PESADAS QUE", "UM GATO"] },
+      "toi": { "cible": "VOCÊ", "legende": ["JÁ PESAM O", "MESMO QUE VOCÊ"] }
+    }
+  }
+}
