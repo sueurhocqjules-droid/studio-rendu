@@ -1,0 +1,218 @@
+{
+  "n_max": 46,
+  "m0_kg": 8.78e-05,
+  "facteur": 2,
+  "livre_kg": 0.45359237,
+  "tonne_courte_kg": 907.18474,
+  "fourmi_longueur_m": 0.01,
+  "rapport": 9,
+  "par_personne_millions": 2.43,
+  "paliers": [
+    {
+      "cle": "trombone",
+      "kg": 0.001,
+      "hauteur_m": 0.033,
+      "pas": 4,
+      "arrivee_s": 3.5,
+      "source": "Trombone standard : environ 1 g (Wikipedia « Gram » : 1 g, environ un petit trombone)"
+    },
+    {
+      "cle": "oeuf",
+      "kg": 0.0567,
+      "hauteur_m": 0.057,
+      "pas": 10,
+      "arrivee_s": 9.5,
+      "source": "Gros œuf, catégorie USDA « Large » : 24 onces minimum la douzaine, soit 2 onces (56,7 g) par œuf (USDA AMS)"
+    },
+    {
+      "cle": "chat",
+      "kg": 4.536,
+      "hauteur_m": 0.25,
+      "pas": 16,
+      "arrivee_s": 15.5,
+      "source": "Chat domestique adulte : environ 10 livres (4,5 kg), PetMD"
+    },
+    {
+      "cle": "humain",
+      "kg": 62,
+      "hauteur_m": 1.7,
+      "pas": 20,
+      "arrivee_s": 19.5,
+      "source": "Adulte moyen dans le monde : 62 kg, Walpole et al., BMC Public Health 2012 (via ScienceDaily)"
+    },
+    {
+      "cle": "trex",
+      "kg": 8164.66,
+      "hauteur_m": 4,
+      "pas": 27,
+      "arrivee_s": 26.5,
+      "source": "Tyrannosaure SUE (Field Museum) : plus de 9 tonnes (courtes, 8 165 kg), estimation minimale de Hutchinson et al., PLoS ONE 2011 (via ScienceDaily)"
+    },
+    {
+      "cle": "liberte",
+      "kg": 204116.6,
+      "hauteur_m": 46,
+      "pas": 32,
+      "arrivee_s": 31.5,
+      "source": "Statue de la Liberté : 450 000 livres (225 tonnes courtes) au total, dont 200 000 lb de cuivre et 250 000 lb d'acier, manuel historique du National Park Service"
+    },
+    {
+      "cle": "eiffel",
+      "kg": 10100000,
+      "hauteur_m": 330,
+      "pas": 37,
+      "arrivee_s": 36.5,
+      "source": "Tour Eiffel : 10 100 tonnes au total, toureiffel.paris (chiffres clés)"
+    },
+    {
+      "cle": "porteavions",
+      "kg": 87996900,
+      "hauteur_m": 75,
+      "pas": 40,
+      "arrivee_s": 39.5,
+      "source": "Porte-avions de classe Nimitz : environ 97 000 tonnes (87 996,9 tonnes métriques) à pleine charge, fiche de l'US Navy (copie archivée de 2004)"
+    },
+    {
+      "cle": "barrage",
+      "kg": 5987489284,
+      "hauteur_m": 221,
+      "pas": 46,
+      "arrivee_s": 45.5,
+      "source": "Barrage Hoover : plus de 6 600 000 tonnes (courtes), 726,4 pieds de haut, US Bureau of Reclamation (FAQ)"
+    }
+  ],
+  "t_limite": 45.5,
+  "t_vrai": 49.1,
+  "t_nombre": 52.9,
+  "t_chacun": 56.699999999999996,
+  "t_retour": 60.099999999999994,
+  "t_fin": 61.699999999999996,
+  "duree_s": 62.3,
+  "descriptions": {
+    "en": "An ant gets twice as strong every second: it lifts an egg at second 10, you at second 20, the Statue of Liberty at second 32 and Hoover Dam at second 46. A real ant carries about 8.78 times its own weight, not 50. But there are 20 quadrillion of them: 2.4 million for each of us.\nMath: a 10 mg leaf-cutter ant starting with its real maximum load, doubled every second.\nSources: Segre & Taylor, Journal of Experimental Biology 2019; Schultheiss et al., PNAS 2022; UN World Population Prospects 2024; USDA; PetMD; Walpole et al., BMC Public Health 2012; Hutchinson et al., PLoS ONE 2011; National Park Service; toureiffel.paris; US Navy; US Bureau of Reclamation.",
+    "es": "Una hormiga se vuelve el doble de fuerte cada segundo: levanta un huevo en el segundo 10, a ti en el segundo 20, la Estatua de la Libertad en el segundo 32 y la presa Hoover en el segundo 46. Una hormiga real carga unas 8.78 veces su peso, no 50. Pero hay 20 mil billones de hormigas: 2.4 millones por cada persona.\nCálculo: una hormiga cortadora de hojas de 10 mg que parte de su carga máxima real, duplicada cada segundo.\nFuentes: Segre y Taylor, Journal of Experimental Biology 2019; Schultheiss et al., PNAS 2022; ONU, World Population Prospects 2024; USDA; PetMD; Walpole et al., BMC Public Health 2012; Hutchinson et al., PLoS ONE 2011; National Park Service; toureiffel.paris; Marina de EE. UU.; US Bureau of Reclamation.",
+    "pt": "Uma formiga fica duas vezes mais forte a cada segundo: ergue um ovo no segundo 10, você no segundo 20, a Estátua da Liberdade no segundo 32 e a represa Hoover no segundo 46. Uma formiga de verdade carrega cerca de 8,78 vezes o próprio peso, não 50. Mas existem 20 quatrilhões de formigas: 2,4 milhões para cada pessoa.\nCálculo: uma formiga-cortadeira de 10 mg que parte da sua carga máxima real, dobrada a cada segundo.\nFontes: Segre e Taylor, Journal of Experimental Biology 2019; Schultheiss et al., PNAS 2022; ONU, World Population Prospects 2024; USDA; PetMD; Walpole et al., BMC Public Health 2012; Hutchinson et al., PLoS ONE 2011; National Park Service; toureiffel.paris; Marinha dos EUA; US Bureau of Reclamation."
+  },
+  "son": {
+    "duree_s": 62.3,
+    "tics": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ],
+    "paliers": [
+      3.5,
+      9.5,
+      15.5,
+      19.5,
+      26.5,
+      31.5,
+      36.5,
+      39.5,
+      45.5
+    ],
+    "retournements": [
+      49.1,
+      52.9,
+      56.699999999999996
+    ],
+    "fin": 61.699999999999996,
+    "base_hz": 82,
+    "tic_hz": 1320,
+    "bourdon": [
+      [
+        0,
+        330,
+        0.03
+      ],
+      [
+        20,
+        160,
+        0.1
+      ],
+      [
+        40,
+        70,
+        0.22
+      ],
+      [
+        45.5,
+        55,
+        0.32
+      ],
+      [
+        49.09,
+        55,
+        0.32
+      ],
+      [
+        49.1,
+        330,
+        0.03
+      ],
+      [
+        52.9,
+        660,
+        0.08
+      ],
+      [
+        56.699999999999996,
+        880,
+        0.1
+      ],
+      [
+        60.099999999999994,
+        330,
+        0.04
+      ],
+      [
+        62.3,
+        330,
+        0
+      ]
+    ]
+  }
+}

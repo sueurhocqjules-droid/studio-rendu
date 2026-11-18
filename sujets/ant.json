@@ -1,0 +1,402 @@
+{
+  "nom": "ant",
+  "fourmi": {
+    "masse_kg": 1e-05,
+    "rapport_charge": 8.78,
+    "longueur_m": 0.01,
+    "source": "Segre et Taylor, « Large ants do not carry their fair share », Journal of Experimental Biology 2019 (222, jeb199240) : 90 fourmis coupe-feuille Atta cephalotes de 1,2 à 36,8 mg portent au maximum 8,78 ± 0,26 fois leur masse. Ouvrière de 10 mg retenue (hypothèse dans la plage mesurée) ; longueur de 1 cm pour le dessin seulement"
+  },
+  "livre_kg": 0.45359237,
+  "tonne_courte_kg": 907.18474,
+  "fourmis_terre": {
+    "nombre": 2e+16,
+    "source": "Schultheiss et al., PNAS 2022 (« The abundance, biomass, and distribution of ants on Earth ») : 20 x 10^15 fourmis, cité par Fayle et Klimes, PNAS 2022, 119(42):e2214825119"
+  },
+  "humains": {
+    "nombre": 8231613070,
+    "source": "ONU, World Population Prospects 2024, population mondiale au 1er juillet 2025 : 8 231 613 070 (statisticstimes.com)"
+  },
+  "references": {
+    "trombone": {
+      "kg": 0.001,
+      "hauteur_m": 0.033,
+      "source": "Trombone standard : environ 1 g (Wikipedia « Gram » : 1 g, environ un petit trombone)"
+    },
+    "oeuf": {
+      "kg": 0.0567,
+      "hauteur_m": 0.057,
+      "source": "Gros œuf, catégorie USDA « Large » : 24 onces minimum la douzaine, soit 2 onces (56,7 g) par œuf (USDA AMS)"
+    },
+    "chat": {
+      "kg": 4.536,
+      "hauteur_m": 0.25,
+      "source": "Chat domestique adulte : environ 10 livres (4,5 kg), PetMD"
+    },
+    "humain": {
+      "kg": 62,
+      "hauteur_m": 1.7,
+      "source": "Adulte moyen dans le monde : 62 kg, Walpole et al., BMC Public Health 2012 (via ScienceDaily)"
+    },
+    "trex": {
+      "kg": 8164.66,
+      "hauteur_m": 4,
+      "source": "Tyrannosaure SUE (Field Museum) : plus de 9 tonnes (courtes, 8 165 kg), estimation minimale de Hutchinson et al., PLoS ONE 2011 (via ScienceDaily)"
+    },
+    "liberte": {
+      "kg": 204116.6,
+      "hauteur_m": 46,
+      "source": "Statue de la Liberté : 450 000 livres (225 tonnes courtes) au total, dont 200 000 lb de cuivre et 250 000 lb d'acier, manuel historique du National Park Service"
+    },
+    "eiffel": {
+      "kg": 10100000,
+      "hauteur_m": 330,
+      "source": "Tour Eiffel : 10 100 tonnes au total, toureiffel.paris (chiffres clés)"
+    },
+    "porteavions": {
+      "kg": 87996900,
+      "hauteur_m": 75,
+      "source": "Porte-avions de classe Nimitz : environ 97 000 tonnes (87 996,9 tonnes métriques) à pleine charge, fiche de l'US Navy (copie archivée de 2004)"
+    },
+    "barrage": {
+      "kg": 5987489284,
+      "hauteur_m": 221,
+      "source": "Barrage Hoover : plus de 6 600 000 tonnes (courtes), 726,4 pieds de haut, US Bureau of Reclamation (FAQ)"
+    }
+  },
+  "en": {
+    "titre": "What If an Ant Got Twice as Strong Every Second?",
+    "description": "An ant gets twice as strong every second: it lifts an egg at second {n_oeuf}, you at second {n_humain}, the Statue of Liberty at second {n_liberte} and Hoover Dam at second {n_barrage}. A real ant carries about {rapport_exact} times its own weight, not 50. But there are 20 quadrillion of them: {par_personne} million for each of us.\nMath: a 10 mg leaf-cutter ant starting with its real maximum load, doubled every second.\nSources: Segre & Taylor, Journal of Experimental Biology 2019; Schultheiss et al., PNAS 2022; UN World Population Prospects 2024; USDA; PetMD; Walpole et al., BMC Public Health 2012; Hutchinson et al., PLoS ONE 2011; National Park Service; toureiffel.paris; US Navy; US Bureau of Reclamation.",
+    "regle": [
+      "AN ANT GETS TWICE",
+      "AS STRONG EVERY SECOND"
+    ],
+    "regle2": [
+      "LET'S SEE WHAT",
+      "IT CAN LIFT"
+    ],
+    "pli": "SEC",
+    "unites": {
+      "mg": "MG LIFTED",
+      "g": "GRAMS LIFTED",
+      "petit": "LB LIFTED",
+      "grand": "TONS LIFTED"
+    },
+    "vrai": [
+      "A REAL ANT LIFTS ABOUT",
+      "{rapport} TIMES ITS WEIGHT"
+    ],
+    "nombre": [
+      "BUT THERE ARE",
+      "20 QUADRILLION ANTS"
+    ],
+    "nombre_compteur": [
+      "20",
+      "QUADRILLION ANTS"
+    ],
+    "chacun": [
+      "{par_personne} MILLION ANTS",
+      "FOR EACH OF US"
+    ],
+    "chacun_compteur": [
+      "{par_personne}",
+      "MILLION ANTS EACH"
+    ],
+    "separateurs": {
+      "milliers": ",",
+      "decimale": "."
+    },
+    "paliers": {
+      "trombone": {
+        "cible": "A PAPER CLIP",
+        "legende": [
+          "IT LIFTS",
+          "A PAPER CLIP"
+        ]
+      },
+      "oeuf": {
+        "cible": "AN EGG",
+        "legende": [
+          "IT LIFTS",
+          "A WHOLE EGG"
+        ]
+      },
+      "chat": {
+        "cible": "A CAT",
+        "legende": [
+          "IT LIFTS",
+          "A HOUSE CAT"
+        ]
+      },
+      "humain": {
+        "cible": "YOU",
+        "legende": [
+          "IT CAN NOW",
+          "LIFT YOU"
+        ]
+      },
+      "trex": {
+        "cible": "A T. REX",
+        "legende": [
+          "IT LIFTS",
+          "A T. REX"
+        ]
+      },
+      "liberte": {
+        "cible": "THE STATUE OF LIBERTY",
+        "legende": [
+          "IT LIFTS THE",
+          "STATUE OF LIBERTY"
+        ]
+      },
+      "eiffel": {
+        "cible": "THE EIFFEL TOWER",
+        "legende": [
+          "IT LIFTS THE",
+          "EIFFEL TOWER"
+        ]
+      },
+      "porteavions": {
+        "cible": "AN AIRCRAFT CARRIER",
+        "legende": [
+          "IT LIFTS AN",
+          "AIRCRAFT CARRIER"
+        ]
+      },
+      "barrage": {
+        "cible": "HOOVER DAM",
+        "legende": [
+          "IT LIFTS",
+          "HOOVER DAM"
+        ]
+      }
+    },
+    "dans": "IN {n} SECONDS:",
+    "dans1": "IN 1 SECOND:"
+  },
+  "es": {
+    "titre": "¿Y si una hormiga fuera el doble de fuerte cada segundo?",
+    "description": "Una hormiga se vuelve el doble de fuerte cada segundo: levanta un huevo en el segundo {n_oeuf}, a ti en el segundo {n_humain}, la Estatua de la Libertad en el segundo {n_liberte} y la presa Hoover en el segundo {n_barrage}. Una hormiga real carga unas {rapport_exact} veces su peso, no 50. Pero hay 20 mil billones de hormigas: {par_personne} millones por cada persona.\nCálculo: una hormiga cortadora de hojas de 10 mg que parte de su carga máxima real, duplicada cada segundo.\nFuentes: Segre y Taylor, Journal of Experimental Biology 2019; Schultheiss et al., PNAS 2022; ONU, World Population Prospects 2024; USDA; PetMD; Walpole et al., BMC Public Health 2012; Hutchinson et al., PLoS ONE 2011; National Park Service; toureiffel.paris; Marina de EE. UU.; US Bureau of Reclamation.",
+    "regle": [
+      "UNA HORMIGA SE VUELVE",
+      "EL DOBLE DE FUERTE",
+      "CADA SEGUNDO"
+    ],
+    "regle2": [
+      "VAMOS A VER QUÉ",
+      "PUEDE LEVANTAR"
+    ],
+    "pli": "SEG",
+    "unites": {
+      "mg": "MG LEVANTADOS",
+      "g": "G LEVANTADOS",
+      "petit": "KG LEVANTADOS",
+      "grand": "T LEVANTADAS"
+    },
+    "vrai": [
+      "UNA HORMIGA REAL CARGA",
+      "UNAS {rapport} VECES SU PESO"
+    ],
+    "nombre": [
+      "PERO HAY 20 MIL",
+      "BILLONES DE HORMIGAS"
+    ],
+    "nombre_compteur": [
+      "20,000",
+      "BILLONES DE HORMIGAS"
+    ],
+    "chacun": [
+      "{par_personne} MILLONES",
+      "DE HORMIGAS",
+      "POR PERSONA"
+    ],
+    "chacun_compteur": [
+      "{par_personne}",
+      "MILLONES POR PERSONA"
+    ],
+    "separateurs": {
+      "milliers": ",",
+      "decimale": "."
+    },
+    "paliers": {
+      "trombone": {
+        "cible": "UN CLIP",
+        "legende": [
+          "LEVANTA",
+          "UN CLIP"
+        ]
+      },
+      "oeuf": {
+        "cible": "UN HUEVO",
+        "legende": [
+          "LEVANTA",
+          "UN HUEVO ENTERO"
+        ]
+      },
+      "chat": {
+        "cible": "UN GATO",
+        "legende": [
+          "LEVANTA",
+          "UN GATO"
+        ]
+      },
+      "humain": {
+        "cible": "A TI",
+        "legende": [
+          "YA PUEDE",
+          "LEVANTARTE A TI"
+        ]
+      },
+      "trex": {
+        "cible": "UN T. REX",
+        "legende": [
+          "LEVANTA",
+          "UN T. REX"
+        ]
+      },
+      "liberte": {
+        "cible": "LA ESTATUA DE LA LIBERTAD",
+        "legende": [
+          "LEVANTA LA ESTATUA",
+          "DE LA LIBERTAD"
+        ]
+      },
+      "eiffel": {
+        "cible": "LA TORRE EIFFEL",
+        "legende": [
+          "LEVANTA LA",
+          "TORRE EIFFEL"
+        ]
+      },
+      "porteavions": {
+        "cible": "UN PORTAAVIONES",
+        "legende": [
+          "LEVANTA UN",
+          "PORTAAVIONES"
+        ]
+      },
+      "barrage": {
+        "cible": "LA PRESA HOOVER",
+        "legende": [
+          "LEVANTA LA",
+          "PRESA HOOVER"
+        ]
+      }
+    },
+    "dans": "EN {n} SEGUNDOS:",
+    "dans1": "EN 1 SEGUNDO:"
+  },
+  "pt": {
+    "titre": "E se uma formiga ficasse duas vezes mais forte a cada segundo?",
+    "description": "Uma formiga fica duas vezes mais forte a cada segundo: ergue um ovo no segundo {n_oeuf}, você no segundo {n_humain}, a Estátua da Liberdade no segundo {n_liberte} e a represa Hoover no segundo {n_barrage}. Uma formiga de verdade carrega cerca de {rapport_exact} vezes o próprio peso, não 50. Mas existem 20 quatrilhões de formigas: {par_personne} milhões para cada pessoa.\nCálculo: uma formiga-cortadeira de 10 mg que parte da sua carga máxima real, dobrada a cada segundo.\nFontes: Segre e Taylor, Journal of Experimental Biology 2019; Schultheiss et al., PNAS 2022; ONU, World Population Prospects 2024; USDA; PetMD; Walpole et al., BMC Public Health 2012; Hutchinson et al., PLoS ONE 2011; National Park Service; toureiffel.paris; Marinha dos EUA; US Bureau of Reclamation.",
+    "regle": [
+      "UMA FORMIGA FICA",
+      "DUAS VEZES MAIS FORTE",
+      "A CADA SEGUNDO"
+    ],
+    "regle2": [
+      "VAMOS VER O QUE",
+      "ELA CONSEGUE ERGUER"
+    ],
+    "pli": "SEG",
+    "unites": {
+      "mg": "MG ERGUIDOS",
+      "g": "G ERGUIDOS",
+      "petit": "KG ERGUIDOS",
+      "grand": "T ERGUIDAS"
+    },
+    "vrai": [
+      "UMA FORMIGA REAL ERGUE",
+      "CERCA DE {rapport} VEZES",
+      "O PRÓPRIO PESO"
+    ],
+    "nombre": [
+      "MAS EXISTEM",
+      "20 QUATRILHÕES",
+      "DE FORMIGAS"
+    ],
+    "nombre_compteur": [
+      "20",
+      "QUATRILHÕES DE FORMIGAS"
+    ],
+    "chacun": [
+      "{par_personne} MILHÕES",
+      "DE FORMIGAS",
+      "PARA CADA PESSOA"
+    ],
+    "chacun_compteur": [
+      "{par_personne}",
+      "MILHÕES POR PESSOA"
+    ],
+    "separateurs": {
+      "milliers": ".",
+      "decimale": ","
+    },
+    "paliers": {
+      "trombone": {
+        "cible": "UM CLIPE",
+        "legende": [
+          "ERGUE",
+          "UM CLIPE"
+        ]
+      },
+      "oeuf": {
+        "cible": "UM OVO",
+        "legende": [
+          "ERGUE",
+          "UM OVO INTEIRO"
+        ]
+      },
+      "chat": {
+        "cible": "UM GATO",
+        "legende": [
+          "ERGUE",
+          "UM GATO"
+        ]
+      },
+      "humain": {
+        "cible": "VOCÊ",
+        "legende": [
+          "JÁ CONSEGUE",
+          "ERGUER VOCÊ"
+        ]
+      },
+      "trex": {
+        "cible": "UM T. REX",
+        "legende": [
+          "ERGUE",
+          "UM T. REX"
+        ]
+      },
+      "liberte": {
+        "cible": "A ESTÁTUA DA LIBERDADE",
+        "legende": [
+          "ERGUE A ESTÁTUA",
+          "DA LIBERDADE"
+        ]
+      },
+      "eiffel": {
+        "cible": "A TORRE EIFFEL",
+        "legende": [
+          "ERGUE A",
+          "TORRE EIFFEL"
+        ]
+      },
+      "porteavions": {
+        "cible": "UM PORTA-AVIÕES",
+        "legende": [
+          "ERGUE UM",
+          "PORTA-AVIÕES"
+        ]
+      },
+      "barrage": {
+        "cible": "A REPRESA HOOVER",
+        "legende": [
+          "ERGUE A",
+          "REPRESA HOOVER"
+        ]
+      }
+    },
+    "dans": "EM {n} SEGUNDOS:",
+    "dans1": "EM 1 SEGUNDO:"
+  }
+}
